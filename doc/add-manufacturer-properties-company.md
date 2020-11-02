@@ -1,0 +1,3 @@
+## company Type
+
+`string`
