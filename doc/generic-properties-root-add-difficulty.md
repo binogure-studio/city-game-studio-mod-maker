@@ -16,10 +16,10 @@ Add a new difficulty
 `add`
 
 -   is optional
--   Type: `object[]` ([Add difficulty (NOT YET IMPLEMENTED)](generic-properties-root-add-difficulty-properties-add-difficulty-add-difficulty-not-yet-implemented.md))
+-   Type: `object[]` ([Add a difficulty](generic-properties-root-add-difficulty-properties-add-difficulty-add-a-difficulty.md))
 -   cannot be null
 -   defined in: [Create a mod](generic-properties-root-add-difficulty-properties-add-difficulty.md "mod.json#/properties/difficulty/properties/add")
 
 ### add Type
 
-`object[]` ([Add difficulty (NOT YET IMPLEMENTED)](generic-properties-root-add-difficulty-properties-add-difficulty-add-difficulty-not-yet-implemented.md))
+`object[]` ([Add a difficulty](generic-properties-root-add-difficulty-properties-add-difficulty-add-a-difficulty.md))
