@@ -4,7 +4,7 @@
 
 ## 0 Constraints
 
-**maximum**: the value of this number must smaller than or equal to: `39`
+**maximum**: the value of this number must smaller than or equal to: `40`
 
 **minimum**: the value of this number must greater than or equal to: `1`
 

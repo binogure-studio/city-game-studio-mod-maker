@@ -13,6 +13,8 @@
 | [translation](#translation)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-internationalization.md "mod.json#/properties/translation")    |
 | [indie](#indie)                 | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-indie-company.md "mod.json#/properties/indie")           |
 | [difficulty](#difficulty)       | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-difficulty.md "mod.json#/properties/difficulty")               |
+| [speed](#speed)                 | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-game-speed.md "mod.json#/properties/speed")                    |
+| [mapsize](#mapsize)             | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-map-size.md "mod.json#/properties/mapsize")                    |
 | [digital_store](#digital_store) | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-digital-store-feature.md "mod.json#/properties/digital_store") |
 | [game_engine](#game_engine)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-game-engine-feature.md "mod.json#/properties/game_engine")     |
 
@@ -127,6 +129,38 @@ To manipulate custom difficulties
 ### difficulty Type
 
 `object` ([Root: Add difficulty](generic-properties-root-add-difficulty.md))
+
+## speed
+
+To manipulate game speeds
+
+
+`speed`
+
+-   is optional
+-   Type: `object` ([Root: Add game speed](generic-properties-root-add-game-speed.md))
+-   cannot be null
+-   defined in: [Create a mod](generic-properties-root-add-game-speed.md "mod.json#/properties/speed")
+
+### speed Type
+
+`object` ([Root: Add game speed](generic-properties-root-add-game-speed.md))
+
+## mapsize
+
+To manipulate map sizes
+
+
+`mapsize`
+
+-   is optional
+-   Type: `object` ([Root: Add map size](generic-properties-root-add-map-size.md))
+-   cannot be null
+-   defined in: [Create a mod](generic-properties-root-add-map-size.md "mod.json#/properties/mapsize")
+
+### mapsize Type
+
+`object` ([Root: Add map size](generic-properties-root-add-map-size.md))
 
 ## digital_store
 

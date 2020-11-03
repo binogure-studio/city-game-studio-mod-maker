@@ -6,7 +6,7 @@
 
 **maximum**: the value of this number must smaller than or equal to: `100`
 
-**minimum**: the value of this number must greater than or equal to: `2`
+**minimum**: the value of this number must greater than or equal to: `1`
 
 ## 1 Default Value
 
