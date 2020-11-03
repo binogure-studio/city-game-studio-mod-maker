@@ -252,7 +252,7 @@ Used to compute the value of a competitor (based on its fanbase).
 The default value is:
 
 ```json
-120.2895
+120.25
 ```
 
 ## engine_ratio
