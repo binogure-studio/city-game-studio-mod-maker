@@ -96,9 +96,9 @@ Maximum bonus applicable for a game `bonus = min(bonus, max_bonus)`.
 
 **multiple of**: the value of this number must be a multiple of: `0.05`
 
-**maximum**: the value of this number must smaller than or equal to: `0.5`
+**maximum**: the value of this number must smaller than or equal to: `2`
 
-**minimum**: the value of this number must greater than or equal to: `2`
+**minimum**: the value of this number must greater than or equal to: `0.5`
 
 ### max_bonus Default Value
 
