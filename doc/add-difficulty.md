@@ -287,7 +287,7 @@ Server rent costs per user (lower cheaper).
 The default value is:
 
 ```json
-0.18654
+0.186
 ```
 
 ## digital_store

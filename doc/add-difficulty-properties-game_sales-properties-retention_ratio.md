@@ -15,5 +15,5 @@
 The default value is:
 
 ```json
-0.766396808787651
+0.766
 ```
