@@ -67,24 +67,48 @@
         },
         "genre": {
           "excellent": {
-            "items": {}
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
           },
           "good": {
-            "items": {}
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
           },
           "ok": {
-            "items": {}
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
           },
           "poor": {
-            "items": {}
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
           }
         }
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
       }
     },
     "rename": {
       "items": {
         "name": {},
         "id": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
       }
     }
   },
@@ -106,9 +130,17 @@
         "engine": {
           "interval": {},
           "royalties": {
-            "items": {}
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
           }
         }
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
       }
     },
     "rename": {
@@ -124,6 +156,10 @@
             ]
           }
         }
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
       }
     }
   },
@@ -142,6 +178,10 @@
             ]
           }
         }
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
       }
     },
     "rename": {
@@ -149,6 +189,10 @@
         "id": {},
         "company": {},
         "name": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
       }
     }
   },
@@ -177,18 +221,38 @@
         "label": {},
         "match": {
           "excellent": {
-            "items": {}
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
           },
           "good": {
-            "items": {}
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
           },
           "ok": {
-            "items": {}
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
           },
           "poor": {
-            "items": {}
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
           }
         }
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
       }
     }
   },
@@ -198,6 +262,10 @@
         "name": {},
         "locale": {},
         "messages": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
       }
     }
   },
@@ -205,19 +273,206 @@
     "add": {
       "items": {
         "name": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
       }
     },
     "rename": {
       "items": {
         "name": {},
         "original_name": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
       }
     }
   },
-  "iap": {},
-  "marketing_campaign": {},
-  "furniture": {},
-  "difficulty": {},
+  "difficulty": {
+    "add": {
+      "items": {
+        "difficulty": {},
+        "postmortem_ratio": {},
+        "perfect_employee_ratio": {},
+        "admin_cost": {},
+        "iap": {
+          "user_spend_dollar": {}
+        },
+        "perfect_employee_cost": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        },
+        "show_percent": {},
+        "label": {},
+        "wage": {},
+        "ccu_cost": {},
+        "digital_store": {
+          "server_load": {}
+        },
+        "game_sales": {
+          "retention_ratio": {},
+          "sales_ratio": {}
+        },
+        "postmortem": {
+          "tips_when_unlock": {}
+        },
+        "game_of_the_year": {
+          "indie": {},
+          "normal": {},
+          "big": {},
+          "aaa": {}
+        },
+        "platform": {
+          "negotiation": {},
+          "manufacturer_loyalty": {},
+          "game_score": {},
+          "loyalty": {}
+        },
+        "contract": {
+          "penality": {}
+        },
+        "happiness": {
+          "crunchtime": {},
+          "fire_employee": {},
+          "same_genre": {
+            "duration_in_week": {},
+            "per_month": {}
+          },
+          "trash_game": {},
+          "new_genre": {},
+          "leave_threshold": {},
+          "leave_active": {},
+          "bonus": {
+            "amount": {},
+            "ratios": {
+              "items": {},
+              "ui:widget": "checkboxes",
+              "ui:options": {
+                "inline": true
+              }
+            }
+          }
+        },
+        "notation": {
+          "capacity_ratio": {},
+          "game_combo_ratio": {},
+          "max_bonus": {},
+          "min_delay": {},
+          "capacity_delta_time": {}
+        },
+        "mortgage": {
+          "duration": {
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
+          },
+          "interests": {
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
+          },
+          "minimum": {}
+        },
+        "currency": {
+          "current": {},
+          "limit": {}
+        },
+        "taxes": {},
+        "publishing": {
+          "prepayment": {},
+          "payment": {},
+          "royalties": {},
+          "proposals": {},
+          "ratios": {
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
+          }
+        },
+        "concurrent": {
+          "fanbase": {
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
+          },
+          "currency": {
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
+          },
+          "note": {
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
+          },
+          "penalty": {
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
+          },
+          "income_ratio": {
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
+          },
+          "penalty_ratio": {},
+          "ds_min_odds": {},
+          "fanbase_price_ratio": {},
+          "engine_ratio": {}
+        }
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    }
+  },
+  "speed": {
+    "add": {
+      "items": {
+        "label": {},
+        "week_in_month": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    }
+  },
+  "mapsize": {
+    "add": {
+      "items": {
+        "label": {},
+        "size": {},
+        "concurrent_amount": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    }
+  },
   "digital_store": {},
   "game_engine": {}
 }

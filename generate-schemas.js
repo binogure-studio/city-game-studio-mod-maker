@@ -31,6 +31,10 @@ const load_schema = (schema_data, ui_schema) => {
     })
   } else if (schema_data != null && schema_data.items != null) {
     ui_schema.items = {}
+    ui_schema["ui:widget"] = "checkboxes"
+    ui_schema["ui:options"] = {
+      inline: true
+    }
     schema_data.items = load_schema(schema_data.items, ui_schema.items)
   }
 
