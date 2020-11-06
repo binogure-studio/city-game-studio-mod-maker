@@ -124,6 +124,8 @@ Platform's id to rename (integer)'
 | `76`  |             |
 | `77`  |             |
 | `78`  |             |
+| `79`  |             |
+| `80`  |             |
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
