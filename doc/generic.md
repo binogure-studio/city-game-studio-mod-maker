@@ -15,6 +15,7 @@
 | [difficulty](#difficulty)       | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-difficulty.md "mod.json#/properties/difficulty")               |
 | [speed](#speed)                 | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-game-speed.md "mod.json#/properties/speed")                    |
 | [mapsize](#mapsize)             | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-map-size.md "mod.json#/properties/mapsize")                    |
+| [event](#event)                 | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-an-event.md "mod.json#/properties/event")                      |
 | [digital_store](#digital_store) | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-digital-store-feature.md "mod.json#/properties/digital_store") |
 | [game_engine](#game_engine)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-game-engine-feature.md "mod.json#/properties/game_engine")     |
 
@@ -161,6 +162,22 @@ To manipulate map sizes
 ### mapsize Type
 
 `object` ([Root: Add map size](generic-properties-root-add-map-size.md))
+
+## event
+
+To manipulate events
+
+
+`event`
+
+-   is optional
+-   Type: `object` ([Root: Add an event](generic-properties-root-add-an-event.md))
+-   cannot be null
+-   defined in: [Create a mod](generic-properties-root-add-an-event.md "mod.json#/properties/event")
+
+### event Type
+
+`object` ([Root: Add an event](generic-properties-root-add-an-event.md))
 
 ## digital_store
 
