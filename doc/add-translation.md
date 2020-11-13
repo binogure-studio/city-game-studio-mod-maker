@@ -16,6 +16,7 @@ any of
 -   [中国](add-translation-anyof-中国.md "check type definition")
 -   [Türkçe](add-translation-anyof-türkçe.md "check type definition")
 -   [한국의](add-translation-anyof-한국의.md "check type definition")
+-   [日本語](add-translation-anyof-日本語.md "check type definition")
 -   [Other](add-translation-anyof-other.md "check type definition")
 
 ## Add a translation Constraints

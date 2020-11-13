@@ -36,7 +36,7 @@
 -   [Add platform: Textures](./add-platform-properties-add-platform-textures.md "Platform's textures") – `add-platform.json#/properties/texture`
 -   [Add theme: Genre](./add-theme-properties-add-theme-genre.md "Theme/genre matches") – `add-theme.json#/properties/match`
 -   [Add translation: Translations list](./add-translation-anyof-português-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/6/properties/messages`
--   [Add translation: Translations list](./add-translation-anyof-other-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/12/properties/messages`
+-   [Add translation: Translations list](./add-translation-anyof-日本語-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/12/properties/messages`
 -   [Add translation: Translations list](./add-translation-anyof-한국의-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/11/properties/messages`
 -   [Add translation: Translations list](./add-translation-anyof-türkçe-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/10/properties/messages`
 -   [Add translation: Translations list](./add-translation-anyof-中国-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/9/properties/messages`
@@ -46,8 +46,9 @@
 -   [Add translation: Translations list](./add-translation-anyof-italiano-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/4/properties/messages`
 -   [Add translation: Translations list](./add-translation-anyof-español-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/3/properties/messages`
 -   [Add translation: Translations list](./add-translation-anyof-english-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/1/properties/messages`
--   [Add translation: Translations list](./add-translation-anyof-français-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/0/properties/messages`
 -   [Add translation: Translations list](./add-translation-anyof-deutsch-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/2/properties/messages`
+-   [Add translation: Translations list](./add-translation-anyof-other-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/13/properties/messages`
+-   [Add translation: Translations list](./add-translation-anyof-français-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/0/properties/messages`
 -   [Break a furniture](./add-event-anyof-random-event-properties-actions-items-anyof-break-a-furniture.md "This action break a furniture") – `add-event.json#/anyOf/0/properties/actions/items/anyOf/1`
 -   [Break a furniture](./add-event-anyof-scheduled-event-properties-actions-items-anyof-break-a-furniture.md "This action break a furniture") – `add-event.json#/anyOf/1/properties/actions/items/anyOf/1`
 -   [Does nothing](./add-event-anyof-scheduled-event-properties-actions-items-anyof-does-nothing.md "This action does nothing") – `add-event.json#/anyOf/1/properties/actions/items/anyOf/2`
@@ -73,19 +74,19 @@
 -   [Studio happinness/productivity](./add-event-anyof-random-event-properties-actions-items-anyof-studio-happinnessproductivity.md "This action can change the productivity/happiness of a studio") – `add-event.json#/anyOf/0/properties/actions/items/anyOf/0`
 -   [Studio happinness/productivity](./add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity.md "This action can change the productivity/happiness of a studio") – `add-event.json#/anyOf/1/properties/actions/items/anyOf/0`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-postmortem.md "Post-mortem configuration (game report)") – `add-difficulty.json#/properties/postmortem`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-game_of_the_year.md "Game of the year configuration") – `add-difficulty.json#/properties/game_of_the_year`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-digital_store.md "Digital stores configuration") – `add-difficulty.json#/properties/digital_store`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-publishing.md "Publishing offers configuration") – `add-difficulty.json#/properties/publishing`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-concurrent.md "Competitors configuration") – `add-difficulty.json#/properties/concurrent`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-currency.md "Currency configuration") – `add-difficulty.json#/properties/currency`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-mortgage.md "Mortgage configuration") – `add-difficulty.json#/properties/mortgage`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-notation.md "Score configuration") – `add-difficulty.json#/properties/notation`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-digital_store.md "Digital stores configuration") – `add-difficulty.json#/properties/digital_store`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-mortgage.md "Mortgage configuration") – `add-difficulty.json#/properties/mortgage`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-currency.md "Currency configuration") – `add-difficulty.json#/properties/currency`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-happiness-properties-bonus.md "Employee happiness bonus (Not implemented yet)") – `add-difficulty.json#/properties/happiness/properties/bonus`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-happiness-properties-same_genre.md "Genre repetition") – `add-difficulty.json#/properties/happiness/properties/same_genre`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-happiness.md "Employee happiness configuration") – `add-difficulty.json#/properties/happiness`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-contract.md "Contracts configuration") – `add-difficulty.json#/properties/contract`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-platform.md "Platforms configuration") – `add-difficulty.json#/properties/platform`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-game_of_the_year.md "Game of the year configuration") – `add-difficulty.json#/properties/game_of_the_year`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-iap.md "In-App purchase rate") – `add-difficulty.json#/properties/iap`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-publishing.md "Publishing offers configuration") – `add-difficulty.json#/properties/publishing`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-game_sales.md "Game sales configuration") – `add-difficulty.json#/properties/game_sales`
 -   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-1.md "Event won't happen if the player doesn't own the number of specified furniture") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/1`
 -   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-0.md "Event won't happen before the specified year") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/0`
