@@ -8,11 +8,11 @@
 
 | Value            | Explanation |
 | :--------------- | ----------- |
-| `"BLUE_COLOR"`   |             |
 | `"BLACK_COLOR"`  |             |
+| `"BLUE_COLOR"`   |             |
 | `"GREEN_COLOR"`  |             |
-| `"YELLOW_COLOR"` |             |
 | `"RED_COLOR"`    |             |
+| `"YELLOW_COLOR"` |             |
 
 ## event_color Default Value
 

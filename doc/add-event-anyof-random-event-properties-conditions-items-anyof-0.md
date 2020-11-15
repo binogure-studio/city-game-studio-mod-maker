@@ -29,16 +29,16 @@
 
 **enum**: the value of this property must be equal to one of the following values:
 
-| Value    | Explanation |
-| :------- | ----------- |
-| `"year"` |             |
+| Value      | Explanation |
+| :--------- | ----------- |
+| `"studio"` |             |
 
 ### type Default Value
 
 The default value is:
 
 ```json
-"year"
+"studio"
 ```
 
 ## value
@@ -59,14 +59,14 @@ The default value is:
 
 ### value Constraints
 
-**maximum**: the value of this number must smaller than or equal to: `9999`
+**maximum**: the value of this number must smaller than or equal to: `100`
 
-**minimum**: the value of this number must greater than or equal to: `1976`
+**minimum**: the value of this number must greater than or equal to: `1`
 
 ### value Default Value
 
 The default value is:
 
 ```json
-2000
+1
 ```

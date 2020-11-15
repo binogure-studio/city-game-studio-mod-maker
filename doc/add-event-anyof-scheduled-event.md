@@ -8,7 +8,7 @@ unknown ([Scheduled event](add-event-anyof-scheduled-event.md))
 | :-------------------------- | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------- |
 | [description](#description) | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-description.md "add-event.json#/anyOf/1/properties/description") |
 | [id](#id)                   | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-id.md "add-event.json#/anyOf/1/properties/id")                   |
-| [date](#date)               | `object`  | Optional | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-date.md "add-event.json#/anyOf/1/properties/date")               |
+| [date](#date)               | `object`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-date.md "add-event.json#/anyOf/1/properties/date")               |
 | [type](#type)               | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-type.md "add-event.json#/anyOf/1/properties/type")               |
 | [event_color](#event_color) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-event_color.md "add-event.json#/anyOf/1/properties/event_color") |
 | [name](#name)               | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-name.md "add-event.json#/anyOf/1/properties/name")               |
@@ -63,7 +63,7 @@ UUID v4 (use <https://www.uuidgenerator.net/> to generate one).
 
 `date`
 
--   is optional
+-   is required
 -   Type: `object` ([Details](add-event-anyof-scheduled-event-properties-date.md))
 -   cannot be null
 -   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-date.md "add-event.json#/anyOf/1/properties/date")
@@ -127,11 +127,11 @@ Color of the notification
 
 | Value            | Explanation |
 | :--------------- | ----------- |
-| `"BLUE_COLOR"`   |             |
 | `"BLACK_COLOR"`  |             |
+| `"BLUE_COLOR"`   |             |
 | `"GREEN_COLOR"`  |             |
-| `"YELLOW_COLOR"` |             |
 | `"RED_COLOR"`    |             |
+| `"YELLOW_COLOR"` |             |
 
 ### event_color Default Value
 

@@ -9,11 +9,3 @@
 | Value        | Explanation |
 | :----------- | ----------- |
 | `"streamer"` |             |
-
-## campaign_type Default Value
-
-The default value is:
-
-```json
-"streamer"
-```

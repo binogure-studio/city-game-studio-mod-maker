@@ -21,11 +21,3 @@
 | `"wastebasket"`   |             |
 | `"watertank"`     |             |
 | `"whiteboard"`    |             |
-
-## furniture Default Value
-
-The default value is:
-
-```json
-"coffeemachine"
-```
