@@ -1,0 +1,3 @@
+## mandatory Type
+
+`boolean`

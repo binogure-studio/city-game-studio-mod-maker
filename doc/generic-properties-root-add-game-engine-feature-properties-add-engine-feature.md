@@ -1,3 +1,3 @@
 ## add Type
 
-`object[]` ([Add engine feature (NOT YET IMPLEMENTED)](generic-properties-root-add-game-engine-feature-properties-add-engine-feature-add-engine-feature-not-yet-implemented.md))
+`object[]` ([Add a game engine feature](generic-properties-root-add-game-engine-feature-properties-add-engine-feature-add-a-game-engine-feature.md))

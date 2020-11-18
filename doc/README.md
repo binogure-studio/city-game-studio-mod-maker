@@ -4,6 +4,7 @@
 
 -   [Add a Concurrent](./add-concurrent.md "Add a new competitor") – `add-concurrent.json`
 -   [Add a difficulty](./add-difficulty.md "Add a new difficulty") – `add-difficulty.json`
+-   [Add a game engine feature](./add-gameengine.md "Add a game engine feature") – `add-gameengine.json`
 -   [Add a new event](./add-event.md "Add a new event") – `add-event.json`
 -   [Add a new game speed](./add-speed.md "Add a new game speed") – `add-speed.json`
 -   [Add a new map size](./add-mapsize.md "Add a new map size (define the number of competitors)") – `add-mapsize.json`
@@ -23,8 +24,7 @@
 ### Objects
 
 -   [Add Competitor: Game engine](./add-concurrent-properties-add-competitor-game-engine.md) – `add-concurrent.json#/properties/engine`
--   [Add digital store feature (NOT YET IMPLEMENTED)](./generic-properties-root-add-digital-store-feature-properties-add-digital-store-add-digital-store-feature-not-yet-implemented.md) – `mod.json#/properties/digital_store/properties/add/items`
--   [Add engine feature (NOT YET IMPLEMENTED)](./generic-properties-root-add-game-engine-feature-properties-add-engine-feature-add-engine-feature-not-yet-implemented.md) – `mod.json#/properties/game_engine/properties/add/items`
+-   [Add digital store feature (NOT YET IMPLEMENTED)](./generic-properties-root-add-digital-store-feature-properties-add-digital-store-add-digital-store-feature-not-yet-implemented.md) – `mod.json#/properties/digitalstore/properties/add/items`
 -   [Add platform - lifecycle: Ending date](./add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-ending-date.md "Discontinuation date of the platform") – `add-platform.json#/properties/duration/properties/end`
 -   [Add platform - lifecycle: Starting date](./add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-starting-date.md "Release date of the platform") – `add-platform.json#/properties/duration/properties/start`
 -   [Add platform: Costs](./add-platform-properties-add-platform-costs.md "Development and license costs") – `add-platform.json#/properties/cost`
@@ -35,20 +35,20 @@
 -   [Add platform: Target audience](./add-platform-properties-add-platform-target-audience.md) – `add-platform.json#/properties/age`
 -   [Add platform: Textures](./add-platform-properties-add-platform-textures.md "Platform's textures") – `add-platform.json#/properties/texture`
 -   [Add theme: Genre](./add-theme-properties-add-theme-genre.md "Theme/genre matches") – `add-theme.json#/properties/match`
--   [Add translation: Translations list](./add-translation-anyof-português-brasil-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/7/properties/messages`
+-   [Add translation: Translations list](./add-translation-anyof-english-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/1/properties/messages`
+-   [Add translation: Translations list](./add-translation-anyof-français-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/0/properties/messages`
+-   [Add translation: Translations list](./add-translation-anyof-deutsch-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/2/properties/messages`
+-   [Add translation: Translations list](./add-translation-anyof-español-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/3/properties/messages`
 -   [Add translation: Translations list](./add-translation-anyof-italiano-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/4/properties/messages`
+-   [Add translation: Translations list](./add-translation-anyof-nederlands-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/5/properties/messages`
 -   [Add translation: Translations list](./add-translation-anyof-other-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/13/properties/messages`
+-   [Add translation: Translations list](./add-translation-anyof-português-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/6/properties/messages`
 -   [Add translation: Translations list](./add-translation-anyof-日本語-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/12/properties/messages`
 -   [Add translation: Translations list](./add-translation-anyof-한국의-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/11/properties/messages`
--   [Add translation: Translations list](./add-translation-anyof-türkçe-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/10/properties/messages`
+-   [Add translation: Translations list](./add-translation-anyof-português-brasil-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/7/properties/messages`
 -   [Add translation: Translations list](./add-translation-anyof-中国-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/9/properties/messages`
 -   [Add translation: Translations list](./add-translation-anyof-русский-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/8/properties/messages`
--   [Add translation: Translations list](./add-translation-anyof-português-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/6/properties/messages`
--   [Add translation: Translations list](./add-translation-anyof-nederlands-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/5/properties/messages`
--   [Add translation: Translations list](./add-translation-anyof-español-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/3/properties/messages`
--   [Add translation: Translations list](./add-translation-anyof-français-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/0/properties/messages`
--   [Add translation: Translations list](./add-translation-anyof-english-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/1/properties/messages`
--   [Add translation: Translations list](./add-translation-anyof-deutsch-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/2/properties/messages`
+-   [Add translation: Translations list](./add-translation-anyof-türkçe-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/10/properties/messages`
 -   [Generic action](./add-event-anyof-scheduled-event-properties-actions-items-anyof-generic-action.md "This action can manipulate fanbase and money") – `add-event.json#/anyOf/1/properties/actions/items/anyOf/1`
 -   [Generic action](./add-event-anyof-random-event-properties-actions-items-anyof-generic-action.md "This action can manipulate fanbase and money") – `add-event.json#/anyOf/0/properties/actions/items/anyOf/1`
 -   [Rename a Manufacturer](./generic-properties-root-addrename-manufacturers-properties-rename-manufacturer-rename-a-manufacturer.md "Rename a manufacturer") – `rename-manufacturer.json#/properties/manufacturer/properties/rename/items`
@@ -57,8 +57,8 @@
 -   [Rename an Indie company](./generic-properties-root-addrename-indie-company-properties-rename-an-indie-company-rename-an-indie-company.md "Rename an indie company") – `rename-indie.json#/properties/indie/properties/rename/items`
 -   [Root: Add an event](./generic-properties-root-add-an-event.md "To manipulate events") – `mod.json#/properties/event`
 -   [Root: Add difficulty](./generic-properties-root-add-difficulty.md "To manipulate custom difficulties") – `mod.json#/properties/difficulty`
--   [Root: Add digital store feature](./generic-properties-root-add-digital-store-feature.md "To manipulate digital store (NOT IMPLEMENTED YET)") – `mod.json#/properties/digital_store`
--   [Root: Add game engine feature](./generic-properties-root-add-game-engine-feature.md "To manipulate game engine (NOT IMPLEMENTED YET)") – `mod.json#/properties/game_engine`
+-   [Root: Add digital store feature](./generic-properties-root-add-digital-store-feature.md "To manipulate digital store (NOT IMPLEMENTED YET)") – `mod.json#/properties/digitalstore`
+-   [Root: Add game engine feature](./generic-properties-root-add-game-engine-feature.md "To manipulate game engine") – `mod.json#/properties/gameengine`
 -   [Root: Add game speed](./generic-properties-root-add-game-speed.md "To manipulate game speeds") – `mod.json#/properties/speed`
 -   [Root: Add internationalization](./generic-properties-root-add-internationalization.md "To manipulate translations") – `mod.json#/properties/translation`
 -   [Root: Add map size](./generic-properties-root-add-map-size.md "To manipulate map sizes") – `mod.json#/properties/mapsize`
@@ -69,28 +69,30 @@
 -   [Root: Add/rename platform](./generic-properties-root-addrename-platform.md "To manipulate platforms") – `mod.json#/properties/platform`
 -   [Studio happinness/productivity](./add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity.md "This action can change the productivity/happiness of a studio") – `add-event.json#/anyOf/1/properties/actions/items/anyOf/0`
 -   [Studio happinness/productivity](./add-event-anyof-random-event-properties-actions-items-anyof-studio-happinnessproductivity.md "This action can change the productivity/happiness of a studio") – `add-event.json#/anyOf/0/properties/actions/items/anyOf/0`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-platform.md "Platforms configuration") – `add-difficulty.json#/properties/platform`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-iap.md "In-App purchase rate") – `add-difficulty.json#/properties/iap`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-game_of_the_year.md "Game of the year configuration") – `add-difficulty.json#/properties/game_of_the_year`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-postmortem.md "Post-mortem configuration (game report)") – `add-difficulty.json#/properties/postmortem`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-concurrent.md "Competitors configuration") – `add-difficulty.json#/properties/concurrent`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-currency.md "Currency configuration") – `add-difficulty.json#/properties/currency`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-digital_store.md "Digital stores configuration") – `add-difficulty.json#/properties/digital_store`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-mortgage.md "Mortgage configuration") – `add-difficulty.json#/properties/mortgage`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-iap.md "In-App purchase rate") – `add-difficulty.json#/properties/iap`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-currency.md "Currency configuration") – `add-difficulty.json#/properties/currency`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-postmortem.md "Post-mortem configuration (game report)") – `add-difficulty.json#/properties/postmortem`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-game_of_the_year.md "Game of the year configuration") – `add-difficulty.json#/properties/game_of_the_year`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-publishing.md "Publishing offers configuration") – `add-difficulty.json#/properties/publishing`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-notation.md "Score configuration") – `add-difficulty.json#/properties/notation`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-happiness-properties-bonus.md "Employee happiness bonus (Not implemented yet)") – `add-difficulty.json#/properties/happiness/properties/bonus`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-happiness-properties-same_genre.md "Genre repetition") – `add-difficulty.json#/properties/happiness/properties/same_genre`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-happiness.md "Employee happiness configuration") – `add-difficulty.json#/properties/happiness`
--   [Untitled object in Add a difficulty](./add-difficulty-properties-contract.md "Contracts configuration") – `add-difficulty.json#/properties/contract`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-game_sales.md "Game sales configuration") – `add-difficulty.json#/properties/game_sales`
--   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-2.md "Event won't happen if the player doesn't own the number of specified furniture") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/2`
--   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-1.md "Event won't happen before the specified year") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/1`
--   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-0.md "Event won't if there is not enough studio") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/0`
--   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-date.md) – `add-event.json#/anyOf/1/properties/date`
--   [Untitled object in Add a new event](./add-event-anyof-random-event-properties-conditions-items-anyof-2.md "Event won't happen if the player doesn't own the number of specified furniture") – `add-event.json#/anyOf/0/properties/conditions/items/anyOf/2`
--   [Untitled object in Add a new event](./add-event-anyof-random-event-properties-conditions-items-anyof-1.md "Event won't happen before the specified year") – `add-event.json#/anyOf/0/properties/conditions/items/anyOf/1`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-concurrent.md "Competitors configuration") – `add-difficulty.json#/properties/concurrent`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-platform.md "Platforms configuration") – `add-difficulty.json#/properties/platform`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-contract.md "Contracts configuration") – `add-difficulty.json#/properties/contract`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-happiness.md "Employee happiness configuration") – `add-difficulty.json#/properties/happiness`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-happiness-properties-same_genre.md "Genre repetition") – `add-difficulty.json#/properties/happiness/properties/same_genre`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-digital_store.md "Digital stores configuration") – `add-difficulty.json#/properties/digital_store`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-happiness-properties-bonus.md "Employee happiness bonus (Not implemented yet)") – `add-difficulty.json#/properties/happiness/properties/bonus`
+-   [Untitled object in Add a game engine feature](./add-gameengine-properties-availability.md "Date where the feature is available") – `add-gameengine.json#/properties/availability`
+-   [Untitled object in Add a game engine feature](./add-gameengine-properties-cost.md "Costs of the feature") – `add-gameengine.json#/properties/cost`
 -   [Untitled object in Add a new event](./add-event-anyof-random-event-properties-conditions-items-anyof-0.md "Event won't if there is not enough studio") – `add-event.json#/anyOf/0/properties/conditions/items/anyOf/0`
+-   [Untitled object in Add a new event](./add-event-anyof-random-event-properties-conditions-items-anyof-1.md "Event won't happen before the specified year") – `add-event.json#/anyOf/0/properties/conditions/items/anyOf/1`
+-   [Untitled object in Add a new event](./add-event-anyof-random-event-properties-conditions-items-anyof-2.md "Event won't happen if the player doesn't own the number of specified furniture") – `add-event.json#/anyOf/0/properties/conditions/items/anyOf/2`
+-   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-date.md) – `add-event.json#/anyOf/1/properties/date`
+-   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-0.md "Event won't if there is not enough studio") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/0`
+-   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-1.md "Event won't happen before the specified year") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/1`
+-   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-2.md "Event won't happen if the player doesn't own the number of specified furniture") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/2`
 
 ### Arrays
 
@@ -98,8 +100,8 @@
 -   [Add an event](./generic-properties-root-add-an-event-properties-add-an-event.md "Add an event") – `mod.json#/properties/event/properties/add`
 -   [Add competitor](./generic-properties-root-addrename-competitors-properties-add-competitor.md "Add a new concurrent") – `mod.json#/properties/concurrent/properties/add`
 -   [Add difficulty](./generic-properties-root-add-difficulty-properties-add-difficulty.md "Add a new difficulty") – `mod.json#/properties/difficulty/properties/add`
--   [Add digital store](./generic-properties-root-add-digital-store-feature-properties-add-digital-store.md "Add a new feature") – `mod.json#/properties/digital_store/properties/add`
--   [Add engine feature](./generic-properties-root-add-game-engine-feature-properties-add-engine-feature.md "Add a new feature") – `mod.json#/properties/game_engine/properties/add`
+-   [Add digital store](./generic-properties-root-add-digital-store-feature-properties-add-digital-store.md "Add a new feature") – `mod.json#/properties/digitalstore/properties/add`
+-   [Add engine feature](./generic-properties-root-add-game-engine-feature-properties-add-engine-feature.md "Add a new feature") – `mod.json#/properties/gameengine/properties/add`
 -   [Add indie company](./generic-properties-root-addrename-indie-company-properties-add-indie-company.md "Add a new indie company") – `mod.json#/properties/indie/properties/add`
 -   [Add manufacturer](./generic-properties-root-addrename-manufacturers-properties-add-manufacturer.md "Add a new manufacturer") – `mod.json#/properties/manufacturer/properties/add`
 -   [Add map size](./generic-properties-root-add-map-size-properties-add-map-size.md "Add a new map size") – `mod.json#/properties/mapsize/properties/add`
