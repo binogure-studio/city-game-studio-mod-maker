@@ -18,6 +18,7 @@
 | [event](#event)               | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-an-event.md "mod.json#/properties/event")                     |
 | [digitalstore](#digitalstore) | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-digital-store-feature.md "mod.json#/properties/digitalstore") |
 | [gameengine](#gameengine)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-game-engine-feature.md "mod.json#/properties/gameengine")     |
+| [convention](#convention)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-conventions.md "mod.json#/properties/convention")             |
 
 ## platform
 
@@ -181,7 +182,7 @@ To manipulate events
 
 ## digitalstore
 
-To manipulate digital store (NOT IMPLEMENTED YET)
+To manipulate digital store
 
 
 `digitalstore`
@@ -210,3 +211,19 @@ To manipulate game engine
 ### gameengine Type
 
 `object` ([Root: Add game engine feature](generic-properties-root-add-game-engine-feature.md))
+
+## convention
+
+To manipulate conventions
+
+
+`convention`
+
+-   is optional
+-   Type: `object` ([Root: Add conventions](generic-properties-root-add-conventions.md))
+-   cannot be null
+-   defined in: [Create a mod](generic-properties-root-add-conventions.md "mod.json#/properties/convention")
+
+### convention Type
+
+`object` ([Root: Add conventions](generic-properties-root-add-conventions.md))
