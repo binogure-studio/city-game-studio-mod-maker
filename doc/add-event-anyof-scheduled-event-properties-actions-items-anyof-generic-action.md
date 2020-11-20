@@ -61,7 +61,7 @@ Money spent/given (negative = give money, positive = cost money).
 
 ## fan_ratio
 
-Below 1 remove fanbase, above 1 add fanbase (its a ratio).
+Below 0 remove fanbase, above 0 add fanbase (its a ratio).
 
 
 `fan_ratio`
@@ -79,17 +79,9 @@ Below 1 remove fanbase, above 1 add fanbase (its a ratio).
 
 **multiple of**: the value of this number must be a multiple of: `0.05`
 
-**maximum**: the value of this number must smaller than or equal to: `2`
+**maximum**: the value of this number must smaller than or equal to: `0.95`
 
-**minimum**: the value of this number must greater than or equal to: `0.05`
-
-### fan_ratio Default Value
-
-The default value is:
-
-```json
-1
-```
+**minimum**: the value of this number must greater than or equal to: `-0.95`
 
 ## campaign_type
 
