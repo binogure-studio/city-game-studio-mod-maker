@@ -107,11 +107,3 @@ The default value is:
 | `"wastebasket"`   |             |
 | `"watertank"`     |             |
 | `"whiteboard"`    |             |
-
-### item Default Value
-
-The default value is:
-
-```json
-"coffeemachine"
-```

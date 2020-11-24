@@ -61,14 +61,6 @@ Update the staff productivity (1.0 = neutral, 2.0 = positive, 0.5 = negative).
 
 **minimum**: the value of this number must greater than or equal to: `0.1`
 
-### productivity Default Value
-
-The default value is:
-
-```json
-1
-```
-
 ## happiness
 
 Update the staff happiness (1.0 = neutral, 2.0 = positive, 0.5 = negative).
@@ -93,14 +85,6 @@ Update the staff happiness (1.0 = neutral, 2.0 = positive, 0.5 = negative).
 
 **minimum**: the value of this number must greater than or equal to: `0.1`
 
-### happiness Default Value
-
-The default value is:
-
-```json
-0.95
-```
-
 ## duration
 
 Duration of this event in weeks.
@@ -122,14 +106,6 @@ Duration of this event in weeks.
 **maximum**: the value of this number must smaller than or equal to: `48`
 
 **minimum**: the value of this number must greater than or equal to: `1`
-
-### duration Default Value
-
-The default value is:
-
-```json
-8
-```
 
 ## item_type
 
@@ -156,14 +132,6 @@ Virus animation (computer screen), Cat to the studio, or nothing visible.
 | `"internal"` |             |
 | `"virus"`    |             |
 | `"cat"`      |             |
-
-### item_type Default Value
-
-The default value is:
-
-```json
-"internal"
-```
 
 ## type
 

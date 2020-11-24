@@ -11,11 +11,3 @@
 | `"internal"` |             |
 | `"virus"`    |             |
 | `"cat"`      |             |
-
-## item_type Default Value
-
-The default value is:
-
-```json
-"internal"
-```

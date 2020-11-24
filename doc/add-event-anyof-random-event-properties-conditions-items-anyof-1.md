@@ -68,5 +68,5 @@ The default value is:
 The default value is:
 
 ```json
-2000
+1976
 ```
