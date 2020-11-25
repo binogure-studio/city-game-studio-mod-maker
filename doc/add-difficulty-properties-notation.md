@@ -7,7 +7,7 @@
 | Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                               |
 | :------------------------------------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [capacity_ratio](#capacity_ratio)                 | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-capacity_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_ratio")                 |
-| [point_to_produce_ratio](#point_to_produce_ratio) | `number`  | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-point_to_produce_ratio.md "add-difficulty.json#/properties/notation/properties/point_to_produce_ratio") |
+| [point_to_produce_ratio](#point_to_produce_ratio) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-point_to_produce_ratio.md "add-difficulty.json#/properties/notation/properties/point_to_produce_ratio") |
 | [game_combo_ratio](#game_combo_ratio)             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-game_combo_ratio.md "add-difficulty.json#/properties/notation/properties/game_combo_ratio")             |
 | [max_bonus](#max_bonus)                           | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-max_bonus.md "add-difficulty.json#/properties/notation/properties/max_bonus")                           |
 | [min_delay](#min_delay)                           | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-min_delay.md "add-difficulty.json#/properties/notation/properties/min_delay")                           |
@@ -52,7 +52,7 @@ Ratio of the number of points to produce per game (design, development and polis
 
 `point_to_produce_ratio`
 
--   is optional
+-   is required
 -   Type: `number`
 -   cannot be null
 -   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-point_to_produce_ratio.md "add-difficulty.json#/properties/notation/properties/point_to_produce_ratio")
