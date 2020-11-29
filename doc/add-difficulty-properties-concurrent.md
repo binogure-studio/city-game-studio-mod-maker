@@ -14,6 +14,7 @@
 | [penalty_ratio](#penalty_ratio)             | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty_ratio.md "add-difficulty.json#/properties/concurrent/properties/penalty_ratio")             |
 | [ds_min_odds](#ds_min_odds)                 | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-ds_min_odds.md "add-difficulty.json#/properties/concurrent/properties/ds_min_odds")                 |
 | [fanbase_price_ratio](#fanbase_price_ratio) | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase_price_ratio.md "add-difficulty.json#/properties/concurrent/properties/fanbase_price_ratio") |
+| [studio_spare](#studio_spare)               | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-studio_spare.md "add-difficulty.json#/properties/concurrent/properties/studio_spare")               |
 | [engine_ratio](#engine_ratio)               | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_ratio.md "add-difficulty.json#/properties/concurrent/properties/engine_ratio")               |
 
 ## fanbase
@@ -253,6 +254,34 @@ The default value is:
 
 ```json
 120.25
+```
+
+## studio_spare
+
+Number of studio concurrent will spare for the player.
+
+
+`studio_spare`
+
+-   is required
+-   Type: `number`
+-   cannot be null
+-   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-studio_spare.md "add-difficulty.json#/properties/concurrent/properties/studio_spare")
+
+### studio_spare Type
+
+`number`
+
+### studio_spare Constraints
+
+**minimum**: the value of this number must greater than or equal to: `0`
+
+### studio_spare Default Value
+
+The default value is:
+
+```json
+3
 ```
 
 ## engine_ratio
