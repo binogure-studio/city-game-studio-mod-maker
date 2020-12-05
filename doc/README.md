@@ -74,6 +74,7 @@
 -   [Studio happinness/productivity](./add-event-anyof-random-event-properties-actions-items-anyof-studio-happinnessproductivity.md "This action can change the productivity/happiness of a studio") – `add-event.json#/anyOf/0/properties/actions/items/anyOf/0`
 -   [Studio happinness/productivity](./add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity.md "This action can change the productivity/happiness of a studio") – `add-event.json#/anyOf/1/properties/actions/items/anyOf/0`
 -   [Untitled object in Add a convention](./add-convention-properties-date.md "Date of the convention") – `add-convention.json#/properties/date`
+-   [Untitled object in Add a difficulty](./add-difficulty-properties-engine.md "Adjust difficulty to make an engine") – `add-difficulty.json#/properties/engine`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-iap.md "In-App purchase rate") – `add-difficulty.json#/properties/iap`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-digital_store.md "Digital stores configuration") – `add-difficulty.json#/properties/digital_store`
 -   [Untitled object in Add a difficulty](./add-difficulty-properties-game_sales.md "Game sales configuration") – `add-difficulty.json#/properties/game_sales`

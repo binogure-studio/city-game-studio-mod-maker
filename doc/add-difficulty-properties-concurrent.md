@@ -16,6 +16,7 @@
 | [fanbase_price_ratio](#fanbase_price_ratio) | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase_price_ratio.md "add-difficulty.json#/properties/concurrent/properties/fanbase_price_ratio") |
 | [studio_spare](#studio_spare)               | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-studio_spare.md "add-difficulty.json#/properties/concurrent/properties/studio_spare")               |
 | [engine_ratio](#engine_ratio)               | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_ratio.md "add-difficulty.json#/properties/concurrent/properties/engine_ratio")               |
+| [engine_pow_factor](#engine_pow_factor)     | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_pow_factor.md "add-difficulty.json#/properties/concurrent/properties/engine_pow_factor")     |
 
 ## fanbase
 
@@ -312,4 +313,34 @@ The default value is:
 
 ```json
 8
+```
+
+## engine_pow_factor
+
+Used to adjust the revenu of an engine (higher ratio = lower revenue).
+
+
+`engine_pow_factor`
+
+-   is required
+-   Type: `number`
+-   cannot be null
+-   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_pow_factor.md "add-difficulty.json#/properties/concurrent/properties/engine_pow_factor")
+
+### engine_pow_factor Type
+
+`number`
+
+### engine_pow_factor Constraints
+
+**multiple of**: the value of this number must be a multiple of: `0.1`
+
+**minimum**: the value of this number must greater than or equal to: `1`
+
+### engine_pow_factor Default Value
+
+The default value is:
+
+```json
+1.334
 ```
