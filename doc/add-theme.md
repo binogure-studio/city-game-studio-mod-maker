@@ -14,7 +14,7 @@
 
 ## icon
 
-Theme icon with transparent background (Size: 512x512, Format: PNG/JPEG)
+Theme icon with black background (Size: 512x512, Format: PNG/JPEG)
 
 
 `icon`
@@ -30,7 +30,7 @@ Theme icon with transparent background (Size: 512x512, Format: PNG/JPEG)
 
 ## icon-white
 
-Theme icon with black background (Size: 512x512, Format: PNG/JPEG)
+Theme icon with transparent background (Size: 512x512, Format: PNG/JPEG)
 
 
 `icon-white`

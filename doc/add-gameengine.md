@@ -13,7 +13,7 @@
 | [availability](#availability)       | `object`  | Required | cannot be null | [Add a game engine feature](add-gameengine-properties-availability.md "add-gameengine.json#/properties/availability")       |
 | [required_points](#required_points) | `integer` | Required | cannot be null | [Add a game engine feature](add-gameengine-properties-required_points.md "add-gameengine.json#/properties/required_points") |
 | [cost](#cost)                       | `object`  | Required | cannot be null | [Add a game engine feature](add-gameengine-properties-cost.md "add-gameengine.json#/properties/cost")                       |
-| [parent](#parent)                   | `string`  | Required | cannot be null | [Add a game engine feature](add-gameengine-properties-parent.md "add-gameengine.json#/properties/parent")                   |
+| [parent](#parent)                   | `string`  | Optional | cannot be null | [Add a game engine feature](add-gameengine-properties-parent.md "add-gameengine.json#/properties/parent")                   |
 | [mandatory](#mandatory)             | `boolean` | Required | cannot be null | [Add a game engine feature](add-gameengine-properties-mandatory.md "add-gameengine.json#/properties/mandatory")             |
 
 ## type
@@ -249,7 +249,7 @@ Polish features
 
 `parent`
 
--   is required
+-   is optional
 -   Type: `string`
 -   cannot be null
 -   defined in: [Add a game engine feature](add-gameengine-properties-parent.md "add-gameengine.json#/properties/parent")
