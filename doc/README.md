@@ -11,6 +11,7 @@
 -   [Add a new game speed](./add-speed.md "Add a new game speed") – `add-speed.json`
 -   [Add a new map size](./add-mapsize.md "Add a new map size (define the number of competitors)") – `add-mapsize.json`
 -   [Add a new platform](./add-platform.md "Add a new platform") – `add-platform.json`
+-   [Add a new platorm component](./add-platform-component.md "Add a new platorm component") – `add-platform-component.json`
 -   [Add a new theme](./add-theme.md "Add a theme") – `add-theme.json`
 -   [Add a platform manufacturer](./add-manufacturer.md "Add a manufacturer") – `add-manufacturer.json`
 -   [Add a translation](./add-translation.md "See the original translations: https&#x3A;//github") – `add-translation.json`
@@ -20,6 +21,7 @@
 -   [Rename a Platform](./rename-platform.md "Rename a platform") – `rename-platform.json`
 -   [Rename a concurrent](./rename-concurrent.md "Rename a concurrent") – `rename-concurrent.json`
 -   [Rename a convention](./rename-convention.md "Rename a convention") – `rename-convention.json`
+-   [Rename a platform's component](./rename-platform-component.md "Rename a platform's component") – `rename-platform-component.json`
 -   [Rename an Indie company](./rename-indie.md "Rename an indie company") – `rename-indie.json`
 
 ## Other Schemas
@@ -33,7 +35,6 @@
 -   [Add platform: Genre](./add-platform-properties-add-platform-genre.md "Platform/genre matches") – `add-platform.json#/properties/genre`
 -   [Add platform: Lifecycle](./add-platform-properties-add-platform-lifecycle.md) – `add-platform.json#/properties/duration`
 -   [Add platform: Online](./add-platform-properties-add-platform-online.md) – `add-platform.json#/properties/online`
--   [Add platform: Power](./add-platform-properties-add-platform-power.md) – `add-platform.json#/properties/power`
 -   [Add platform: Target audience](./add-platform-properties-add-platform-target-audience.md) – `add-platform.json#/properties/age`
 -   [Add platform: Textures](./add-platform-properties-add-platform-textures.md "Platform's textures") – `add-platform.json#/properties/texture`
 -   [Add theme: Genre](./add-theme-properties-add-theme-genre.md "Theme/genre matches") – `add-theme.json#/properties/match`
@@ -57,6 +58,7 @@
 -   [Rename a Platform](./generic-properties-root-addrename-platform-properties-rename-platform-rename-a-platform.md "Rename a platform") – `rename-platform.json#/properties/platform/properties/rename/items`
 -   [Rename a concurrent](./generic-properties-root-addrename-competitors-properties-rename-competitor-rename-a-concurrent.md "Rename a concurrent") – `rename-concurrent.json#/properties/concurrent/properties/rename/items`
 -   [Rename a convention](./generic-properties-root-add-conventions-properties-rename-a-convention-rename-a-convention.md "Rename a convention") – `rename-convention.json#/properties/convention/properties/rename/items`
+-   [Rename a platform's component](./generic-properties-root-addrename-custom-platforms-components-properties-rename-component-rename-a-platforms-component.md "Rename a platform's component") – `rename-platform-component.json#/properties/customplatform/properties/rename/items`
 -   [Rename an Indie company](./generic-properties-root-addrename-indie-company-properties-rename-an-indie-company-rename-an-indie-company.md "Rename an indie company") – `rename-indie.json#/properties/indie/properties/rename/items`
 -   [Root: Add an event](./generic-properties-root-add-an-event.md "To manipulate events") – `mod.json#/properties/event`
 -   [Root: Add conventions](./generic-properties-root-add-conventions.md "To manipulate conventions") – `mod.json#/properties/convention`
@@ -69,6 +71,7 @@
 -   [Root: Add themes](./generic-properties-root-add-themes.md "To manipulate themes") – `mod.json#/properties/theme`
 -   [Root: Add/rename Indie company](./generic-properties-root-addrename-indie-company.md "To manipulate indie companies") – `mod.json#/properties/indie`
 -   [Root: Add/rename competitors](./generic-properties-root-addrename-competitors.md "To manipulate concurrents") – `mod.json#/properties/concurrent`
+-   [Root: Add/rename custom-platforms components](./generic-properties-root-addrename-custom-platforms-components.md "To manipulate component for custom-platforms") – `mod.json#/properties/customplatform`
 -   [Root: Add/rename manufacturers](./generic-properties-root-addrename-manufacturers.md "To manipulate manufacturers") – `mod.json#/properties/manufacturer`
 -   [Root: Add/rename platform](./generic-properties-root-addrename-platform.md "To manipulate platforms") – `mod.json#/properties/platform`
 -   [Studio happinness/productivity](./add-event-anyof-random-event-properties-actions-items-anyof-studio-happinnessproductivity.md "This action can change the productivity/happiness of a studio") – `add-event.json#/anyOf/0/properties/actions/items/anyOf/0`
@@ -100,6 +103,8 @@
 -   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-0.md "Event won't if there is not enough studio") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/0`
 -   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-1.md "Event won't happen before the specified year") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/1`
 -   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-2.md "Event won't happen if the player doesn't own the number of specified furniture") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/2`
+-   [Untitled object in Add a new platform](./add-platform-properties-power.md "Add platform: Power") – `add-platform.json#/properties/power`
+-   [Untitled object in Add a new platorm component](./add-platform-component-properties-release_date.md "Release date of the component") – `add-platform-component.json#/properties/release_date`
 
 ### Arrays
 
@@ -107,6 +112,7 @@
 -   [Add a convention](./generic-properties-root-add-conventions-properties-add-a-convention.md "Add a new conventions") – `mod.json#/properties/convention/properties/add`
 -   [Add an event](./generic-properties-root-add-an-event-properties-add-an-event.md "Add an event") – `mod.json#/properties/event/properties/add`
 -   [Add competitor](./generic-properties-root-addrename-competitors-properties-add-competitor.md "Add a new concurrent") – `mod.json#/properties/concurrent/properties/add`
+-   [Add component](./generic-properties-root-addrename-custom-platforms-components-properties-add-component.md "Add a new component") – `mod.json#/properties/customplatform/properties/add`
 -   [Add difficulty](./generic-properties-root-add-difficulty-properties-add-difficulty.md "Add a new difficulty") – `mod.json#/properties/difficulty/properties/add`
 -   [Add digital store](./generic-properties-root-add-digital-store-feature-properties-add-digital-store.md "Add a new feature") – `mod.json#/properties/digitalstore/properties/add`
 -   [Add engine feature](./generic-properties-root-add-game-engine-feature-properties-add-engine-feature.md "Add a new feature") – `mod.json#/properties/gameengine/properties/add`
@@ -128,6 +134,7 @@
 -   [Rename a convention](./generic-properties-root-add-conventions-properties-rename-a-convention.md "Rename a conventions") – `mod.json#/properties/convention/properties/rename`
 -   [Rename an indie company](./generic-properties-root-addrename-indie-company-properties-rename-an-indie-company.md "Rename a indie company") – `mod.json#/properties/indie/properties/rename`
 -   [Rename competitor](./generic-properties-root-addrename-competitors-properties-rename-competitor.md "Rename a concurrent") – `mod.json#/properties/concurrent/properties/rename`
+-   [Rename component](./generic-properties-root-addrename-custom-platforms-components-properties-rename-component.md "Rename a component") – `mod.json#/properties/customplatform/properties/rename`
 -   [Rename manufacturer](./generic-properties-root-addrename-manufacturers-properties-rename-manufacturer.md "Rename a manufacturer") – `mod.json#/properties/manufacturer/properties/rename`
 -   [Rename platform](./generic-properties-root-addrename-platform-properties-rename-platform.md "Rename a platform") – `mod.json#/properties/platform/properties/rename`
 -   [Untitled array in Add a convention](./add-convention-properties-size.md "Game size to boost (Selected game sizes will get extra visitors)") – `add-convention.json#/properties/size`

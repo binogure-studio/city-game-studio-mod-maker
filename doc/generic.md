@@ -4,21 +4,38 @@
 
 # Create a mod Properties
 
-| Property                      | Type     | Required | Nullable       | Defined by                                                                                               |
-| :---------------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------- |
-| [platform](#platform)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-platform.md "mod.json#/properties/platform")            |
-| [concurrent](#concurrent)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-competitors.md "mod.json#/properties/concurrent")       |
-| [manufacturer](#manufacturer) | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-manufacturers.md "mod.json#/properties/manufacturer")   |
-| [theme](#theme)               | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-themes.md "mod.json#/properties/theme")                       |
-| [translation](#translation)   | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-internationalization.md "mod.json#/properties/translation")   |
-| [indie](#indie)               | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-indie-company.md "mod.json#/properties/indie")          |
-| [difficulty](#difficulty)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-difficulty.md "mod.json#/properties/difficulty")              |
-| [speed](#speed)               | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-game-speed.md "mod.json#/properties/speed")                   |
-| [mapsize](#mapsize)           | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-map-size.md "mod.json#/properties/mapsize")                   |
-| [event](#event)               | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-an-event.md "mod.json#/properties/event")                     |
-| [digitalstore](#digitalstore) | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-digital-store-feature.md "mod.json#/properties/digitalstore") |
-| [gameengine](#gameengine)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-game-engine-feature.md "mod.json#/properties/gameengine")     |
-| [convention](#convention)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-conventions.md "mod.json#/properties/convention")             |
+| Property                          | Type     | Required | Nullable       | Defined by                                                                                                             |
+| :-------------------------------- | -------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------- |
+| [customplatform](#customplatform) | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-custom-platforms-components.md "mod.json#/properties/customplatform") |
+| [platform](#platform)             | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-platform.md "mod.json#/properties/platform")                          |
+| [concurrent](#concurrent)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-competitors.md "mod.json#/properties/concurrent")                     |
+| [manufacturer](#manufacturer)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-manufacturers.md "mod.json#/properties/manufacturer")                 |
+| [theme](#theme)                   | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-themes.md "mod.json#/properties/theme")                                     |
+| [translation](#translation)       | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-internationalization.md "mod.json#/properties/translation")                 |
+| [indie](#indie)                   | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-indie-company.md "mod.json#/properties/indie")                        |
+| [difficulty](#difficulty)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-difficulty.md "mod.json#/properties/difficulty")                            |
+| [speed](#speed)                   | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-game-speed.md "mod.json#/properties/speed")                                 |
+| [mapsize](#mapsize)               | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-map-size.md "mod.json#/properties/mapsize")                                 |
+| [event](#event)                   | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-an-event.md "mod.json#/properties/event")                                   |
+| [digitalstore](#digitalstore)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-digital-store-feature.md "mod.json#/properties/digitalstore")               |
+| [gameengine](#gameengine)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-game-engine-feature.md "mod.json#/properties/gameengine")                   |
+| [convention](#convention)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-conventions.md "mod.json#/properties/convention")                           |
+
+## customplatform
+
+To manipulate component for custom-platforms
+
+
+`customplatform`
+
+-   is optional
+-   Type: `object` ([Root: Add/rename custom-platforms components](generic-properties-root-addrename-custom-platforms-components.md))
+-   cannot be null
+-   defined in: [Create a mod](generic-properties-root-addrename-custom-platforms-components.md "mod.json#/properties/customplatform")
+
+### customplatform Type
+
+`object` ([Root: Add/rename custom-platforms components](generic-properties-root-addrename-custom-platforms-components.md))
 
 ## platform
 

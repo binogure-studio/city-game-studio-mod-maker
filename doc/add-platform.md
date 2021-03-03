@@ -7,7 +7,7 @@
 | Property                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                       |
 | :------------------------------------------------------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
 | [generation](#generation)                                           | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-generation.md "add-platform.json#/properties/generation")                                           |
-| [power](#power)                                                     | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-power.md "add-platform.json#/properties/power")                                        |
+| [power](#power)                                                     | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-power.md "add-platform.json#/properties/power")                                                     |
 | [online](#online)                                                   | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-online.md "add-platform.json#/properties/online")                                      |
 | [type](#type)                                                       | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-type.md "add-platform.json#/properties/type")                                                       |
 | [fabriquant](#fabriquant)                                           | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-fabriquant.md "add-platform.json#/properties/fabriquant")                                           |
@@ -53,19 +53,19 @@ The default value is:
 
 ## power
 
-
+Add platform: Power
 
 
 `power`
 
 -   is required
--   Type: `object` ([Add platform: Power](add-platform-properties-add-platform-power.md))
+-   Type: `object` ([Details](add-platform-properties-power.md))
 -   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-power.md "add-platform.json#/properties/power")
+-   defined in: [Add a new platform](add-platform-properties-power.md "add-platform.json#/properties/power")
 
 ### power Type
 
-`object` ([Add platform: Power](add-platform-properties-add-platform-power.md))
+`object` ([Details](add-platform-properties-power.md))
 
 ## online
 

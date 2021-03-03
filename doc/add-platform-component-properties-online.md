@@ -1,0 +1,3 @@
+## online Type
+
+`boolean`
