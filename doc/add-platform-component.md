@@ -4,20 +4,21 @@
 
 # Add a new platorm component Properties
 
-| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                    |
-| :---------------------------------- | --------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
-| [name](#name)                       | `string`  | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-name.md "add-platform-component.json#/properties/name")                       |
-| [online](#online)                   | `boolean` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-online.md "add-platform-component.json#/properties/online")                   |
-| [release_date](#release_date)       | `object`  | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-release_date.md "add-platform-component.json#/properties/release_date")       |
-| [unlock_costs](#unlock_costs)       | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-unlock_costs.md "add-platform-component.json#/properties/unlock_costs")       |
-| [making_costs](#making_costs)       | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-making_costs.md "add-platform-component.json#/properties/making_costs")       |
-| [required_points](#required_points) | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-required_points.md "add-platform-component.json#/properties/required_points") |
-| [gpu](#gpu)                         | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-gpu.md "add-platform-component.json#/properties/gpu")                         |
-| [cpu](#cpu)                         | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-cpu.md "add-platform-component.json#/properties/cpu")                         |
-| [generation](#generation)           | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-generation.md "add-platform-component.json#/properties/generation")           |
-| [texture](#texture)                 | `image`   | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-texture.md "add-platform-component.json#/properties/texture")                 |
-| [compatibility](#compatibility)     | `number`  | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-compatibility.md "add-platform-component.json#/properties/compatibility")     |
-| [type](#type)                       | `number`  | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-type.md "add-platform-component.json#/properties/type")                       |
+| Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                  |
+| :------------------------------------------------ | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [name](#name)                                     | `string`  | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-name.md "add-platform-component.json#/properties/name")                                     |
+| [online](#online)                                 | `boolean` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-online.md "add-platform-component.json#/properties/online")                                 |
+| [online_attachment_rate](#online_attachment_rate) | `number`  | Optional | cannot be null | [Add a new platorm component](add-platform-component-properties-online_attachment_rate.md "add-platform-component.json#/properties/online_attachment_rate") |
+| [release_date](#release_date)                     | `object`  | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-release_date.md "add-platform-component.json#/properties/release_date")                     |
+| [unlock_costs](#unlock_costs)                     | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-unlock_costs.md "add-platform-component.json#/properties/unlock_costs")                     |
+| [making_costs](#making_costs)                     | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-making_costs.md "add-platform-component.json#/properties/making_costs")                     |
+| [required_points](#required_points)               | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-required_points.md "add-platform-component.json#/properties/required_points")               |
+| [gpu](#gpu)                                       | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-gpu.md "add-platform-component.json#/properties/gpu")                                       |
+| [cpu](#cpu)                                       | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-cpu.md "add-platform-component.json#/properties/cpu")                                       |
+| [generation](#generation)                         | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-generation.md "add-platform-component.json#/properties/generation")                         |
+| [texture](#texture)                               | `image`   | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-texture.md "add-platform-component.json#/properties/texture")                               |
+| [compatibility](#compatibility)                   | `number`  | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-compatibility.md "add-platform-component.json#/properties/compatibility")                   |
+| [type](#type)                                     | `number`  | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-type.md "add-platform-component.json#/properties/type")                                     |
 
 ## name
 
@@ -50,6 +51,38 @@ Used only by CPU component. True when it is online compatible false otherwise.
 ### online Type
 
 `boolean`
+
+## online_attachment_rate
+
+Mandatory only when CPU component is selected. Ratio of users who are willing to play online using this CPU.
+
+
+`online_attachment_rate`
+
+-   is optional
+-   Type: `number`
+-   cannot be null
+-   defined in: [Add a new platorm component](add-platform-component-properties-online_attachment_rate.md "add-platform-component.json#/properties/online_attachment_rate")
+
+### online_attachment_rate Type
+
+`number`
+
+### online_attachment_rate Constraints
+
+**multiple of**: the value of this number must be a multiple of: `0.01`
+
+**maximum**: the value of this number must smaller than or equal to: `0.95`
+
+**minimum**: the value of this number must greater than or equal to: `0.05`
+
+### online_attachment_rate Default Value
+
+The default value is:
+
+```json
+0.25
+```
 
 ## release_date
 
