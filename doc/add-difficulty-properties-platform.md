@@ -9,6 +9,7 @@
 | [max_return_rate](#max_return_rate)           | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-max_return_rate.md "add-difficulty.json#/properties/platform/properties/max_return_rate")           |
 | [min_capacities](#min_capacities)             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-min_capacities.md "add-difficulty.json#/properties/platform/properties/min_capacities")             |
 | [making_cost_ratio](#making_cost_ratio)       | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-making_cost_ratio.md "add-difficulty.json#/properties/platform/properties/making_cost_ratio")       |
+| [quality_ratio](#quality_ratio)               | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-quality_ratio.md "add-difficulty.json#/properties/platform/properties/quality_ratio")               |
 | [negotiation](#negotiation)                   | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-negotiation.md "add-difficulty.json#/properties/platform/properties/negotiation")                   |
 | [manufacturer_loyalty](#manufacturer_loyalty) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-manufacturer_loyalty.md "add-difficulty.json#/properties/platform/properties/manufacturer_loyalty") |
 | [game_score](#game_score)                     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-game_score.md "add-difficulty.json#/properties/platform/properties/game_score")                     |
@@ -106,6 +107,38 @@ The default value is:
 
 ```json
 1.55
+```
+
+## quality_ratio
+
+Custom platform refund rate ratio (based on console quality).
+
+
+`quality_ratio`
+
+-   is required
+-   Type: `number`
+-   cannot be null
+-   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-quality_ratio.md "add-difficulty.json#/properties/platform/properties/quality_ratio")
+
+### quality_ratio Type
+
+`number`
+
+### quality_ratio Constraints
+
+**multiple of**: the value of this number must be a multiple of: `0.1`
+
+**maximum**: the value of this number must smaller than or equal to: `6`
+
+**minimum**: the value of this number must greater than or equal to: `1`
+
+### quality_ratio Default Value
+
+The default value is:
+
+```json
+1.5
 ```
 
 ## negotiation
