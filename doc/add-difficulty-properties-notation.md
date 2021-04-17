@@ -6,7 +6,6 @@
 
 | Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                               |
 | :------------------------------------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [sales_threshold](#sales_threshold)               | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-sales_threshold.md "add-difficulty.json#/properties/notation/properties/sales_threshold")               |
 | [capacity_min_ratio](#capacity_min_ratio)         | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-capacity_min_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_min_ratio")         |
 | [capacity_ratio](#capacity_ratio)                 | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-capacity_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_ratio")                 |
 | [point_to_produce_ratio](#point_to_produce_ratio) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-point_to_produce_ratio.md "add-difficulty.json#/properties/notation/properties/point_to_produce_ratio") |
@@ -14,38 +13,6 @@
 | [max_bonus](#max_bonus)                           | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-max_bonus.md "add-difficulty.json#/properties/notation/properties/max_bonus")                           |
 | [min_delay](#min_delay)                           | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-min_delay.md "add-difficulty.json#/properties/notation/properties/min_delay")                           |
 | [capacity_delta_time](#capacity_delta_time)       | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-capacity_delta_time.md "add-difficulty.json#/properties/notation/properties/capacity_delta_time")       |
-
-## sales_threshold
-
-Set the minimum note to get a sales boost (the lower the easier).
-
-
-`sales_threshold`
-
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-sales_threshold.md "add-difficulty.json#/properties/notation/properties/sales_threshold")
-
-### sales_threshold Type
-
-`number`
-
-### sales_threshold Constraints
-
-**multiple of**: the value of this number must be a multiple of: `0.01`
-
-**maximum**: the value of this number must smaller than or equal to: `1`
-
-**minimum**: the value of this number must greater than or equal to: `0`
-
-### sales_threshold Default Value
-
-The default value is:
-
-```json
-0.88
-```
 
 ## capacity_min_ratio
 
