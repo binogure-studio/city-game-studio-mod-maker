@@ -2,10 +2,10 @@
 
 `object` ([Add platform: Costs](add-platform-properties-add-platform-costs.md))
 
-# Add platform: Costs Properties
+# cost Properties
 
 | Property            | Type      | Required | Nullable       | Defined by                                                                                                                                     |
-| :------------------ | --------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------ | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
 | [license](#license) | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-costs-properties-license.md "add-platform.json#/properties/cost/properties/license") |
 | [dev](#dev)         | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-costs-properties-dev.md "add-platform.json#/properties/cost/properties/dev")         |
 
@@ -13,13 +13,15 @@
 
 License costs of the platform
 
-
 `license`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-costs-properties-license.md "add-platform.json#/properties/cost/properties/license")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-costs-properties-license.md "add-platform.json#/properties/cost/properties/license")
 
 ### license Type
 
@@ -43,13 +45,15 @@ The default value is:
 
 Development costs of the platform
 
-
 `dev`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-costs-properties-dev.md "add-platform.json#/properties/cost/properties/dev")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-costs-properties-dev.md "add-platform.json#/properties/cost/properties/dev")
 
 ### dev Type
 

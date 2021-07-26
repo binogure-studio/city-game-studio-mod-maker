@@ -2,10 +2,10 @@
 
 unknown ([日本語](add-translation-anyof-日本語.md))
 
-# 日本語 Properties
+# 12 Properties
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                                          |
-| :-------------------- | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [name](#name)         | `string` | Required | cannot be null | [Add a translation](add-translation-anyof-日本語-properties-name.md "add-translation.json#/anyOf/12/properties/name")                                  |
 | [locale](#locale)     | `string` | Required | cannot be null | [Add a translation](add-translation-anyof-日本語-properties-locale.md "add-translation.json#/anyOf/12/properties/locale")                              |
 | [messages](#messages) | `object` | Required | cannot be null | [Add a translation](add-translation-anyof-日本語-properties-add-translation-translations-list.md "add-translation.json#/anyOf/12/properties/messages") |
@@ -14,13 +14,15 @@ unknown ([日本語](add-translation-anyof-日本語.md))
 
 Locale names (shown onto the main menu)
 
-
 `name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a translation](add-translation-anyof-日本語-properties-name.md "add-translation.json#/anyOf/12/properties/name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a translation](add-translation-anyof-日本語-properties-name.md "add-translation.json#/anyOf/12/properties/name")
 
 ### name Type
 
@@ -31,7 +33,7 @@ Locale names (shown onto the main menu)
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value   | Explanation |
-| :------ | ----------- |
+| :------ | :---------- |
 | `"日本語"` |             |
 
 ### name Default Value
@@ -46,13 +48,15 @@ The default value is:
 
 Locale code (en, es, fr, zh, ru, pt...)
 
-
 `locale`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a translation](add-translation-anyof-日本語-properties-locale.md "add-translation.json#/anyOf/12/properties/locale")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a translation](add-translation-anyof-日本語-properties-locale.md "add-translation.json#/anyOf/12/properties/locale")
 
 ### locale Type
 
@@ -63,7 +67,7 @@ Locale code (en, es, fr, zh, ru, pt...)
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value  | Explanation |
-| :----- | ----------- |
+| :----- | :---------- |
 | `"ja"` |             |
 
 ### locale Default Value
@@ -78,13 +82,15 @@ The default value is:
 
 KEY: VALUE. Example: LABEL_THEME_SCHOOL: School
 
-
 `messages`
 
--   is required
--   Type: `object` ([Add translation: Translations list](add-translation-anyof-日本語-properties-add-translation-translations-list.md))
--   cannot be null
--   defined in: [Add a translation](add-translation-anyof-日本語-properties-add-translation-translations-list.md "add-translation.json#/anyOf/12/properties/messages")
+*   is required
+
+*   Type: `object` ([Add translation: Translations list](add-translation-anyof-日本語-properties-add-translation-translations-list.md))
+
+*   cannot be null
+
+*   defined in: [Add a translation](add-translation-anyof-日本語-properties-add-translation-translations-list.md "add-translation.json#/anyOf/12/properties/messages")
 
 ### messages Type
 

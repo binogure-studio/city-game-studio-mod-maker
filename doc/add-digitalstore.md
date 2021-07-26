@@ -5,7 +5,7 @@
 # Add a new digital store's feature Properties
 
 | Property                            | Type      | Required | Nullable       | Defined by                                                                                                                              |
-| :---------------------------------- | --------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
 | [id](#id)                           | `string`  | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-id.md "add-digitalstore.json#/properties/id")                           |
 | [name](#name)                       | `string`  | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-name.md "add-digitalstore.json#/properties/name")                       |
 | [description](#description)         | `string`  | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-description.md "add-digitalstore.json#/properties/description")         |
@@ -16,13 +16,15 @@
 
 UUID v4 (use <https://www.uuidgenerator.net/> to generate one)
 
-
 `id`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new digital store's feature](add-digitalstore-properties-id.md "add-digitalstore.json#/properties/id")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new digital store's feature](add-digitalstore-properties-id.md "add-digitalstore.json#/properties/id")
 
 ### id Type
 
@@ -32,13 +34,15 @@ UUID v4 (use <https://www.uuidgenerator.net/> to generate one)
 
 Feature's title (used for i18n).
 
-
 `name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new digital store's feature](add-digitalstore-properties-name.md "add-digitalstore.json#/properties/name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new digital store's feature](add-digitalstore-properties-name.md "add-digitalstore.json#/properties/name")
 
 ### name Type
 
@@ -56,13 +60,15 @@ The default value is:
 
 Feature's description (used for i18n).
 
-
 `description`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new digital store's feature](add-digitalstore-properties-description.md "add-digitalstore.json#/properties/description")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new digital store's feature](add-digitalstore-properties-description.md "add-digitalstore.json#/properties/description")
 
 ### description Type
 
@@ -80,13 +86,15 @@ The default value is:
 
 Points required to implement the feature.
 
-
 `required_points`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new digital store's feature](add-digitalstore-properties-required_points.md "add-digitalstore.json#/properties/required_points")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new digital store's feature](add-digitalstore-properties-required_points.md "add-digitalstore.json#/properties/required_points")
 
 ### required_points Type
 
@@ -112,13 +120,15 @@ The default value is:
 
 Effect of this feature.
 
-
 `effects`
 
--   is required
--   Type: `object[]` ([Details](add-digitalstore-properties-effects-items.md))
--   cannot be null
--   defined in: [Add a new digital store's feature](add-digitalstore-properties-effects.md "add-digitalstore.json#/properties/effects")
+*   is required
+
+*   Type: `object[]` ([Details](add-digitalstore-properties-effects-items.md))
+
+*   cannot be null
+
+*   defined in: [Add a new digital store's feature](add-digitalstore-properties-effects.md "add-digitalstore.json#/properties/effects")
 
 ### effects Type
 

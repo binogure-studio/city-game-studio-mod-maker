@@ -2,10 +2,10 @@
 
 `object` ([Details](add-convention-properties-date.md))
 
-# undefined Properties
+# date Properties
 
 | Property        | Type      | Required | Nullable       | Defined by                                                                                                                     |
-| :-------------- | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+| :-------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------- |
 | [month](#month) | `integer` | Required | cannot be null | [Add a convention](add-convention-properties-date-properties-month.md "add-convention.json#/properties/date/properties/month") |
 | [year](#year)   | `integer` | Required | cannot be null | [Add a convention](add-convention-properties-date-properties-year.md "add-convention.json#/properties/date/properties/year")   |
 
@@ -13,13 +13,15 @@
 
 Month of the convention (1 - 12).
 
-
 `month`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a convention](add-convention-properties-date-properties-month.md "add-convention.json#/properties/date/properties/month")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a convention](add-convention-properties-date-properties-month.md "add-convention.json#/properties/date/properties/month")
 
 ### month Type
 
@@ -43,13 +45,15 @@ The default value is:
 
 Year of the convention.
 
-
 `year`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a convention](add-convention-properties-date-properties-year.md "add-convention.json#/properties/date/properties/year")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a convention](add-convention-properties-date-properties-year.md "add-convention.json#/properties/date/properties/year")
 
 ### year Type
 

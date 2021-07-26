@@ -5,7 +5,7 @@
 # Add a new game speed Properties
 
 | Property                        | Type      | Required | Nullable       | Defined by                                                                                               |
-| :------------------------------ | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------- |
+| :------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------- |
 | [label](#label)                 | `string`  | Required | cannot be null | [Add a new game speed](add-speed-properties-label.md "add-speed.json#/properties/label")                 |
 | [week_in_month](#week_in_month) | `integer` | Required | cannot be null | [Add a new game speed](add-speed-properties-week_in_month.md "add-speed.json#/properties/week_in_month") |
 
@@ -13,13 +13,15 @@
 
 Label of the speed (used for localization)
 
-
 `label`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new game speed](add-speed-properties-label.md "add-speed.json#/properties/label")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new game speed](add-speed-properties-label.md "add-speed.json#/properties/label")
 
 ### label Type
 
@@ -37,13 +39,15 @@ The default value is:
 
 Number of week per months.
 
-
 `week_in_month`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new game speed](add-speed-properties-week_in_month.md "add-speed.json#/properties/week_in_month")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new game speed](add-speed-properties-week_in_month.md "add-speed.json#/properties/week_in_month")
 
 ### week_in_month Type
 

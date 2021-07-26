@@ -5,7 +5,7 @@
 # Add a convention Properties
 
 | Property              | Type      | Required | Nullable       | Defined by                                                                                           |
-| :-------------------- | --------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------- |
+| :-------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------- |
 | [id](#id)             | `string`  | Required | cannot be null | [Add a convention](add-convention-properties-id.md "add-convention.json#/properties/id")             |
 | [name](#name)         | `string`  | Required | cannot be null | [Add a convention](add-convention-properties-name.md "add-convention.json#/properties/name")         |
 | [date](#date)         | `object`  | Required | cannot be null | [Add a convention](add-convention-properties-date.md "add-convention.json#/properties/date")         |
@@ -17,13 +17,15 @@
 
 UUID v4 (use <https://www.uuidgenerator.net/> to generate one).
 
-
 `id`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a convention](add-convention-properties-id.md "add-convention.json#/properties/id")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a convention](add-convention-properties-id.md "add-convention.json#/properties/id")
 
 ### id Type
 
@@ -33,13 +35,15 @@ UUID v4 (use <https://www.uuidgenerator.net/> to generate one).
 
 Name of the convention (no translations needed).
 
-
 `name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a convention](add-convention-properties-name.md "add-convention.json#/properties/name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a convention](add-convention-properties-name.md "add-convention.json#/properties/name")
 
 ### name Type
 
@@ -57,13 +61,15 @@ The default value is:
 
 Date of the convention.
 
-
 `date`
 
--   is required
--   Type: `object` ([Details](add-convention-properties-date.md))
--   cannot be null
--   defined in: [Add a convention](add-convention-properties-date.md "add-convention.json#/properties/date")
+*   is required
+
+*   Type: `object` ([Details](add-convention-properties-date.md))
+
+*   cannot be null
+
+*   defined in: [Add a convention](add-convention-properties-date.md "add-convention.json#/properties/date")
 
 ### date Type
 
@@ -73,13 +79,15 @@ Date of the convention.
 
 Number of visitors of the convention.
 
-
 `visitors`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a convention](add-convention-properties-visitors.md "add-convention.json#/properties/visitors")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a convention](add-convention-properties-visitors.md "add-convention.json#/properties/visitors")
 
 ### visitors Type
 
@@ -103,13 +111,15 @@ The default value is:
 
 Game size to boost (Selected game sizes will get extra visitors).
 
-
 `size`
 
--   is required
--   Type: `string[]`
--   cannot be null
--   defined in: [Add a convention](add-convention-properties-size.md "add-convention.json#/properties/size")
+*   is required
+
+*   Type: `string[]`
+
+*   cannot be null
+
+*   defined in: [Add a convention](add-convention-properties-size.md "add-convention.json#/properties/size")
 
 ### size Type
 
@@ -123,13 +133,15 @@ Game size to boost (Selected game sizes will get extra visitors).
 
 Area of the convention center.
 
-
 `area`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a convention](add-convention-properties-area.md "add-convention.json#/properties/area")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a convention](add-convention-properties-area.md "add-convention.json#/properties/area")
 
 ### area Type
 

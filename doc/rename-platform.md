@@ -5,7 +5,7 @@
 # Rename a Platform Properties
 
 | Property      | Type      | Required | Nullable       | Defined by                                                                                      |
-| :------------ | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------- |
+| :------------ | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------- |
 | [name](#name) | `string`  | Required | cannot be null | [Rename a Platform](rename-platform-properties-name.md "rename-platform.json#/properties/name") |
 | [id](#id)     | `integer` | Required | cannot be null | [Rename a Platform](rename-platform-properties-id.md "rename-platform.json#/properties/id")     |
 
@@ -13,13 +13,15 @@
 
 Platform's name
 
-
 `name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Rename a Platform](rename-platform-properties-name.md "rename-platform.json#/properties/name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Rename a Platform](rename-platform-properties-name.md "rename-platform.json#/properties/name")
 
 ### name Type
 
@@ -29,13 +31,15 @@ Platform's name
 
 Platform's id to rename (integer)'
 
-
 `id`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Rename a Platform](rename-platform-properties-id.md "rename-platform.json#/properties/id")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Rename a Platform](rename-platform-properties-id.md "rename-platform.json#/properties/id")
 
 ### id Type
 
@@ -46,7 +50,7 @@ Platform's id to rename (integer)'
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value | Explanation |
-| :---- | ----------- |
+| :---- | :---------- |
 | `1`   |             |
 | `2`   |             |
 | `3`   |             |

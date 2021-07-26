@@ -2,10 +2,10 @@
 
 `object` ([Details](add-event-anyof-scheduled-event-properties-date.md))
 
-# undefined Properties
+# date Properties
 
 | Property        | Type      | Required | Nullable       | Defined by                                                                                                                                        |
-| :-------------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :-------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [year](#year)   | `integer` | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-date-properties-year.md "add-event.json#/anyOf/1/properties/date/properties/year")   |
 | [month](#month) | `integer` | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-date-properties-month.md "add-event.json#/anyOf/1/properties/date/properties/month") |
 | [week](#week)   | `integer` | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-date-properties-week.md "add-event.json#/anyOf/1/properties/date/properties/week")   |
@@ -14,13 +14,15 @@
 
 
 
-
 `year`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-date-properties-year.md "add-event.json#/anyOf/1/properties/date/properties/year")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-date-properties-year.md "add-event.json#/anyOf/1/properties/date/properties/year")
 
 ### year Type
 
@@ -36,13 +38,15 @@
 
 
 
-
 `month`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-date-properties-month.md "add-event.json#/anyOf/1/properties/date/properties/month")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-date-properties-month.md "add-event.json#/anyOf/1/properties/date/properties/month")
 
 ### month Type
 
@@ -58,13 +62,15 @@
 
 
 
-
 `week`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-date-properties-week.md "add-event.json#/anyOf/1/properties/date/properties/week")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-date-properties-week.md "add-event.json#/anyOf/1/properties/date/properties/week")
 
 ### week Type
 

@@ -7,7 +7,7 @@
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value                                    | Explanation |
-| :--------------------------------------- | ----------- |
+| :--------------------------------------- | :---------- |
 | `"100e33bc-6a97-4570-a2e1-36602a7faa86"` |             |
 | `"f715642a-0cb2-4963-80af-4d12ddddc58e"` |             |
 | `"319dbde8-d792-4a7a-a05f-9931c963d086"` |             |

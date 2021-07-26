@@ -2,10 +2,10 @@
 
 `object` ([Rename an Indie company](generic-properties-root-addrename-indie-company-properties-rename-an-indie-company-rename-an-indie-company.md))
 
-# Rename an Indie company Properties
+# items Properties
 
 | Property                        | Type     | Required | Nullable       | Defined by                                                                                                        |
-| :------------------------------ | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------- |
+| :------------------------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------- |
 | [name](#name)                   | `string` | Required | cannot be null | [Rename an Indie company](rename-indie-properties-name.md "rename-indie.json#/properties/name")                   |
 | [original_name](#original_name) | `string` | Required | cannot be null | [Rename an Indie company](rename-indie-properties-original_name.md "rename-indie.json#/properties/original_name") |
 
@@ -13,13 +13,15 @@
 
 New indie name
 
-
 `name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Rename an Indie company](rename-indie-properties-name.md "rename-indie.json#/properties/name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Rename an Indie company](rename-indie-properties-name.md "rename-indie.json#/properties/name")
 
 ### name Type
 
@@ -29,13 +31,15 @@ New indie name
 
 Original indie name
 
-
 `original_name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Rename an Indie company](rename-indie-properties-original_name.md "rename-indie.json#/properties/original_name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Rename an Indie company](rename-indie-properties-original_name.md "rename-indie.json#/properties/original_name")
 
 ### original_name Type
 
@@ -46,7 +50,7 @@ Original indie name
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value                         | Explanation |
-| :---------------------------- | ----------- |
+| :---------------------------- | :---------- |
 | `"ConcernedMonkey"`           |             |
 | `"Deportment Interactive"`    |             |
 | `"TellStory"`                 |             |

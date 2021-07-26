@@ -1,4 +1,48 @@
 {
+  "customplatform": {
+    "add": {
+      "items": {
+        "name": {},
+        "online": {},
+        "online_attachment_rate": {},
+        "release_date": {
+          "year": {},
+          "month": {}
+        },
+        "unlock_costs": {},
+        "making_costs": {},
+        "required_points": {},
+        "gpu": {},
+        "cpu": {},
+        "generation": {},
+        "texture": {
+          "ui:options": {
+            "accept": [
+              ".jpg",
+              ".jpeg",
+              ".png"
+            ]
+          }
+        },
+        "compatibility": {},
+        "type": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    },
+    "rename": {
+      "items": {
+        "id": {},
+        "name": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    }
+  },
   "platform": {
     "add": {
       "items": {
@@ -258,11 +302,7 @@
   },
   "translation": {
     "add": {
-      "items": {
-        "name": {},
-        "locale": {},
-        "messages": {}
-      },
+      "items": {},
       "ui:widget": "checkboxes",
       "ui:options": {
         "inline": true
@@ -297,6 +337,9 @@
         "postmortem_ratio": {},
         "perfect_employee_ratio": {},
         "admin_cost": {},
+        "engine": {
+          "feature_costs_ratio": {}
+        },
         "iap": {
           "user_spend_dollar": {}
         },
@@ -315,6 +358,7 @@
           "server_load": {}
         },
         "game_sales": {
+          "sales_threshold": {},
           "retention_ratio": {},
           "sales_ratio": {}
         },
@@ -328,6 +372,10 @@
           "aaa": {}
         },
         "platform": {
+          "max_return_rate": {},
+          "min_capacities": {},
+          "making_cost_ratio": {},
+          "quality_ratio": {},
           "negotiation": {},
           "manufacturer_loyalty": {},
           "game_score": {},
@@ -359,7 +407,9 @@
           }
         },
         "notation": {
+          "capacity_min_ratio": {},
           "capacity_ratio": {},
+          "point_to_produce_ratio": {},
           "game_combo_ratio": {},
           "max_bonus": {},
           "min_delay": {},
@@ -439,7 +489,9 @@
           "penalty_ratio": {},
           "ds_min_odds": {},
           "fanbase_price_ratio": {},
-          "engine_ratio": {}
+          "studio_spare": {},
+          "engine_ratio": {},
+          "engine_pow_factor": {}
         }
       },
       "ui:widget": "checkboxes",
@@ -473,6 +525,97 @@
       }
     }
   },
-  "digital_store": {},
-  "game_engine": {}
+  "event": {
+    "add": {
+      "items": {},
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    }
+  },
+  "digitalstore": {
+    "add": {
+      "items": {
+        "id": {},
+        "name": {},
+        "description": {},
+        "required_points": {},
+        "effects": {
+          "items": {
+            "type": {},
+            "value": {}
+          },
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        }
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    }
+  },
+  "gameengine": {
+    "add": {
+      "items": {
+        "type": {},
+        "id": {},
+        "label": {},
+        "generation": {},
+        "availability": {
+          "year": {},
+          "month": {}
+        },
+        "required_points": {},
+        "cost": {
+          "cpu": {},
+          "gpu": {}
+        },
+        "parent": {},
+        "mandatory": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    }
+  },
+  "convention": {
+    "add": {
+      "items": {
+        "id": {},
+        "name": {},
+        "date": {
+          "month": {},
+          "year": {}
+        },
+        "visitors": {},
+        "size": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        },
+        "area": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    },
+    "rename": {
+      "items": {
+        "id": {},
+        "name": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    }
+  }
 }

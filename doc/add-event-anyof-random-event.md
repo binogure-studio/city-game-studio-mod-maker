@@ -2,10 +2,10 @@
 
 unknown ([Random event](add-event-anyof-random-event.md))
 
-# Random event Properties
+# 0 Properties
 
 | Property                    | Type      | Required | Nullable       | Defined by                                                                                                                 |
-| :-------------------------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| :-------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------- |
 | [description](#description) | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-description.md "add-event.json#/anyOf/0/properties/description") |
 | [id](#id)                   | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-id.md "add-event.json#/anyOf/0/properties/id")                   |
 | [probability](#probability) | `number`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-probability.md "add-event.json#/anyOf/0/properties/probability") |
@@ -20,13 +20,15 @@ unknown ([Random event](add-event-anyof-random-event.md))
 
 Event's description (used for i18n).
 
-
 `description`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-description.md "add-event.json#/anyOf/0/properties/description")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-description.md "add-event.json#/anyOf/0/properties/description")
 
 ### description Type
 
@@ -44,13 +46,15 @@ The default value is:
 
 UUID v4 (use <https://www.uuidgenerator.net/> to generate one).
 
-
 `id`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-id.md "add-event.json#/anyOf/0/properties/id")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-id.md "add-event.json#/anyOf/0/properties/id")
 
 ### id Type
 
@@ -58,15 +62,17 @@ UUID v4 (use <https://www.uuidgenerator.net/> to generate one).
 
 ## probability
 
-Event odds.
-
+Event odds. (set 0 if you dont want the event to get triggered)
 
 `probability`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-probability.md "add-event.json#/anyOf/0/properties/probability")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-probability.md "add-event.json#/anyOf/0/properties/probability")
 
 ### probability Type
 
@@ -78,19 +84,21 @@ Event odds.
 
 **maximum**: the value of this number must smaller than or equal to: `0.009`
 
-**minimum**: the value of this number must greater than or equal to: `0.001`
+**minimum**: the value of this number must greater than or equal to: `0`
 
 ## event_color
 
 Color of the notification
 
-
 `event_color`
 
--   is optional
--   Type: `string`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-event_color.md "add-event.json#/anyOf/0/properties/event_color")
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-event_color.md "add-event.json#/anyOf/0/properties/event_color")
 
 ### event_color Type
 
@@ -101,7 +109,7 @@ Color of the notification
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value            | Explanation |
-| :--------------- | ----------- |
+| :--------------- | :---------- |
 | `"BLACK_COLOR"`  |             |
 | `"BLUE_COLOR"`   |             |
 | `"GREEN_COLOR"`  |             |
@@ -120,13 +128,15 @@ The default value is:
 
 Event type
 
-
 `type`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-type.md "add-event.json#/anyOf/0/properties/type")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-type.md "add-event.json#/anyOf/0/properties/type")
 
 ### type Type
 
@@ -137,7 +147,7 @@ Event type
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value      | Explanation |
-| :--------- | ----------- |
+| :--------- | :---------- |
 | `"random"` |             |
 
 ### type Default Value
@@ -152,13 +162,15 @@ The default value is:
 
 Event's title (used for i18n).
 
-
 `name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-name.md "add-event.json#/anyOf/0/properties/name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-name.md "add-event.json#/anyOf/0/properties/name")
 
 ### name Type
 
@@ -176,13 +188,15 @@ The default value is:
 
 If 'true' it shows the action buttons in the mail box.
 
-
 `show`
 
--   is required
--   Type: `boolean`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-show.md "add-event.json#/anyOf/0/properties/show")
+*   is required
+
+*   Type: `boolean`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-show.md "add-event.json#/anyOf/0/properties/show")
 
 ### show Type
 
@@ -200,13 +214,15 @@ true
 
 List of conditions before activating this event.
 
-
 `conditions`
 
--   is required
--   Type: an array of merged types ([Details](add-event-anyof-random-event-properties-conditions-items.md))
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-conditions.md "add-event.json#/anyOf/0/properties/conditions")
+*   is required
+
+*   Type: an array of merged types ([Details](add-event-anyof-random-event-properties-conditions-items.md))
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-conditions.md "add-event.json#/anyOf/0/properties/conditions")
 
 ### conditions Type
 
@@ -230,13 +246,15 @@ The default value is:
 
 List of available actions.
 
-
 `actions`
 
--   is required
--   Type: an array of merged types ([Details](add-event-anyof-random-event-properties-actions-items.md))
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-actions.md "add-event.json#/anyOf/0/properties/actions")
+*   is required
+
+*   Type: an array of merged types ([Details](add-event-anyof-random-event-properties-actions-items.md))
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-actions.md "add-event.json#/anyOf/0/properties/actions")
 
 ### actions Type
 

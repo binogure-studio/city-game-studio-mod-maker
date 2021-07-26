@@ -2,10 +2,10 @@
 
 `object` ([Details](add-platform-component-properties-release_date.md))
 
-# undefined Properties
+# release_date Properties
 
 | Property        | Type      | Required | Nullable       | Defined by                                                                                                                                                                |
-| :-------------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :-------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [year](#year)   | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-release_date-properties-year.md "add-platform-component.json#/properties/release_date/properties/year")   |
 | [month](#month) | `integer` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-release_date-properties-month.md "add-platform-component.json#/properties/release_date/properties/month") |
 
@@ -13,13 +13,15 @@
 
 Year.
 
-
 `year`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-release_date-properties-year.md "add-platform-component.json#/properties/release_date/properties/year")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-release_date-properties-year.md "add-platform-component.json#/properties/release_date/properties/year")
 
 ### year Type
 
@@ -43,13 +45,15 @@ The default value is:
 
 Month.
 
-
 `month`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-release_date-properties-month.md "add-platform-component.json#/properties/release_date/properties/month")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-release_date-properties-month.md "add-platform-component.json#/properties/release_date/properties/month")
 
 ### month Type
 

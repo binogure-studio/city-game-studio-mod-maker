@@ -2,10 +2,10 @@
 
 `object` ([Details](add-difficulty-properties-game_of_the_year.md))
 
-# undefined Properties
+# game_of_the_year Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                               |
-| :---------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [indie](#indie)   | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_of_the_year-properties-indie.md "add-difficulty.json#/properties/game_of_the_year/properties/indie")   |
 | [normal](#normal) | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_of_the_year-properties-normal.md "add-difficulty.json#/properties/game_of_the_year/properties/normal") |
 | [big](#big)       | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_of_the_year-properties-big.md "add-difficulty.json#/properties/game_of_the_year/properties/big")       |
@@ -15,13 +15,15 @@
 
 Indie games: Adjustement variable to select the GOTY (the higher the better).
 
-
 `indie`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-game_of_the_year-properties-indie.md "add-difficulty.json#/properties/game_of_the_year/properties/indie")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-game_of_the_year-properties-indie.md "add-difficulty.json#/properties/game_of_the_year/properties/indie")
 
 ### indie Type
 
@@ -47,13 +49,15 @@ The default value is:
 
 Normal games: Adjustement variable to select the GOTY (the higher the better).
 
-
 `normal`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-game_of_the_year-properties-normal.md "add-difficulty.json#/properties/game_of_the_year/properties/normal")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-game_of_the_year-properties-normal.md "add-difficulty.json#/properties/game_of_the_year/properties/normal")
 
 ### normal Type
 
@@ -79,13 +83,15 @@ The default value is:
 
 Big games: Adjustement variable to select the GOTY (the higher the better).
 
-
 `big`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-game_of_the_year-properties-big.md "add-difficulty.json#/properties/game_of_the_year/properties/big")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-game_of_the_year-properties-big.md "add-difficulty.json#/properties/game_of_the_year/properties/big")
 
 ### big Type
 
@@ -111,13 +117,15 @@ The default value is:
 
 AAA games: Adjustement variable to select the GOTY (the higher the better).
 
-
 `aaa`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-game_of_the_year-properties-aaa.md "add-difficulty.json#/properties/game_of_the_year/properties/aaa")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-game_of_the_year-properties-aaa.md "add-difficulty.json#/properties/game_of_the_year/properties/aaa")
 
 ### aaa Type
 

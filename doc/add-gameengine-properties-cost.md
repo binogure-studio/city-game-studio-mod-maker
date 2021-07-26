@@ -2,10 +2,10 @@
 
 `object` ([Details](add-gameengine-properties-cost.md))
 
-# undefined Properties
+# cost Properties
 
 | Property    | Type      | Required | Nullable       | Defined by                                                                                                                          |
-| :---------- | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| :---------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
 | [cpu](#cpu) | `integer` | Required | cannot be null | [Add a game engine feature](add-gameengine-properties-cost-properties-cpu.md "add-gameengine.json#/properties/cost/properties/cpu") |
 | [gpu](#gpu) | `integer` | Required | cannot be null | [Add a game engine feature](add-gameengine-properties-cost-properties-gpu.md "add-gameengine.json#/properties/cost/properties/gpu") |
 
@@ -13,13 +13,15 @@
 
 Compute costs (CPU).
 
-
 `cpu`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a game engine feature](add-gameengine-properties-cost-properties-cpu.md "add-gameengine.json#/properties/cost/properties/cpu")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a game engine feature](add-gameengine-properties-cost-properties-cpu.md "add-gameengine.json#/properties/cost/properties/cpu")
 
 ### cpu Type
 
@@ -35,13 +37,15 @@ Compute costs (CPU).
 
 Graphic compute costs (GPU).
 
-
 `gpu`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a game engine feature](add-gameengine-properties-cost-properties-gpu.md "add-gameengine.json#/properties/cost/properties/gpu")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a game engine feature](add-gameengine-properties-cost-properties-gpu.md "add-gameengine.json#/properties/cost/properties/gpu")
 
 ### gpu Type
 

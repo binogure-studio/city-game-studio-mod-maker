@@ -2,23 +2,25 @@
 
 `object` ([Details](add-difficulty-properties-contract.md))
 
-# undefined Properties
+# contract Properties
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                                   |
-| :-------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
 | [penality](#penality) | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-contract-properties-penality.md "add-difficulty.json#/properties/contract/properties/penality") |
 
 ## penality
 
 Penality ratio when you fail a contract (lower the cheaper).
 
-
 `penality`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-contract-properties-penality.md "add-difficulty.json#/properties/contract/properties/penality")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-contract-properties-penality.md "add-difficulty.json#/properties/contract/properties/penality")
 
 ### penality Type
 

@@ -2,10 +2,10 @@
 
 `object` ([Details](add-difficulty-properties-notation.md))
 
-# undefined Properties
+# notation Properties
 
 | Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                               |
-| :------------------------------------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------------------------------ | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [capacity_min_ratio](#capacity_min_ratio)         | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-capacity_min_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_min_ratio")         |
 | [capacity_ratio](#capacity_ratio)                 | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-capacity_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_ratio")                 |
 | [point_to_produce_ratio](#point_to_produce_ratio) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-point_to_produce_ratio.md "add-difficulty.json#/properties/notation/properties/point_to_produce_ratio") |
@@ -18,13 +18,15 @@
 
 Set the minimal ratio when a game doesn't produce enough capacities point.
 
-
 `capacity_min_ratio`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-capacity_min_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_min_ratio")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-capacity_min_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_min_ratio")
 
 ### capacity_min_ratio Type
 
@@ -50,13 +52,15 @@ The default value is:
 
 Adjusts the number of produced points (the higher the better).
 
-
 `capacity_ratio`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-capacity_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_ratio")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-capacity_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_ratio")
 
 ### capacity_ratio Type
 
@@ -82,13 +86,15 @@ The default value is:
 
 Ratio of the number of points to produce per game (design, development and polish).
 
-
 `point_to_produce_ratio`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-point_to_produce_ratio.md "add-difficulty.json#/properties/notation/properties/point_to_produce_ratio")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-point_to_produce_ratio.md "add-difficulty.json#/properties/notation/properties/point_to_produce_ratio")
 
 ### point_to_produce_ratio Type
 
@@ -114,13 +120,15 @@ The default value is:
 
 Malus when making the same combination twice `score * game_combo_ratio`.
 
-
 `game_combo_ratio`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-game_combo_ratio.md "add-difficulty.json#/properties/notation/properties/game_combo_ratio")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-game_combo_ratio.md "add-difficulty.json#/properties/notation/properties/game_combo_ratio")
 
 ### game_combo_ratio Type
 
@@ -146,13 +154,15 @@ The default value is:
 
 Maximum bonus applicable for a game `bonus = min(bonus, max_bonus)`.
 
-
 `max_bonus`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-max_bonus.md "add-difficulty.json#/properties/notation/properties/max_bonus")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-max_bonus.md "add-difficulty.json#/properties/notation/properties/max_bonus")
 
 ### max_bonus Type
 
@@ -178,13 +188,15 @@ The default value is:
 
 Interval in weeks before canceling the game_combo_ratio malus.
 
-
 `min_delay`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-min_delay.md "add-difficulty.json#/properties/notation/properties/min_delay")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-min_delay.md "add-difficulty.json#/properties/notation/properties/min_delay")
 
 ### min_delay Type
 
@@ -210,13 +222,15 @@ The default value is:
 
 Number of capacities point (design/development/polish) to be produced `expected_points *= capacity_delta_time`.
 
-
 `capacity_delta_time`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-capacity_delta_time.md "add-difficulty.json#/properties/notation/properties/capacity_delta_time")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-capacity_delta_time.md "add-difficulty.json#/properties/notation/properties/capacity_delta_time")
 
 ### capacity_delta_time Type
 

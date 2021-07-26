@@ -2,10 +2,10 @@
 
 `object` ([Rename a convention](generic-properties-root-add-conventions-properties-rename-a-convention-rename-a-convention.md))
 
-# Rename a convention Properties
+# items Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                            |
-| :------------ | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------- |
+| :------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------- |
 | [id](#id)     | `string` | Required | cannot be null | [Rename a convention](rename-convention-properties-id.md "rename-convention.json#/properties/id")     |
 | [name](#name) | `string` | Required | cannot be null | [Rename a convention](rename-convention-properties-name.md "rename-convention.json#/properties/name") |
 
@@ -13,13 +13,15 @@
 
 Convention's id to rename
 
-
 `id`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Rename a convention](rename-convention-properties-id.md "rename-convention.json#/properties/id")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Rename a convention](rename-convention-properties-id.md "rename-convention.json#/properties/id")
 
 ### id Type
 
@@ -30,7 +32,7 @@ Convention's id to rename
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value   | Explanation |
-| :------ | ----------- |
+| :------ | :---------- |
 | `"0"`   |             |
 | `"1"`   |             |
 | `"2"`   |             |
@@ -154,13 +156,15 @@ The default value is:
 
 Convention's name
 
-
 `name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Rename a convention](rename-convention-properties-name.md "rename-convention.json#/properties/name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Rename a convention](rename-convention-properties-name.md "rename-convention.json#/properties/name")
 
 ### name Type
 

@@ -5,7 +5,7 @@
 # Add a new theme Properties
 
 | Property                  | Type     | Required | Nullable       | Defined by                                                                                    |
-| :------------------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------- |
+| :------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------- |
 | [icon](#icon)             | `image`  | Required | cannot be null | [Add a new theme](add-theme-properties-icon.md "add-theme.json#/properties/icon")             |
 | [icon-white](#icon-white) | `image`  | Required | cannot be null | [Add a new theme](add-theme-properties-icon-white.md "add-theme.json#/properties/icon-white") |
 | [name](#name)             | `string` | Required | cannot be null | [Add a new theme](add-theme-properties-name.md "add-theme.json#/properties/name")             |
@@ -16,13 +16,15 @@
 
 Theme icon with black background (Size: 512x512, Format: PNG/JPEG)
 
-
 `icon`
 
--   is required
--   Type: `image`
--   cannot be null
--   defined in: [Add a new theme](add-theme-properties-icon.md "add-theme.json#/properties/icon")
+*   is required
+
+*   Type: `image`
+
+*   cannot be null
+
+*   defined in: [Add a new theme](add-theme-properties-icon.md "add-theme.json#/properties/icon")
 
 ### icon Type
 
@@ -32,13 +34,15 @@ Theme icon with black background (Size: 512x512, Format: PNG/JPEG)
 
 Theme icon with transparent background (Size: 512x512, Format: PNG/JPEG)
 
-
 `icon-white`
 
--   is required
--   Type: `image`
--   cannot be null
--   defined in: [Add a new theme](add-theme-properties-icon-white.md "add-theme.json#/properties/icon-white")
+*   is required
+
+*   Type: `image`
+
+*   cannot be null
+
+*   defined in: [Add a new theme](add-theme-properties-icon-white.md "add-theme.json#/properties/icon-white")
 
 ### icon-white Type
 
@@ -48,13 +52,15 @@ Theme icon with transparent background (Size: 512x512, Format: PNG/JPEG)
 
 Theme name (must be unique, used to match with new genre)
 
-
 `name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new theme](add-theme-properties-name.md "add-theme.json#/properties/name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new theme](add-theme-properties-name.md "add-theme.json#/properties/name")
 
 ### name Type
 
@@ -64,13 +70,15 @@ Theme name (must be unique, used to match with new genre)
 
 Theme label (localized, used for translations)
 
-
 `label`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new theme](add-theme-properties-label.md "add-theme.json#/properties/label")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new theme](add-theme-properties-label.md "add-theme.json#/properties/label")
 
 ### label Type
 
@@ -80,13 +88,15 @@ Theme label (localized, used for translations)
 
 Theme/genre matches
 
-
 `match`
 
--   is required
--   Type: `object` ([Add theme: Genre](add-theme-properties-add-theme-genre.md))
--   cannot be null
--   defined in: [Add a new theme](add-theme-properties-add-theme-genre.md "add-theme.json#/properties/match")
+*   is required
+
+*   Type: `object` ([Add theme: Genre](add-theme-properties-add-theme-genre.md))
+
+*   cannot be null
+
+*   defined in: [Add a new theme](add-theme-properties-add-theme-genre.md "add-theme.json#/properties/match")
 
 ### match Type
 

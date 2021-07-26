@@ -2,10 +2,10 @@
 
 `object` ([Details](add-difficulty-properties-happiness-properties-same_genre.md))
 
-# undefined Properties
+# same_genre Properties
 
 | Property                              | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                 |
-| :------------------------------------ | --------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------------------ | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [duration_in_week](#duration_in_week) | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre-properties-duration_in_week.md "add-difficulty.json#/properties/happiness/properties/same_genre/properties/duration_in_week") |
 | [per_month](#per_month)               | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre-properties-per_month.md "add-difficulty.json#/properties/happiness/properties/same_genre/properties/per_month")               |
 
@@ -13,13 +13,15 @@
 
 Number of week before an employee is bored about a genre.
 
-
 `duration_in_week`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre-properties-duration_in_week.md "add-difficulty.json#/properties/happiness/properties/same_genre/properties/duration_in_week")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre-properties-duration_in_week.md "add-difficulty.json#/properties/happiness/properties/same_genre/properties/duration_in_week")
 
 ### duration_in_week Type
 
@@ -43,13 +45,15 @@ The default value is:
 
 Once bored, this ratio will reduce its happiness by x (the higher the better).
 
-
 `per_month`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre-properties-per_month.md "add-difficulty.json#/properties/happiness/properties/same_genre/properties/per_month")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre-properties-per_month.md "add-difficulty.json#/properties/happiness/properties/same_genre/properties/per_month")
 
 ### per_month Type
 

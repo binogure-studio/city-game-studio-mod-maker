@@ -2,10 +2,10 @@
 
 `object` ([Details](add-difficulty-properties-concurrent.md))
 
-# undefined Properties
+# concurrent Properties
 
 | Property                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                             |
-| :------------------------------------------ | -------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [fanbase](#fanbase)                         | `array`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase.md "add-difficulty.json#/properties/concurrent/properties/fanbase")                         |
 | [currency](#currency)                       | `array`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-currency.md "add-difficulty.json#/properties/concurrent/properties/currency")                       |
 | [note](#note)                               | `array`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-note.md "add-difficulty.json#/properties/concurrent/properties/note")                               |
@@ -20,24 +20,28 @@
 
 ## fanbase
 
-[Range] Fans gained per game published
-
+\[Range] Fans gained per game published
 
 `fanbase`
 
--   is required
--   Type: an array where each item follows the corresponding schema in the following list:
+*   is required
+
+*   Type: an array where each item follows the corresponding schema in the following list:
 
     1.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase-items-0.md "check type definition")
+
     2.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase-items-1.md "check type definition")
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase.md "add-difficulty.json#/properties/concurrent/properties/fanbase")
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase.md "add-difficulty.json#/properties/concurrent/properties/fanbase")
 
 ### fanbase Type
 
 an array where each item follows the corresponding schema in the following list:
 
 1.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase-items-0.md "check type definition")
+
 2.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase-items-1.md "check type definition")
 
 ### fanbase Constraints
@@ -48,24 +52,28 @@ an array where each item follows the corresponding schema in the following list:
 
 ## currency
 
-[Range] Money made when a competitor makes a game.
-
+\[Range] Money made when a competitor makes a game.
 
 `currency`
 
--   is required
--   Type: an array where each item follows the corresponding schema in the following list:
+*   is required
+
+*   Type: an array where each item follows the corresponding schema in the following list:
 
     1.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-currency-items-0.md "check type definition")
+
     2.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-currency-items-1.md "check type definition")
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-currency.md "add-difficulty.json#/properties/concurrent/properties/currency")
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-currency.md "add-difficulty.json#/properties/concurrent/properties/currency")
 
 ### currency Type
 
 an array where each item follows the corresponding schema in the following list:
 
 1.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-currency-items-0.md "check type definition")
+
 2.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-currency-items-1.md "check type definition")
 
 ### currency Constraints
@@ -87,24 +95,28 @@ The default value is:
 
 ## note
 
-[Range] Games scores for trade-publishing games.
-
+\[Range] Games scores for trade-publishing games.
 
 `note`
 
--   is required
--   Type: an array where each item follows the corresponding schema in the following list:
+*   is required
+
+*   Type: an array where each item follows the corresponding schema in the following list:
 
     1.  [Untitled number in Add a difficulty](add-difficulty-properties-concurrent-properties-note-items-0.md "check type definition")
+
     2.  [Untitled number in Add a difficulty](add-difficulty-properties-concurrent-properties-note-items-1.md "check type definition")
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-note.md "add-difficulty.json#/properties/concurrent/properties/note")
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-note.md "add-difficulty.json#/properties/concurrent/properties/note")
 
 ### note Type
 
 an array where each item follows the corresponding schema in the following list:
 
 1.  [Untitled number in Add a difficulty](add-difficulty-properties-concurrent-properties-note-items-0.md "check type definition")
+
 2.  [Untitled number in Add a difficulty](add-difficulty-properties-concurrent-properties-note-items-1.md "check type definition")
 
 ### note Constraints
@@ -115,24 +127,28 @@ an array where each item follows the corresponding schema in the following list:
 
 ## penalty
 
-[Range] Penality of trade-publishing games (if you fail to meet the expectations)
-
+\[Range] Penality of trade-publishing games (if you fail to meet the expectations)
 
 `penalty`
 
--   is required
--   Type: an array where each item follows the corresponding schema in the following list:
+*   is required
+
+*   Type: an array where each item follows the corresponding schema in the following list:
 
     1.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-penalty-items-0.md "check type definition")
+
     2.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-penalty-items-1.md "check type definition")
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty.md "add-difficulty.json#/properties/concurrent/properties/penalty")
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty.md "add-difficulty.json#/properties/concurrent/properties/penalty")
 
 ### penalty Type
 
 an array where each item follows the corresponding schema in the following list:
 
 1.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-penalty-items-0.md "check type definition")
+
 2.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-penalty-items-1.md "check type definition")
 
 ### penalty Constraints
@@ -143,24 +159,28 @@ an array where each item follows the corresponding schema in the following list:
 
 ## income_ratio
 
-[Range] Used to compute the prepayment of a trade-publishing deal `prepayment = note * income_ratio`.
-
+\[Range] Used to compute the prepayment of a trade-publishing deal `prepayment = note * income_ratio`.
 
 `income_ratio`
 
--   is required
--   Type: an array where each item follows the corresponding schema in the following list:
+*   is required
+
+*   Type: an array where each item follows the corresponding schema in the following list:
 
     1.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio-items-0.md "check type definition")
+
     2.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio-items-1.md "check type definition")
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio.md "add-difficulty.json#/properties/concurrent/properties/income_ratio")
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio.md "add-difficulty.json#/properties/concurrent/properties/income_ratio")
 
 ### income_ratio Type
 
 an array where each item follows the corresponding schema in the following list:
 
 1.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio-items-0.md "check type definition")
+
 2.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio-items-1.md "check type definition")
 
 ### income_ratio Constraints
@@ -173,13 +193,15 @@ an array where each item follows the corresponding schema in the following list:
 
 Used to compute the penality ratio.
 
-
 `penalty_ratio`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty_ratio.md "add-difficulty.json#/properties/concurrent/properties/penalty_ratio")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty_ratio.md "add-difficulty.json#/properties/concurrent/properties/penalty_ratio")
 
 ### penalty_ratio Type
 
@@ -201,13 +223,15 @@ The default value is:
 
 Probability for a competitor to publisha game on your digital store.
 
-
 `ds_min_odds`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-ds_min_odds.md "add-difficulty.json#/properties/concurrent/properties/ds_min_odds")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-ds_min_odds.md "add-difficulty.json#/properties/concurrent/properties/ds_min_odds")
 
 ### ds_min_odds Type
 
@@ -231,13 +255,15 @@ The default value is:
 
 Used to compute the value of a competitor (based on its fanbase).
 
-
 `fanbase_price_ratio`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase_price_ratio.md "add-difficulty.json#/properties/concurrent/properties/fanbase_price_ratio")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase_price_ratio.md "add-difficulty.json#/properties/concurrent/properties/fanbase_price_ratio")
 
 ### fanbase_price_ratio Type
 
@@ -261,13 +287,15 @@ The default value is:
 
 Number of studio concurrent will spare for the player.
 
-
 `studio_spare`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-studio_spare.md "add-difficulty.json#/properties/concurrent/properties/studio_spare")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-studio_spare.md "add-difficulty.json#/properties/concurrent/properties/studio_spare")
 
 ### studio_spare Type
 
@@ -289,13 +317,15 @@ The default value is:
 
 Used to compute the value of a competitor (based on its engine).
 
-
 `engine_ratio`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_ratio.md "add-difficulty.json#/properties/concurrent/properties/engine_ratio")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_ratio.md "add-difficulty.json#/properties/concurrent/properties/engine_ratio")
 
 ### engine_ratio Type
 
@@ -319,13 +349,15 @@ The default value is:
 
 Used to adjust the revenu of an engine (higher ratio = lower revenue).
 
-
 `engine_pow_factor`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_pow_factor.md "add-difficulty.json#/properties/concurrent/properties/engine_pow_factor")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_pow_factor.md "add-difficulty.json#/properties/concurrent/properties/engine_pow_factor")
 
 ### engine_pow_factor Type
 

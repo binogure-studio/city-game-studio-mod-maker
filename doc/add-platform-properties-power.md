@@ -2,10 +2,10 @@
 
 `object` ([Details](add-platform-properties-power.md))
 
-# undefined Properties
+# power Properties
 
 | Property    | Type      | Required | Nullable       | Defined by                                                                                                                 |
-| :---------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| :---------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------- |
 | [cpu](#cpu) | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-power-properties-cpu.md "add-platform.json#/properties/power/properties/cpu") |
 | [gpu](#gpu) | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-power-properties-gpu.md "add-platform.json#/properties/power/properties/gpu") |
 
@@ -13,13 +13,15 @@
 
 Platform's CPU power
 
-
 `cpu`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-power-properties-cpu.md "add-platform.json#/properties/power/properties/cpu")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-power-properties-cpu.md "add-platform.json#/properties/power/properties/cpu")
 
 ### cpu Type
 
@@ -43,13 +45,15 @@ The default value is:
 
 Platform's GPU power
 
-
 `gpu`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-power-properties-gpu.md "add-platform.json#/properties/power/properties/gpu")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-power-properties-gpu.md "add-platform.json#/properties/power/properties/gpu")
 
 ### gpu Type
 

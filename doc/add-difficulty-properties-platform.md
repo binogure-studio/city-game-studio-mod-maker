@@ -2,10 +2,10 @@
 
 `object` ([Details](add-difficulty-properties-platform.md))
 
-# undefined Properties
+# platform Properties
 
 | Property                                      | Type      | Required | Nullable       | Defined by                                                                                                                                                           |
-| :-------------------------------------------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [max_return_rate](#max_return_rate)           | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-max_return_rate.md "add-difficulty.json#/properties/platform/properties/max_return_rate")           |
 | [min_capacities](#min_capacities)             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-min_capacities.md "add-difficulty.json#/properties/platform/properties/min_capacities")             |
 | [making_cost_ratio](#making_cost_ratio)       | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-making_cost_ratio.md "add-difficulty.json#/properties/platform/properties/making_cost_ratio")       |
@@ -19,13 +19,15 @@
 
 Units return rate for a custom-platformustomplatform.
 
-
 `max_return_rate`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-max_return_rate.md "add-difficulty.json#/properties/platform/properties/max_return_rate")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-max_return_rate.md "add-difficulty.json#/properties/platform/properties/max_return_rate")
 
 ### max_return_rate Type
 
@@ -51,13 +53,15 @@ The default value is:
 
 Min value of the paltform's capacities. ( platform capacities / generation expectation )
 
-
 `min_capacities`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-min_capacities.md "add-difficulty.json#/properties/platform/properties/min_capacities")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-min_capacities.md "add-difficulty.json#/properties/platform/properties/min_capacities")
 
 ### min_capacities Type
 
@@ -83,13 +87,15 @@ The default value is:
 
 Custom platform manufacturing costs ratio.
 
-
 `making_cost_ratio`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-making_cost_ratio.md "add-difficulty.json#/properties/platform/properties/making_cost_ratio")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-making_cost_ratio.md "add-difficulty.json#/properties/platform/properties/making_cost_ratio")
 
 ### making_cost_ratio Type
 
@@ -113,13 +119,15 @@ The default value is:
 
 Custom platform refund rate ratio (based on console quality).
 
-
 `quality_ratio`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-quality_ratio.md "add-difficulty.json#/properties/platform/properties/quality_ratio")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-quality_ratio.md "add-difficulty.json#/properties/platform/properties/quality_ratio")
 
 ### quality_ratio Type
 
@@ -145,13 +153,15 @@ The default value is:
 
 Licence costs while negotiating with a manufacturer (lower th cheaper).
 
-
 `negotiation`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-negotiation.md "add-difficulty.json#/properties/platform/properties/negotiation")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-negotiation.md "add-difficulty.json#/properties/platform/properties/negotiation")
 
 ### negotiation Type
 
@@ -175,13 +185,15 @@ The default value is:
 
 Loyalty ratio when you publish a game on another platform or you refuse a manufacturer proposal.
 
-
 `manufacturer_loyalty`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-manufacturer_loyalty.md "add-difficulty.json#/properties/platform/properties/manufacturer_loyalty")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-manufacturer_loyalty.md "add-difficulty.json#/properties/platform/properties/manufacturer_loyalty")
 
 ### manufacturer_loyalty Type
 
@@ -205,13 +217,15 @@ The default value is:
 
 Minimum score to get an offer from a manufacturer.
 
-
 `game_score`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-game_score.md "add-difficulty.json#/properties/platform/properties/game_score")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-game_score.md "add-difficulty.json#/properties/platform/properties/game_score")
 
 ### game_score Type
 
@@ -237,13 +251,15 @@ The default value is:
 
 Default loyalty of a manufacturer.
 
-
 `loyalty`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-loyalty.md "add-difficulty.json#/properties/platform/properties/loyalty")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-loyalty.md "add-difficulty.json#/properties/platform/properties/loyalty")
 
 ### loyalty Type
 

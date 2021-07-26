@@ -2,10 +2,10 @@
 
 `object` ([Add platform - lifecycle: Ending date](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-ending-date.md))
 
-# Add platform - lifecycle: Ending date Properties
+# end Properties
 
 | Property        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                        |
-| :-------------- | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [year](#year)   | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-ending-date-properties-year.md "add-platform.json#/properties/duration/properties/end/properties/year")   |
 | [month](#month) | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-ending-date-properties-month.md "add-platform.json#/properties/duration/properties/end/properties/month") |
 
@@ -13,13 +13,15 @@
 
 Year
 
-
 `year`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-ending-date-properties-year.md "add-platform.json#/properties/duration/properties/end/properties/year")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-ending-date-properties-year.md "add-platform.json#/properties/duration/properties/end/properties/year")
 
 ### year Type
 
@@ -43,13 +45,15 @@ The default value is:
 
 Month
 
-
 `month`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-ending-date-properties-month.md "add-platform.json#/properties/duration/properties/end/properties/month")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-ending-date-properties-month.md "add-platform.json#/properties/duration/properties/end/properties/month")
 
 ### month Type
 

@@ -2,23 +2,25 @@
 
 `object` ([Details](add-difficulty-properties-iap.md))
 
-# undefined Properties
+# iap Properties
 
 | Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                           |
-| :-------------------------------------- | -------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [user_spend_dollar](#user_spend_dollar) | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-iap-properties-user_spend_dollar.md "add-difficulty.json#/properties/iap/properties/user_spend_dollar") |
 
 ## user_spend_dollar
 
 How much a user spend on InApp purchase.
 
-
 `user_spend_dollar`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-iap-properties-user_spend_dollar.md "add-difficulty.json#/properties/iap/properties/user_spend_dollar")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-iap-properties-user_spend_dollar.md "add-difficulty.json#/properties/iap/properties/user_spend_dollar")
 
 ### user_spend_dollar Type
 

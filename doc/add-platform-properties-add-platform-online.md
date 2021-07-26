@@ -2,10 +2,10 @@
 
 `object` ([Add platform: Online](add-platform-properties-add-platform-online.md))
 
-# Add platform: Online Properties
+# online Properties
 
 | Property                  | Type      | Required | Nullable       | Defined by                                                                                                                                              |
-| :------------------------ | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [compatible](#compatible) | `boolean` | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-online-properties-compatible.md "add-platform.json#/properties/online/properties/compatible") |
 | [sell_ratio](#sell_ratio) | `number`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-online-properties-sell_ratio.md "add-platform.json#/properties/online/properties/sell_ratio") |
 
@@ -13,13 +13,15 @@
 
 True if the platform is online, false otherwise
 
-
 `compatible`
 
--   is required
--   Type: `boolean`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-online-properties-compatible.md "add-platform.json#/properties/online/properties/compatible")
+*   is required
+
+*   Type: `boolean`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-online-properties-compatible.md "add-platform.json#/properties/online/properties/compatible")
 
 ### compatible Type
 
@@ -29,13 +31,15 @@ True if the platform is online, false otherwise
 
 Sell ratio of the platform (never above 1)
 
-
 `sell_ratio`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-online-properties-sell_ratio.md "add-platform.json#/properties/online/properties/sell_ratio")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-online-properties-sell_ratio.md "add-platform.json#/properties/online/properties/sell_ratio")
 
 ### sell_ratio Type
 

@@ -5,7 +5,7 @@
 # Add a new platorm component Properties
 
 | Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                  |
-| :------------------------------------------------ | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------------------------------ | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [name](#name)                                     | `string`  | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-name.md "add-platform-component.json#/properties/name")                                     |
 | [online](#online)                                 | `boolean` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-online.md "add-platform-component.json#/properties/online")                                 |
 | [online_attachment_rate](#online_attachment_rate) | `number`  | Optional | cannot be null | [Add a new platorm component](add-platform-component-properties-online_attachment_rate.md "add-platform-component.json#/properties/online_attachment_rate") |
@@ -24,13 +24,15 @@
 
 Component's name.
 
-
 `name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-name.md "add-platform-component.json#/properties/name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-name.md "add-platform-component.json#/properties/name")
 
 ### name Type
 
@@ -40,13 +42,15 @@ Component's name.
 
 Used only by CPU component. True when it is online compatible false otherwise.
 
-
 `online`
 
--   is required
--   Type: `boolean`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-online.md "add-platform-component.json#/properties/online")
+*   is required
+
+*   Type: `boolean`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-online.md "add-platform-component.json#/properties/online")
 
 ### online Type
 
@@ -56,13 +60,15 @@ Used only by CPU component. True when it is online compatible false otherwise.
 
 Mandatory only when CPU component is selected. Ratio of users who are willing to play online using this CPU.
 
-
 `online_attachment_rate`
 
--   is optional
--   Type: `number`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-online_attachment_rate.md "add-platform-component.json#/properties/online_attachment_rate")
+*   is optional
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-online_attachment_rate.md "add-platform-component.json#/properties/online_attachment_rate")
 
 ### online_attachment_rate Type
 
@@ -88,13 +94,15 @@ The default value is:
 
 Release date of the component.
 
-
 `release_date`
 
--   is required
--   Type: `object` ([Details](add-platform-component-properties-release_date.md))
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-release_date.md "add-platform-component.json#/properties/release_date")
+*   is required
+
+*   Type: `object` ([Details](add-platform-component-properties-release_date.md))
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-release_date.md "add-platform-component.json#/properties/release_date")
 
 ### release_date Type
 
@@ -104,13 +112,15 @@ Release date of the component.
 
 Unlocking costs of the component ($).
 
-
 `unlock_costs`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-unlock_costs.md "add-platform-component.json#/properties/unlock_costs")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-unlock_costs.md "add-platform-component.json#/properties/unlock_costs")
 
 ### unlock_costs Type
 
@@ -134,13 +144,15 @@ The default value is:
 
 Manufacturing costs of the component ($).
 
-
 `making_costs`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-making_costs.md "add-platform-component.json#/properties/making_costs")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-making_costs.md "add-platform-component.json#/properties/making_costs")
 
 ### making_costs Type
 
@@ -164,13 +176,15 @@ The default value is:
 
 Required points to implment the API of the component.
 
-
 `required_points`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-required_points.md "add-platform-component.json#/properties/required_points")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-required_points.md "add-platform-component.json#/properties/required_points")
 
 ### required_points Type
 
@@ -194,13 +208,15 @@ The default value is:
 
 GPU capacity of the component.
 
-
 `gpu`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-gpu.md "add-platform-component.json#/properties/gpu")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-gpu.md "add-platform-component.json#/properties/gpu")
 
 ### gpu Type
 
@@ -224,13 +240,15 @@ The default value is:
 
 CPU capacity of the component.
 
-
 `cpu`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-cpu.md "add-platform-component.json#/properties/cpu")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-cpu.md "add-platform-component.json#/properties/cpu")
 
 ### cpu Type
 
@@ -254,13 +272,15 @@ The default value is:
 
 Component generation (not used).
 
-
 `generation`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-generation.md "add-platform-component.json#/properties/generation")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-generation.md "add-platform-component.json#/properties/generation")
 
 ### generation Type
 
@@ -276,13 +296,15 @@ Component generation (not used).
 
 Component's texture (Size: 256x256, Format: PNG/JPG)
 
-
 `texture`
 
--   is required
--   Type: `image`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-texture.md "add-platform-component.json#/properties/texture")
+*   is required
+
+*   Type: `image`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-texture.md "add-platform-component.json#/properties/texture")
 
 ### texture Type
 
@@ -292,13 +314,15 @@ Component's texture (Size: 256x256, Format: PNG/JPG)
 
 Component's compatibility
 
-
 `compatibility`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-compatibility.md "add-platform-component.json#/properties/compatibility")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-compatibility.md "add-platform-component.json#/properties/compatibility")
 
 ### compatibility Type
 
@@ -309,7 +333,7 @@ Component's compatibility
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value | Explanation |
-| :---- | ----------- |
+| :---- | :---------- |
 | `0`   |             |
 | `1`   |             |
 | `2`   |             |
@@ -318,13 +342,15 @@ Component's compatibility
 
 Component's type (Handled only: screen, Home only: cartridge).
 
-
 `type`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a new platorm component](add-platform-component-properties-type.md "add-platform-component.json#/properties/type")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-type.md "add-platform-component.json#/properties/type")
 
 ### type Type
 
@@ -335,7 +361,7 @@ Component's type (Handled only: screen, Home only: cartridge).
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value | Explanation |
-| :---- | ----------- |
+| :---- | :---------- |
 | `0`   |             |
 | `1`   |             |
 | `2`   |             |

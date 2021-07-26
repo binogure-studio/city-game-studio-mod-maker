@@ -5,7 +5,7 @@
 # Add a game engine feature Properties
 
 | Property                            | Type      | Required | Nullable       | Defined by                                                                                                                  |
-| :---------------------------------- | --------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| :---------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------- |
 | [type](#type)                       | `string`  | Required | cannot be null | [Add a game engine feature](add-gameengine-properties-type.md "add-gameengine.json#/properties/type")                       |
 | [id](#id)                           | `string`  | Required | cannot be null | [Add a game engine feature](add-gameengine-properties-id.md "add-gameengine.json#/properties/id")                           |
 | [label](#label)                     | `string`  | Required | cannot be null | [Add a game engine feature](add-gameengine-properties-label.md "add-gameengine.json#/properties/label")                     |
@@ -20,13 +20,15 @@
 
 Feature type (design, development or polish)
 
-
 `type`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a game engine feature](add-gameengine-properties-type.md "add-gameengine.json#/properties/type")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a game engine feature](add-gameengine-properties-type.md "add-gameengine.json#/properties/type")
 
 ### type Type
 
@@ -37,7 +39,7 @@ Feature type (design, development or polish)
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value           | Explanation |
-| :-------------- | ----------- |
+| :-------------- | :---------- |
 | `"design"`      |             |
 | `"development"` |             |
 | `"polish"`      |             |
@@ -54,13 +56,15 @@ The default value is:
 
 UUID v4 (use <https://www.uuidgenerator.net/> to generate one).
 
-
 `id`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a game engine feature](add-gameengine-properties-id.md "add-gameengine.json#/properties/id")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a game engine feature](add-gameengine-properties-id.md "add-gameengine.json#/properties/id")
 
 ### id Type
 
@@ -70,13 +74,15 @@ UUID v4 (use <https://www.uuidgenerator.net/> to generate one).
 
 Engine name (used for i18n).
 
-
 `label`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a game engine feature](add-gameengine-properties-label.md "add-gameengine.json#/properties/label")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a game engine feature](add-gameengine-properties-label.md "add-gameengine.json#/properties/label")
 
 ### label Type
 
@@ -94,13 +100,15 @@ The default value is:
 
 Features generation (has to matches with consoles generation minus 3)
 
-
 `generation`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a game engine feature](add-gameengine-properties-generation.md "add-gameengine.json#/properties/generation")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a game engine feature](add-gameengine-properties-generation.md "add-gameengine.json#/properties/generation")
 
 ### generation Type
 
@@ -124,13 +132,15 @@ The default value is:
 
 Date where the feature is available.
 
-
 `availability`
 
--   is required
--   Type: `object` ([Details](add-gameengine-properties-availability.md))
--   cannot be null
--   defined in: [Add a game engine feature](add-gameengine-properties-availability.md "add-gameengine.json#/properties/availability")
+*   is required
+
+*   Type: `object` ([Details](add-gameengine-properties-availability.md))
+
+*   cannot be null
+
+*   defined in: [Add a game engine feature](add-gameengine-properties-availability.md "add-gameengine.json#/properties/availability")
 
 ### availability Type
 
@@ -140,13 +150,15 @@ Date where the feature is available.
 
 Number of required point to develop the feature.
 
-
 `required_points`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a game engine feature](add-gameengine-properties-required_points.md "add-gameengine.json#/properties/required_points")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a game engine feature](add-gameengine-properties-required_points.md "add-gameengine.json#/properties/required_points")
 
 ### required_points Type
 
@@ -170,13 +182,15 @@ The default value is:
 
 Costs of the feature.
 
-
 `cost`
 
--   is required
--   Type: `object` ([Details](add-gameengine-properties-cost.md))
--   cannot be null
--   defined in: [Add a game engine feature](add-gameengine-properties-cost.md "add-gameengine.json#/properties/cost")
+*   is required
+
+*   Type: `object` ([Details](add-gameengine-properties-cost.md))
+
+*   cannot be null
+
+*   defined in: [Add a game engine feature](add-gameengine-properties-cost.md "add-gameengine.json#/properties/cost")
 
 ### cost Type
 
@@ -184,50 +198,9 @@ Costs of the feature.
 
 ## parent
 
-ID of the parent feature, if there is no parent feature, leave it empty.==========
-Design features
-'2D graphics Monochrome': '9c7c16b0-16d2-11ea-8d71-362b9e155667'
-'2D graphics 8Bits colors': '9c7c191c-16d2-11ea-8d71-362b9e155667'
-'2D graphics 16Bits colors': '9c7c1e12-16d2-11ea-8d71-362b9e155667'
-'2D graphics 24Bits colors': '9c7c1f48-16d2-11ea-8d71-362b9e155667'
-'2D graphics 32Bits colors': '9c7c207e-16d2-11ea-8d71-362b9e155667'
-'3D graphics Monochrome color': '9c7c21aa-16d2-11ea-8d71-362b9e155667'
-'3D graphics 8Bits colors': '9c7c22cc-16d2-11ea-8d71-362b9e155667'
-'3D graphics 16Bits colors': '9c7c2402-16d2-11ea-8d71-362b9e155667'
-'3D graphics 24Bits colors': '9c7c26c8-16d2-11ea-8d71-362b9e155667'
-'3D graphics 32Bits colors': '9c7c2934-16d2-11ea-8d71-362b9e155667'
-'VR graphics': '9c7c2a56-16d2-11ea-8d71-362b9e155667'
-'Voxel graphics': '9c7c2b82-16d2-11ea-8d71-362b9e155667'
-'Basic dialog': '9c7c2ca4-16d2-11ea-8d71-362b9e155667'
-'Interactive dialog': '9c7c30b4-16d2-11ea-8d71-362b9e155667'
-'AI generated dialog': '9c7c3208-16d2-11ea-8d71-362b9e155667'
-'Joystick support': '9c7c3460-16d2-11ea-8d71-362b9e155667'
-'Gamepad support': '9c7c35be-16d2-11ea-8d71-362b9e155667'
-'Mouse support': '9c7c36ea-16d2-11ea-8d71-362b9e155667'
-'Prebuilt characters': '9c7c3816-16d2-11ea-8d71-362b9e155667'
-'Customizable characters': '9c7c3c44-16d2-11ea-8d71-362b9e155667'
-'Difficulty': '9c7c3dca-16d2-11ea-8d71-362b9e155667'
+# ID of the parent feature, if there is no parent feature, leave it empty.==========&#xA;Design features&#xA;'2D graphics Monochrome': '9c7c16b0-16d2-11ea-8d71-362b9e155667'&#xA;'2D graphics 8Bits colors': '9c7c191c-16d2-11ea-8d71-362b9e155667'&#xA;'2D graphics 16Bits colors': '9c7c1e12-16d2-11ea-8d71-362b9e155667'&#xA;'2D graphics 24Bits colors': '9c7c1f48-16d2-11ea-8d71-362b9e155667'&#xA;'2D graphics 32Bits colors': '9c7c207e-16d2-11ea-8d71-362b9e155667'&#xA;'3D graphics Monochrome color': '9c7c21aa-16d2-11ea-8d71-362b9e155667'&#xA;'3D graphics 8Bits colors': '9c7c22cc-16d2-11ea-8d71-362b9e155667'&#xA;'3D graphics 16Bits colors': '9c7c2402-16d2-11ea-8d71-362b9e155667'&#xA;'3D graphics 24Bits colors': '9c7c26c8-16d2-11ea-8d71-362b9e155667'&#xA;'3D graphics 32Bits colors': '9c7c2934-16d2-11ea-8d71-362b9e155667'&#xA;'VR graphics': '9c7c2a56-16d2-11ea-8d71-362b9e155667'&#xA;'Voxel graphics': '9c7c2b82-16d2-11ea-8d71-362b9e155667'&#xA;'Basic dialog': '9c7c2ca4-16d2-11ea-8d71-362b9e155667'&#xA;'Interactive dialog': '9c7c30b4-16d2-11ea-8d71-362b9e155667'&#xA;'AI generated dialog': '9c7c3208-16d2-11ea-8d71-362b9e155667'&#xA;'Joystick support': '9c7c3460-16d2-11ea-8d71-362b9e155667'&#xA;'Gamepad support': '9c7c35be-16d2-11ea-8d71-362b9e155667'&#xA;'Mouse support': '9c7c36ea-16d2-11ea-8d71-362b9e155667'&#xA;'Prebuilt characters': '9c7c3816-16d2-11ea-8d71-362b9e155667'&#xA;'Customizable characters': '9c7c3c44-16d2-11ea-8d71-362b9e155667'&#xA;'Difficulty': '9c7c3dca-16d2-11ea-8d71-362b9e155667'&#xA;'Dynamic difficulty': '9c7c3f0a-16d2-11ea-8d71-362b9e155667'
 
-# 'Dynamic difficulty': '9c7c3f0a-16d2-11ea-8d71-362b9e155667'
-
-Development features
-'Map editor': '9c7c4036-16d2-11ea-8d71-362b9e155667'
-'Mod support': '9c7c4158-16d2-11ea-8d71-362b9e155667'
-'Mono sound': '9c7c4284-16d2-11ea-8d71-362b9e155667'
-'Midi sound': '9c7c4586-16d2-11ea-8d71-362b9e155667'
-'Stereo sound': '9c7c46d0-16d2-11ea-8d71-362b9e155667'
-'Surround sound': '9c7c4806-16d2-11ea-8d71-362b9e155667'
-'Basic music': '9c7c493c-16d2-11ea-8d71-362b9e155667'
-'Orchestral music': '9c7c4a72-16d2-11ea-8d71-362b9e155667'
-'Interactive music': '9c7c4b9e-16d2-11ea-8d71-362b9e155667'
-'Password based saves': '9c7c4e64-16d2-11ea-8d71-362b9e155667'
-'Basic saves': '9c7c4fc2-16d2-11ea-8d71-362b9e155667'
-'Cloud saves': '9c7c50f8-16d2-11ea-8d71-362b9e155667'
-'Basic physics': '9c7c521a-16d2-11ea-8d71-362b9e155667'
-'Advanced physics': '9c7c5346-16d2-11ea-8d71-362b9e155667'
-'Realistic physics': '9c7c54f4-16d2-11ea-8d71-362b9e155667'
-
-# 'Dedicated server': '9c7c57e2-16d2-11ea-8d71-362b9e155667'
+# Development features&#xA;'Map editor': '9c7c4036-16d2-11ea-8d71-362b9e155667'&#xA;'Mod support': '9c7c4158-16d2-11ea-8d71-362b9e155667'&#xA;'Mono sound': '9c7c4284-16d2-11ea-8d71-362b9e155667'&#xA;'Midi sound': '9c7c4586-16d2-11ea-8d71-362b9e155667'&#xA;'Stereo sound': '9c7c46d0-16d2-11ea-8d71-362b9e155667'&#xA;'Surround sound': '9c7c4806-16d2-11ea-8d71-362b9e155667'&#xA;'Basic music': '9c7c493c-16d2-11ea-8d71-362b9e155667'&#xA;'Orchestral music': '9c7c4a72-16d2-11ea-8d71-362b9e155667'&#xA;'Interactive music': '9c7c4b9e-16d2-11ea-8d71-362b9e155667'&#xA;'Password based saves': '9c7c4e64-16d2-11ea-8d71-362b9e155667'&#xA;'Basic saves': '9c7c4fc2-16d2-11ea-8d71-362b9e155667'&#xA;'Cloud saves': '9c7c50f8-16d2-11ea-8d71-362b9e155667'&#xA;'Basic physics': '9c7c521a-16d2-11ea-8d71-362b9e155667'&#xA;'Advanced physics': '9c7c5346-16d2-11ea-8d71-362b9e155667'&#xA;'Realistic physics': '9c7c54f4-16d2-11ea-8d71-362b9e155667'&#xA;'Dedicated server': '9c7c57e2-16d2-11ea-8d71-362b9e155667'
 
 Polish features
 'Social network integration': '9c7c594a-16d2-11ea-8d71-362b9e155667'
@@ -246,13 +219,15 @@ Polish features
 'Ad module': '9c7c7756-43f2-4195-a10d-1e05c4a7a3bd'
 'Microtransactions module': '9c7c8a28-b1ee-45e2-90d9-0c2e8da05489'
 
-
 `parent`
 
--   is optional
--   Type: `string`
--   cannot be null
--   defined in: [Add a game engine feature](add-gameengine-properties-parent.md "add-gameengine.json#/properties/parent")
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a game engine feature](add-gameengine-properties-parent.md "add-gameengine.json#/properties/parent")
 
 ### parent Type
 
@@ -476,13 +451,15 @@ Polish features
 
 'true' when the feature has to be implemented, 'false' otherwise.
 
-
 `mandatory`
 
--   is required
--   Type: `boolean`
--   cannot be null
--   defined in: [Add a game engine feature](add-gameengine-properties-mandatory.md "add-gameengine.json#/properties/mandatory")
+*   is required
+
+*   Type: `boolean`
+
+*   cannot be null
+
+*   defined in: [Add a game engine feature](add-gameengine-properties-mandatory.md "add-gameengine.json#/properties/mandatory")
 
 ### mandatory Type
 

@@ -5,7 +5,7 @@
 # Add a new map size Properties
 
 | Property                                | Type      | Required | Nullable       | Defined by                                                                                                         |
-| :-------------------------------------- | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------- |
+| :-------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------- |
 | [label](#label)                         | `string`  | Required | cannot be null | [Add a new map size](add-mapsize-properties-label.md "add-mapsize.json#/properties/label")                         |
 | [size](#size)                           | `integer` | Required | cannot be null | [Add a new map size](add-mapsize-properties-size.md "add-mapsize.json#/properties/size")                           |
 | [concurrent_amount](#concurrent_amount) | `integer` | Required | cannot be null | [Add a new map size](add-mapsize-properties-concurrent_amount.md "add-mapsize.json#/properties/concurrent_amount") |
@@ -14,13 +14,15 @@
 
 Used for localization.
 
-
 `label`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new map size](add-mapsize-properties-label.md "add-mapsize.json#/properties/label")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new map size](add-mapsize-properties-label.md "add-mapsize.json#/properties/label")
 
 ### label Type
 
@@ -38,13 +40,15 @@ The default value is:
 
 Actual map size (above 200 = laggy).
 
-
 `size`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new map size](add-mapsize-properties-size.md "add-mapsize.json#/properties/size")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new map size](add-mapsize-properties-size.md "add-mapsize.json#/properties/size")
 
 ### size Type
 
@@ -68,13 +72,15 @@ The default value is:
 
 Number of competitor on the map.
 
-
 `concurrent_amount`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new map size](add-mapsize-properties-concurrent_amount.md "add-mapsize.json#/properties/concurrent_amount")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new map size](add-mapsize-properties-concurrent_amount.md "add-mapsize.json#/properties/concurrent_amount")
 
 ### concurrent_amount Type
 

@@ -5,7 +5,7 @@
 # Add a Concurrent Properties
 
 | Property                | Type     | Required | Nullable       | Defined by                                                                                                           |
-| :---------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------- |
+| :---------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------- |
 | [id](#id)               | `string` | Required | cannot be null | [Add a Concurrent](add-concurrent-properties-id.md "add-concurrent.json#/properties/id")                             |
 | [name](#name)           | `string` | Required | cannot be null | [Add a Concurrent](add-concurrent-properties-name.md "add-concurrent.json#/properties/name")                         |
 | [logo](#logo)           | `image`  | Required | cannot be null | [Add a Concurrent](add-concurrent-properties-logo.md "add-concurrent.json#/properties/logo")                         |
@@ -16,13 +16,15 @@
 
 UUID v4 (use <https://www.uuidgenerator.net/> to generate one)
 
-
 `id`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a Concurrent](add-concurrent-properties-id.md "add-concurrent.json#/properties/id")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a Concurrent](add-concurrent-properties-id.md "add-concurrent.json#/properties/id")
 
 ### id Type
 
@@ -32,13 +34,15 @@ UUID v4 (use <https://www.uuidgenerator.net/> to generate one)
 
 Concurrent's name (Ubisoft, Bethesda...)
 
-
 `name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a Concurrent](add-concurrent-properties-name.md "add-concurrent.json#/properties/name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a Concurrent](add-concurrent-properties-name.md "add-concurrent.json#/properties/name")
 
 ### name Type
 
@@ -48,13 +52,15 @@ Concurrent's name (Ubisoft, Bethesda...)
 
 Concurrent logo's (Size: 128x128, Format: PNG/JPEG)
 
-
 `logo`
 
--   is required
--   Type: `image`
--   cannot be null
--   defined in: [Add a Concurrent](add-concurrent-properties-logo.md "add-concurrent.json#/properties/logo")
+*   is required
+
+*   Type: `image`
+
+*   cannot be null
+
+*   defined in: [Add a Concurrent](add-concurrent-properties-logo.md "add-concurrent.json#/properties/logo")
 
 ### logo Type
 
@@ -64,13 +70,15 @@ Concurrent logo's (Size: 128x128, Format: PNG/JPEG)
 
 Concurrent specialty (action, aventure, casual, reflexion, strategy, simulation, rpg)
 
-
 `specialty`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a Concurrent](add-concurrent-properties-specialty.md "add-concurrent.json#/properties/specialty")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a Concurrent](add-concurrent-properties-specialty.md "add-concurrent.json#/properties/specialty")
 
 ### specialty Type
 
@@ -81,7 +89,7 @@ Concurrent specialty (action, aventure, casual, reflexion, strategy, simulation,
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value          | Explanation |
-| :------------- | ----------- |
+| :------------- | :---------- |
 | `"action"`     |             |
 | `"aventure"`   |             |
 | `"casual"`     |             |
@@ -96,7 +104,7 @@ Concurrent specialty (action, aventure, casual, reflexion, strategy, simulation,
 (action|aventure|casual|reflexion|strategy|simulation|rpg)
 ```
 
-[try pattern](https://regexr.com/?expression=(action%7Caventure%7Ccasual%7Creflexion%7Cstrategy%7Csimulation%7Crpg) "try regular expression with regexr.com")
+[try pattern](https://regexr.com/?expression=\(action%7Caventure%7Ccasual%7Creflexion%7Cstrategy%7Csimulation%7Crpg\) "try regular expression with regexr.com")
 
 ### specialty Default Value
 
@@ -110,13 +118,15 @@ The default value is:
 
 
 
-
 `engine`
 
--   is required
--   Type: `object` ([Add Competitor: Game engine](add-concurrent-properties-add-competitor-game-engine.md))
--   cannot be null
--   defined in: [Add a Concurrent](add-concurrent-properties-add-competitor-game-engine.md "add-concurrent.json#/properties/engine")
+*   is required
+
+*   Type: `object` ([Add Competitor: Game engine](add-concurrent-properties-add-competitor-game-engine.md))
+
+*   cannot be null
+
+*   defined in: [Add a Concurrent](add-concurrent-properties-add-competitor-game-engine.md "add-concurrent.json#/properties/engine")
 
 ### engine Type
 

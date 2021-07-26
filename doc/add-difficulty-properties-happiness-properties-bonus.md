@@ -2,10 +2,10 @@
 
 `object` ([Details](add-difficulty-properties-happiness-properties-bonus.md))
 
-# undefined Properties
+# bonus Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                                                   |
-| :---------------- | -------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [amount](#amount) | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-bonus-properties-amount.md "add-difficulty.json#/properties/happiness/properties/bonus/properties/amount") |
 | [ratios](#ratios) | `array`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-bonus-properties-ratios.md "add-difficulty.json#/properties/happiness/properties/bonus/properties/ratios") |
 
@@ -13,13 +13,15 @@
 
 Percentage of its salary to give as a bonus.
 
-
 `amount`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-bonus-properties-amount.md "add-difficulty.json#/properties/happiness/properties/bonus/properties/amount")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-bonus-properties-amount.md "add-difficulty.json#/properties/happiness/properties/bonus/properties/amount")
 
 ### amount Type
 
@@ -45,22 +47,26 @@ The default value is:
 
 Amount of happiness restored by the bonus
 
-
 `ratios`
 
--   is required
--   Type: an array where each item follows the corresponding schema in the following list:
+*   is required
+
+*   Type: an array where each item follows the corresponding schema in the following list:
 
     1.  [Untitled integer in Add a difficulty](add-difficulty-properties-happiness-properties-bonus-properties-ratios-items-0.md "check type definition")
+
     2.  [Untitled integer in Add a difficulty](add-difficulty-properties-happiness-properties-bonus-properties-ratios-items-1.md "check type definition")
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-bonus-properties-ratios.md "add-difficulty.json#/properties/happiness/properties/bonus/properties/ratios")
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-bonus-properties-ratios.md "add-difficulty.json#/properties/happiness/properties/bonus/properties/ratios")
 
 ### ratios Type
 
 an array where each item follows the corresponding schema in the following list:
 
 1.  [Untitled integer in Add a difficulty](add-difficulty-properties-happiness-properties-bonus-properties-ratios-items-0.md "check type definition")
+
 2.  [Untitled integer in Add a difficulty](add-difficulty-properties-happiness-properties-bonus-properties-ratios-items-1.md "check type definition")
 
 ### ratios Constraints

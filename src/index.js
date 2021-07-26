@@ -47,7 +47,7 @@ export default class App extends Component {
 
               return acc
             }, {})
-          } else if (_ui_schema[key]['ui:options'] != null) {
+          } else if (_ui_schema[key]['ui:options'] != null && _ui_schema[key]['ui:options'].accept != null) {
             // It is a file
             let file_data = _data[key].split(';')
             let filename = file_data[1].replace('name=', '')
@@ -79,7 +79,7 @@ export default class App extends Component {
   render() {
     return (
       <Form schema={schema} uiSchema={ui_schema} onSubmit={this.handleSubmit} >
-        <button class="btn btn-info" type="submit" value="Download">Download</button>
+        <button className="btn btn-info" type="submit" value="Download">Download</button>
       </Form>
     )
   }

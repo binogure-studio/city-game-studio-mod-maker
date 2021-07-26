@@ -2,23 +2,25 @@
 
 `object` ([Details](add-difficulty-properties-engine.md))
 
-# undefined Properties
+# engine Properties
 
 | Property                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                     |
-| :------------------------------------------ | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [feature_costs_ratio](#feature_costs_ratio) | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-engine-properties-feature_costs_ratio.md "add-difficulty.json#/properties/engine/properties/feature_costs_ratio") |
 
 ## feature_costs_ratio
 
 Change the cost of each engine feature (implementation cost, not the CPU/GPU costs)
 
-
 `feature_costs_ratio`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-engine-properties-feature_costs_ratio.md "add-difficulty.json#/properties/engine/properties/feature_costs_ratio")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-engine-properties-feature_costs_ratio.md "add-difficulty.json#/properties/engine/properties/feature_costs_ratio")
 
 ### feature_costs_ratio Type
 

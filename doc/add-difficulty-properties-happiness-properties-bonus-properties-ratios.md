@@ -3,6 +3,7 @@
 an array where each item follows the corresponding schema in the following list:
 
 1.  [Untitled integer in Add a difficulty](add-difficulty-properties-happiness-properties-bonus-properties-ratios-items-0.md "check type definition")
+
 2.  [Untitled integer in Add a difficulty](add-difficulty-properties-happiness-properties-bonus-properties-ratios-items-1.md "check type definition")
 
 ## ratios Constraints

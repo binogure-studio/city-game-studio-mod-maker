@@ -2,10 +2,10 @@
 
 `object` ([Rename a Manufacturer](generic-properties-root-addrename-manufacturers-properties-rename-manufacturer-rename-a-manufacturer.md))
 
-# Rename a Manufacturer Properties
+# items Properties
 
 | Property            | Type     | Required | Nullable       | Defined by                                                                                                        |
-| :------------------ | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------- |
+| :------------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------- |
 | [id](#id)           | `string` | Required | cannot be null | [Rename a Manufacturer](rename-manufacturer-properties-id.md "rename-manufacturer.json#/properties/id")           |
 | [company](#company) | `string` | Required | cannot be null | [Rename a Manufacturer](rename-manufacturer-properties-company.md "rename-manufacturer.json#/properties/company") |
 | [name](#name)       | `string` | Required | cannot be null | [Rename a Manufacturer](rename-manufacturer-properties-name.md "rename-manufacturer.json#/properties/name")       |
@@ -14,13 +14,15 @@
 
 Manufacturer's id to rename
 
-
 `id`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Rename a Manufacturer](rename-manufacturer-properties-id.md "rename-manufacturer.json#/properties/id")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Rename a Manufacturer](rename-manufacturer-properties-id.md "rename-manufacturer.json#/properties/id")
 
 ### id Type
 
@@ -31,7 +33,7 @@ Manufacturer's id to rename
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value                                    | Explanation |
-| :--------------------------------------- | ----------- |
+| :--------------------------------------- | :---------- |
 | `"100e33bc-6a97-4570-a2e1-36602a7faa86"` |             |
 | `"f715642a-0cb2-4963-80af-4d12ddddc58e"` |             |
 | `"319dbde8-d792-4a7a-a05f-9931c963d086"` |             |
@@ -64,13 +66,15 @@ The default value is:
 
 Company's name
 
-
 `company`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Rename a Manufacturer](rename-manufacturer-properties-company.md "rename-manufacturer.json#/properties/company")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Rename a Manufacturer](rename-manufacturer-properties-company.md "rename-manufacturer.json#/properties/company")
 
 ### company Type
 
@@ -80,13 +84,15 @@ Company's name
 
 Owner's name
 
-
 `name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Rename a Manufacturer](rename-manufacturer-properties-name.md "rename-manufacturer.json#/properties/name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Rename a Manufacturer](rename-manufacturer-properties-name.md "rename-manufacturer.json#/properties/name")
 
 ### name Type
 

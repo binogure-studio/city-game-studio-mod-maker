@@ -2,10 +2,10 @@
 
 `object` ([Add platform: Lifecycle](add-platform-properties-add-platform-lifecycle.md))
 
-# Add platform: Lifecycle Properties
+# duration Properties
 
 | Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                                          |
-| :-------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [start](#start) | `object` | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-starting-date.md "add-platform.json#/properties/duration/properties/start") |
 | [end](#end)     | `object` | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-ending-date.md "add-platform.json#/properties/duration/properties/end")     |
 
@@ -13,13 +13,15 @@
 
 Release date of the platform
 
-
 `start`
 
--   is required
--   Type: `object` ([Add platform - lifecycle: Starting date](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-starting-date.md))
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-starting-date.md "add-platform.json#/properties/duration/properties/start")
+*   is required
+
+*   Type: `object` ([Add platform - lifecycle: Starting date](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-starting-date.md))
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-starting-date.md "add-platform.json#/properties/duration/properties/start")
 
 ### start Type
 
@@ -29,13 +31,15 @@ Release date of the platform
 
 Discontinuation date of the platform
 
-
 `end`
 
--   is required
--   Type: `object` ([Add platform - lifecycle: Ending date](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-ending-date.md))
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-ending-date.md "add-platform.json#/properties/duration/properties/end")
+*   is required
+
+*   Type: `object` ([Add platform - lifecycle: Ending date](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-ending-date.md))
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-lifecycle-properties-add-platform---lifecycle-ending-date.md "add-platform.json#/properties/duration/properties/end")
 
 ### end Type
 

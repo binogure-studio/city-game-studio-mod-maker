@@ -2,10 +2,10 @@
 
 `object` ([Add theme: Genre](add-theme-properties-add-theme-genre.md))
 
-# Add theme: Genre Properties
+# match Properties
 
 | Property                | Type    | Required | Nullable       | Defined by                                                                                                                                                      |
-| :---------------------- | ------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------------- | :------ | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [excellent](#excellent) | `array` | Required | cannot be null | [Add a new theme](add-theme-properties-add-theme-genre-properties-add-theme---genre-excellent-match.md "add-theme.json#/properties/match/properties/excellent") |
 | [good](#good)           | `array` | Required | cannot be null | [Add a new theme](add-theme-properties-add-theme-genre-properties-add-theme---genre-good-match.md "add-theme.json#/properties/match/properties/good")           |
 | [ok](#ok)               | `array` | Required | cannot be null | [Add a new theme](add-theme-properties-add-theme-genre-properties-add-theme---genre-ok-match.md "add-theme.json#/properties/match/properties/ok")               |
@@ -15,13 +15,15 @@
 
 
 
-
 `excellent`
 
--   is required
--   Type: `string[]`
--   cannot be null
--   defined in: [Add a new theme](add-theme-properties-add-theme-genre-properties-add-theme---genre-excellent-match.md "add-theme.json#/properties/match/properties/excellent")
+*   is required
+
+*   Type: `string[]`
+
+*   cannot be null
+
+*   defined in: [Add a new theme](add-theme-properties-add-theme-genre-properties-add-theme---genre-excellent-match.md "add-theme.json#/properties/match/properties/excellent")
 
 ### excellent Type
 
@@ -37,13 +39,15 @@
 
 
 
-
 `good`
 
--   is required
--   Type: `string[]`
--   cannot be null
--   defined in: [Add a new theme](add-theme-properties-add-theme-genre-properties-add-theme---genre-good-match.md "add-theme.json#/properties/match/properties/good")
+*   is required
+
+*   Type: `string[]`
+
+*   cannot be null
+
+*   defined in: [Add a new theme](add-theme-properties-add-theme-genre-properties-add-theme---genre-good-match.md "add-theme.json#/properties/match/properties/good")
 
 ### good Type
 
@@ -59,13 +63,15 @@
 
 
 
-
 `ok`
 
--   is required
--   Type: `string[]`
--   cannot be null
--   defined in: [Add a new theme](add-theme-properties-add-theme-genre-properties-add-theme---genre-ok-match.md "add-theme.json#/properties/match/properties/ok")
+*   is required
+
+*   Type: `string[]`
+
+*   cannot be null
+
+*   defined in: [Add a new theme](add-theme-properties-add-theme-genre-properties-add-theme---genre-ok-match.md "add-theme.json#/properties/match/properties/ok")
 
 ### ok Type
 
@@ -81,13 +87,15 @@
 
 
 
-
 `poor`
 
--   is required
--   Type: `string[]`
--   cannot be null
--   defined in: [Add a new theme](add-theme-properties-add-theme-genre-properties-add-theme---genre-poor-match.md "add-theme.json#/properties/match/properties/poor")
+*   is required
+
+*   Type: `string[]`
+
+*   cannot be null
+
+*   defined in: [Add a new theme](add-theme-properties-add-theme-genre-properties-add-theme---genre-poor-match.md "add-theme.json#/properties/match/properties/poor")
 
 ### poor Type
 

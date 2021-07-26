@@ -5,7 +5,7 @@
 # Rename a platform's component Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                                     |
-| :------------ | -------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
 | [id](#id)     | `string` | Required | cannot be null | [Rename a platform's component](rename-platform-component-properties-components-id.md "rename-platform-component.json#/properties/id")         |
 | [name](#name) | `string` | Required | cannot be null | [Rename a platform's component](rename-platform-component-properties-new-components-name.md "rename-platform-component.json#/properties/name") |
 
@@ -13,13 +13,15 @@
 
 Component's id to rename.
 
-
 `id`
 
--   is required
--   Type: `string` ([Component's id](rename-platform-component-properties-components-id.md))
--   cannot be null
--   defined in: [Rename a platform's component](rename-platform-component-properties-components-id.md "rename-platform-component.json#/properties/id")
+*   is required
+
+*   Type: `string` ([Component's id](rename-platform-component-properties-components-id.md))
+
+*   cannot be null
+
+*   defined in: [Rename a platform's component](rename-platform-component-properties-components-id.md "rename-platform-component.json#/properties/id")
 
 ### id Type
 
@@ -30,7 +32,7 @@ Component's id to rename.
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value                                    | Explanation |
-| :--------------------------------------- | ----------- |
+| :--------------------------------------- | :---------- |
 | `"581e760f-5192-45f3-a449-079ce62dae3e"` |             |
 | `"5e594fc4-f355-4b0d-a300-a7cf1d86b895"` |             |
 | `"0fef321b-96ec-4d7a-bb22-b312d8777d29"` |             |
@@ -129,13 +131,15 @@ Component's id to rename.
 
 New component's name.
 
-
 `name`
 
--   is required
--   Type: `string` ([New component's name](rename-platform-component-properties-new-components-name.md))
--   cannot be null
--   defined in: [Rename a platform's component](rename-platform-component-properties-new-components-name.md "rename-platform-component.json#/properties/name")
+*   is required
+
+*   Type: `string` ([New component's name](rename-platform-component-properties-new-components-name.md))
+
+*   cannot be null
+
+*   defined in: [Rename a platform's component](rename-platform-component-properties-new-components-name.md "rename-platform-component.json#/properties/name")
 
 ### name Type
 

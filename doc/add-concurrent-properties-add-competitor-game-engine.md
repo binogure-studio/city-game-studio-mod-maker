@@ -2,10 +2,10 @@
 
 `object` ([Add Competitor: Game engine](add-concurrent-properties-add-competitor-game-engine.md))
 
-# Add Competitor: Game engine Properties
+# engine Properties
 
 | Property                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                |
-| :---------------------- | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [interval](#interval)   | `integer` | Required | cannot be null | [Add a Concurrent](add-concurrent-properties-add-competitor-game-engine-properties-interval.md "add-concurrent.json#/properties/engine/properties/interval")                              |
 | [royalties](#royalties) | `array`   | Required | cannot be null | [Add a Concurrent](add-concurrent-properties-add-competitor-game-engine-properties-add-competitor-game-engine-royalties.md "add-concurrent.json#/properties/engine/properties/royalties") |
 
@@ -13,13 +13,15 @@
 
 Interval between concurrent's engine update (week)
 
-
 `interval`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a Concurrent](add-concurrent-properties-add-competitor-game-engine-properties-interval.md "add-concurrent.json#/properties/engine/properties/interval")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a Concurrent](add-concurrent-properties-add-competitor-game-engine-properties-interval.md "add-concurrent.json#/properties/engine/properties/interval")
 
 ### interval Type
 
@@ -43,22 +45,26 @@ The default value is:
 
 Range for the concurrent engine royalties
 
-
 `royalties`
 
--   is required
--   Type: an array where each item follows the corresponding schema in the following list:
+*   is required
+
+*   Type: an array where each item follows the corresponding schema in the following list:
 
     1.  [Untitled integer in Add a Concurrent](add-concurrent-properties-add-competitor-game-engine-properties-add-competitor-game-engine-royalties-items-0.md "check type definition")
+
     2.  [Untitled integer in Add a Concurrent](add-concurrent-properties-add-competitor-game-engine-properties-add-competitor-game-engine-royalties-items-1.md "check type definition")
--   cannot be null
--   defined in: [Add a Concurrent](add-concurrent-properties-add-competitor-game-engine-properties-add-competitor-game-engine-royalties.md "add-concurrent.json#/properties/engine/properties/royalties")
+
+*   cannot be null
+
+*   defined in: [Add a Concurrent](add-concurrent-properties-add-competitor-game-engine-properties-add-competitor-game-engine-royalties.md "add-concurrent.json#/properties/engine/properties/royalties")
 
 ### royalties Type
 
 an array where each item follows the corresponding schema in the following list:
 
 1.  [Untitled integer in Add a Concurrent](add-concurrent-properties-add-competitor-game-engine-properties-add-competitor-game-engine-royalties-items-0.md "check type definition")
+
 2.  [Untitled integer in Add a Concurrent](add-concurrent-properties-add-competitor-game-engine-properties-add-competitor-game-engine-royalties-items-1.md "check type definition")
 
 ### royalties Constraints

@@ -3,6 +3,7 @@
 an array where each item follows the corresponding schema in the following list:
 
 1.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-currency-items-0.md "check type definition")
+
 2.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-currency-items-1.md "check type definition")
 
 ## currency Constraints

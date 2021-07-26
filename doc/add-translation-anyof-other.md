@@ -2,10 +2,10 @@
 
 unknown ([Other](add-translation-anyof-other.md))
 
-# Other Properties
+# 13 Properties
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                                            |
-| :-------------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [name](#name)         | `string` | Required | cannot be null | [Add a translation](add-translation-anyof-other-properties-name.md "add-translation.json#/anyOf/13/properties/name")                                  |
 | [locale](#locale)     | `string` | Required | cannot be null | [Add a translation](add-translation-anyof-other-properties-locale.md "add-translation.json#/anyOf/13/properties/locale")                              |
 | [messages](#messages) | `object` | Required | cannot be null | [Add a translation](add-translation-anyof-other-properties-add-translation-translations-list.md "add-translation.json#/anyOf/13/properties/messages") |
@@ -14,13 +14,15 @@ unknown ([Other](add-translation-anyof-other.md))
 
 Locale names (shown onto the main menu)
 
-
 `name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a translation](add-translation-anyof-other-properties-name.md "add-translation.json#/anyOf/13/properties/name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a translation](add-translation-anyof-other-properties-name.md "add-translation.json#/anyOf/13/properties/name")
 
 ### name Type
 
@@ -30,13 +32,15 @@ Locale names (shown onto the main menu)
 
 Locale code (en, es, fr, zh, ru, pt...)
 
-
 `locale`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a translation](add-translation-anyof-other-properties-locale.md "add-translation.json#/anyOf/13/properties/locale")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a translation](add-translation-anyof-other-properties-locale.md "add-translation.json#/anyOf/13/properties/locale")
 
 ### locale Type
 
@@ -46,13 +50,15 @@ Locale code (en, es, fr, zh, ru, pt...)
 
 KEY: VALUE. Example: LABEL_THEME_SCHOOL: School
 
-
 `messages`
 
--   is required
--   Type: `object` ([Add translation: Translations list](add-translation-anyof-other-properties-add-translation-translations-list.md))
--   cannot be null
--   defined in: [Add a translation](add-translation-anyof-other-properties-add-translation-translations-list.md "add-translation.json#/anyOf/13/properties/messages")
+*   is required
+
+*   Type: `object` ([Add translation: Translations list](add-translation-anyof-other-properties-add-translation-translations-list.md))
+
+*   cannot be null
+
+*   defined in: [Add a translation](add-translation-anyof-other-properties-add-translation-translations-list.md "add-translation.json#/anyOf/13/properties/messages")
 
 ### messages Type
 

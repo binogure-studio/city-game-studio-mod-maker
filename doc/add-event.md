@@ -4,5 +4,6 @@
 
 any of
 
--   [Random event](add-event-anyof-random-event.md "check type definition")
--   [Scheduled event](add-event-anyof-scheduled-event.md "check type definition")
+*   [Random event](add-event-anyof-random-event.md "check type definition")
+
+*   [Scheduled event](add-event-anyof-scheduled-event.md "check type definition")

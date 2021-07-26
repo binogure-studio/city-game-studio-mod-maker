@@ -2,10 +2,10 @@
 
 `object` ([Details](add-difficulty-properties-publishing.md))
 
-# undefined Properties
+# publishing Properties
 
 | Property                  | Type      | Required | Nullable       | Defined by                                                                                                                                           |
-| :------------------------ | --------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------ | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [prepayment](#prepayment) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-publishing-properties-prepayment.md "add-difficulty.json#/properties/publishing/properties/prepayment") |
 | [payment](#payment)       | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-publishing-properties-payment.md "add-difficulty.json#/properties/publishing/properties/payment")       |
 | [royalties](#royalties)   | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-publishing-properties-royalties.md "add-difficulty.json#/properties/publishing/properties/royalties")   |
@@ -16,13 +16,15 @@
 
 Percent of the publishing offer to pay in advance.
 
-
 `prepayment`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-publishing-properties-prepayment.md "add-difficulty.json#/properties/publishing/properties/prepayment")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-publishing-properties-prepayment.md "add-difficulty.json#/properties/publishing/properties/prepayment")
 
 ### prepayment Type
 
@@ -48,13 +50,15 @@ The default value is:
 
 Maximum publishing offer value.
 
-
 `payment`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-publishing-properties-payment.md "add-difficulty.json#/properties/publishing/properties/payment")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-publishing-properties-payment.md "add-difficulty.json#/properties/publishing/properties/payment")
 
 ### payment Type
 
@@ -80,13 +84,15 @@ The default value is:
 
 Publishing offer royalties (in percent).
 
-
 `royalties`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-publishing-properties-royalties.md "add-difficulty.json#/properties/publishing/properties/royalties")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-publishing-properties-royalties.md "add-difficulty.json#/properties/publishing/properties/royalties")
 
 ### royalties Type
 
@@ -110,13 +116,15 @@ The default value is:
 
 Number of indie companies who are willing to respond.
 
-
 `proposals`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-publishing-properties-proposals.md "add-difficulty.json#/properties/publishing/properties/proposals")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-publishing-properties-proposals.md "add-difficulty.json#/properties/publishing/properties/proposals")
 
 ### proposals Type
 
@@ -140,22 +148,26 @@ The default value is:
 
 Efficiency of the previous parameters (the higher the better).
 
-
 `ratios`
 
--   is required
--   Type: an array where each item follows the corresponding schema in the following list:
+*   is required
+
+*   Type: an array where each item follows the corresponding schema in the following list:
 
     1.  [Untitled number in Add a difficulty](add-difficulty-properties-publishing-properties-ratios-items-0.md "check type definition")
+
     2.  [Untitled number in Add a difficulty](add-difficulty-properties-publishing-properties-ratios-items-1.md "check type definition")
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-publishing-properties-ratios.md "add-difficulty.json#/properties/publishing/properties/ratios")
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-publishing-properties-ratios.md "add-difficulty.json#/properties/publishing/properties/ratios")
 
 ### ratios Type
 
 an array where each item follows the corresponding schema in the following list:
 
 1.  [Untitled number in Add a difficulty](add-difficulty-properties-publishing-properties-ratios-items-0.md "check type definition")
+
 2.  [Untitled number in Add a difficulty](add-difficulty-properties-publishing-properties-ratios-items-1.md "check type definition")
 
 ### ratios Constraints

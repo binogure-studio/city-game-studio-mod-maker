@@ -3,6 +3,7 @@
 an array where each item follows the corresponding schema in the following list:
 
 1.  [Untitled number in Add a difficulty](add-difficulty-properties-concurrent-properties-note-items-0.md "check type definition")
+
 2.  [Untitled number in Add a difficulty](add-difficulty-properties-concurrent-properties-note-items-1.md "check type definition")
 
 ## note Constraints

@@ -2,10 +2,10 @@
 
 `object` ([Details](add-gameengine-properties-availability.md))
 
-# undefined Properties
+# availability Properties
 
 | Property        | Type      | Required | Nullable       | Defined by                                                                                                                                              |
-| :-------------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :-------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [year](#year)   | `integer` | Required | cannot be null | [Add a game engine feature](add-gameengine-properties-availability-properties-year.md "add-gameengine.json#/properties/availability/properties/year")   |
 | [month](#month) | `integer` | Required | cannot be null | [Add a game engine feature](add-gameengine-properties-availability-properties-month.md "add-gameengine.json#/properties/availability/properties/month") |
 
@@ -13,13 +13,15 @@
 
 
 
-
 `year`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a game engine feature](add-gameengine-properties-availability-properties-year.md "add-gameengine.json#/properties/availability/properties/year")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a game engine feature](add-gameengine-properties-availability-properties-year.md "add-gameengine.json#/properties/availability/properties/year")
 
 ### year Type
 
@@ -43,13 +45,15 @@ The default value is:
 
 
 
-
 `month`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a game engine feature](add-gameengine-properties-availability-properties-month.md "add-gameengine.json#/properties/availability/properties/month")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a game engine feature](add-gameengine-properties-availability-properties-month.md "add-gameengine.json#/properties/availability/properties/month")
 
 ### month Type
 

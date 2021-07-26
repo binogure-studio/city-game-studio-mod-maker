@@ -2,10 +2,10 @@
 
 `object` ([Add platform: Target audience](add-platform-properties-add-platform-target-audience.md))
 
-# Add platform: Target audience Properties
+# age Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                            |
-| :---------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [all](#all)       | `string` | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-target-audience-properties-all.md "add-platform.json#/properties/age/properties/all")       |
 | [mature](#mature) | `string` | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-target-audience-properties-mature.md "add-platform.json#/properties/age/properties/mature") |
 | [young](#young)   | `string` | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-target-audience-properties-young.md "add-platform.json#/properties/age/properties/young")   |
@@ -14,13 +14,15 @@
 
 Match the platform with the targetted consumers
 
-
 `all`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-target-audience-properties-all.md "add-platform.json#/properties/age/properties/all")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-target-audience-properties-all.md "add-platform.json#/properties/age/properties/all")
 
 ### all Type
 
@@ -31,7 +33,7 @@ Match the platform with the targetted consumers
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value         | Explanation |
-| :------------ | ----------- |
+| :------------ | :---------- |
 | `"excellent"` |             |
 | `"good"`      |             |
 | `"ok"`        |             |
@@ -43,7 +45,7 @@ Match the platform with the targetted consumers
 (excellent|good|ok|poor)
 ```
 
-[try pattern](https://regexr.com/?expression=(excellent%7Cgood%7Cok%7Cpoor) "try regular expression with regexr.com")
+[try pattern](https://regexr.com/?expression=\(excellent%7Cgood%7Cok%7Cpoor\) "try regular expression with regexr.com")
 
 ### all Default Value
 
@@ -57,13 +59,15 @@ The default value is:
 
 Match the platform with the targetted consumers
 
-
 `mature`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-target-audience-properties-mature.md "add-platform.json#/properties/age/properties/mature")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-target-audience-properties-mature.md "add-platform.json#/properties/age/properties/mature")
 
 ### mature Type
 
@@ -74,7 +78,7 @@ Match the platform with the targetted consumers
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value         | Explanation |
-| :------------ | ----------- |
+| :------------ | :---------- |
 | `"excellent"` |             |
 | `"good"`      |             |
 | `"ok"`        |             |
@@ -86,7 +90,7 @@ Match the platform with the targetted consumers
 (excellent|good|ok|poor)
 ```
 
-[try pattern](https://regexr.com/?expression=(excellent%7Cgood%7Cok%7Cpoor) "try regular expression with regexr.com")
+[try pattern](https://regexr.com/?expression=\(excellent%7Cgood%7Cok%7Cpoor\) "try regular expression with regexr.com")
 
 ### mature Default Value
 
@@ -100,13 +104,15 @@ The default value is:
 
 Match the platform with the targetted consumers
 
-
 `young`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-target-audience-properties-young.md "add-platform.json#/properties/age/properties/young")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-target-audience-properties-young.md "add-platform.json#/properties/age/properties/young")
 
 ### young Type
 
@@ -117,7 +123,7 @@ Match the platform with the targetted consumers
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value         | Explanation |
-| :------------ | ----------- |
+| :------------ | :---------- |
 | `"excellent"` |             |
 | `"good"`      |             |
 | `"ok"`        |             |
@@ -129,7 +135,7 @@ Match the platform with the targetted consumers
 (excellent|good|ok|poor)
 ```
 
-[try pattern](https://regexr.com/?expression=(excellent%7Cgood%7Cok%7Cpoor) "try regular expression with regexr.com")
+[try pattern](https://regexr.com/?expression=\(excellent%7Cgood%7Cok%7Cpoor\) "try regular expression with regexr.com")
 
 ### young Default Value
 

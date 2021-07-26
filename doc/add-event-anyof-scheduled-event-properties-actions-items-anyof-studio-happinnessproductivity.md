@@ -2,28 +2,31 @@
 
 `object` ([Studio happinness/productivity](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity.md))
 
-# Studio happinness/productivity Properties
+# 0 Properties
 
-| Property                      | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                    |
-| :---------------------------- | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [button](#button)             | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-button.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/button")             |
-| [productivity](#productivity) | `number`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-productivity.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/productivity") |
-| [happiness](#happiness)       | `number`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-happiness.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/happiness")       |
-| [duration](#duration)         | `integer` | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-duration.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/duration")         |
-| [item_type](#item_type)       | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-item_type.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/item_type")       |
-| [type](#type)                 | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-type.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/type")                 |
+| Property                        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                      |
+| :------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [button](#button)               | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-button.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/button")               |
+| [productivity](#productivity)   | `number`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-productivity.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/productivity")   |
+| [happiness](#happiness)         | `number`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-happiness.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/happiness")         |
+| [duration](#duration)           | `integer` | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-duration.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/duration")           |
+| [item_type](#item_type)         | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-item_type.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/item_type")         |
+| [trigger_event](#trigger_event) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-trigger_event.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/trigger_event") |
+| [type](#type)                   | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-type.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/type")                   |
 
 ## button
 
 Label of the button.
 
-
 `button`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-button.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/button")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-button.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/button")
 
 ### button Type
 
@@ -41,13 +44,15 @@ The default value is:
 
 Update the staff productivity (1.0 = neutral, 2.0 = positive, 0.5 = negative).
 
-
 `productivity`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-productivity.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/productivity")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-productivity.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/productivity")
 
 ### productivity Type
 
@@ -65,13 +70,15 @@ Update the staff productivity (1.0 = neutral, 2.0 = positive, 0.5 = negative).
 
 Update the staff happiness (1.0 = neutral, 2.0 = positive, 0.5 = negative).
 
-
 `happiness`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-happiness.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/happiness")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-happiness.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/happiness")
 
 ### happiness Type
 
@@ -89,13 +96,15 @@ Update the staff happiness (1.0 = neutral, 2.0 = positive, 0.5 = negative).
 
 Duration of this event in weeks.
 
-
 `duration`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-duration.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/duration")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-duration.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/duration")
 
 ### duration Type
 
@@ -111,13 +120,15 @@ Duration of this event in weeks.
 
 Virus animation (computer screen), Cat to the studio, or nothing visible.
 
-
 `item_type`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-item_type.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/item_type")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-item_type.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/item_type")
 
 ### item_type Type
 
@@ -128,22 +139,42 @@ Virus animation (computer screen), Cat to the studio, or nothing visible.
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value        | Explanation |
-| :----------- | ----------- |
+| :----------- | :---------- |
 | `"internal"` |             |
 | `"virus"`    |             |
 | `"cat"`      |             |
+
+## trigger_event
+
+Event id to trigger, has to be an existing uuid
+
+`trigger_event`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-trigger_event.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/trigger_event")
+
+### trigger_event Type
+
+`string`
 
 ## type
 
 Event type (durable).
 
-
 `type`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-type.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/type")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity-properties-type.md "add-event.json#/anyOf/1/properties/actions/items/anyOf/0/properties/type")
 
 ### type Type
 
@@ -154,7 +185,7 @@ Event type (durable).
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value       | Explanation |
-| :---------- | ----------- |
+| :---------- | :---------- |
 | `"durable"` |             |
 
 ### type Default Value

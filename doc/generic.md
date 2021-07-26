@@ -5,7 +5,7 @@
 # Create a mod Properties
 
 | Property                          | Type     | Required | Nullable       | Defined by                                                                                                             |
-| :-------------------------------- | -------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------- |
+| :-------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------- |
 | [customplatform](#customplatform) | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-custom-platforms-components.md "mod.json#/properties/customplatform") |
 | [platform](#platform)             | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-platform.md "mod.json#/properties/platform")                          |
 | [concurrent](#concurrent)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-competitors.md "mod.json#/properties/concurrent")                     |
@@ -25,13 +25,15 @@
 
 To manipulate component for custom-platforms
 
-
 `customplatform`
 
--   is optional
--   Type: `object` ([Root: Add/rename custom-platforms components](generic-properties-root-addrename-custom-platforms-components.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-addrename-custom-platforms-components.md "mod.json#/properties/customplatform")
+*   is optional
+
+*   Type: `object` ([Root: Add/rename custom-platforms components](generic-properties-root-addrename-custom-platforms-components.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-addrename-custom-platforms-components.md "mod.json#/properties/customplatform")
 
 ### customplatform Type
 
@@ -41,13 +43,15 @@ To manipulate component for custom-platforms
 
 To manipulate platforms
 
-
 `platform`
 
--   is optional
--   Type: `object` ([Root: Add/rename platform](generic-properties-root-addrename-platform.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-addrename-platform.md "mod.json#/properties/platform")
+*   is optional
+
+*   Type: `object` ([Root: Add/rename platform](generic-properties-root-addrename-platform.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-addrename-platform.md "mod.json#/properties/platform")
 
 ### platform Type
 
@@ -57,13 +61,15 @@ To manipulate platforms
 
 To manipulate concurrents
 
-
 `concurrent`
 
--   is optional
--   Type: `object` ([Root: Add/rename competitors](generic-properties-root-addrename-competitors.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-addrename-competitors.md "mod.json#/properties/concurrent")
+*   is optional
+
+*   Type: `object` ([Root: Add/rename competitors](generic-properties-root-addrename-competitors.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-addrename-competitors.md "mod.json#/properties/concurrent")
 
 ### concurrent Type
 
@@ -73,13 +79,15 @@ To manipulate concurrents
 
 To manipulate manufacturers
 
-
 `manufacturer`
 
--   is optional
--   Type: `object` ([Root: Add/rename manufacturers](generic-properties-root-addrename-manufacturers.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-addrename-manufacturers.md "mod.json#/properties/manufacturer")
+*   is optional
+
+*   Type: `object` ([Root: Add/rename manufacturers](generic-properties-root-addrename-manufacturers.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-addrename-manufacturers.md "mod.json#/properties/manufacturer")
 
 ### manufacturer Type
 
@@ -89,13 +97,15 @@ To manipulate manufacturers
 
 To manipulate themes
 
-
 `theme`
 
--   is optional
--   Type: `object` ([Root: Add themes](generic-properties-root-add-themes.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-add-themes.md "mod.json#/properties/theme")
+*   is optional
+
+*   Type: `object` ([Root: Add themes](generic-properties-root-add-themes.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-add-themes.md "mod.json#/properties/theme")
 
 ### theme Type
 
@@ -105,13 +115,15 @@ To manipulate themes
 
 To manipulate translations
 
-
 `translation`
 
--   is optional
--   Type: `object` ([Root: Add internationalization](generic-properties-root-add-internationalization.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-add-internationalization.md "mod.json#/properties/translation")
+*   is optional
+
+*   Type: `object` ([Root: Add internationalization](generic-properties-root-add-internationalization.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-add-internationalization.md "mod.json#/properties/translation")
 
 ### translation Type
 
@@ -121,13 +133,15 @@ To manipulate translations
 
 To manipulate indie companies
 
-
 `indie`
 
--   is optional
--   Type: `object` ([Root: Add/rename Indie company](generic-properties-root-addrename-indie-company.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-addrename-indie-company.md "mod.json#/properties/indie")
+*   is optional
+
+*   Type: `object` ([Root: Add/rename Indie company](generic-properties-root-addrename-indie-company.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-addrename-indie-company.md "mod.json#/properties/indie")
 
 ### indie Type
 
@@ -137,13 +151,15 @@ To manipulate indie companies
 
 To manipulate custom difficulties
 
-
 `difficulty`
 
--   is optional
--   Type: `object` ([Root: Add difficulty](generic-properties-root-add-difficulty.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-add-difficulty.md "mod.json#/properties/difficulty")
+*   is optional
+
+*   Type: `object` ([Root: Add difficulty](generic-properties-root-add-difficulty.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-add-difficulty.md "mod.json#/properties/difficulty")
 
 ### difficulty Type
 
@@ -153,13 +169,15 @@ To manipulate custom difficulties
 
 To manipulate game speeds
 
-
 `speed`
 
--   is optional
--   Type: `object` ([Root: Add game speed](generic-properties-root-add-game-speed.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-add-game-speed.md "mod.json#/properties/speed")
+*   is optional
+
+*   Type: `object` ([Root: Add game speed](generic-properties-root-add-game-speed.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-add-game-speed.md "mod.json#/properties/speed")
 
 ### speed Type
 
@@ -169,13 +187,15 @@ To manipulate game speeds
 
 To manipulate map sizes
 
-
 `mapsize`
 
--   is optional
--   Type: `object` ([Root: Add map size](generic-properties-root-add-map-size.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-add-map-size.md "mod.json#/properties/mapsize")
+*   is optional
+
+*   Type: `object` ([Root: Add map size](generic-properties-root-add-map-size.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-add-map-size.md "mod.json#/properties/mapsize")
 
 ### mapsize Type
 
@@ -185,13 +205,15 @@ To manipulate map sizes
 
 To manipulate events
 
-
 `event`
 
--   is optional
--   Type: `object` ([Root: Add an event](generic-properties-root-add-an-event.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-add-an-event.md "mod.json#/properties/event")
+*   is optional
+
+*   Type: `object` ([Root: Add an event](generic-properties-root-add-an-event.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-add-an-event.md "mod.json#/properties/event")
 
 ### event Type
 
@@ -201,13 +223,15 @@ To manipulate events
 
 To manipulate digital store
 
-
 `digitalstore`
 
--   is optional
--   Type: `object` ([Root: Add digital store feature](generic-properties-root-add-digital-store-feature.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-add-digital-store-feature.md "mod.json#/properties/digitalstore")
+*   is optional
+
+*   Type: `object` ([Root: Add digital store feature](generic-properties-root-add-digital-store-feature.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-add-digital-store-feature.md "mod.json#/properties/digitalstore")
 
 ### digitalstore Type
 
@@ -217,13 +241,15 @@ To manipulate digital store
 
 To manipulate game engine
 
-
 `gameengine`
 
--   is optional
--   Type: `object` ([Root: Add game engine feature](generic-properties-root-add-game-engine-feature.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-add-game-engine-feature.md "mod.json#/properties/gameengine")
+*   is optional
+
+*   Type: `object` ([Root: Add game engine feature](generic-properties-root-add-game-engine-feature.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-add-game-engine-feature.md "mod.json#/properties/gameengine")
 
 ### gameengine Type
 
@@ -233,13 +259,15 @@ To manipulate game engine
 
 To manipulate conventions
 
-
 `convention`
 
--   is optional
--   Type: `object` ([Root: Add conventions](generic-properties-root-add-conventions.md))
--   cannot be null
--   defined in: [Create a mod](generic-properties-root-add-conventions.md "mod.json#/properties/convention")
+*   is optional
+
+*   Type: `object` ([Root: Add conventions](generic-properties-root-add-conventions.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-add-conventions.md "mod.json#/properties/convention")
 
 ### convention Type
 

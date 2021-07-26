@@ -5,7 +5,7 @@
 # Add a new platform Properties
 
 | Property                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                       |
-| :------------------------------------------------------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------------------------------------------------------ | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
 | [generation](#generation)                                           | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-generation.md "add-platform.json#/properties/generation")                                           |
 | [power](#power)                                                     | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-power.md "add-platform.json#/properties/power")                                                     |
 | [online](#online)                                                   | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-online.md "add-platform.json#/properties/online")                                      |
@@ -25,13 +25,15 @@
 
 Platform's generation (Please use: <https://en.wikipedia.org/wiki/Home_video_game_console> )
 
-
 `generation`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-generation.md "add-platform.json#/properties/generation")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-generation.md "add-platform.json#/properties/generation")
 
 ### generation Type
 
@@ -55,13 +57,15 @@ The default value is:
 
 Add platform: Power
 
-
 `power`
 
--   is required
--   Type: `object` ([Details](add-platform-properties-power.md))
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-power.md "add-platform.json#/properties/power")
+*   is required
+
+*   Type: `object` ([Details](add-platform-properties-power.md))
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-power.md "add-platform.json#/properties/power")
 
 ### power Type
 
@@ -71,13 +75,15 @@ Add platform: Power
 
 
 
-
 `online`
 
--   is required
--   Type: `object` ([Add platform: Online](add-platform-properties-add-platform-online.md))
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-online.md "add-platform.json#/properties/online")
+*   is required
+
+*   Type: `object` ([Add platform: Online](add-platform-properties-add-platform-online.md))
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-online.md "add-platform.json#/properties/online")
 
 ### online Type
 
@@ -87,13 +93,15 @@ Add platform: Power
 
 platform type (accessory, pc, os, home, handled)
 
-
 `type`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-type.md "add-platform.json#/properties/type")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-type.md "add-platform.json#/properties/type")
 
 ### type Type
 
@@ -104,7 +112,7 @@ platform type (accessory, pc, os, home, handled)
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value         | Explanation |
-| :------------ | ----------- |
+| :------------ | :---------- |
 | `"accessory"` |             |
 | `"pc"`        |             |
 | `"os"`        |             |
@@ -117,7 +125,7 @@ platform type (accessory, pc, os, home, handled)
 (accessory|pc|os|home|handled)
 ```
 
-[try pattern](https://regexr.com/?expression=(accessory%7Cpc%7Cos%7Chome%7Chandled) "try regular expression with regexr.com")
+[try pattern](https://regexr.com/?expression=\(accessory%7Cpc%7Cos%7Chome%7Chandled\) "try regular expression with regexr.com")
 
 ### type Default Value
 
@@ -131,13 +139,15 @@ The default value is:
 
 100e33bc-6a97-4570-a2e1-36602a7faa86 Gouda inc., f715642a-0cb2-4963-80af-4d12ddddc58e Magmabox, 319dbde8-d792-4a7a-a05f-9931c963d086 PEC, 042d6979-04b5-4901-ac10-de014297eab6 Sinfonce, 15bcf760-5ceb-4680-b40b-185f207fbd7f Wataggi, a28f218a-514b-48dd-b96f-a13386df34c6 Grantendo, 169b9492-391f-4951-a1b3-7e7575d348a6 Roberto industries, 6f763033-65b7-448a-84ef-664919fa3209 Plastics Electronics, 88f8606b-f83e-45b2-b945-29e8ab9ae9fd Commandor, fa99dbc4-ec16-469b-a312-6cfbd3b3b9bc Minisoft, 3ab91fad-4052-4d22-ab72-65e8d8b277c6 Amsterdam, f456c09b-eea6-4f56-b1f6-41fd9110d77b Saga, 37fe729f-752f-4307-91cf-731fb6fb749f BNC, 86416499-cdff-4082-8dd2-1894caa0522c Moris, 57c3ac73-9132-4bae-8dd0-db163402856b Panarapid, 1e367d42-3c90-4cd4-aba6-fa86916d1553 Deny, 0efbe7e0-e2d9-4610-ba21-560126f1837a Rokia, 6a424864-b8aa-4073-9937-6e7080d4d387 Worldwide, 88f179e7-f1a7-4479-bdcf-5367b820aeb8 Robinet software
 
-
 `fabriquant`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-fabriquant.md "add-platform.json#/properties/fabriquant")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-fabriquant.md "add-platform.json#/properties/fabriquant")
 
 ### fabriquant Type
 
@@ -225,13 +235,15 @@ The default value is:
 
 Total number of published game
 
-
 `total_amount_of_published_games`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-total_amount_of_published_games.md "add-platform.json#/properties/total_amount_of_published_games")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-total_amount_of_published_games.md "add-platform.json#/properties/total_amount_of_published_games")
 
 ### total_amount_of_published_games Type
 
@@ -253,13 +265,15 @@ The default value is:
 
 UUID v4 (use <https://www.uuidgenerator.net/> to generate one)
 
-
 `id`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-id.md "add-platform.json#/properties/id")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-id.md "add-platform.json#/properties/id")
 
 ### id Type
 
@@ -269,13 +283,15 @@ UUID v4 (use <https://www.uuidgenerator.net/> to generate one)
 
 Platform's name
 
-
 `name`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-name.md "add-platform.json#/properties/name")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-name.md "add-platform.json#/properties/name")
 
 ### name Type
 
@@ -285,13 +301,15 @@ Platform's name
 
 
 
-
 `duration`
 
--   is required
--   Type: `object` ([Add platform: Lifecycle](add-platform-properties-add-platform-lifecycle.md))
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-lifecycle.md "add-platform.json#/properties/duration")
+*   is required
+
+*   Type: `object` ([Add platform: Lifecycle](add-platform-properties-add-platform-lifecycle.md))
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-lifecycle.md "add-platform.json#/properties/duration")
 
 ### duration Type
 
@@ -301,13 +319,15 @@ Platform's name
 
 Total number of unit sold (platform)
 
-
 `total_unit_sold`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-total_unit_sold.md "add-platform.json#/properties/total_unit_sold")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-total_unit_sold.md "add-platform.json#/properties/total_unit_sold")
 
 ### total_unit_sold Type
 
@@ -331,13 +351,15 @@ The default value is:
 
 Development and license costs
 
-
 `cost`
 
--   is required
--   Type: `object` ([Add platform: Costs](add-platform-properties-add-platform-costs.md))
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-costs.md "add-platform.json#/properties/cost")
+*   is required
+
+*   Type: `object` ([Add platform: Costs](add-platform-properties-add-platform-costs.md))
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-costs.md "add-platform.json#/properties/cost")
 
 ### cost Type
 
@@ -347,13 +369,15 @@ Development and license costs
 
 
 
-
 `age`
 
--   is required
--   Type: `object` ([Add platform: Target audience](add-platform-properties-add-platform-target-audience.md))
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-target-audience.md "add-platform.json#/properties/age")
+*   is required
+
+*   Type: `object` ([Add platform: Target audience](add-platform-properties-add-platform-target-audience.md))
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-target-audience.md "add-platform.json#/properties/age")
 
 ### age Type
 
@@ -363,13 +387,15 @@ Development and license costs
 
 Platform's textures
 
-
 `texture`
 
--   is required
--   Type: `object` ([Add platform: Textures](add-platform-properties-add-platform-textures.md))
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-textures.md "add-platform.json#/properties/texture")
+*   is required
+
+*   Type: `object` ([Add platform: Textures](add-platform-properties-add-platform-textures.md))
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-textures.md "add-platform.json#/properties/texture")
 
 ### texture Type
 
@@ -379,13 +405,15 @@ Platform's textures
 
 Platform/genre matches
 
-
 `genre`
 
--   is required
--   Type: `object` ([Add platform: Genre](add-platform-properties-add-platform-genre.md))
--   cannot be null
--   defined in: [Add a new platform](add-platform-properties-add-platform-genre.md "add-platform.json#/properties/genre")
+*   is required
+
+*   Type: `object` ([Add platform: Genre](add-platform-properties-add-platform-genre.md))
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-add-platform-genre.md "add-platform.json#/properties/genre")
 
 ### genre Type
 

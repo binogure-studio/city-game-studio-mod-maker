@@ -2,10 +2,10 @@
 
 `object` ([Details](add-event-anyof-scheduled-event-properties-conditions-items-anyof-1.md))
 
-# undefined Properties
+# 1 Properties
 
 | Property        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                |
-| :-------------- | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [type](#type)   | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-1-properties-type.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/1/properties/type")   |
 | [value](#value) | `integer` | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-1-properties-value.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/1/properties/value") |
 
@@ -13,13 +13,15 @@
 
 
 
-
 `type`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-1-properties-type.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/1/properties/type")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-1-properties-type.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/1/properties/type")
 
 ### type Type
 
@@ -30,7 +32,7 @@
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value    | Explanation |
-| :------- | ----------- |
+| :------- | :---------- |
 | `"year"` |             |
 
 ### type Default Value
@@ -45,13 +47,15 @@ The default value is:
 
 
 
-
 `value`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-1-properties-value.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/1/properties/value")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-1-properties-value.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/1/properties/value")
 
 ### value Type
 

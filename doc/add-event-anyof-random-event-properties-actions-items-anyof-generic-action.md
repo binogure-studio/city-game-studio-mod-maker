@@ -2,28 +2,31 @@
 
 `object` ([Generic action](add-event-anyof-random-event-properties-actions-items-anyof-generic-action.md))
 
-# Generic action Properties
+# 1 Properties
 
 | Property                        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                    |
-| :------------------------------ | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [button](#button)               | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-button.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/button")               |
 | [cost](#cost)                   | `integer` | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-cost.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/cost")                   |
 | [fan_ratio](#fan_ratio)         | `number`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-fan_ratio.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/fan_ratio")         |
 | [campaign_type](#campaign_type) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-campaign_type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/campaign_type") |
 | [furniture](#furniture)         | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-furniture.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/furniture")         |
+| [trigger_event](#trigger_event) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-trigger_event.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/trigger_event") |
 | [type](#type)                   | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/type")                   |
 
 ## button
 
 Label of the button.
 
-
 `button`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-button.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/button")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-button.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/button")
 
 ### button Type
 
@@ -41,13 +44,15 @@ The default value is:
 
 Money spent/given (negative = give money, positive = cost money).
 
-
 `cost`
 
--   is optional
--   Type: `integer`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-cost.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/cost")
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-cost.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/cost")
 
 ### cost Type
 
@@ -63,13 +68,15 @@ Money spent/given (negative = give money, positive = cost money).
 
 Below 0 remove fanbase, above 0 add fanbase (its a ratio).
 
-
 `fan_ratio`
 
--   is optional
--   Type: `number`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-fan_ratio.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/fan_ratio")
+*   is optional
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-fan_ratio.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/fan_ratio")
 
 ### fan_ratio Type
 
@@ -87,13 +94,15 @@ Below 0 remove fanbase, above 0 add fanbase (its a ratio).
 
 Type of campaign (boost the hype of one of your game randomly).
 
-
 `campaign_type`
 
--   is optional
--   Type: `string`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-campaign_type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/campaign_type")
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-campaign_type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/campaign_type")
 
 ### campaign_type Type
 
@@ -104,20 +113,22 @@ Type of campaign (boost the hype of one of your game randomly).
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value        | Explanation |
-| :----------- | ----------- |
+| :----------- | :---------- |
 | `"streamer"` |             |
 
 ## furniture
 
 Furniture to break.
 
-
 `furniture`
 
--   is optional
--   Type: `string`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-furniture.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/furniture")
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-furniture.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/furniture")
 
 ### furniture Type
 
@@ -128,7 +139,7 @@ Furniture to break.
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value             | Explanation |
-| :---------------- | ----------- |
+| :---------------- | :---------- |
 | `"armchair"`      |             |
 | `"bookshelf"`     |             |
 | `"coffeemachine"` |             |
@@ -143,17 +154,37 @@ Furniture to break.
 | `"watertank"`     |             |
 | `"whiteboard"`    |             |
 
+## trigger_event
+
+Event id to trigger, has to be an existing uuid
+
+`trigger_event`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-trigger_event.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/trigger_event")
+
+### trigger_event Type
+
+`string`
+
 ## type
 
 Event type (instant).
 
-
 `type`
 
--   is required
--   Type: `string`
--   cannot be null
--   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/type")
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/type")
 
 ### type Type
 
@@ -164,7 +195,7 @@ Event type (instant).
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value       | Explanation |
-| :---------- | ----------- |
+| :---------- | :---------- |
 | `"instant"` |             |
 
 ### type Default Value

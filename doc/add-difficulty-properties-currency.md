@@ -2,10 +2,10 @@
 
 `object` ([Details](add-difficulty-properties-currency.md))
 
-# undefined Properties
+# currency Properties
 
 | Property            | Type      | Required | Nullable       | Defined by                                                                                                                                 |
-| :------------------ | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------------ | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | [current](#current) | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-currency-properties-current.md "add-difficulty.json#/properties/currency/properties/current") |
 | [limit](#limit)     | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-currency-properties-limit.md "add-difficulty.json#/properties/currency/properties/limit")     |
 
@@ -13,13 +13,15 @@
 
 Starting currency.
 
-
 `current`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-currency-properties-current.md "add-difficulty.json#/properties/currency/properties/current")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-currency-properties-current.md "add-difficulty.json#/properties/currency/properties/current")
 
 ### current Type
 
@@ -43,13 +45,15 @@ The default value is:
 
 Default credits limit (adjusted automatically in game).
 
-
 `limit`
 
--   is required
--   Type: `integer`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-currency-properties-limit.md "add-difficulty.json#/properties/currency/properties/limit")
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-currency-properties-limit.md "add-difficulty.json#/properties/currency/properties/limit")
 
 ### limit Type
 

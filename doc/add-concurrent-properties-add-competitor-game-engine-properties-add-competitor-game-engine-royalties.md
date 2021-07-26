@@ -3,6 +3,7 @@
 an array where each item follows the corresponding schema in the following list:
 
 1.  [Untitled integer in Add a Concurrent](add-concurrent-properties-add-competitor-game-engine-properties-add-competitor-game-engine-royalties-items-0.md "check type definition")
+
 2.  [Untitled integer in Add a Concurrent](add-concurrent-properties-add-competitor-game-engine-properties-add-competitor-game-engine-royalties-items-1.md "check type definition")
 
 ## royalties Constraints

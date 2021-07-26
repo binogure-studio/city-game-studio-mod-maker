@@ -2,10 +2,10 @@
 
 `object` ([Details](add-difficulty-properties-happiness.md))
 
-# undefined Properties
+# happiness Properties
 
 | Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                   |
-| :---------------------------------- | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [crunchtime](#crunchtime)           | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-crunchtime.md "add-difficulty.json#/properties/happiness/properties/crunchtime")           |
 | [fire_employee](#fire_employee)     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-fire_employee.md "add-difficulty.json#/properties/happiness/properties/fire_employee")     |
 | [same_genre](#same_genre)           | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre.md "add-difficulty.json#/properties/happiness/properties/same_genre")           |
@@ -19,13 +19,15 @@
 
 Lower the happiness when the employee is working while tired (crunch time, the higher the better).
 
-
 `crunchtime`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-crunchtime.md "add-difficulty.json#/properties/happiness/properties/crunchtime")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-crunchtime.md "add-difficulty.json#/properties/happiness/properties/crunchtime")
 
 ### crunchtime Type
 
@@ -51,13 +53,15 @@ The default value is:
 
 Lower the happiness when you fire an employee (the higher the better).
 
-
 `fire_employee`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-fire_employee.md "add-difficulty.json#/properties/happiness/properties/fire_employee")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-fire_employee.md "add-difficulty.json#/properties/happiness/properties/fire_employee")
 
 ### fire_employee Type
 
@@ -83,13 +87,15 @@ The default value is:
 
 Genre repetition.
 
-
 `same_genre`
 
--   is required
--   Type: `object` ([Details](add-difficulty-properties-happiness-properties-same_genre.md))
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre.md "add-difficulty.json#/properties/happiness/properties/same_genre")
+*   is required
+
+*   Type: `object` ([Details](add-difficulty-properties-happiness-properties-same_genre.md))
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre.md "add-difficulty.json#/properties/happiness/properties/same_genre")
 
 ### same_genre Type
 
@@ -99,13 +105,15 @@ Genre repetition.
 
 When trashing a game, impact the happiness. (the higher the better)
 
-
 `trash_game`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-trash_game.md "add-difficulty.json#/properties/happiness/properties/trash_game")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-trash_game.md "add-difficulty.json#/properties/happiness/properties/trash_game")
 
 ### trash_game Type
 
@@ -131,13 +139,15 @@ The default value is:
 
 When using a new game genre, impact the happiness (the higher the better).
 
-
 `new_genre`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-new_genre.md "add-difficulty.json#/properties/happiness/properties/new_genre")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-new_genre.md "add-difficulty.json#/properties/happiness/properties/new_genre")
 
 ### new_genre Type
 
@@ -163,13 +173,15 @@ The default value is:
 
 Threshold (in percent) before the employee quits (0%: never quit, 100%: will always try to quit).
 
-
 `leave_threshold`
 
--   is required
--   Type: `number`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-leave_threshold.md "add-difficulty.json#/properties/happiness/properties/leave_threshold")
+*   is required
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-leave_threshold.md "add-difficulty.json#/properties/happiness/properties/leave_threshold")
 
 ### leave_threshold Type
 
@@ -195,13 +207,15 @@ The default value is:
 
 To disable the leaving feature.
 
-
 `leave_active`
 
--   is required
--   Type: `boolean`
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-leave_active.md "add-difficulty.json#/properties/happiness/properties/leave_active")
+*   is required
+
+*   Type: `boolean`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-leave_active.md "add-difficulty.json#/properties/happiness/properties/leave_active")
 
 ### leave_active Type
 
@@ -219,13 +233,15 @@ true
 
 Employee happiness bonus (Not implemented yet).
 
-
 `bonus`
 
--   is required
--   Type: `object` ([Details](add-difficulty-properties-happiness-properties-bonus.md))
--   cannot be null
--   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-bonus.md "add-difficulty.json#/properties/happiness/properties/bonus")
+*   is required
+
+*   Type: `object` ([Details](add-difficulty-properties-happiness-properties-bonus.md))
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-bonus.md "add-difficulty.json#/properties/happiness/properties/bonus")
 
 ### bonus Type
 

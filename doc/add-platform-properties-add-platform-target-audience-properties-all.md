@@ -7,7 +7,7 @@
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value         | Explanation |
-| :------------ | ----------- |
+| :------------ | :---------- |
 | `"excellent"` |             |
 | `"good"`      |             |
 | `"ok"`        |             |
@@ -19,7 +19,7 @@
 (excellent|good|ok|poor)
 ```
 
-[try pattern](https://regexr.com/?expression=(excellent%7Cgood%7Cok%7Cpoor) "try regular expression with regexr.com")
+[try pattern](https://regexr.com/?expression=\(excellent%7Cgood%7Cok%7Cpoor\) "try regular expression with regexr.com")
 
 ## all Default Value
 
