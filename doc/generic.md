@@ -18,6 +18,7 @@
 | [mapsize](#mapsize)               | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-map-size.md "mod.json#/properties/mapsize")                                 |
 | [event](#event)                   | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-an-event.md "mod.json#/properties/event")                                   |
 | [digitalstore](#digitalstore)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-digital-store-feature.md "mod.json#/properties/digitalstore")               |
+| [university](#university)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-a-training-type.md "mod.json#/properties/university")                       |
 | [gameengine](#gameengine)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-game-engine-feature.md "mod.json#/properties/gameengine")                   |
 | [convention](#convention)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-conventions.md "mod.json#/properties/convention")                           |
 
@@ -236,6 +237,24 @@ To manipulate digital store
 ### digitalstore Type
 
 `object` ([Root: Add digital store feature](generic-properties-root-add-digital-store-feature.md))
+
+## university
+
+To manipulate universities trainings
+
+`university`
+
+*   is optional
+
+*   Type: `object` ([Root: Add a training type](generic-properties-root-add-a-training-type.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-add-a-training-type.md "mod.json#/properties/university")
+
+### university Type
+
+`object` ([Root: Add a training type](generic-properties-root-add-a-training-type.md))
 
 ## gameengine
 

@@ -4,6 +4,8 @@
 
 *   [Add a Concurrent](./add-concurrent.md "Add a new competitor") – `add-concurrent.json`
 
+*   [Add a Training type](./add-university.md "Add a new training type") – `add-university.json`
+
 *   [Add a convention](./add-convention.md "Add a convention") – `add-convention.json`
 
 *   [Add a difficulty](./add-difficulty.md "Add a new difficulty") – `add-difficulty.json`
@@ -111,6 +113,8 @@
 *   [Rename a platform's component](./generic-properties-root-addrename-custom-platforms-components-properties-rename-component-rename-a-platforms-component.md "Rename a platform's component") – `rename-platform-component.json#/properties/customplatform/properties/rename/items`
 
 *   [Rename an Indie company](./generic-properties-root-addrename-indie-company-properties-rename-an-indie-company-rename-an-indie-company.md "Rename an indie company") – `rename-indie.json#/properties/indie/properties/rename/items`
+
+*   [Root: Add a training type](./generic-properties-root-add-a-training-type.md "To manipulate universities trainings") – `mod.json#/properties/university`
 
 *   [Root: Add an event](./generic-properties-root-add-an-event.md "To manipulate events") – `mod.json#/properties/event`
 
@@ -248,6 +252,8 @@
 
 *   [Add theme - genre: Poor match](./add-theme-properties-add-theme-genre-properties-add-theme---genre-poor-match.md) – `add-theme.json#/properties/match/properties/poor`
 
+*   [Add training type](./generic-properties-root-add-a-training-type-properties-add-training-type.md "Add a training type") – `mod.json#/properties/university/properties/add`
+
 *   [Add translations](./generic-properties-root-add-internationalization-properties-add-translations.md "Add a new translation") – `mod.json#/properties/translation/properties/add`
 
 *   [Rename a convention](./generic-properties-root-add-conventions-properties-rename-a-convention.md "Rename a conventions") – `mod.json#/properties/convention/properties/rename`
@@ -261,6 +267,8 @@
 *   [Rename manufacturer](./generic-properties-root-addrename-manufacturers-properties-rename-manufacturer.md "Rename a manufacturer") – `mod.json#/properties/manufacturer/properties/rename`
 
 *   [Rename platform](./generic-properties-root-addrename-platform-properties-rename-platform.md "Rename a platform") – `mod.json#/properties/platform/properties/rename`
+
+*   [Untitled array in Add a Training type](./add-university-properties-capacities.md "Capacities to train") – `add-university.json#/properties/capacities`
 
 *   [Untitled array in Add a convention](./add-convention-properties-size.md "Game size to boost (Selected game sizes will get extra visitors)") – `add-convention.json#/properties/size`
 

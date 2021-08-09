@@ -1,0 +1,3 @@
+## capacities Type
+
+`string[]`
