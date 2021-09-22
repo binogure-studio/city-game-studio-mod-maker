@@ -10,6 +10,7 @@
 | [postmortem_ratio](#postmortem_ratio)             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-postmortem_ratio.md "add-difficulty.json#/properties/postmortem_ratio")             |
 | [perfect_employee_ratio](#perfect_employee_ratio) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-perfect_employee_ratio.md "add-difficulty.json#/properties/perfect_employee_ratio") |
 | [admin_cost](#admin_cost)                         | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-admin_cost.md "add-difficulty.json#/properties/admin_cost")                         |
+| [remake](#remake)                                 | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-remake.md "add-difficulty.json#/properties/remake")                                 |
 | [engine](#engine)                                 | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-engine.md "add-difficulty.json#/properties/engine")                                 |
 | [iap](#iap)                                       | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-iap.md "add-difficulty.json#/properties/iap")                                       |
 | [perfect_employee_cost](#perfect_employee_cost)   | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-perfect_employee_cost.md "add-difficulty.json#/properties/perfect_employee_cost")   |
@@ -156,6 +157,24 @@ The default value is:
 ```json
 2000
 ```
+
+## remake
+
+Adjust difficulty to make a remake of a game.
+
+`remake`
+
+*   is required
+
+*   Type: `object` ([Details](add-difficulty-properties-remake.md))
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-remake.md "add-difficulty.json#/properties/remake")
+
+### remake Type
+
+`object` ([Details](add-difficulty-properties-remake.md))
 
 ## engine
 

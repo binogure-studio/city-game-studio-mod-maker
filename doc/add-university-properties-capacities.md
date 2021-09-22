@@ -1,3 +1,0 @@
-## capacities Type
-
-`string[]`

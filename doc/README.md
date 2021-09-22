@@ -4,8 +4,6 @@
 
 *   [Add a Concurrent](./add-concurrent.md "Add a new competitor") – `add-concurrent.json`
 
-*   [Add a Training type](./add-university.md "Add a new training type") – `add-university.json`
-
 *   [Add a convention](./add-convention.md "Add a convention") – `add-convention.json`
 
 *   [Add a difficulty](./add-difficulty.md "Add a new difficulty") – `add-difficulty.json`
@@ -114,8 +112,6 @@
 
 *   [Rename an Indie company](./generic-properties-root-addrename-indie-company-properties-rename-an-indie-company-rename-an-indie-company.md "Rename an indie company") – `rename-indie.json#/properties/indie/properties/rename/items`
 
-*   [Root: Add a training type](./generic-properties-root-add-a-training-type.md "To manipulate universities trainings") – `mod.json#/properties/university`
-
 *   [Root: Add an event](./generic-properties-root-add-an-event.md "To manipulate events") – `mod.json#/properties/event`
 
 *   [Root: Add conventions](./generic-properties-root-add-conventions.md "To manipulate conventions") – `mod.json#/properties/convention`
@@ -149,6 +145,8 @@
 *   [Studio happinness/productivity](./add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity.md "This action can change the productivity/happiness of a studio") – `add-event.json#/anyOf/1/properties/actions/items/anyOf/0`
 
 *   [Untitled object in Add a convention](./add-convention-properties-date.md "Date of the convention") – `add-convention.json#/properties/date`
+
+*   [Untitled object in Add a difficulty](./add-difficulty-properties-remake.md "Adjust difficulty to make a remake of a game") – `add-difficulty.json#/properties/remake`
 
 *   [Untitled object in Add a difficulty](./add-difficulty-properties-engine.md "Adjust difficulty to make an engine") – `add-difficulty.json#/properties/engine`
 
@@ -206,6 +204,10 @@
 
 *   [Untitled object in Add a new platorm component](./add-platform-component-properties-release_date.md "Release date of the component") – `add-platform-component.json#/properties/release_date`
 
+*   [Untitled object in Create a mod](./generic-properties-university.md) – `mod.json#/properties/university`
+
+*   [Untitled object in Create a mod](./generic-properties-university-additionalproperties.md) – `mod.json#/properties/university/additionalProperties`
+
 ### Arrays
 
 *   [Add Competitor: Game engine royalties](./add-concurrent-properties-add-competitor-game-engine-properties-add-competitor-game-engine-royalties.md "Range for the concurrent engine royalties") – `add-concurrent.json#/properties/engine/properties/royalties`
@@ -252,8 +254,6 @@
 
 *   [Add theme - genre: Poor match](./add-theme-properties-add-theme-genre-properties-add-theme---genre-poor-match.md) – `add-theme.json#/properties/match/properties/poor`
 
-*   [Add training type](./generic-properties-root-add-a-training-type-properties-add-training-type.md "Add a training type") – `mod.json#/properties/university/properties/add`
-
 *   [Add translations](./generic-properties-root-add-internationalization-properties-add-translations.md "Add a new translation") – `mod.json#/properties/translation/properties/add`
 
 *   [Rename a convention](./generic-properties-root-add-conventions-properties-rename-a-convention.md "Rename a conventions") – `mod.json#/properties/convention/properties/rename`
@@ -267,8 +267,6 @@
 *   [Rename manufacturer](./generic-properties-root-addrename-manufacturers-properties-rename-manufacturer.md "Rename a manufacturer") – `mod.json#/properties/manufacturer/properties/rename`
 
 *   [Rename platform](./generic-properties-root-addrename-platform-properties-rename-platform.md "Rename a platform") – `mod.json#/properties/platform/properties/rename`
-
-*   [Untitled array in Add a Training type](./add-university-properties-capacities.md "Capacities to train") – `add-university.json#/properties/capacities`
 
 *   [Untitled array in Add a convention](./add-convention-properties-size.md "Game size to boost (Selected game sizes will get extra visitors)") – `add-convention.json#/properties/size`
 
@@ -301,3 +299,5 @@
 *   [Untitled array in Add a new event](./add-event-anyof-scheduled-event-properties-conditions.md "List of conditions before activating this event") – `add-event.json#/anyOf/1/properties/conditions`
 
 *   [Untitled array in Add a new event](./add-event-anyof-scheduled-event-properties-actions.md "List of available actions") – `add-event.json#/anyOf/1/properties/actions`
+
+*   [Untitled array in Create a mod](./generic-properties-university-properties-add.md) – `mod.json#/properties/university/properties/add`
