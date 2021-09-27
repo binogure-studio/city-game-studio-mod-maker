@@ -4,19 +4,20 @@
 
 # concurrent Properties
 
-| Property                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                             |
-| :------------------------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [fanbase](#fanbase)                         | `array`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase.md "add-difficulty.json#/properties/concurrent/properties/fanbase")                         |
-| [currency](#currency)                       | `array`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-currency.md "add-difficulty.json#/properties/concurrent/properties/currency")                       |
-| [note](#note)                               | `array`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-note.md "add-difficulty.json#/properties/concurrent/properties/note")                               |
-| [penalty](#penalty)                         | `array`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty.md "add-difficulty.json#/properties/concurrent/properties/penalty")                         |
-| [income_ratio](#income_ratio)               | `array`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio.md "add-difficulty.json#/properties/concurrent/properties/income_ratio")               |
-| [penalty_ratio](#penalty_ratio)             | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty_ratio.md "add-difficulty.json#/properties/concurrent/properties/penalty_ratio")             |
-| [ds_min_odds](#ds_min_odds)                 | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-ds_min_odds.md "add-difficulty.json#/properties/concurrent/properties/ds_min_odds")                 |
-| [fanbase_price_ratio](#fanbase_price_ratio) | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase_price_ratio.md "add-difficulty.json#/properties/concurrent/properties/fanbase_price_ratio") |
-| [studio_spare](#studio_spare)               | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-studio_spare.md "add-difficulty.json#/properties/concurrent/properties/studio_spare")               |
-| [engine_ratio](#engine_ratio)               | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_ratio.md "add-difficulty.json#/properties/concurrent/properties/engine_ratio")               |
-| [engine_pow_factor](#engine_pow_factor)     | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_pow_factor.md "add-difficulty.json#/properties/concurrent/properties/engine_pow_factor")     |
+| Property                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                             |
+| :------------------------------------------ | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [fanbase](#fanbase)                         | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase.md "add-difficulty.json#/properties/concurrent/properties/fanbase")                         |
+| [currency](#currency)                       | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-currency.md "add-difficulty.json#/properties/concurrent/properties/currency")                       |
+| [hack_max](#hack_max)                       | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-hack_max.md "add-difficulty.json#/properties/concurrent/properties/hack_max")                       |
+| [note](#note)                               | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-note.md "add-difficulty.json#/properties/concurrent/properties/note")                               |
+| [penalty](#penalty)                         | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty.md "add-difficulty.json#/properties/concurrent/properties/penalty")                         |
+| [income_ratio](#income_ratio)               | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio.md "add-difficulty.json#/properties/concurrent/properties/income_ratio")               |
+| [penalty_ratio](#penalty_ratio)             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty_ratio.md "add-difficulty.json#/properties/concurrent/properties/penalty_ratio")             |
+| [ds_min_odds](#ds_min_odds)                 | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-ds_min_odds.md "add-difficulty.json#/properties/concurrent/properties/ds_min_odds")                 |
+| [fanbase_price_ratio](#fanbase_price_ratio) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase_price_ratio.md "add-difficulty.json#/properties/concurrent/properties/fanbase_price_ratio") |
+| [studio_spare](#studio_spare)               | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-studio_spare.md "add-difficulty.json#/properties/concurrent/properties/studio_spare")               |
+| [engine_ratio](#engine_ratio)               | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_ratio.md "add-difficulty.json#/properties/concurrent/properties/engine_ratio")               |
+| [engine_pow_factor](#engine_pow_factor)     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_pow_factor.md "add-difficulty.json#/properties/concurrent/properties/engine_pow_factor")     |
 
 ## fanbase
 
@@ -91,6 +92,38 @@ The default value is:
   50000000,
   125000000
 ]
+```
+
+## hack_max
+
+Used by the AI when they are cracking your game (default values easiest to hardest: 90, 90, 80, 75, 50.
+
+`hack_max`
+
+*   is required
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-hack_max.md "add-difficulty.json#/properties/concurrent/properties/hack_max")
+
+### hack_max Type
+
+`integer`
+
+### hack_max Constraints
+
+**multiple of**: the value of this number must be a multiple of: `5`
+
+**minimum**: the value of this number must greater than or equal to: `40`
+
+### hack_max Default Value
+
+The default value is:
+
+```json
+90
 ```
 
 ## note

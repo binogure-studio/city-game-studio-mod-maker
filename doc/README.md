@@ -204,9 +204,7 @@
 
 *   [Untitled object in Add a new platorm component](./add-platform-component-properties-release_date.md "Release date of the component") – `add-platform-component.json#/properties/release_date`
 
-*   [Untitled object in Create a mod](./generic-properties-university.md) – `mod.json#/properties/university`
-
-*   [Untitled object in Create a mod](./generic-properties-university-additionalproperties.md) – `mod.json#/properties/university/additionalProperties`
+*   [Untitled object in Create a mod](./generic-additionalproperties.md "Deprecated, do not use") – `mod.json#/additionalProperties`
 
 ### Arrays
 
@@ -300,4 +298,6 @@
 
 *   [Untitled array in Add a new event](./add-event-anyof-scheduled-event-properties-actions.md "List of available actions") – `add-event.json#/anyOf/1/properties/actions`
 
-*   [Untitled array in Create a mod](./generic-properties-university-properties-add.md) – `mod.json#/properties/university/properties/add`
+*   [Untitled array in Create a mod](./generic-additionalproperties-properties-add.md) – `mod.json#/additionalProperties/properties/add`
+
+*   [Untitled array in Create a mod](./generic-additionalproperties-properties-rename.md) – `mod.json#/additionalProperties/properties/rename`

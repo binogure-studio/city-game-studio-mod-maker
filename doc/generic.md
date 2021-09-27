@@ -10,7 +10,6 @@
 | [platform](#platform)             | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-platform.md "mod.json#/properties/platform")                          |
 | [concurrent](#concurrent)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-competitors.md "mod.json#/properties/concurrent")                     |
 | [manufacturer](#manufacturer)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-manufacturers.md "mod.json#/properties/manufacturer")                 |
-| [university](#university)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-university.md "mod.json#/properties/university")                                     |
 | [theme](#theme)                   | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-themes.md "mod.json#/properties/theme")                                     |
 | [translation](#translation)       | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-internationalization.md "mod.json#/properties/translation")                 |
 | [indie](#indie)                   | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-indie-company.md "mod.json#/properties/indie")                        |
@@ -21,6 +20,7 @@
 | [digitalstore](#digitalstore)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-digital-store-feature.md "mod.json#/properties/digitalstore")               |
 | [gameengine](#gameengine)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-game-engine-feature.md "mod.json#/properties/gameengine")                   |
 | [convention](#convention)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-conventions.md "mod.json#/properties/convention")                           |
+| Additional Properties             | `object` | Optional | cannot be null | [Create a mod](generic-additionalproperties.md "mod.json#/additionalProperties")                                       |
 
 ## customplatform
 
@@ -93,24 +93,6 @@ To manipulate manufacturers
 ### manufacturer Type
 
 `object` ([Root: Add/rename manufacturers](generic-properties-root-addrename-manufacturers.md))
-
-## university
-
-
-
-`university`
-
-*   is optional
-
-*   Type: `object` ([Details](generic-properties-university.md))
-
-*   cannot be null
-
-*   defined in: [Create a mod](generic-properties-university.md "mod.json#/properties/university")
-
-### university Type
-
-`object` ([Details](generic-properties-university.md))
 
 ## theme
 
@@ -291,3 +273,21 @@ To manipulate conventions
 ### convention Type
 
 `object` ([Root: Add conventions](generic-properties-root-add-conventions.md))
+
+## Additional Properties
+
+Additional properties are allowed, as long as they follow this schema:
+
+Deprecated, do not use
+
+*   is optional
+
+*   Type: `object` ([Details](generic-additionalproperties.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-additionalproperties.md "mod.json#/additionalProperties")
+
+### additionalProperties Type
+
+`object` ([Details](generic-additionalproperties.md))
