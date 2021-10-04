@@ -96,7 +96,7 @@ The default value is:
 
 ## hack_max
 
-Used by the AI when they are cracking your game (default values easiest to hardest: 90, 90, 80, 75, 50.
+Used by the AI when they are cracking your game (default values easiest to hardest: 90, 90, 80, 75, 50).
 
 `hack_max`
 

@@ -1,3 +1,5 @@
+
+
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import JSZip from 'jszip';
@@ -5,6 +7,8 @@ import Form from '@rjsf/core';
 
 import schema from './schemas.json';
 import ui_schema from './ui-schemas.json';
+
+var defaultFormData = {}
 
 function dataURItoBlob(dataURI) {
   // convert base64 to raw binary data held in a string
@@ -25,8 +29,10 @@ function dataURItoBlob(dataURI) {
 
 export default class App extends Component {
   constructor(props) {
-    super(props);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    super(props)
+
+    this.handleSubmit = this.handleSubmit.bind(this)
+    this.loadFiles = this.loadFiles.bind(this)
   }
 
   handleSubmit({formData}) {
@@ -76,13 +82,64 @@ export default class App extends Component {
     })
   }
 
+  openFileDialog() {
+    document.getElementById('file-input').click()
+  }
+
+  loadFiles() {
+    let fileReader = new FileReader()
+
+    const formatData = (_data, _ui_schema) => {
+      if (Array.isArray(_data)) {
+        _data.forEach((item) => formatData(item, _ui_schema.items))
+      } else {
+        Object.keys(_data).forEach((key) => {
+          if (_ui_schema == null || _ui_schema[key] == null) {
+            // NO-OP
+          } else if (_ui_schema[key].items != null && _ui_schema[key].items.array) {
+            _data[key] = _data[key].reduce((acc, item) => {
+              acc[item.label] = item.translation
+
+              return acc
+            }, {})
+          } else if (_ui_schema[key]['ui:options'] != null && _ui_schema[key]['ui:options'].accept != null) {
+
+            delete _data[key]
+          } else {
+            formatData(_data[key], _ui_schema[key])
+          }
+        })
+      }
+    }
+
+    fileReader.onload = (rawData) => {
+      console.log(rawData.target.result)
+      defaultFormData = JSON.parse(rawData.target.result)
+
+      // Reformat the data
+      formatData(defaultFormData, ui_schema)
+
+      this.setState(defaultFormData)
+    }
+
+    fileReader.readAsText(document.getElementById('file-input').files[0])
+  }
+
   render() {
     return (
-      <Form schema={schema} uiSchema={ui_schema} onSubmit={this.handleSubmit} >
-        <button className="btn btn-info" type="submit" value="Download">Download</button>
+      <Form id="form-to-update"
+        schema={schema}
+        uiSchema={ui_schema}
+        onSubmit={this.handleSubmit}
+        formData={defaultFormData}
+       >
+        <button className="btn btn-info" type="submit" value="Download">Download</button>&nbsp;&nbsp;&nbsp;&nbsp;
+        <button className="btn btn-info" type="button" value="Load" onClick={this.openFileDialog}>Load JSON file</button>
+        <input className="btn-file" id="file-input" type="file" accept="application/json" onChange={this.loadFiles} />
       </Form>
     )
   }
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))
+

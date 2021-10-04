@@ -337,6 +337,9 @@
         "postmortem_ratio": {},
         "perfect_employee_ratio": {},
         "admin_cost": {},
+        "remake": {
+          "point_to_produce_ratio": {}
+        },
         "engine": {
           "feature_costs_ratio": {}
         },
@@ -465,6 +468,7 @@
               "inline": true
             }
           },
+          "hack_max": {},
           "note": {
             "items": {},
             "ui:widget": "checkboxes",

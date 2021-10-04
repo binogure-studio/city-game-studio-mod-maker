@@ -2546,7 +2546,8 @@
               "taxes",
               "publishing",
               "concurrent",
-              "engine"
+              "engine",
+              "remake"
             ],
             "properties": {
               "difficulty": {
@@ -2576,6 +2577,22 @@
                 "default": 2000,
                 "multipleOf": 100,
                 "minimum": 100
+              },
+              "remake": {
+                "type": "object",
+                "description": "Adjust difficulty to make a remake of a game.",
+                "required": [
+                  "point_to_produce_ratio"
+                ],
+                "properties": {
+                  "point_to_produce_ratio": {
+                    "type": "number",
+                    "description": "Change the number of points to produce for a remake (default values: 0.4, 0.55, 0.7, 0.85, 1.0)",
+                    "default": 0.4,
+                    "minimum": 0.1,
+                    "maximum": 10
+                  }
+                }
               },
               "engine": {
                 "type": "object",
@@ -3222,7 +3239,8 @@
                   "ds_min_odds",
                   "fanbase_price_ratio",
                   "engine_ratio",
-                  "studio_spare"
+                  "studio_spare",
+                  "hack_max"
                 ],
                 "properties": {
                   "fanbase": {
@@ -3268,6 +3286,13 @@
                         "multipleOf": 100000
                       }
                     ]
+                  },
+                  "hack_max": {
+                    "type": "integer",
+                    "description": "Used by the AI when they are cracking your game (default values easiest to hardest: 90, 90, 80, 75, 50).",
+                    "default": 90,
+                    "minimum": 40,
+                    "multipleOf": 5
                   },
                   "note": {
                     "type": "array",
@@ -3502,8 +3527,8 @@
                   },
                   "probability": {
                     "type": "number",
-                    "description": "Event odds.",
-                    "minimum": 0.001,
+                    "description": "Event odds. (set 0 if you dont want the event to get triggered)",
+                    "minimum": 0,
                     "maximum": 0.009,
                     "multipleOf": 0.00001
                   },
@@ -3687,6 +3712,10 @@
                                 "cat"
                               ]
                             },
+                            "trigger_event": {
+                              "type": "string",
+                              "description": "Event id to trigger, has to be an existing uuid"
+                            },
                             "type": {
                               "type": "string",
                               "description": "Event type (durable).",
@@ -3749,6 +3778,10 @@
                                 "watertank",
                                 "whiteboard"
                               ]
+                            },
+                            "trigger_event": {
+                              "type": "string",
+                              "description": "Event id to trigger, has to be an existing uuid"
                             },
                             "type": {
                               "type": "string",
@@ -3997,6 +4030,10 @@
                                 "cat"
                               ]
                             },
+                            "trigger_event": {
+                              "type": "string",
+                              "description": "Event id to trigger, has to be an existing uuid"
+                            },
                             "type": {
                               "type": "string",
                               "description": "Event type (durable).",
@@ -4040,6 +4077,10 @@
                               "enum": [
                                 "streamer"
                               ]
+                            },
+                            "trigger_event": {
+                              "type": "string",
+                              "description": "Event id to trigger, has to be an existing uuid"
                             },
                             "furniture": {
                               "type": "string",
@@ -4687,5 +4728,17 @@
       "required": []
     }
   },
-  "required": []
+  "required": [],
+  "additionalProperties": {
+    "description": "Deprecated, do not use",
+    "type": "object",
+    "properties": {
+      "add": {
+        "type": "array"
+      },
+      "rename": {
+        "type": "array"
+      }
+    }
+  }
 }
