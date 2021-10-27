@@ -4,7 +4,7 @@
 
 ## max_bonus Constraints
 
-**multiple of**: the value of this number must be a multiple of: `0.05`
+**multiple of**: the value of this number must be a multiple of: `0.01`
 
 **maximum**: the value of this number must smaller than or equal to: `2`
 
@@ -15,5 +15,5 @@
 The default value is:
 
 ```json
-1
+1.01
 ```

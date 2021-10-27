@@ -37,5 +37,5 @@ Server load adjustement variable (lower = lower server usage).
 The default value is:
 
 ```json
-0.247
+0.217
 ```

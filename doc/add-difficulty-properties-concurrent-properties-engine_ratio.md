@@ -4,7 +4,7 @@
 
 ## engine_ratio Constraints
 
-**multiple of**: the value of this number must be a multiple of: `0.1`
+**multiple of**: the value of this number must be a multiple of: `0.01`
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
@@ -13,5 +13,5 @@
 The default value is:
 
 ```json
-8
+1.14
 ```

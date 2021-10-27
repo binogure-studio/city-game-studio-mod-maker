@@ -46,7 +46,7 @@ Units return rate for a custom-platformustomplatform.
 The default value is:
 
 ```json
-0.2
+0.25
 ```
 
 ## min_capacities
@@ -80,7 +80,7 @@ Min value of the paltform's capacities. ( platform capacities / generation expec
 The default value is:
 
 ```json
-0.95
+0.7
 ```
 
 ## making_cost_ratio
@@ -112,7 +112,7 @@ Custom platform manufacturing costs ratio.
 The default value is:
 
 ```json
-1.55
+1.34
 ```
 
 ## quality_ratio
@@ -146,7 +146,7 @@ Custom platform refund rate ratio (based on console quality).
 The default value is:
 
 ```json
-1.5
+3
 ```
 
 ## negotiation

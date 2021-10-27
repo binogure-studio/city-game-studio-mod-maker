@@ -37,5 +37,5 @@ Change the cost of each engine feature (implementation cost, not the CPU/GPU cos
 The default value is:
 
 ```json
-1
+13
 ```

@@ -123,7 +123,7 @@ Used by the AI when they are cracking your game (default values easiest to harde
 The default value is:
 
 ```json
-90
+50
 ```
 
 ## note
@@ -343,7 +343,7 @@ Number of studio concurrent will spare for the player.
 The default value is:
 
 ```json
-3
+1
 ```
 
 ## engine_ratio
@@ -366,7 +366,7 @@ Used to compute the value of a competitor (based on its engine).
 
 ### engine_ratio Constraints
 
-**multiple of**: the value of this number must be a multiple of: `0.1`
+**multiple of**: the value of this number must be a multiple of: `0.01`
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
@@ -375,7 +375,7 @@ Used to compute the value of a competitor (based on its engine).
 The default value is:
 
 ```json
-8
+1.14
 ```
 
 ## engine_pow_factor
@@ -407,5 +407,5 @@ Used to adjust the revenu of an engine (higher ratio = lower revenue).
 The default value is:
 
 ```json
-1.334
+2
 ```

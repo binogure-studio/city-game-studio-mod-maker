@@ -37,5 +37,5 @@ Number of tips unlocked when making a game report
 The default value is:
 
 ```json
-4
+8
 ```

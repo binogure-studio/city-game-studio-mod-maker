@@ -37,5 +37,5 @@ Penality ratio when you fail a contract (lower the cheaper).
 The default value is:
 
 ```json
-0.4
+0.52
 ```

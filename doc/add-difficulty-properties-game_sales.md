@@ -41,7 +41,7 @@ Set the minimum note to get a sales boost (the lower the easier).
 The default value is:
 
 ```json
-0.88
+1
 ```
 
 ## retention_ratio
@@ -75,7 +75,7 @@ User retention (higher the better).
 The default value is:
 
 ```json
-0.766
+0.875
 ```
 
 ## sales_ratio
@@ -100,7 +100,7 @@ Percentage of user who actual buys your game (higher the better).
 
 **multiple of**: the value of this number must be a multiple of: `0.001`
 
-**maximum**: the value of this number must smaller than or equal to: `1`
+**maximum**: the value of this number must smaller than or equal to: `3`
 
 **minimum**: the value of this number must greater than or equal to: `0.001`
 
@@ -109,5 +109,5 @@ Percentage of user who actual buys your game (higher the better).
 The default value is:
 
 ```json
-0.56
+2.667
 ```

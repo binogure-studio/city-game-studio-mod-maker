@@ -45,7 +45,7 @@ Set the minimal ratio when a game doesn't produce enough capacities point.
 The default value is:
 
 ```json
-0.8
+0.2
 ```
 
 ## capacity_ratio
@@ -113,7 +113,7 @@ Ratio of the number of points to produce per game (design, development and polis
 The default value is:
 
 ```json
-0.5
+0.55
 ```
 
 ## game_combo_ratio
@@ -147,7 +147,7 @@ Malus when making the same combination twice `score * game_combo_ratio`.
 The default value is:
 
 ```json
-0.4
+0.5
 ```
 
 ## max_bonus
@@ -170,7 +170,7 @@ Maximum bonus applicable for a game `bonus = min(bonus, max_bonus)`.
 
 ### max_bonus Constraints
 
-**multiple of**: the value of this number must be a multiple of: `0.05`
+**multiple of**: the value of this number must be a multiple of: `0.01`
 
 **maximum**: the value of this number must smaller than or equal to: `2`
 
@@ -181,7 +181,7 @@ Maximum bonus applicable for a game `bonus = min(bonus, max_bonus)`.
 The default value is:
 
 ```json
-1
+1.01
 ```
 
 ## min_delay
@@ -249,5 +249,5 @@ Number of capacities point (design/development/polish) to be produced `expected_
 The default value is:
 
 ```json
-3
+2
 ```

@@ -89,7 +89,7 @@ Probability to get intel from a game report (higher the better).
 The default value is:
 
 ```json
-0.25
+0.3
 ```
 
 ## perfect_employee_ratio
@@ -155,7 +155,7 @@ Your starting salary.
 The default value is:
 
 ```json
-2000
+1500
 ```
 
 ## remake
@@ -317,7 +317,7 @@ Wage percent when an employee levels up (lower cheaper).
 The default value is:
 
 ```json
-0.256
+0.196
 ```
 
 ## ccu_cost

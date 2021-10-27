@@ -38,7 +38,7 @@ Starting currency.
 The default value is:
 
 ```json
-65000
+150000
 ```
 
 ## limit
@@ -72,5 +72,5 @@ Default credits limit (adjusted automatically in game).
 The default value is:
 
 ```json
--32500
+-42500
 ```
