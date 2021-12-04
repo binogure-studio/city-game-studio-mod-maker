@@ -130,6 +130,8 @@ Platform's id to rename (integer)'
 | `78`  |             |
 | `79`  |             |
 | `80`  |             |
+| `81`  |             |
+| `84`  |             |
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
