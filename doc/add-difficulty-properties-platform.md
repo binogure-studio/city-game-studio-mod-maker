@@ -14,6 +14,7 @@
 | [manufacturer_loyalty](#manufacturer_loyalty) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-manufacturer_loyalty.md "add-difficulty.json#/properties/platform/properties/manufacturer_loyalty") |
 | [game_score](#game_score)                     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-game_score.md "add-difficulty.json#/properties/platform/properties/game_score")                     |
 | [loyalty](#loyalty)                           | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-loyalty.md "add-difficulty.json#/properties/platform/properties/loyalty")                           |
+| [crash_1983](#crash_1983)                     | `boolean` | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-crash_1983.md "add-difficulty.json#/properties/platform/properties/crash_1983")                     |
 
 ## max_return_rate
 
@@ -270,3 +271,21 @@ Default loyalty of a manufacturer.
 **maximum**: the value of this number must smaller than or equal to: `25`
 
 **minimum**: the value of this number must greater than or equal to: `-25`
+
+## crash\_1983
+
+To enable the 1983 crash for custom platforms.
+
+`crash_1983`
+
+*   is optional
+
+*   Type: `boolean`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-crash\_1983.md "add-difficulty.json#/properties/platform/properties/crash\_1983")
+
+### crash\_1983 Type
+
+`boolean`
