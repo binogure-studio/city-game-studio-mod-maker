@@ -369,3 +369,4 @@ Component's type (Handled only: screen, Home only: cartridge).
 | `4`   |             |
 | `5`   |             |
 | `6`   |             |
+| `7`   |             |

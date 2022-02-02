@@ -186,19 +186,23 @@
 
 *   [Untitled object in Add a new digital store's feature](./add-digitalstore-properties-effects-items.md "Add at least one effect and 3 at most") – `add-digitalstore.json#/properties/effects/items`
 
-*   [Untitled object in Add a new event](./add-event-anyof-random-event-properties-conditions-items-anyof-0.md "Event won't if there is not enough studio") – `add-event.json#/anyOf/0/properties/conditions/items/anyOf/0`
+*   [Untitled object in Add a new event](./add-event-anyof-random-event-properties-conditions-items-anyof-0.md "Event won't happen if there is not enough studio") – `add-event.json#/anyOf/0/properties/conditions/items/anyOf/0`
 
 *   [Untitled object in Add a new event](./add-event-anyof-random-event-properties-conditions-items-anyof-1.md "Event won't happen before the specified year") – `add-event.json#/anyOf/0/properties/conditions/items/anyOf/1`
 
 *   [Untitled object in Add a new event](./add-event-anyof-random-event-properties-conditions-items-anyof-2.md "Event won't happen if the player doesn't own the number of specified furniture") – `add-event.json#/anyOf/0/properties/conditions/items/anyOf/2`
 
+*   [Untitled object in Add a new event](./add-event-anyof-random-event-properties-conditions-items-anyof-3.md "Event won't happen if there is no game matching") – `add-event.json#/anyOf/0/properties/conditions/items/anyOf/3`
+
 *   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-date.md) – `add-event.json#/anyOf/1/properties/date`
 
-*   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-0.md "Event won't if there is not enough studio") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/0`
+*   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-0.md "Event won'thappen if there is not enough studio") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/0`
 
 *   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-1.md "Event won't happen before the specified year") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/1`
 
 *   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-2.md "Event won't happen if the player doesn't own the number of specified furniture") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/2`
+
+*   [Untitled object in Add a new event](./add-event-anyof-scheduled-event-properties-conditions-items-anyof-3.md "Event won't happen if there is no game matching") – `add-event.json#/anyOf/1/properties/conditions/items/anyOf/3`
 
 *   [Untitled object in Add a new platform](./add-platform-properties-power.md "Add platform: Power") – `add-platform.json#/properties/power`
 

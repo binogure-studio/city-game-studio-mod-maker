@@ -18,7 +18,7 @@ unknown ([Scheduled event](add-event-anyof-scheduled-event.md))
 
 ## description
 
-Event's description (used for i18n).
+Event's description (used for i18n). Following tags are allowed \[player_name], \[company_name] and \[date]. Regarding conditions you can use either \[game_name] or \[studio_name]
 
 `description`
 
