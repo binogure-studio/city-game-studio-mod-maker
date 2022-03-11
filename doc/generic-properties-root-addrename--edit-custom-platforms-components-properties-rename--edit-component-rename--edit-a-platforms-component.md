@@ -1,13 +1,18 @@
 ## items Type
 
-`object` ([Rename a platform's component](generic-properties-root-addrename-custom-platforms-components-properties-rename-component-rename-a-platforms-component.md))
+`object` ([Rename & edit a platform's component](generic-properties-root-addrename--edit-custom-platforms-components-properties-rename--edit-component-rename--edit-a-platforms-component.md))
 
 # items Properties
 
-| Property      | Type     | Required | Nullable       | Defined by                                                                                                                                     |
-| :------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)     | `string` | Required | cannot be null | [Rename a platform's component](rename-platform-component-properties-components-id.md "rename-platform-component.json#/properties/id")         |
-| [name](#name) | `string` | Required | cannot be null | [Rename a platform's component](rename-platform-component-properties-new-components-name.md "rename-platform-component.json#/properties/name") |
+| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                   |
+| :---------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [id](#id)                           | `string`  | Required | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-components-id.md "rename-platform-component.json#/properties/id")                |
+| [name](#name)                       | `string`  | Required | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-new-components-name.md "rename-platform-component.json#/properties/name")        |
+| [unlock_costs](#unlock_costs)       | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-unlock_costs.md "rename-platform-component.json#/properties/unlock_costs")       |
+| [making_costs](#making_costs)       | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-making_costs.md "rename-platform-component.json#/properties/making_costs")       |
+| [required_points](#required_points) | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-required_points.md "rename-platform-component.json#/properties/required_points") |
+| [gpu](#gpu)                         | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-gpu.md "rename-platform-component.json#/properties/gpu")                         |
+| [cpu](#cpu)                         | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-cpu.md "rename-platform-component.json#/properties/cpu")                         |
 
 ## id
 
@@ -21,7 +26,7 @@ Component's id to rename.
 
 *   cannot be null
 
-*   defined in: [Rename a platform's component](rename-platform-component-properties-components-id.md "rename-platform-component.json#/properties/id")
+*   defined in: [Rename & edit a platform's component](rename-platform-component-properties-components-id.md "rename-platform-component.json#/properties/id")
 
 ### id Type
 
@@ -145,8 +150,128 @@ New component's name.
 
 *   cannot be null
 
-*   defined in: [Rename a platform's component](rename-platform-component-properties-new-components-name.md "rename-platform-component.json#/properties/name")
+*   defined in: [Rename & edit a platform's component](rename-platform-component-properties-new-components-name.md "rename-platform-component.json#/properties/name")
 
 ### name Type
 
 `string` ([New component's name](rename-platform-component-properties-new-components-name.md))
+
+## unlock_costs
+
+Unlocking costs of the component ($).
+
+`unlock_costs`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Rename & edit a platform's component](rename-platform-component-properties-unlock_costs.md "rename-platform-component.json#/properties/unlock_costs")
+
+### unlock_costs Type
+
+`integer`
+
+### unlock_costs Constraints
+
+**maximum**: the value of this number must smaller than or equal to: `9999999`
+
+**minimum**: the value of this number must greater than or equal to: `100`
+
+## making_costs
+
+Manufacturing costs of the component ($).
+
+`making_costs`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Rename & edit a platform's component](rename-platform-component-properties-making_costs.md "rename-platform-component.json#/properties/making_costs")
+
+### making_costs Type
+
+`integer`
+
+### making_costs Constraints
+
+**maximum**: the value of this number must smaller than or equal to: `500`
+
+**minimum**: the value of this number must greater than or equal to: `1`
+
+## required_points
+
+Required points to implment the API of the component.
+
+`required_points`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Rename & edit a platform's component](rename-platform-component-properties-required_points.md "rename-platform-component.json#/properties/required_points")
+
+### required_points Type
+
+`integer`
+
+### required_points Constraints
+
+**maximum**: the value of this number must smaller than or equal to: `999999`
+
+**minimum**: the value of this number must greater than or equal to: `100`
+
+## gpu
+
+GPU capacity of the component.
+
+`gpu`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Rename & edit a platform's component](rename-platform-component-properties-gpu.md "rename-platform-component.json#/properties/gpu")
+
+### gpu Type
+
+`integer`
+
+### gpu Constraints
+
+**maximum**: the value of this number must smaller than or equal to: `999`
+
+**minimum**: the value of this number must greater than or equal to: `0`
+
+## cpu
+
+CPU capacity of the component.
+
+`cpu`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Rename & edit a platform's component](rename-platform-component-properties-cpu.md "rename-platform-component.json#/properties/cpu")
+
+### cpu Type
+
+`integer`
+
+### cpu Constraints
+
+**maximum**: the value of this number must smaller than or equal to: `999`
+
+**minimum**: the value of this number must greater than or equal to: `0`

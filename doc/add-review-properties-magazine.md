@@ -1,0 +1,3 @@
+## magazine Type
+
+`string[]`

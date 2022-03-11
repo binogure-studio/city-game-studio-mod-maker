@@ -1,8 +1,8 @@
-## Edit/rename a Platform Type
+## items Type
 
-`object` ([Edit/rename a Platform](rename-platform.md))
+`object` ([Edit/rename a Platform](generic-properties-root-addrename--edit-platform-properties-rename--edit-platform-editrename-a-platform.md))
 
-# Edit/rename a Platform Properties
+# items Properties
 
 | Property                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                 |
 | :------------------------------------------------------------------ | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
