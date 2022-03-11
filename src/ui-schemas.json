@@ -1,4 +1,98 @@
 {
+  "review": {
+    "add": {
+      "items": {
+        "magazine": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        },
+        "catchphrase_1": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        },
+        "catchphrase_2": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        },
+        "catchphrase_3": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        },
+        "catchphrase_4": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        },
+        "catchphrase_5": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        },
+        "catchphrase_6": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        },
+        "catchphrase_7": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        },
+        "catchphrase_8": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        },
+        "catchphrase_9": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        },
+        "catchphrase_10": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        },
+        "catchphrase_11": {
+          "items": {},
+          "ui:widget": "checkboxes",
+          "ui:options": {
+            "inline": true
+          }
+        }
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    }
+  },
   "customplatform": {
     "add": {
       "items": {
@@ -35,7 +129,12 @@
     "rename": {
       "items": {
         "id": {},
-        "name": {}
+        "name": {},
+        "unlock_costs": {},
+        "making_costs": {},
+        "required_points": {},
+        "gpu": {},
+        "cpu": {}
       },
       "ui:widget": "checkboxes",
       "ui:options": {
@@ -148,7 +247,9 @@
     "rename": {
       "items": {
         "name": {},
-        "id": {}
+        "id": {},
+        "total_amount_of_published_games": {},
+        "total_unit_sold": {}
       },
       "ui:widget": "checkboxes",
       "ui:options": {
@@ -382,7 +483,8 @@
           "negotiation": {},
           "manufacturer_loyalty": {},
           "game_score": {},
-          "loyalty": {}
+          "loyalty": {},
+          "crash_1983": {}
         },
         "contract": {
           "penality": {}
