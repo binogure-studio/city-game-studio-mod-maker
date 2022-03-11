@@ -67,7 +67,7 @@ Manufacturer founder's name
 
 ## avatar
 
-Founder's avatar (Size: 370x412, Format: PNG/JPEG
+Founder's avatar (Size: 370x512, Format: PNG/JPEG
 
 `avatar`
 
