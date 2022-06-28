@@ -21,6 +21,7 @@
 | [digitalstore](#digitalstore)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-digital-store-feature.md "mod.json#/properties/digitalstore")                     |
 | [gameengine](#gameengine)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-game-engine-feature.md "mod.json#/properties/gameengine")                         |
 | [convention](#convention)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-conventions.md "mod.json#/properties/convention")                                 |
+| [recruitement](#recruitement)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-a-famous-developer.md "mod.json#/properties/recruitement")                        |
 | Additional Properties             | `object` | Optional | cannot be null | [Create a mod](generic-additionalproperties.md "mod.json#/additionalProperties")                                             |
 
 ## review
@@ -292,6 +293,24 @@ To manipulate conventions
 ### convention Type
 
 `object` ([Root: Add conventions](generic-properties-root-add-conventions.md))
+
+## recruitement
+
+To add a famous developer
+
+`recruitement`
+
+*   is optional
+
+*   Type: `object` ([Root: Add a famous developer](generic-properties-root-add-a-famous-developer.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-add-a-famous-developer.md "mod.json#/properties/recruitement")
+
+### recruitement Type
+
+`object` ([Root: Add a famous developer](generic-properties-root-add-a-famous-developer.md))
 
 ## Additional Properties
 

@@ -26,6 +26,8 @@
 
 *   [Add a platform manufacturer](./add-manufacturer.md "Add a manufacturer") – `add-manufacturer.json`
 
+*   [Add a recruit (famous developer)](./add-recruitment.md "Add a recruit (famous developer)") – `add-recruitment.json`
+
 *   [Add a translation](./add-translation.md "See the original translations: https://github") – `add-translation.json`
 
 *   [Add an Indie company](./add-indie.md "Add an indie company") – `add-indie.json`
@@ -113,6 +115,8 @@
 *   [Rename a convention](./generic-properties-root-add-conventions-properties-rename-a-convention-rename-a-convention.md "Rename a convention") – `rename-convention.json#/properties/convention/properties/rename/items`
 
 *   [Rename an Indie company](./generic-properties-root-addrename-indie-company-properties-rename-an-indie-company-rename-an-indie-company.md "Rename an indie company") – `rename-indie.json#/properties/indie/properties/rename/items`
+
+*   [Root: Add a famous developer](./generic-properties-root-add-a-famous-developer.md "To add a famous developer") – `mod.json#/properties/recruitement`
 
 *   [Root: Add an event](./generic-properties-root-add-an-event.md "To manipulate events") – `mod.json#/properties/event`
 
@@ -219,6 +223,8 @@
 *   [Add Competitor: Game engine royalties](./add-concurrent-properties-add-competitor-game-engine-properties-add-competitor-game-engine-royalties.md "Range for the concurrent engine royalties") – `add-concurrent.json#/properties/engine/properties/royalties`
 
 *   [Add a convention](./generic-properties-root-add-conventions-properties-add-a-convention.md "Add a new conventions") – `mod.json#/properties/convention/properties/add`
+
+*   [Add a famous developer](./generic-properties-root-add-a-famous-developer-properties-add-a-famous-developer.md "Add a famous developer") – `mod.json#/properties/recruitement/properties/add`
 
 *   [Add an event](./generic-properties-root-add-an-event-properties-add-an-event.md "Add an event") – `mod.json#/properties/event/properties/add`
 
