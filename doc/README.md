@@ -46,6 +46,8 @@
 
 *   [Rename a convention](./rename-convention.md "Rename a convention") – `rename-convention.json`
 
+*   [Rename a famous employee](./rename-recruitment.md "Rename a famous employee") – `rename-recruitment.json`
+
 *   [Rename an Indie company](./rename-indie.md "Rename an indie company") – `rename-indie.json`
 
 ## Other Schemas
@@ -113,6 +115,8 @@
 *   [Rename a concurrent](./generic-properties-root-addrename-competitors-properties-rename-competitor-rename-a-concurrent.md "Rename a concurrent") – `rename-concurrent.json#/properties/concurrent/properties/rename/items`
 
 *   [Rename a convention](./generic-properties-root-add-conventions-properties-rename-a-convention-rename-a-convention.md "Rename a convention") – `rename-convention.json#/properties/convention/properties/rename/items`
+
+*   [Rename a famous employee](./generic-properties-root-add-a-famous-developer-properties-rename-a-famous-employee-rename-a-famous-employee.md "Rename a famous employee") – `rename-recruitment.json#/properties/recruitement/properties/rename/items`
 
 *   [Rename an Indie company](./generic-properties-root-addrename-indie-company-properties-rename-an-indie-company-rename-an-indie-company.md "Rename an indie company") – `rename-indie.json#/properties/indie/properties/rename/items`
 
@@ -275,6 +279,8 @@
 *   [Rename & edit platform](./generic-properties-root-addrename--edit-platform-properties-rename--edit-platform.md "Rename & edit a platform") – `mod.json#/properties/platform/properties/rename`
 
 *   [Rename a convention](./generic-properties-root-add-conventions-properties-rename-a-convention.md "Rename a conventions") – `mod.json#/properties/convention/properties/rename`
+
+*   [Rename a famous employee](./generic-properties-root-add-a-famous-developer-properties-rename-a-famous-employee.md "Rename a famous employee") – `mod.json#/properties/recruitement/properties/rename`
 
 *   [Rename an indie company](./generic-properties-root-addrename-indie-company-properties-rename-an-indie-company.md "Rename a indie company") – `mod.json#/properties/indie/properties/rename`
 
