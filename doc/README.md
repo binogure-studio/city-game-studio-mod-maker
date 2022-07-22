@@ -4,6 +4,8 @@
 
 *   [Add a Concurrent](./add-concurrent.md "Add a new competitor") – `add-concurrent.json`
 
+*   [Add a Concurrent's Game](./add-concurrent-game.md "Add a new competitor's game") – `add-concurrent-game.json`
+
 *   [Add a convention](./add-convention.md "Add a convention") – `add-convention.json`
 
 *   [Add a difficulty](./add-difficulty.md "Add a new difficulty") – `add-difficulty.json`
@@ -43,6 +45,8 @@
 *   [Rename a Manufacturer](./rename-manufacturer.md "Rename a manufacturer") – `rename-manufacturer.json`
 
 *   [Rename a concurrent](./rename-concurrent.md "Rename a concurrent") – `rename-concurrent.json`
+
+*   [Rename a concurrent's game](./rename-concurrent-game.md "Rename a concurrent's game") – `rename-concurrent-game.json`
 
 *   [Rename a convention](./rename-convention.md "Rename a convention") – `rename-convention.json`
 
@@ -114,6 +118,8 @@
 
 *   [Rename a concurrent](./generic-properties-root-addrename-competitors-properties-rename-competitor-rename-a-concurrent.md "Rename a concurrent") – `rename-concurrent.json#/properties/concurrent/properties/rename/items`
 
+*   [Rename a concurrent's game](./generic-properties-root-addrename-competitors-games-properties-rename-competitor-game-rename-a-concurrents-game.md "Rename a concurrent's game") – `rename-concurrent-game.json#/properties/concurrentgame/properties/rename/items`
+
 *   [Rename a convention](./generic-properties-root-add-conventions-properties-rename-a-convention-rename-a-convention.md "Rename a convention") – `rename-convention.json#/properties/convention/properties/rename/items`
 
 *   [Rename a famous employee](./generic-properties-root-add-a-famous-developer-properties-rename-a-famous-employee-rename-a-famous-employee.md "Rename a famous employee") – `rename-recruitment.json#/properties/recruitement/properties/rename/items`
@@ -150,11 +156,13 @@
 
 *   [Root: Add/rename competitors](./generic-properties-root-addrename-competitors.md "To manipulate concurrents") – `mod.json#/properties/concurrent`
 
+*   [Root: Add/rename competitors games](./generic-properties-root-addrename-competitors-games.md "To manipulate concurrents games") – `mod.json#/properties/concurrentgame`
+
 *   [Root: Add/rename manufacturers](./generic-properties-root-addrename-manufacturers.md "To manipulate manufacturers") – `mod.json#/properties/manufacturer`
 
-*   [Studio happinness/productivity](./add-event-anyof-random-event-properties-actions-items-anyof-studio-happinnessproductivity.md "This action can change the productivity/happiness of a studio") – `add-event.json#/anyOf/0/properties/actions/items/anyOf/0`
+*   [Studio happiness/productivity](./add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity.md "This action can change the productivity/happiness of a studio") – `add-event.json#/anyOf/0/properties/actions/items/anyOf/0`
 
-*   [Studio happinness/productivity](./add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinnessproductivity.md "This action can change the productivity/happiness of a studio") – `add-event.json#/anyOf/1/properties/actions/items/anyOf/0`
+*   [Studio happiness/productivity](./add-event-anyof-scheduled-event-properties-actions-items-anyof-studio-happinessproductivity.md "This action can change the productivity/happiness of a studio") – `add-event.json#/anyOf/1/properties/actions/items/anyOf/0`
 
 *   [Untitled object in Add a convention](./add-convention-properties-date.md "Date of the convention") – `add-convention.json#/properties/date`
 
@@ -234,6 +242,8 @@
 
 *   [Add competitor](./generic-properties-root-addrename-competitors-properties-add-competitor.md "Add a new concurrent") – `mod.json#/properties/concurrent/properties/add`
 
+*   [Add competitor game](./generic-properties-root-addrename-competitors-games-properties-add-competitor-game.md "Add a new concurrent game") – `mod.json#/properties/concurrentgame/properties/add`
+
 *   [Add component](./generic-properties-root-addrename--edit-custom-platforms-components-properties-add-component.md "Add a new component") – `mod.json#/properties/customplatform/properties/add`
 
 *   [Add difficulty](./generic-properties-root-add-difficulty-properties-add-difficulty.md "Add a new difficulty") – `mod.json#/properties/difficulty/properties/add`
@@ -285,6 +295,8 @@
 *   [Rename an indie company](./generic-properties-root-addrename-indie-company-properties-rename-an-indie-company.md "Rename a indie company") – `mod.json#/properties/indie/properties/rename`
 
 *   [Rename competitor](./generic-properties-root-addrename-competitors-properties-rename-competitor.md "Rename a concurrent") – `mod.json#/properties/concurrent/properties/rename`
+
+*   [Rename competitor game](./generic-properties-root-addrename-competitors-games-properties-rename-competitor-game.md "Rename a concurrent game") – `mod.json#/properties/concurrentgame/properties/rename`
 
 *   [Rename manufacturer](./generic-properties-root-addrename-manufacturers-properties-rename-manufacturer.md "Rename a manufacturer") – `mod.json#/properties/manufacturer/properties/rename`
 

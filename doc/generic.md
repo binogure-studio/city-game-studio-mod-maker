@@ -10,6 +10,7 @@
 | [customplatform](#customplatform) | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename--edit-custom-platforms-components.md "mod.json#/properties/customplatform") |
 | [platform](#platform)             | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename--edit-platform.md "mod.json#/properties/platform")                          |
 | [concurrent](#concurrent)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-competitors.md "mod.json#/properties/concurrent")                           |
+| [concurrentgame](#concurrentgame) | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-competitors-games.md "mod.json#/properties/concurrentgame")                 |
 | [manufacturer](#manufacturer)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-manufacturers.md "mod.json#/properties/manufacturer")                       |
 | [theme](#theme)                   | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-themes.md "mod.json#/properties/theme")                                           |
 | [translation](#translation)       | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-internationalization.md "mod.json#/properties/translation")                       |
@@ -95,6 +96,24 @@ To manipulate concurrents
 ### concurrent Type
 
 `object` ([Root: Add/rename competitors](generic-properties-root-addrename-competitors.md))
+
+## concurrentgame
+
+To manipulate concurrents games
+
+`concurrentgame`
+
+*   is optional
+
+*   Type: `object` ([Root: Add/rename competitors games](generic-properties-root-addrename-competitors-games.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-addrename-competitors-games.md "mod.json#/properties/concurrentgame")
+
+### concurrentgame Type
+
+`object` ([Root: Add/rename competitors games](generic-properties-root-addrename-competitors-games.md))
 
 ## manufacturer
 
