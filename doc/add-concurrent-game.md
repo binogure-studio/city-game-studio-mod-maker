@@ -53,7 +53,7 @@ Game's name (Ubisoft, Bethesda...)
 
 ## concurrent_id
 
-Id of the competitor. 0: Rocksun, 1: Usual, 2: Ubihard, 3: Rustine, 4: Eastforest, 5: Digital Arts, 6: Snowstorm, 7: Circle enix, 8: Tamcom, 9: Mecaware, 10: 4K Games, 11: UID Hardware, 12: Minis, 13: Epic Fails, 14: Nandai Bamco, 15: Naughty Cat, 16: Majong, 17: Hypersomniac Games inc, 18: Game House, 19: Rito Games, 20: ZeniMin, 21: GreenByte, 22: Warner Sis
+Id of the competitor. 0: Rocksun, 1: Usual, 2: Ubihard, 3: Rustine, 4: Eastforest, 5: Digital Arts, 6: Snowstorm, 7: Circle enix, 8: Tamcom, 9: Mecaware, 10: 4K Games, 11: UID Hardware, 12: Minis, 13: Epic Fails, 14: Nandai Bamco, 15: Naughty Cat, 16: Majong, 17: Hypersomniac Games inc, 18: Game House, 19: Rito Games, 20: ZeniMin, 21: GreenByte, 22: Warner Sis, 23: Kanomi
 
 `concurrent_id`
 
@@ -169,6 +169,10 @@ The default value is:
 
 ```json
 "22"
+```
+
+```json
+"23"
 ```
 
 ## game_type
