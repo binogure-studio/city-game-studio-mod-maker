@@ -6,6 +6,7 @@
 
 | Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                  |
 | :------------------------------------------------ | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [id](#id)                                         | `string`  | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-id.md "add-platform-component.json#/properties/id")                                         |
 | [name](#name)                                     | `string`  | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-name.md "add-platform-component.json#/properties/name")                                     |
 | [online](#online)                                 | `boolean` | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-online.md "add-platform-component.json#/properties/online")                                 |
 | [online_attachment_rate](#online_attachment_rate) | `number`  | Optional | cannot be null | [Add a new platorm component](add-platform-component-properties-online_attachment_rate.md "add-platform-component.json#/properties/online_attachment_rate") |
@@ -19,6 +20,24 @@
 | [texture](#texture)                               | `image`   | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-texture.md "add-platform-component.json#/properties/texture")                               |
 | [compatibility](#compatibility)                   | `number`  | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-compatibility.md "add-platform-component.json#/properties/compatibility")                   |
 | [type](#type)                                     | `number`  | Required | cannot be null | [Add a new platorm component](add-platform-component-properties-type.md "add-platform-component.json#/properties/type")                                     |
+
+## id
+
+UUID v4 (use <https://www.uuidgenerator.net/> to generate one).
+
+`id`
+
+*   is required
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new platorm component](add-platform-component-properties-id.md "add-platform-component.json#/properties/id")
+
+### id Type
+
+`string`
 
 ## name
 
