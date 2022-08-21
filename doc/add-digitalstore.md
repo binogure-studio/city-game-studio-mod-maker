@@ -4,13 +4,13 @@
 
 # Add a new digital store's feature Properties
 
-| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                              |
-| :---------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                           | `string`  | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-id.md "add-digitalstore.json#/properties/id")                           |
-| [name](#name)                       | `string`  | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-name.md "add-digitalstore.json#/properties/name")                       |
-| [description](#description)         | `string`  | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-description.md "add-digitalstore.json#/properties/description")         |
-| [required_points](#required_points) | `integer` | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-required_points.md "add-digitalstore.json#/properties/required_points") |
-| [effects](#effects)                 | `array`   | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-effects.md "add-digitalstore.json#/properties/effects")                 |
+| Property                             | Type      | Required | Nullable       | Defined by                                                                                                                              |
+| :----------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| [id](#id)                            | `string`  | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-id.md "add-digitalstore.json#/properties/id")                           |
+| [name](#name)                        | `string`  | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-name.md "add-digitalstore.json#/properties/name")                       |
+| [description](#description)          | `string`  | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-description.md "add-digitalstore.json#/properties/description")         |
+| [required\_points](#required_points) | `integer` | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-required_points.md "add-digitalstore.json#/properties/required_points") |
+| [effects](#effects)                  | `array`   | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-effects.md "add-digitalstore.json#/properties/effects")                 |
 
 ## id
 
@@ -82,7 +82,7 @@ The default value is:
 "LABEL_DS_FEATURE_DESCRIPTION_0"
 ```
 
-## required_points
+## required\_points
 
 Points required to implement the feature.
 
@@ -96,11 +96,11 @@ Points required to implement the feature.
 
 *   defined in: [Add a new digital store's feature](add-digitalstore-properties-required_points.md "add-digitalstore.json#/properties/required_points")
 
-### required_points Type
+### required\_points Type
 
 `integer`
 
-### required_points Constraints
+### required\_points Constraints
 
 **multiple of**: the value of this number must be a multiple of: `100`
 
@@ -108,7 +108,7 @@ Points required to implement the feature.
 
 **minimum**: the value of this number must greater than or equal to: `500`
 
-### required_points Default Value
+### required\_points Default Value
 
 The default value is:
 

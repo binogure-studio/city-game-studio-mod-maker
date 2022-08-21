@@ -4,11 +4,11 @@
 
 # 3 Properties
 
-| Property                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                        |
-| :---------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)           | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-3-properties-type.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/3/properties/type")           |
-| [min_value](#min_value) | `integer` | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-3-properties-min_value.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/3/properties/min_value") |
-| [max_value](#max_value) | `integer` | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-3-properties-max_value.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/3/properties/max_value") |
+| Property                 | Type      | Required | Nullable       | Defined by                                                                                                                                                                                        |
+| :----------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [type](#type)            | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-3-properties-type.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/3/properties/type")           |
+| [min\_value](#min_value) | `integer` | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-3-properties-min_value.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/3/properties/min_value") |
+| [max\_value](#max_value) | `integer` | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-3-properties-max_value.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/3/properties/max_value") |
 
 ## type
 
@@ -44,7 +44,7 @@ The default value is:
 "game-score"
 ```
 
-## min_value
+## min\_value
 
 
 
@@ -58,11 +58,11 @@ The default value is:
 
 *   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-3-properties-min_value.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/3/properties/min_value")
 
-### min_value Type
+### min\_value Type
 
 `integer`
 
-### min_value Constraints
+### min\_value Constraints
 
 **multiple of**: the value of this number must be a multiple of: `1`
 
@@ -70,7 +70,7 @@ The default value is:
 
 **minimum**: the value of this number must greater than or equal to: `10`
 
-### min_value Default Value
+### min\_value Default Value
 
 The default value is:
 
@@ -78,7 +78,7 @@ The default value is:
 50
 ```
 
-## max_value
+## max\_value
 
 
 
@@ -92,11 +92,11 @@ The default value is:
 
 *   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-conditions-items-anyof-3-properties-max_value.md "add-event.json#/anyOf/1/properties/conditions/items/anyOf/3/properties/max_value")
 
-### max_value Type
+### max\_value Type
 
 `integer`
 
-### max_value Constraints
+### max\_value Constraints
 
 **multiple of**: the value of this number must be a multiple of: `1`
 
@@ -104,7 +104,7 @@ The default value is:
 
 **minimum**: the value of this number must greater than or equal to: `11`
 
-### max_value Default Value
+### max\_value Default Value
 
 The default value is:
 

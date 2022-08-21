@@ -1,8 +1,8 @@
-## sales_threshold Type
+## sales\_threshold Type
 
 `number`
 
-## sales_threshold Constraints
+## sales\_threshold Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `0`
 
-## sales_threshold Default Value
+## sales\_threshold Default Value
 
 The default value is:
 

@@ -14,7 +14,7 @@
 | `"home"`      |             |
 | `"handled"`   |             |
 
-**pattern**: the string must match the following regular expression: 
+**pattern**: the string must match the following regular expression:&#x20;
 
 ```regexp
 (accessory|pc|os|home|handled)

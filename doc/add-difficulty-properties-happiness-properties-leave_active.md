@@ -1,8 +1,8 @@
-## leave_active Type
+## leave\_active Type
 
 `boolean`
 
-## leave_active Default Value
+## leave\_active Default Value
 
 The default value is:
 

@@ -1,8 +1,8 @@
-## unlock_costs Type
+## unlock\_costs Type
 
 `integer`
 
-## unlock_costs Constraints
+## unlock\_costs Constraints
 
 **maximum**: the value of this number must smaller than or equal to: `9999999`
 

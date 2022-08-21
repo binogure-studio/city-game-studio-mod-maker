@@ -4,20 +4,20 @@
 
 # concurrent Properties
 
-| Property                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                             |
-| :------------------------------------------ | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [fanbase](#fanbase)                         | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase.md "add-difficulty.json#/properties/concurrent/properties/fanbase")                         |
-| [currency](#currency)                       | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-currency.md "add-difficulty.json#/properties/concurrent/properties/currency")                       |
-| [hack_max](#hack_max)                       | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-hack_max.md "add-difficulty.json#/properties/concurrent/properties/hack_max")                       |
-| [note](#note)                               | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-note.md "add-difficulty.json#/properties/concurrent/properties/note")                               |
-| [penalty](#penalty)                         | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty.md "add-difficulty.json#/properties/concurrent/properties/penalty")                         |
-| [income_ratio](#income_ratio)               | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio.md "add-difficulty.json#/properties/concurrent/properties/income_ratio")               |
-| [penalty_ratio](#penalty_ratio)             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty_ratio.md "add-difficulty.json#/properties/concurrent/properties/penalty_ratio")             |
-| [ds_min_odds](#ds_min_odds)                 | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-ds_min_odds.md "add-difficulty.json#/properties/concurrent/properties/ds_min_odds")                 |
-| [fanbase_price_ratio](#fanbase_price_ratio) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase_price_ratio.md "add-difficulty.json#/properties/concurrent/properties/fanbase_price_ratio") |
-| [studio_spare](#studio_spare)               | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-studio_spare.md "add-difficulty.json#/properties/concurrent/properties/studio_spare")               |
-| [engine_ratio](#engine_ratio)               | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_ratio.md "add-difficulty.json#/properties/concurrent/properties/engine_ratio")               |
-| [engine_pow_factor](#engine_pow_factor)     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_pow_factor.md "add-difficulty.json#/properties/concurrent/properties/engine_pow_factor")     |
+| Property                                      | Type      | Required | Nullable       | Defined by                                                                                                                                                             |
+| :-------------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [fanbase](#fanbase)                           | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase.md "add-difficulty.json#/properties/concurrent/properties/fanbase")                         |
+| [currency](#currency)                         | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-currency.md "add-difficulty.json#/properties/concurrent/properties/currency")                       |
+| [hack\_max](#hack_max)                        | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-hack_max.md "add-difficulty.json#/properties/concurrent/properties/hack_max")                       |
+| [note](#note)                                 | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-note.md "add-difficulty.json#/properties/concurrent/properties/note")                               |
+| [penalty](#penalty)                           | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty.md "add-difficulty.json#/properties/concurrent/properties/penalty")                         |
+| [income\_ratio](#income_ratio)                | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio.md "add-difficulty.json#/properties/concurrent/properties/income_ratio")               |
+| [penalty\_ratio](#penalty_ratio)              | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty_ratio.md "add-difficulty.json#/properties/concurrent/properties/penalty_ratio")             |
+| [ds\_min\_odds](#ds_min_odds)                 | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-ds_min_odds.md "add-difficulty.json#/properties/concurrent/properties/ds_min_odds")                 |
+| [fanbase\_price\_ratio](#fanbase_price_ratio) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase_price_ratio.md "add-difficulty.json#/properties/concurrent/properties/fanbase_price_ratio") |
+| [studio\_spare](#studio_spare)                | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-studio_spare.md "add-difficulty.json#/properties/concurrent/properties/studio_spare")               |
+| [engine\_ratio](#engine_ratio)                | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_ratio.md "add-difficulty.json#/properties/concurrent/properties/engine_ratio")               |
+| [engine\_pow\_factor](#engine_pow_factor)     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_pow_factor.md "add-difficulty.json#/properties/concurrent/properties/engine_pow_factor")     |
 
 ## fanbase
 
@@ -94,7 +94,7 @@ The default value is:
 ]
 ```
 
-## hack_max
+## hack\_max
 
 Used by the AI when they are cracking your game (default values easiest to hardest: 90, 90, 80, 75, 50).
 
@@ -108,17 +108,17 @@ Used by the AI when they are cracking your game (default values easiest to harde
 
 *   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-hack_max.md "add-difficulty.json#/properties/concurrent/properties/hack_max")
 
-### hack_max Type
+### hack\_max Type
 
 `integer`
 
-### hack_max Constraints
+### hack\_max Constraints
 
 **multiple of**: the value of this number must be a multiple of: `5`
 
 **minimum**: the value of this number must greater than or equal to: `40`
 
-### hack_max Default Value
+### hack\_max Default Value
 
 The default value is:
 
@@ -190,7 +190,7 @@ an array where each item follows the corresponding schema in the following list:
 
 **minimum number of items**: the minimum number of items for this array is: `2`
 
-## income_ratio
+## income\_ratio
 
 \[Range] Used to compute the prepayment of a trade-publishing deal `prepayment = note * income_ratio`.
 
@@ -208,7 +208,7 @@ an array where each item follows the corresponding schema in the following list:
 
 *   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio.md "add-difficulty.json#/properties/concurrent/properties/income_ratio")
 
-### income_ratio Type
+### income\_ratio Type
 
 an array where each item follows the corresponding schema in the following list:
 
@@ -216,13 +216,13 @@ an array where each item follows the corresponding schema in the following list:
 
 2.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio-items-1.md "check type definition")
 
-### income_ratio Constraints
+### income\_ratio Constraints
 
 **maximum number of items**: the maximum number of items for this array is: `2`
 
 **minimum number of items**: the minimum number of items for this array is: `2`
 
-## penalty_ratio
+## penalty\_ratio
 
 Used to compute the penality ratio.
 
@@ -236,15 +236,15 @@ Used to compute the penality ratio.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty_ratio.md "add-difficulty.json#/properties/concurrent/properties/penalty_ratio")
 
-### penalty_ratio Type
+### penalty\_ratio Type
 
 `number`
 
-### penalty_ratio Constraints
+### penalty\_ratio Constraints
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
-### penalty_ratio Default Value
+### penalty\_ratio Default Value
 
 The default value is:
 
@@ -252,7 +252,7 @@ The default value is:
 6
 ```
 
-## ds_min_odds
+## ds\_min\_odds
 
 Probability for a competitor to publisha game on your digital store.
 
@@ -266,17 +266,17 @@ Probability for a competitor to publisha game on your digital store.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-ds_min_odds.md "add-difficulty.json#/properties/concurrent/properties/ds_min_odds")
 
-### ds_min_odds Type
+### ds\_min\_odds Type
 
 `number`
 
-### ds_min_odds Constraints
+### ds\_min\_odds Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
 **minimum**: the value of this number must greater than or equal to: `0.01`
 
-### ds_min_odds Default Value
+### ds\_min\_odds Default Value
 
 The default value is:
 
@@ -284,7 +284,7 @@ The default value is:
 0.05
 ```
 
-## fanbase_price_ratio
+## fanbase\_price\_ratio
 
 Used to compute the value of a competitor (based on its fanbase).
 
@@ -298,17 +298,17 @@ Used to compute the value of a competitor (based on its fanbase).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase_price_ratio.md "add-difficulty.json#/properties/concurrent/properties/fanbase_price_ratio")
 
-### fanbase_price_ratio Type
+### fanbase\_price\_ratio Type
 
 `number`
 
-### fanbase_price_ratio Constraints
+### fanbase\_price\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.25`
 
 **minimum**: the value of this number must greater than or equal to: `50`
 
-### fanbase_price_ratio Default Value
+### fanbase\_price\_ratio Default Value
 
 The default value is:
 
@@ -316,7 +316,7 @@ The default value is:
 120.25
 ```
 
-## studio_spare
+## studio\_spare
 
 Number of studio concurrent will spare for the player.
 
@@ -330,15 +330,15 @@ Number of studio concurrent will spare for the player.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-studio_spare.md "add-difficulty.json#/properties/concurrent/properties/studio_spare")
 
-### studio_spare Type
+### studio\_spare Type
 
 `number`
 
-### studio_spare Constraints
+### studio\_spare Constraints
 
 **minimum**: the value of this number must greater than or equal to: `0`
 
-### studio_spare Default Value
+### studio\_spare Default Value
 
 The default value is:
 
@@ -346,7 +346,7 @@ The default value is:
 1
 ```
 
-## engine_ratio
+## engine\_ratio
 
 Used to compute the value of a competitor (based on its engine).
 
@@ -360,17 +360,17 @@ Used to compute the value of a competitor (based on its engine).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_ratio.md "add-difficulty.json#/properties/concurrent/properties/engine_ratio")
 
-### engine_ratio Type
+### engine\_ratio Type
 
 `number`
 
-### engine_ratio Constraints
+### engine\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
-### engine_ratio Default Value
+### engine\_ratio Default Value
 
 The default value is:
 
@@ -378,7 +378,7 @@ The default value is:
 1.14
 ```
 
-## engine_pow_factor
+## engine\_pow\_factor
 
 Used to adjust the revenu of an engine (higher ratio = lower revenue).
 
@@ -392,17 +392,17 @@ Used to adjust the revenu of an engine (higher ratio = lower revenue).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_pow_factor.md "add-difficulty.json#/properties/concurrent/properties/engine_pow_factor")
 
-### engine_pow_factor Type
+### engine\_pow\_factor Type
 
 `number`
 
-### engine_pow_factor Constraints
+### engine\_pow\_factor Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.1`
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
-### engine_pow_factor Default Value
+### engine\_pow\_factor Default Value
 
 The default value is:
 

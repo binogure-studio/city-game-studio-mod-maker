@@ -4,10 +4,10 @@
 
 # Rename an Indie company Properties
 
-| Property                        | Type     | Required | Nullable       | Defined by                                                                                                        |
-| :------------------------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------- |
-| [name](#name)                   | `string` | Required | cannot be null | [Rename an Indie company](rename-indie-properties-name.md "rename-indie.json#/properties/name")                   |
-| [original_name](#original_name) | `string` | Required | cannot be null | [Rename an Indie company](rename-indie-properties-original_name.md "rename-indie.json#/properties/original_name") |
+| Property                         | Type     | Required | Nullable       | Defined by                                                                                                        |
+| :------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------- |
+| [name](#name)                    | `string` | Required | cannot be null | [Rename an Indie company](rename-indie-properties-name.md "rename-indie.json#/properties/name")                   |
+| [original\_name](#original_name) | `string` | Required | cannot be null | [Rename an Indie company](rename-indie-properties-original_name.md "rename-indie.json#/properties/original_name") |
 
 ## name
 
@@ -27,7 +27,7 @@ New indie name
 
 `string`
 
-## original_name
+## original\_name
 
 Original indie name
 
@@ -41,11 +41,11 @@ Original indie name
 
 *   defined in: [Rename an Indie company](rename-indie-properties-original_name.md "rename-indie.json#/properties/original_name")
 
-### original_name Type
+### original\_name Type
 
 `string`
 
-### original_name Constraints
+### original\_name Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 
@@ -75,7 +75,7 @@ Original indie name
 | `"StoryWorlds"`               |             |
 | `"Hyper Entertainment"`       |             |
 
-### original_name Default Value
+### original\_name Default Value
 
 The default value is:
 

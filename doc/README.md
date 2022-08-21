@@ -106,25 +106,9 @@
 
 *   [Add translation: Translations list](./add-translation-anyof-other-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/13/properties/messages`
 
-*   [Edit/rename a Platform](./generic-properties-root-addrename--edit-platform-properties-rename--edit-platform-editrename-a-platform.md "Edit/rename a platform") – `rename-platform.json#/properties/platform/properties/rename/items`
-
 *   [Generic action](./add-event-anyof-random-event-properties-actions-items-anyof-generic-action.md "This action can manipulate fanbase and money") – `add-event.json#/anyOf/0/properties/actions/items/anyOf/1`
 
 *   [Generic action](./add-event-anyof-scheduled-event-properties-actions-items-anyof-generic-action.md "This action can manipulate fanbase and money") – `add-event.json#/anyOf/1/properties/actions/items/anyOf/1`
-
-*   [Rename & edit a platform's component](./generic-properties-root-addrename--edit-custom-platforms-components-properties-rename--edit-component-rename--edit-a-platforms-component.md "Rename & edit a platform's component") – `rename-platform-component.json#/properties/customplatform/properties/rename/items`
-
-*   [Rename a Manufacturer](./generic-properties-root-addrename-manufacturers-properties-rename-manufacturer-rename-a-manufacturer.md "Rename a manufacturer") – `rename-manufacturer.json#/properties/manufacturer/properties/rename/items`
-
-*   [Rename a concurrent](./generic-properties-root-addrename-competitors-properties-rename-competitor-rename-a-concurrent.md "Rename a concurrent") – `rename-concurrent.json#/properties/concurrent/properties/rename/items`
-
-*   [Rename a concurrent's game](./generic-properties-root-addrename-competitors-games-properties-rename-competitor-game-rename-a-concurrents-game.md "Rename a concurrent's game") – `rename-concurrent-game.json#/properties/concurrentgame/properties/rename/items`
-
-*   [Rename a convention](./generic-properties-root-add-conventions-properties-rename-a-convention-rename-a-convention.md "Rename a convention") – `rename-convention.json#/properties/convention/properties/rename/items`
-
-*   [Rename a famous employee](./generic-properties-root-add-a-famous-developer-properties-rename-a-famous-employee-rename-a-famous-employee.md "Rename a famous employee") – `rename-recruitment.json#/properties/recruitement/properties/rename/items`
-
-*   [Rename an Indie company](./generic-properties-root-addrename-indie-company-properties-rename-an-indie-company-rename-an-indie-company.md "Rename an indie company") – `rename-indie.json#/properties/indie/properties/rename/items`
 
 *   [Root: Add a famous developer](./generic-properties-root-add-a-famous-developer.md "To add a famous developer") – `mod.json#/properties/recruitement`
 
@@ -320,7 +304,7 @@
 
 *   [Untitled array in Add a difficulty](./add-difficulty-properties-concurrent-properties-penalty.md "\[Range] Penality of trade-publishing games (if you fail to meet the expectations)") – `add-difficulty.json#/properties/concurrent/properties/penalty`
 
-*   [Untitled array in Add a difficulty](./add-difficulty-properties-concurrent-properties-income_ratio.md "\[Range] Used to compute the prepayment of a trade-publishing deal prepayment = note \* income_ratio") – `add-difficulty.json#/properties/concurrent/properties/income_ratio`
+*   [Untitled array in Add a difficulty](./add-difficulty-properties-concurrent-properties-income_ratio.md "\[Range] Used to compute the prepayment of a trade-publishing deal prepayment = note * income_ratio") – `add-difficulty.json#/properties/concurrent/properties/income_ratio`
 
 *   [Untitled array in Add a new digital store's feature](./add-digitalstore-properties-effects.md "Effect of this feature") – `add-digitalstore.json#/properties/effects`
 
@@ -334,27 +318,27 @@
 
 *   [Untitled array in Add new review for magasines](./add-review-properties-magazine.md "Add new magazine names") – `add-review.json#/properties/magazine`
 
-*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase\_1.md "Add new catchphrases for games between 0% and 19%") – `add-review.json#/properties/catchphrase_1`
+*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase_1.md "Add new catchphrases for games between 0% and 19%") – `add-review.json#/properties/catchphrase_1`
 
-*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase\_2.md "Add new catchphrases for games between 20% and 29%") – `add-review.json#/properties/catchphrase_2`
+*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase_2.md "Add new catchphrases for games between 20% and 29%") – `add-review.json#/properties/catchphrase_2`
 
-*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase\_3.md "Add new catchphrases for games between 30% and 39%") – `add-review.json#/properties/catchphrase_3`
+*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase_3.md "Add new catchphrases for games between 30% and 39%") – `add-review.json#/properties/catchphrase_3`
 
-*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase\_4.md "Add new catchphrases for games between 40% and 49%") – `add-review.json#/properties/catchphrase_4`
+*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase_4.md "Add new catchphrases for games between 40% and 49%") – `add-review.json#/properties/catchphrase_4`
 
-*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase\_5.md "Add new catchphrases for games between 50% and 59%") – `add-review.json#/properties/catchphrase_5`
+*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase_5.md "Add new catchphrases for games between 50% and 59%") – `add-review.json#/properties/catchphrase_5`
 
-*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase\_6.md "Add new catchphrases for games between 60% and 69%") – `add-review.json#/properties/catchphrase_6`
+*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase_6.md "Add new catchphrases for games between 60% and 69%") – `add-review.json#/properties/catchphrase_6`
 
-*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase\_7.md "Add new catchphrases for games between 70% and 79%") – `add-review.json#/properties/catchphrase_7`
+*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase_7.md "Add new catchphrases for games between 70% and 79%") – `add-review.json#/properties/catchphrase_7`
 
-*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase\_8.md "Add new catchphrases for games between 80% and 89%") – `add-review.json#/properties/catchphrase_8`
+*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase_8.md "Add new catchphrases for games between 80% and 89%") – `add-review.json#/properties/catchphrase_8`
 
-*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase\_9.md "Add new catchphrases for games between 90% and 99%") – `add-review.json#/properties/catchphrase_9`
+*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase_9.md "Add new catchphrases for games between 90% and 99%") – `add-review.json#/properties/catchphrase_9`
 
-*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase\_10.md "Add new catchphrases for games between 100% and 109%") – `add-review.json#/properties/catchphrase_10`
+*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase_10.md "Add new catchphrases for games between 100% and 109%") – `add-review.json#/properties/catchphrase_10`
 
-*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase\_11.md "Add new catchphrases for games above 110%") – `add-review.json#/properties/catchphrase_11`
+*   [Untitled array in Add new review for magasines](./add-review-properties-catchphrase_11.md "Add new catchphrases for games above 110%") – `add-review.json#/properties/catchphrase_11`
 
 *   [Untitled array in Create a mod](./generic-additionalproperties-properties-add.md) – `mod.json#/additionalProperties/properties/add`
 

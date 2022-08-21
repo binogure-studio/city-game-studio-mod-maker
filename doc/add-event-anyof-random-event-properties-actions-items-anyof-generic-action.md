@@ -4,15 +4,15 @@
 
 # 1 Properties
 
-| Property                        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                    |
-| :------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [button](#button)               | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-button.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/button")               |
-| [cost](#cost)                   | `integer` | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-cost.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/cost")                   |
-| [fan_ratio](#fan_ratio)         | `number`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-fan_ratio.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/fan_ratio")         |
-| [campaign_type](#campaign_type) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-campaign_type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/campaign_type") |
-| [furniture](#furniture)         | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-furniture.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/furniture")         |
-| [trigger_event](#trigger_event) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-trigger_event.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/trigger_event") |
-| [type](#type)                   | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/type")                   |
+| Property                         | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                    |
+| :------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [button](#button)                | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-button.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/button")               |
+| [cost](#cost)                    | `integer` | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-cost.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/cost")                   |
+| [fan\_ratio](#fan_ratio)         | `number`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-fan_ratio.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/fan_ratio")         |
+| [campaign\_type](#campaign_type) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-campaign_type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/campaign_type") |
+| [furniture](#furniture)          | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-furniture.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/furniture")         |
+| [trigger\_event](#trigger_event) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-trigger_event.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/trigger_event") |
+| [type](#type)                    | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/type")                   |
 
 ## button
 
@@ -64,7 +64,7 @@ Money spent/given (negative = give money, positive = cost money).
 
 **minimum**: the value of this number must greater than or equal to: `-999999999`
 
-## fan_ratio
+## fan\_ratio
 
 Below 0 remove fanbase, above 0 add fanbase (its a ratio).
 
@@ -78,11 +78,11 @@ Below 0 remove fanbase, above 0 add fanbase (its a ratio).
 
 *   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-fan_ratio.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/fan_ratio")
 
-### fan_ratio Type
+### fan\_ratio Type
 
 `number`
 
-### fan_ratio Constraints
+### fan\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.05`
 
@@ -90,7 +90,7 @@ Below 0 remove fanbase, above 0 add fanbase (its a ratio).
 
 **minimum**: the value of this number must greater than or equal to: `-0.95`
 
-## campaign_type
+## campaign\_type
 
 Type of campaign (boost the hype of one of your game randomly).
 
@@ -104,11 +104,11 @@ Type of campaign (boost the hype of one of your game randomly).
 
 *   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-campaign_type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/campaign_type")
 
-### campaign_type Type
+### campaign\_type Type
 
 `string`
 
-### campaign_type Constraints
+### campaign\_type Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 
@@ -154,7 +154,7 @@ Furniture to break.
 | `"watertank"`     |             |
 | `"whiteboard"`    |             |
 
-## trigger_event
+## trigger\_event
 
 Event id to trigger, has to be an existing uuid
 
@@ -168,7 +168,7 @@ Event id to trigger, has to be an existing uuid
 
 *   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-generic-action-properties-trigger_event.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/1/properties/trigger_event")
 
-### trigger_event Type
+### trigger\_event Type
 
 `string`
 

@@ -1,8 +1,8 @@
-## sales_ratio Type
+## sales\_ratio Type
 
 `number`
 
-## sales_ratio Constraints
+## sales\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.001`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `0.001`
 
-## sales_ratio Default Value
+## sales\_ratio Default Value
 
 The default value is:
 

@@ -1,8 +1,8 @@
-## total_unit_sold Type
+## total\_unit\_sold Type
 
 `integer`
 
-## total_unit_sold Constraints
+## total\_unit\_sold Constraints
 
 **maximum**: the value of this number must smaller than or equal to: `600000000`
 

@@ -1,14 +1,14 @@
-## hack_max Type
+## hack\_max Type
 
 `integer`
 
-## hack_max Constraints
+## hack\_max Constraints
 
 **multiple of**: the value of this number must be a multiple of: `5`
 
 **minimum**: the value of this number must greater than or equal to: `40`
 
-## hack_max Default Value
+## hack\_max Default Value
 
 The default value is:
 

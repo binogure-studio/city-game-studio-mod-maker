@@ -4,19 +4,19 @@
 
 # platform Properties
 
-| Property                                      | Type      | Required | Nullable       | Defined by                                                                                                                                                           |
-| :-------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [max_return_rate](#max_return_rate)           | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-max_return_rate.md "add-difficulty.json#/properties/platform/properties/max_return_rate")           |
-| [min_capacities](#min_capacities)             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-min_capacities.md "add-difficulty.json#/properties/platform/properties/min_capacities")             |
-| [making_cost_ratio](#making_cost_ratio)       | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-making_cost_ratio.md "add-difficulty.json#/properties/platform/properties/making_cost_ratio")       |
-| [quality_ratio](#quality_ratio)               | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-quality_ratio.md "add-difficulty.json#/properties/platform/properties/quality_ratio")               |
-| [negotiation](#negotiation)                   | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-negotiation.md "add-difficulty.json#/properties/platform/properties/negotiation")                   |
-| [manufacturer_loyalty](#manufacturer_loyalty) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-manufacturer_loyalty.md "add-difficulty.json#/properties/platform/properties/manufacturer_loyalty") |
-| [game_score](#game_score)                     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-game_score.md "add-difficulty.json#/properties/platform/properties/game_score")                     |
-| [loyalty](#loyalty)                           | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-loyalty.md "add-difficulty.json#/properties/platform/properties/loyalty")                           |
-| [crash_1983](#crash_1983)                     | `boolean` | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-crash_1983.md "add-difficulty.json#/properties/platform/properties/crash_1983")                     |
+| Property                                       | Type      | Required | Nullable       | Defined by                                                                                                                                                           |
+| :--------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [max\_return\_rate](#max_return_rate)          | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-max_return_rate.md "add-difficulty.json#/properties/platform/properties/max_return_rate")           |
+| [min\_capacities](#min_capacities)             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-min_capacities.md "add-difficulty.json#/properties/platform/properties/min_capacities")             |
+| [making\_cost\_ratio](#making_cost_ratio)      | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-making_cost_ratio.md "add-difficulty.json#/properties/platform/properties/making_cost_ratio")       |
+| [quality\_ratio](#quality_ratio)               | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-quality_ratio.md "add-difficulty.json#/properties/platform/properties/quality_ratio")               |
+| [negotiation](#negotiation)                    | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-negotiation.md "add-difficulty.json#/properties/platform/properties/negotiation")                   |
+| [manufacturer\_loyalty](#manufacturer_loyalty) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-manufacturer_loyalty.md "add-difficulty.json#/properties/platform/properties/manufacturer_loyalty") |
+| [game\_score](#game_score)                     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-game_score.md "add-difficulty.json#/properties/platform/properties/game_score")                     |
+| [loyalty](#loyalty)                            | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-loyalty.md "add-difficulty.json#/properties/platform/properties/loyalty")                           |
+| [crash\_1983](#crash_1983)                     | `boolean` | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-crash_1983.md "add-difficulty.json#/properties/platform/properties/crash_1983")                     |
 
-## max_return_rate
+## max\_return\_rate
 
 Units return rate for a custom-platformustomplatform.
 
@@ -30,11 +30,11 @@ Units return rate for a custom-platformustomplatform.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-max_return_rate.md "add-difficulty.json#/properties/platform/properties/max_return_rate")
 
-### max_return_rate Type
+### max\_return\_rate Type
 
 `number`
 
-### max_return_rate Constraints
+### max\_return\_rate Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -42,7 +42,7 @@ Units return rate for a custom-platformustomplatform.
 
 **minimum**: the value of this number must greater than or equal to: `0.05`
 
-### max_return_rate Default Value
+### max\_return\_rate Default Value
 
 The default value is:
 
@@ -50,7 +50,7 @@ The default value is:
 0.25
 ```
 
-## min_capacities
+## min\_capacities
 
 Min value of the paltform's capacities. ( platform capacities / generation expectation )
 
@@ -64,11 +64,11 @@ Min value of the paltform's capacities. ( platform capacities / generation expec
 
 *   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-min_capacities.md "add-difficulty.json#/properties/platform/properties/min_capacities")
 
-### min_capacities Type
+### min\_capacities Type
 
 `number`
 
-### min_capacities Constraints
+### min\_capacities Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -76,7 +76,7 @@ Min value of the paltform's capacities. ( platform capacities / generation expec
 
 **minimum**: the value of this number must greater than or equal to: `0.5`
 
-### min_capacities Default Value
+### min\_capacities Default Value
 
 The default value is:
 
@@ -84,7 +84,7 @@ The default value is:
 0.7
 ```
 
-## making_cost_ratio
+## making\_cost\_ratio
 
 Custom platform manufacturing costs ratio.
 
@@ -98,17 +98,17 @@ Custom platform manufacturing costs ratio.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-making_cost_ratio.md "add-difficulty.json#/properties/platform/properties/making_cost_ratio")
 
-### making_cost_ratio Type
+### making\_cost\_ratio Type
 
 `number`
 
-### making_cost_ratio Constraints
+### making\_cost\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
 **minimum**: the value of this number must greater than or equal to: `0.5`
 
-### making_cost_ratio Default Value
+### making\_cost\_ratio Default Value
 
 The default value is:
 
@@ -116,7 +116,7 @@ The default value is:
 1.34
 ```
 
-## quality_ratio
+## quality\_ratio
 
 Custom platform refund rate ratio (based on console quality).
 
@@ -130,11 +130,11 @@ Custom platform refund rate ratio (based on console quality).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-quality_ratio.md "add-difficulty.json#/properties/platform/properties/quality_ratio")
 
-### quality_ratio Type
+### quality\_ratio Type
 
 `number`
 
-### quality_ratio Constraints
+### quality\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.1`
 
@@ -142,7 +142,7 @@ Custom platform refund rate ratio (based on console quality).
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
-### quality_ratio Default Value
+### quality\_ratio Default Value
 
 The default value is:
 
@@ -182,7 +182,7 @@ The default value is:
 1.55
 ```
 
-## manufacturer_loyalty
+## manufacturer\_loyalty
 
 Loyalty ratio when you publish a game on another platform or you refuse a manufacturer proposal.
 
@@ -196,17 +196,17 @@ Loyalty ratio when you publish a game on another platform or you refuse a manufa
 
 *   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-manufacturer_loyalty.md "add-difficulty.json#/properties/platform/properties/manufacturer_loyalty")
 
-### manufacturer_loyalty Type
+### manufacturer\_loyalty Type
 
 `number`
 
-### manufacturer_loyalty Constraints
+### manufacturer\_loyalty Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
 **maximum**: the value of this number must smaller than or equal to: `0`
 
-### manufacturer_loyalty Default Value
+### manufacturer\_loyalty Default Value
 
 The default value is:
 
@@ -214,7 +214,7 @@ The default value is:
 -2
 ```
 
-## game_score
+## game\_score
 
 Minimum score to get an offer from a manufacturer.
 
@@ -228,11 +228,11 @@ Minimum score to get an offer from a manufacturer.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-game_score.md "add-difficulty.json#/properties/platform/properties/game_score")
 
-### game_score Type
+### game\_score Type
 
 `number`
 
-### game_score Constraints
+### game\_score Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -240,7 +240,7 @@ Minimum score to get an offer from a manufacturer.
 
 **minimum**: the value of this number must greater than or equal to: `25`
 
-### game_score Default Value
+### game\_score Default Value
 
 The default value is:
 
@@ -284,7 +284,7 @@ To enable the 1983 crash for custom platforms.
 
 *   cannot be null
 
-*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-crash\_1983.md "add-difficulty.json#/properties/platform/properties/crash\_1983")
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-crash_1983.md "add-difficulty.json#/properties/platform/properties/crash_1983")
 
 ### crash\_1983 Type
 

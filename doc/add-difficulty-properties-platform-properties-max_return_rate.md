@@ -1,8 +1,8 @@
-## max_return_rate Type
+## max\_return\_rate Type
 
 `number`
 
-## max_return_rate Constraints
+## max\_return\_rate Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `0.05`
 
-## max_return_rate Default Value
+## max\_return\_rate Default Value
 
 The default value is:
 

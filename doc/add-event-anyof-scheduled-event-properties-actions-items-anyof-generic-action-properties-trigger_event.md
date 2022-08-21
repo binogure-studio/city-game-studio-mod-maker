@@ -1,3 +1,3 @@
-## trigger_event Type
+## trigger\_event Type
 
 `string`

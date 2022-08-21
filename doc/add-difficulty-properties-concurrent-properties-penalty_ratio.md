@@ -1,12 +1,12 @@
-## penalty_ratio Type
+## penalty\_ratio Type
 
 `number`
 
-## penalty_ratio Constraints
+## penalty\_ratio Constraints
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
-## penalty_ratio Default Value
+## penalty\_ratio Default Value
 
 The default value is:
 

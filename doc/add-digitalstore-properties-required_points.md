@@ -1,8 +1,8 @@
-## required_points Type
+## required\_points Type
 
 `integer`
 
-## required_points Constraints
+## required\_points Constraints
 
 **multiple of**: the value of this number must be a multiple of: `100`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `500`
 
-## required_points Default Value
+## required\_points Default Value
 
 The default value is:
 

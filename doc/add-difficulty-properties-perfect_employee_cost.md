@@ -1,4 +1,4 @@
-## perfect_employee_cost Type
+## perfect\_employee\_cost Type
 
 an array where each item follows the corresponding schema in the following list:
 
@@ -6,7 +6,7 @@ an array where each item follows the corresponding schema in the following list:
 
 2.  [Untitled integer in Add a difficulty](add-difficulty-properties-perfect_employee_cost-items-1.md "check type definition")
 
-## perfect_employee_cost Constraints
+## perfect\_employee\_cost Constraints
 
 **maximum number of items**: the maximum number of items for this array is: `2`
 

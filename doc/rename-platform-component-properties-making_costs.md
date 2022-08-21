@@ -1,8 +1,8 @@
-## making_costs Type
+## making\_costs Type
 
 `integer`
 
-## making_costs Constraints
+## making\_costs Constraints
 
 **maximum**: the value of this number must smaller than or equal to: `500`
 

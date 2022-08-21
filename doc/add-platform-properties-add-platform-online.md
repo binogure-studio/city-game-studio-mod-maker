@@ -4,10 +4,10 @@
 
 # online Properties
 
-| Property                  | Type      | Required | Nullable       | Defined by                                                                                                                                              |
-| :------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [compatible](#compatible) | `boolean` | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-online-properties-compatible.md "add-platform.json#/properties/online/properties/compatible") |
-| [sell_ratio](#sell_ratio) | `number`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-online-properties-sell_ratio.md "add-platform.json#/properties/online/properties/sell_ratio") |
+| Property                   | Type      | Required | Nullable       | Defined by                                                                                                                                              |
+| :------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [compatible](#compatible)  | `boolean` | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-online-properties-compatible.md "add-platform.json#/properties/online/properties/compatible") |
+| [sell\_ratio](#sell_ratio) | `number`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-online-properties-sell_ratio.md "add-platform.json#/properties/online/properties/sell_ratio") |
 
 ## compatible
 
@@ -27,7 +27,7 @@ True if the platform is online, false otherwise
 
 `boolean`
 
-## sell_ratio
+## sell\_ratio
 
 Sell ratio of the platform (never above 1)
 
@@ -41,11 +41,11 @@ Sell ratio of the platform (never above 1)
 
 *   defined in: [Add a new platform](add-platform-properties-add-platform-online-properties-sell_ratio.md "add-platform.json#/properties/online/properties/sell_ratio")
 
-### sell_ratio Type
+### sell\_ratio Type
 
 `number`
 
-### sell_ratio Constraints
+### sell\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.001`
 
@@ -53,7 +53,7 @@ Sell ratio of the platform (never above 1)
 
 **minimum**: the value of this number must greater than or equal to: `0`
 
-### sell_ratio Default Value
+### sell\_ratio Default Value
 
 The default value is:
 

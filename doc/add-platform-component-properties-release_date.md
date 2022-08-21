@@ -1,8 +1,8 @@
-## release_date Type
+## release\_date Type
 
 `object` ([Details](add-platform-component-properties-release_date.md))
 
-# release_date Properties
+# release\_date Properties
 
 | Property        | Type      | Required | Nullable       | Defined by                                                                                                                                                                |
 | :-------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

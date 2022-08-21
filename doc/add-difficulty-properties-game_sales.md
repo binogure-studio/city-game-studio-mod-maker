@@ -1,16 +1,16 @@
-## game_sales Type
+## game\_sales Type
 
 `object` ([Details](add-difficulty-properties-game_sales.md))
 
-# game_sales Properties
+# game\_sales Properties
 
-| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                     |
-| :---------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [sales_threshold](#sales_threshold) | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_sales-properties-sales_threshold.md "add-difficulty.json#/properties/game_sales/properties/sales_threshold") |
-| [retention_ratio](#retention_ratio) | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_sales-properties-retention_ratio.md "add-difficulty.json#/properties/game_sales/properties/retention_ratio") |
-| [sales_ratio](#sales_ratio)         | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_sales-properties-sales_ratio.md "add-difficulty.json#/properties/game_sales/properties/sales_ratio")         |
+| Property                             | Type     | Required | Nullable       | Defined by                                                                                                                                                     |
+| :----------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [sales\_threshold](#sales_threshold) | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_sales-properties-sales_threshold.md "add-difficulty.json#/properties/game_sales/properties/sales_threshold") |
+| [retention\_ratio](#retention_ratio) | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_sales-properties-retention_ratio.md "add-difficulty.json#/properties/game_sales/properties/retention_ratio") |
+| [sales\_ratio](#sales_ratio)         | `number` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_sales-properties-sales_ratio.md "add-difficulty.json#/properties/game_sales/properties/sales_ratio")         |
 
-## sales_threshold
+## sales\_threshold
 
 Set the minimum note to get a sales boost (the lower the easier).
 
@@ -24,11 +24,11 @@ Set the minimum note to get a sales boost (the lower the easier).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-game_sales-properties-sales_threshold.md "add-difficulty.json#/properties/game_sales/properties/sales_threshold")
 
-### sales_threshold Type
+### sales\_threshold Type
 
 `number`
 
-### sales_threshold Constraints
+### sales\_threshold Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -36,7 +36,7 @@ Set the minimum note to get a sales boost (the lower the easier).
 
 **minimum**: the value of this number must greater than or equal to: `0`
 
-### sales_threshold Default Value
+### sales\_threshold Default Value
 
 The default value is:
 
@@ -44,7 +44,7 @@ The default value is:
 1
 ```
 
-## retention_ratio
+## retention\_ratio
 
 User retention (higher the better).
 
@@ -58,11 +58,11 @@ User retention (higher the better).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-game_sales-properties-retention_ratio.md "add-difficulty.json#/properties/game_sales/properties/retention_ratio")
 
-### retention_ratio Type
+### retention\_ratio Type
 
 `number`
 
-### retention_ratio Constraints
+### retention\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.001`
 
@@ -70,7 +70,7 @@ User retention (higher the better).
 
 **minimum**: the value of this number must greater than or equal to: `0.01`
 
-### retention_ratio Default Value
+### retention\_ratio Default Value
 
 The default value is:
 
@@ -78,7 +78,7 @@ The default value is:
 0.875
 ```
 
-## sales_ratio
+## sales\_ratio
 
 Percentage of user who actual buys your game (higher the better).
 
@@ -92,11 +92,11 @@ Percentage of user who actual buys your game (higher the better).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-game_sales-properties-sales_ratio.md "add-difficulty.json#/properties/game_sales/properties/sales_ratio")
 
-### sales_ratio Type
+### sales\_ratio Type
 
 `number`
 
-### sales_ratio Constraints
+### sales\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.001`
 
@@ -104,7 +104,7 @@ Percentage of user who actual buys your game (higher the better).
 
 **minimum**: the value of this number must greater than or equal to: `0.001`
 
-### sales_ratio Default Value
+### sales\_ratio Default Value
 
 The default value is:
 

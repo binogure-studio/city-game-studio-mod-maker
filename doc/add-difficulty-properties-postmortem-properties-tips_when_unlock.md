@@ -1,14 +1,14 @@
-## tips_when_unlock Type
+## tips\_when\_unlock Type
 
 `integer`
 
-## tips_when_unlock Constraints
+## tips\_when\_unlock Constraints
 
 **maximum**: the value of this number must smaller than or equal to: `12`
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
-## tips_when_unlock Default Value
+## tips\_when\_unlock Default Value
 
 The default value is:
 

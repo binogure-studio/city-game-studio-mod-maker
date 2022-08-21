@@ -4,10 +4,10 @@
 
 # items Properties
 
-| Property                        | Type     | Required | Nullable       | Defined by                                                                                                                     |
-| :------------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------- |
-| [name](#name)                   | `string` | Required | cannot be null | [Rename a famous employee](rename-recruitment-properties-name.md "rename-recruitment.json#/properties/name")                   |
-| [original_name](#original_name) | `string` | Required | cannot be null | [Rename a famous employee](rename-recruitment-properties-original_name.md "rename-recruitment.json#/properties/original_name") |
+| Property                         | Type     | Required | Nullable       | Defined by                                                                                                                     |
+| :------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+| [name](#name)                    | `string` | Required | cannot be null | [Rename a famous employee](rename-recruitment-properties-name.md "rename-recruitment.json#/properties/name")                   |
+| [original\_name](#original_name) | `string` | Required | cannot be null | [Rename a famous employee](rename-recruitment-properties-original_name.md "rename-recruitment.json#/properties/original_name") |
 
 ## name
 
@@ -27,7 +27,7 @@ New famous employee name
 
 `string`
 
-## original_name
+## original\_name
 
 Original famous employee name
 
@@ -41,11 +41,11 @@ Original famous employee name
 
 *   defined in: [Rename a famous employee](rename-recruitment-properties-original_name.md "rename-recruitment.json#/properties/original_name")
 
-### original_name Type
+### original\_name Type
 
 `string`
 
-### original_name Constraints
+### original\_name Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 
@@ -156,7 +156,7 @@ Original famous employee name
 | `"Sad Meier"`             |             |
 | `"Shegiru Miyamoto"`      |             |
 
-### original_name Default Value
+### original\_name Default Value
 
 The default value is:
 

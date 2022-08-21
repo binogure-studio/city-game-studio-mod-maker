@@ -4,16 +4,16 @@
 
 # happiness Properties
 
-| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                   |
-| :---------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [crunchtime](#crunchtime)           | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-crunchtime.md "add-difficulty.json#/properties/happiness/properties/crunchtime")           |
-| [fire_employee](#fire_employee)     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-fire_employee.md "add-difficulty.json#/properties/happiness/properties/fire_employee")     |
-| [same_genre](#same_genre)           | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre.md "add-difficulty.json#/properties/happiness/properties/same_genre")           |
-| [trash_game](#trash_game)           | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-trash_game.md "add-difficulty.json#/properties/happiness/properties/trash_game")           |
-| [new_genre](#new_genre)             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-new_genre.md "add-difficulty.json#/properties/happiness/properties/new_genre")             |
-| [leave_threshold](#leave_threshold) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-leave_threshold.md "add-difficulty.json#/properties/happiness/properties/leave_threshold") |
-| [leave_active](#leave_active)       | `boolean` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-leave_active.md "add-difficulty.json#/properties/happiness/properties/leave_active")       |
-| [bonus](#bonus)                     | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-bonus.md "add-difficulty.json#/properties/happiness/properties/bonus")                     |
+| Property                             | Type      | Required | Nullable       | Defined by                                                                                                                                                   |
+| :----------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [crunchtime](#crunchtime)            | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-crunchtime.md "add-difficulty.json#/properties/happiness/properties/crunchtime")           |
+| [fire\_employee](#fire_employee)     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-fire_employee.md "add-difficulty.json#/properties/happiness/properties/fire_employee")     |
+| [same\_genre](#same_genre)           | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre.md "add-difficulty.json#/properties/happiness/properties/same_genre")           |
+| [trash\_game](#trash_game)           | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-trash_game.md "add-difficulty.json#/properties/happiness/properties/trash_game")           |
+| [new\_genre](#new_genre)             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-new_genre.md "add-difficulty.json#/properties/happiness/properties/new_genre")             |
+| [leave\_threshold](#leave_threshold) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-leave_threshold.md "add-difficulty.json#/properties/happiness/properties/leave_threshold") |
+| [leave\_active](#leave_active)       | `boolean` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-leave_active.md "add-difficulty.json#/properties/happiness/properties/leave_active")       |
+| [bonus](#bonus)                      | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-bonus.md "add-difficulty.json#/properties/happiness/properties/bonus")                     |
 
 ## crunchtime
 
@@ -49,7 +49,7 @@ The default value is:
 0.975
 ```
 
-## fire_employee
+## fire\_employee
 
 Lower the happiness when you fire an employee (the higher the better).
 
@@ -63,11 +63,11 @@ Lower the happiness when you fire an employee (the higher the better).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-fire_employee.md "add-difficulty.json#/properties/happiness/properties/fire_employee")
 
-### fire_employee Type
+### fire\_employee Type
 
 `number`
 
-### fire_employee Constraints
+### fire\_employee Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.001`
 
@@ -75,7 +75,7 @@ Lower the happiness when you fire an employee (the higher the better).
 
 **minimum**: the value of this number must greater than or equal to: `0.01`
 
-### fire_employee Default Value
+### fire\_employee Default Value
 
 The default value is:
 
@@ -83,7 +83,7 @@ The default value is:
 0.965
 ```
 
-## same_genre
+## same\_genre
 
 Genre repetition.
 
@@ -97,11 +97,11 @@ Genre repetition.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre.md "add-difficulty.json#/properties/happiness/properties/same_genre")
 
-### same_genre Type
+### same\_genre Type
 
 `object` ([Details](add-difficulty-properties-happiness-properties-same_genre.md))
 
-## trash_game
+## trash\_game
 
 When trashing a game, impact the happiness. (the higher the better)
 
@@ -115,11 +115,11 @@ When trashing a game, impact the happiness. (the higher the better)
 
 *   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-trash_game.md "add-difficulty.json#/properties/happiness/properties/trash_game")
 
-### trash_game Type
+### trash\_game Type
 
 `number`
 
-### trash_game Constraints
+### trash\_game Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -127,7 +127,7 @@ When trashing a game, impact the happiness. (the higher the better)
 
 **minimum**: the value of this number must greater than or equal to: `0.01`
 
-### trash_game Default Value
+### trash\_game Default Value
 
 The default value is:
 
@@ -135,7 +135,7 @@ The default value is:
 0.92
 ```
 
-## new_genre
+## new\_genre
 
 When using a new game genre, impact the happiness (the higher the better).
 
@@ -149,11 +149,11 @@ When using a new game genre, impact the happiness (the higher the better).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-new_genre.md "add-difficulty.json#/properties/happiness/properties/new_genre")
 
-### new_genre Type
+### new\_genre Type
 
 `number`
 
-### new_genre Constraints
+### new\_genre Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -161,7 +161,7 @@ When using a new game genre, impact the happiness (the higher the better).
 
 **minimum**: the value of this number must greater than or equal to: `1.01`
 
-### new_genre Default Value
+### new\_genre Default Value
 
 The default value is:
 
@@ -169,7 +169,7 @@ The default value is:
 1.05
 ```
 
-## leave_threshold
+## leave\_threshold
 
 Threshold (in percent) before the employee quits (0%: never quit, 100%: will always try to quit).
 
@@ -183,11 +183,11 @@ Threshold (in percent) before the employee quits (0%: never quit, 100%: will alw
 
 *   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-leave_threshold.md "add-difficulty.json#/properties/happiness/properties/leave_threshold")
 
-### leave_threshold Type
+### leave\_threshold Type
 
 `number`
 
-### leave_threshold Constraints
+### leave\_threshold Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.1`
 
@@ -195,7 +195,7 @@ Threshold (in percent) before the employee quits (0%: never quit, 100%: will alw
 
 **minimum**: the value of this number must greater than or equal to: `0`
 
-### leave_threshold Default Value
+### leave\_threshold Default Value
 
 The default value is:
 
@@ -203,7 +203,7 @@ The default value is:
 30
 ```
 
-## leave_active
+## leave\_active
 
 To disable the leaving feature.
 
@@ -217,11 +217,11 @@ To disable the leaving feature.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-leave_active.md "add-difficulty.json#/properties/happiness/properties/leave_active")
 
-### leave_active Type
+### leave\_active Type
 
 `boolean`
 
-### leave_active Default Value
+### leave\_active Default Value
 
 The default value is:
 

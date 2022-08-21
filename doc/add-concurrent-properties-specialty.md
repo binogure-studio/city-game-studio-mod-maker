@@ -16,7 +16,7 @@
 | `"simulation"` |             |
 | `"rpg"`        |             |
 
-**pattern**: the string must match the following regular expression: 
+**pattern**: the string must match the following regular expression:&#x20;
 
 ```regexp
 (action|aventure|casual|reflexion|strategy|simulation|rpg)

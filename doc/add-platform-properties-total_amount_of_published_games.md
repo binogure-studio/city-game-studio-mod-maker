@@ -1,12 +1,12 @@
-## total_amount_of_published_games Type
+## total\_amount\_of\_published\_games Type
 
 `integer`
 
-## total_amount_of_published_games Constraints
+## total\_amount\_of\_published\_games Constraints
 
 **minimum**: the value of this number must greater than or equal to: `25`
 
-## total_amount_of_published_games Default Value
+## total\_amount\_of\_published\_games Default Value
 
 The default value is:
 

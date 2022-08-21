@@ -4,12 +4,12 @@
 
 # Edit/rename a Platform Properties
 
-| Property                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                 |
-| :------------------------------------------------------------------ | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [name](#name)                                                       | `string`  | Required | cannot be null | [Edit/rename a Platform](rename-platform-properties-name.md "rename-platform.json#/properties/name")                                                       |
-| [id](#id)                                                           | `integer` | Required | cannot be null | [Edit/rename a Platform](rename-platform-properties-id.md "rename-platform.json#/properties/id")                                                           |
-| [total_amount_of_published_games](#total_amount_of_published_games) | `integer` | Optional | cannot be null | [Edit/rename a Platform](rename-platform-properties-total_amount_of_published_games.md "rename-platform.json#/properties/total_amount_of_published_games") |
-| [total_unit_sold](#total_unit_sold)                                 | `integer` | Optional | cannot be null | [Edit/rename a Platform](rename-platform-properties-total_unit_sold.md "rename-platform.json#/properties/total_unit_sold")                                 |
+| Property                                                                | Type      | Required | Nullable       | Defined by                                                                                                                                                 |
+| :---------------------------------------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [name](#name)                                                           | `string`  | Required | cannot be null | [Edit/rename a Platform](rename-platform-properties-name.md "rename-platform.json#/properties/name")                                                       |
+| [id](#id)                                                               | `integer` | Required | cannot be null | [Edit/rename a Platform](rename-platform-properties-id.md "rename-platform.json#/properties/id")                                                           |
+| [total\_amount\_of\_published\_games](#total_amount_of_published_games) | `integer` | Optional | cannot be null | [Edit/rename a Platform](rename-platform-properties-total_amount_of_published_games.md "rename-platform.json#/properties/total_amount_of_published_games") |
+| [total\_unit\_sold](#total_unit_sold)                                   | `integer` | Optional | cannot be null | [Edit/rename a Platform](rename-platform-properties-total_unit_sold.md "rename-platform.json#/properties/total_unit_sold")                                 |
 
 ## name
 
@@ -145,7 +145,7 @@ The default value is:
 1
 ```
 
-## total_amount_of_published_games
+## total\_amount\_of\_published\_games
 
 Total number of published game
 
@@ -159,15 +159,15 @@ Total number of published game
 
 *   defined in: [Edit/rename a Platform](rename-platform-properties-total_amount_of_published_games.md "rename-platform.json#/properties/total_amount_of_published_games")
 
-### total_amount_of_published_games Type
+### total\_amount\_of\_published\_games Type
 
 `integer`
 
-### total_amount_of_published_games Constraints
+### total\_amount\_of\_published\_games Constraints
 
 **minimum**: the value of this number must greater than or equal to: `25`
 
-## total_unit_sold
+## total\_unit\_sold
 
 Total number of unit sold (platform)
 
@@ -181,11 +181,11 @@ Total number of unit sold (platform)
 
 *   defined in: [Edit/rename a Platform](rename-platform-properties-total_unit_sold.md "rename-platform.json#/properties/total_unit_sold")
 
-### total_unit_sold Type
+### total\_unit\_sold Type
 
 `integer`
 
-### total_unit_sold Constraints
+### total\_unit\_sold Constraints
 
 **maximum**: the value of this number must smaller than or equal to: `600000000`
 

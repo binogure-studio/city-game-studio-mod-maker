@@ -1,8 +1,8 @@
-## point_to_produce_ratio Type
+## point\_to\_produce\_ratio Type
 
 `number`
 
-## point_to_produce_ratio Constraints
+## point\_to\_produce\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `0.2`
 
-## point_to_produce_ratio Default Value
+## point\_to\_produce\_ratio Default Value
 
 The default value is:
 

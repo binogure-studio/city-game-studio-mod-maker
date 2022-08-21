@@ -1,3 +1,3 @@
-## show_percent Type
+## show\_percent Type
 
 `boolean`

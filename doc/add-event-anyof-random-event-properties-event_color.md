@@ -1,8 +1,8 @@
-## event_color Type
+## event\_color Type
 
 `string`
 
-## event_color Constraints
+## event\_color Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 
@@ -14,7 +14,7 @@
 | `"RED_COLOR"`    |             |
 | `"YELLOW_COLOR"` |             |
 
-## event_color Default Value
+## event\_color Default Value
 
 The default value is:
 

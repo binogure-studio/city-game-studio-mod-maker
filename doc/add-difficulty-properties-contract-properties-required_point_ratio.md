@@ -1,19 +1,19 @@
-## max\_bonus Type
+## required\_point\_ratio Type
 
 `number`
 
-## max\_bonus Constraints
+## required\_point\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
 **maximum**: the value of this number must smaller than or equal to: `2`
 
-**minimum**: the value of this number must greater than or equal to: `0.5`
+**minimum**: the value of this number must greater than or equal to: `0.1`
 
-## max\_bonus Default Value
+## required\_point\_ratio Default Value
 
 The default value is:
 
 ```json
-1.01
+0.5
 ```

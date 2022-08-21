@@ -4,15 +4,15 @@
 
 # 0 Properties
 
-| Property                        | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                  |
-| :------------------------------ | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [button](#button)               | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-button.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/button")               |
-| [productivity](#productivity)   | `number`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-productivity.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/productivity")   |
-| [happiness](#happiness)         | `number`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-happiness.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/happiness")         |
-| [duration](#duration)           | `integer` | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-duration.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/duration")           |
-| [item_type](#item_type)         | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-item_type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/item_type")         |
-| [trigger_event](#trigger_event) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-trigger_event.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/trigger_event") |
-| [type](#type)                   | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/type")                   |
+| Property                         | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                  |
+| :------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [button](#button)                | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-button.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/button")               |
+| [productivity](#productivity)    | `number`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-productivity.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/productivity")   |
+| [happiness](#happiness)          | `number`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-happiness.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/happiness")         |
+| [duration](#duration)            | `integer` | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-duration.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/duration")           |
+| [item\_type](#item_type)         | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-item_type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/item_type")         |
+| [trigger\_event](#trigger_event) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-trigger_event.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/trigger_event") |
+| [type](#type)                    | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/type")                   |
 
 ## button
 
@@ -116,7 +116,7 @@ Duration of this event in weeks.
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
-## item_type
+## item\_type
 
 Virus animation (computer screen), Cat to the studio, or nothing visible.
 
@@ -130,11 +130,11 @@ Virus animation (computer screen), Cat to the studio, or nothing visible.
 
 *   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-item_type.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/item_type")
 
-### item_type Type
+### item\_type Type
 
 `string`
 
-### item_type Constraints
+### item\_type Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 
@@ -144,7 +144,7 @@ Virus animation (computer screen), Cat to the studio, or nothing visible.
 | `"virus"`    |             |
 | `"cat"`      |             |
 
-## trigger_event
+## trigger\_event
 
 Event id to trigger, has to be an existing uuid
 
@@ -158,7 +158,7 @@ Event id to trigger, has to be an existing uuid
 
 *   defined in: [Add a new event](add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity-properties-trigger_event.md "add-event.json#/anyOf/0/properties/actions/items/anyOf/0/properties/trigger_event")
 
-### trigger_event Type
+### trigger\_event Type
 
 `string`
 

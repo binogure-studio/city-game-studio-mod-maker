@@ -4,22 +4,22 @@
 
 # Add a new platform Properties
 
-| Property                                                            | Type      | Required | Nullable       | Defined by                                                                                                                                       |
-| :------------------------------------------------------------------ | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
-| [generation](#generation)                                           | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-generation.md "add-platform.json#/properties/generation")                                           |
-| [power](#power)                                                     | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-power.md "add-platform.json#/properties/power")                                                     |
-| [online](#online)                                                   | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-online.md "add-platform.json#/properties/online")                                      |
-| [type](#type)                                                       | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-type.md "add-platform.json#/properties/type")                                                       |
-| [fabriquant](#fabriquant)                                           | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-fabriquant.md "add-platform.json#/properties/fabriquant")                                           |
-| [total_amount_of_published_games](#total_amount_of_published_games) | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-total_amount_of_published_games.md "add-platform.json#/properties/total_amount_of_published_games") |
-| [id](#id)                                                           | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-id.md "add-platform.json#/properties/id")                                                           |
-| [name](#name)                                                       | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-name.md "add-platform.json#/properties/name")                                                       |
-| [duration](#duration)                                               | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-lifecycle.md "add-platform.json#/properties/duration")                                 |
-| [total_unit_sold](#total_unit_sold)                                 | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-total_unit_sold.md "add-platform.json#/properties/total_unit_sold")                                 |
-| [cost](#cost)                                                       | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-costs.md "add-platform.json#/properties/cost")                                         |
-| [age](#age)                                                         | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-target-audience.md "add-platform.json#/properties/age")                                |
-| [texture](#texture)                                                 | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-textures.md "add-platform.json#/properties/texture")                                   |
-| [genre](#genre)                                                     | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-genre.md "add-platform.json#/properties/genre")                                        |
+| Property                                                                | Type      | Required | Nullable       | Defined by                                                                                                                                       |
+| :---------------------------------------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [generation](#generation)                                               | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-generation.md "add-platform.json#/properties/generation")                                           |
+| [power](#power)                                                         | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-power.md "add-platform.json#/properties/power")                                                     |
+| [online](#online)                                                       | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-online.md "add-platform.json#/properties/online")                                      |
+| [type](#type)                                                           | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-type.md "add-platform.json#/properties/type")                                                       |
+| [fabriquant](#fabriquant)                                               | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-fabriquant.md "add-platform.json#/properties/fabriquant")                                           |
+| [total\_amount\_of\_published\_games](#total_amount_of_published_games) | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-total_amount_of_published_games.md "add-platform.json#/properties/total_amount_of_published_games") |
+| [id](#id)                                                               | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-id.md "add-platform.json#/properties/id")                                                           |
+| [name](#name)                                                           | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-name.md "add-platform.json#/properties/name")                                                       |
+| [duration](#duration)                                                   | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-lifecycle.md "add-platform.json#/properties/duration")                                 |
+| [total\_unit\_sold](#total_unit_sold)                                   | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-total_unit_sold.md "add-platform.json#/properties/total_unit_sold")                                 |
+| [cost](#cost)                                                           | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-costs.md "add-platform.json#/properties/cost")                                         |
+| [age](#age)                                                             | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-target-audience.md "add-platform.json#/properties/age")                                |
+| [texture](#texture)                                                     | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-textures.md "add-platform.json#/properties/texture")                                   |
+| [genre](#genre)                                                         | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-genre.md "add-platform.json#/properties/genre")                                        |
 
 ## generation
 
@@ -119,7 +119,7 @@ platform type (accessory, pc, os, home, handled)
 | `"home"`      |             |
 | `"handled"`   |             |
 
-**pattern**: the string must match the following regular expression: 
+**pattern**: the string must match the following regular expression:&#x20;
 
 ```regexp
 (accessory|pc|os|home|handled)
@@ -231,7 +231,7 @@ The default value is:
 "88f179e7-f1a7-4479-bdcf-5367b820aeb8"
 ```
 
-## total_amount_of_published_games
+## total\_amount\_of\_published\_games
 
 Total number of published game
 
@@ -245,15 +245,15 @@ Total number of published game
 
 *   defined in: [Add a new platform](add-platform-properties-total_amount_of_published_games.md "add-platform.json#/properties/total_amount_of_published_games")
 
-### total_amount_of_published_games Type
+### total\_amount\_of\_published\_games Type
 
 `integer`
 
-### total_amount_of_published_games Constraints
+### total\_amount\_of\_published\_games Constraints
 
 **minimum**: the value of this number must greater than or equal to: `25`
 
-### total_amount_of_published_games Default Value
+### total\_amount\_of\_published\_games Default Value
 
 The default value is:
 
@@ -315,7 +315,7 @@ Platform's name
 
 `object` ([Add platform: Lifecycle](add-platform-properties-add-platform-lifecycle.md))
 
-## total_unit_sold
+## total\_unit\_sold
 
 Total number of unit sold (platform)
 
@@ -329,17 +329,17 @@ Total number of unit sold (platform)
 
 *   defined in: [Add a new platform](add-platform-properties-total_unit_sold.md "add-platform.json#/properties/total_unit_sold")
 
-### total_unit_sold Type
+### total\_unit\_sold Type
 
 `integer`
 
-### total_unit_sold Constraints
+### total\_unit\_sold Constraints
 
 **maximum**: the value of this number must smaller than or equal to: `600000000`
 
 **minimum**: the value of this number must greater than or equal to: `50000`
 
-### total_unit_sold Default Value
+### total\_unit\_sold Default Value
 
 The default value is:
 

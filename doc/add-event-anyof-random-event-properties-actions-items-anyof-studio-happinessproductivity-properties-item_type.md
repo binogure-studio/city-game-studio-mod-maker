@@ -1,8 +1,8 @@
-## item_type Type
+## item\_type Type
 
 `string`
 
-## item_type Constraints
+## item\_type Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

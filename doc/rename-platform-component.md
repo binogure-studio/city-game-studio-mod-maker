@@ -4,15 +4,15 @@
 
 # Rename & edit a platform's component Properties
 
-| Property                            | Type      | Required | Nullable       | Defined by                                                                                                                                                   |
-| :---------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [id](#id)                           | `string`  | Required | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-components-id.md "rename-platform-component.json#/properties/id")                |
-| [name](#name)                       | `string`  | Required | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-new-components-name.md "rename-platform-component.json#/properties/name")        |
-| [unlock_costs](#unlock_costs)       | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-unlock_costs.md "rename-platform-component.json#/properties/unlock_costs")       |
-| [making_costs](#making_costs)       | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-making_costs.md "rename-platform-component.json#/properties/making_costs")       |
-| [required_points](#required_points) | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-required_points.md "rename-platform-component.json#/properties/required_points") |
-| [gpu](#gpu)                         | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-gpu.md "rename-platform-component.json#/properties/gpu")                         |
-| [cpu](#cpu)                         | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-cpu.md "rename-platform-component.json#/properties/cpu")                         |
+| Property                             | Type      | Required | Nullable       | Defined by                                                                                                                                                   |
+| :----------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [id](#id)                            | `string`  | Required | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-components-id.md "rename-platform-component.json#/properties/id")                |
+| [name](#name)                        | `string`  | Required | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-new-components-name.md "rename-platform-component.json#/properties/name")        |
+| [unlock\_costs](#unlock_costs)       | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-unlock_costs.md "rename-platform-component.json#/properties/unlock_costs")       |
+| [making\_costs](#making_costs)       | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-making_costs.md "rename-platform-component.json#/properties/making_costs")       |
+| [required\_points](#required_points) | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-required_points.md "rename-platform-component.json#/properties/required_points") |
+| [gpu](#gpu)                          | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-gpu.md "rename-platform-component.json#/properties/gpu")                         |
+| [cpu](#cpu)                          | `integer` | Optional | cannot be null | [Rename & edit a platform's component](rename-platform-component-properties-cpu.md "rename-platform-component.json#/properties/cpu")                         |
 
 ## id
 
@@ -156,7 +156,7 @@ New component's name.
 
 `string` ([New component's name](rename-platform-component-properties-new-components-name.md))
 
-## unlock_costs
+## unlock\_costs
 
 Unlocking costs of the component ($).
 
@@ -170,17 +170,17 @@ Unlocking costs of the component ($).
 
 *   defined in: [Rename & edit a platform's component](rename-platform-component-properties-unlock_costs.md "rename-platform-component.json#/properties/unlock_costs")
 
-### unlock_costs Type
+### unlock\_costs Type
 
 `integer`
 
-### unlock_costs Constraints
+### unlock\_costs Constraints
 
 **maximum**: the value of this number must smaller than or equal to: `9999999`
 
 **minimum**: the value of this number must greater than or equal to: `100`
 
-## making_costs
+## making\_costs
 
 Manufacturing costs of the component ($).
 
@@ -194,17 +194,17 @@ Manufacturing costs of the component ($).
 
 *   defined in: [Rename & edit a platform's component](rename-platform-component-properties-making_costs.md "rename-platform-component.json#/properties/making_costs")
 
-### making_costs Type
+### making\_costs Type
 
 `integer`
 
-### making_costs Constraints
+### making\_costs Constraints
 
 **maximum**: the value of this number must smaller than or equal to: `500`
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
-## required_points
+## required\_points
 
 Required points to implment the API of the component.
 
@@ -218,11 +218,11 @@ Required points to implment the API of the component.
 
 *   defined in: [Rename & edit a platform's component](rename-platform-component-properties-required_points.md "rename-platform-component.json#/properties/required_points")
 
-### required_points Type
+### required\_points Type
 
 `integer`
 
-### required_points Constraints
+### required\_points Constraints
 
 **maximum**: the value of this number must smaller than or equal to: `999999`
 

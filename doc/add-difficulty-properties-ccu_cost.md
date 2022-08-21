@@ -1,14 +1,14 @@
-## ccu_cost Type
+## ccu\_cost Type
 
 `number`
 
-## ccu_cost Constraints
+## ccu\_cost Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.001`
 
 **minimum**: the value of this number must greater than or equal to: `0.01`
 
-## ccu_cost Default Value
+## ccu\_cost Default Value
 
 The default value is:
 

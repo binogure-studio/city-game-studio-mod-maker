@@ -1,8 +1,8 @@
-## game_score Type
+## game\_score Type
 
 `number`
 
-## game_score Constraints
+## game\_score Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `25`
 
-## game_score Default Value
+## game\_score Default Value
 
 The default value is:
 

@@ -4,21 +4,21 @@ unknown ([Scheduled event](add-event-anyof-scheduled-event.md))
 
 # 1 Properties
 
-| Property                    | Type      | Required | Nullable       | Defined by                                                                                                                    |
-| :-------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| [description](#description) | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-description.md "add-event.json#/anyOf/1/properties/description") |
-| [id](#id)                   | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-id.md "add-event.json#/anyOf/1/properties/id")                   |
-| [date](#date)               | `object`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-date.md "add-event.json#/anyOf/1/properties/date")               |
-| [type](#type)               | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-type.md "add-event.json#/anyOf/1/properties/type")               |
-| [event_color](#event_color) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-event_color.md "add-event.json#/anyOf/1/properties/event_color") |
-| [name](#name)               | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-name.md "add-event.json#/anyOf/1/properties/name")               |
-| [show](#show)               | `boolean` | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-show.md "add-event.json#/anyOf/1/properties/show")               |
-| [conditions](#conditions)   | `array`   | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-conditions.md "add-event.json#/anyOf/1/properties/conditions")   |
-| [actions](#actions)         | `array`   | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions.md "add-event.json#/anyOf/1/properties/actions")         |
+| Property                     | Type      | Required | Nullable       | Defined by                                                                                                                    |
+| :--------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------- |
+| [description](#description)  | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-description.md "add-event.json#/anyOf/1/properties/description") |
+| [id](#id)                    | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-id.md "add-event.json#/anyOf/1/properties/id")                   |
+| [date](#date)                | `object`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-date.md "add-event.json#/anyOf/1/properties/date")               |
+| [type](#type)                | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-type.md "add-event.json#/anyOf/1/properties/type")               |
+| [event\_color](#event_color) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-event_color.md "add-event.json#/anyOf/1/properties/event_color") |
+| [name](#name)                | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-name.md "add-event.json#/anyOf/1/properties/name")               |
+| [show](#show)                | `boolean` | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-show.md "add-event.json#/anyOf/1/properties/show")               |
+| [conditions](#conditions)    | `array`   | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-conditions.md "add-event.json#/anyOf/1/properties/conditions")   |
+| [actions](#actions)          | `array`   | Required | cannot be null | [Add a new event](add-event-anyof-scheduled-event-properties-actions.md "add-event.json#/anyOf/1/properties/actions")         |
 
 ## description
 
-Event's description (used for i18n). Following tags are allowed \[player_name], \[company_name] and \[date]. Regarding conditions you can use either \[game_name] or \[studio_name]
+Event's description (used for i18n). Following tags are allowed \[player\_name], \[company\_name] and \[date]. Regarding conditions you can use either \[game\_name] or \[studio\_name]
 
 `description`
 
@@ -113,7 +113,7 @@ The default value is:
 "uniq"
 ```
 
-## event_color
+## event\_color
 
 Color of the notification
 
@@ -127,11 +127,11 @@ Color of the notification
 
 *   defined in: [Add a new event](add-event-anyof-scheduled-event-properties-event_color.md "add-event.json#/anyOf/1/properties/event_color")
 
-### event_color Type
+### event\_color Type
 
 `string`
 
-### event_color Constraints
+### event\_color Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 
@@ -143,7 +143,7 @@ Color of the notification
 | `"RED_COLOR"`    |             |
 | `"YELLOW_COLOR"` |             |
 
-### event_color Default Value
+### event\_color Default Value
 
 The default value is:
 

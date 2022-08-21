@@ -4,17 +4,17 @@
 
 # notation Properties
 
-| Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                                               |
-| :------------------------------------------------ | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [capacity_min_ratio](#capacity_min_ratio)         | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-capacity_min_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_min_ratio")         |
-| [capacity_ratio](#capacity_ratio)                 | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-capacity_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_ratio")                 |
-| [point_to_produce_ratio](#point_to_produce_ratio) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-point_to_produce_ratio.md "add-difficulty.json#/properties/notation/properties/point_to_produce_ratio") |
-| [game_combo_ratio](#game_combo_ratio)             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-game_combo_ratio.md "add-difficulty.json#/properties/notation/properties/game_combo_ratio")             |
-| [max_bonus](#max_bonus)                           | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-max_bonus.md "add-difficulty.json#/properties/notation/properties/max_bonus")                           |
-| [min_delay](#min_delay)                           | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-min_delay.md "add-difficulty.json#/properties/notation/properties/min_delay")                           |
-| [capacity_delta_time](#capacity_delta_time)       | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-capacity_delta_time.md "add-difficulty.json#/properties/notation/properties/capacity_delta_time")       |
+| Property                                             | Type      | Required | Nullable       | Defined by                                                                                                                                                               |
+| :--------------------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [capacity\_min\_ratio](#capacity_min_ratio)          | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-capacity_min_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_min_ratio")         |
+| [capacity\_ratio](#capacity_ratio)                   | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-capacity_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_ratio")                 |
+| [point\_to\_produce\_ratio](#point_to_produce_ratio) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-point_to_produce_ratio.md "add-difficulty.json#/properties/notation/properties/point_to_produce_ratio") |
+| [game\_combo\_ratio](#game_combo_ratio)              | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-game_combo_ratio.md "add-difficulty.json#/properties/notation/properties/game_combo_ratio")             |
+| [max\_bonus](#max_bonus)                             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-max_bonus.md "add-difficulty.json#/properties/notation/properties/max_bonus")                           |
+| [min\_delay](#min_delay)                             | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-min_delay.md "add-difficulty.json#/properties/notation/properties/min_delay")                           |
+| [capacity\_delta\_time](#capacity_delta_time)        | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation-properties-capacity_delta_time.md "add-difficulty.json#/properties/notation/properties/capacity_delta_time")       |
 
-## capacity_min_ratio
+## capacity\_min\_ratio
 
 Set the minimal ratio when a game doesn't produce enough capacities point.
 
@@ -28,11 +28,11 @@ Set the minimal ratio when a game doesn't produce enough capacities point.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-capacity_min_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_min_ratio")
 
-### capacity_min_ratio Type
+### capacity\_min\_ratio Type
 
 `number`
 
-### capacity_min_ratio Constraints
+### capacity\_min\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -40,7 +40,7 @@ Set the minimal ratio when a game doesn't produce enough capacities point.
 
 **minimum**: the value of this number must greater than or equal to: `0`
 
-### capacity_min_ratio Default Value
+### capacity\_min\_ratio Default Value
 
 The default value is:
 
@@ -48,7 +48,7 @@ The default value is:
 0.2
 ```
 
-## capacity_ratio
+## capacity\_ratio
 
 Adjusts the number of produced points (the higher the better).
 
@@ -62,11 +62,11 @@ Adjusts the number of produced points (the higher the better).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-capacity_ratio.md "add-difficulty.json#/properties/notation/properties/capacity_ratio")
 
-### capacity_ratio Type
+### capacity\_ratio Type
 
 `number`
 
-### capacity_ratio Constraints
+### capacity\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.05`
 
@@ -74,7 +74,7 @@ Adjusts the number of produced points (the higher the better).
 
 **minimum**: the value of this number must greater than or equal to: `0.5`
 
-### capacity_ratio Default Value
+### capacity\_ratio Default Value
 
 The default value is:
 
@@ -82,7 +82,7 @@ The default value is:
 1.25
 ```
 
-## point_to_produce_ratio
+## point\_to\_produce\_ratio
 
 Ratio of the number of points to produce per game (design, development and polish).
 
@@ -96,11 +96,11 @@ Ratio of the number of points to produce per game (design, development and polis
 
 *   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-point_to_produce_ratio.md "add-difficulty.json#/properties/notation/properties/point_to_produce_ratio")
 
-### point_to_produce_ratio Type
+### point\_to\_produce\_ratio Type
 
 `number`
 
-### point_to_produce_ratio Constraints
+### point\_to\_produce\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -108,7 +108,7 @@ Ratio of the number of points to produce per game (design, development and polis
 
 **minimum**: the value of this number must greater than or equal to: `0.2`
 
-### point_to_produce_ratio Default Value
+### point\_to\_produce\_ratio Default Value
 
 The default value is:
 
@@ -116,7 +116,7 @@ The default value is:
 0.55
 ```
 
-## game_combo_ratio
+## game\_combo\_ratio
 
 Malus when making the same combination twice `score * game_combo_ratio`.
 
@@ -130,11 +130,11 @@ Malus when making the same combination twice `score * game_combo_ratio`.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-game_combo_ratio.md "add-difficulty.json#/properties/notation/properties/game_combo_ratio")
 
-### game_combo_ratio Type
+### game\_combo\_ratio Type
 
 `number`
 
-### game_combo_ratio Constraints
+### game\_combo\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -142,7 +142,7 @@ Malus when making the same combination twice `score * game_combo_ratio`.
 
 **minimum**: the value of this number must greater than or equal to: `0.05`
 
-### game_combo_ratio Default Value
+### game\_combo\_ratio Default Value
 
 The default value is:
 
@@ -150,7 +150,7 @@ The default value is:
 0.5
 ```
 
-## max_bonus
+## max\_bonus
 
 Maximum bonus applicable for a game `bonus = min(bonus, max_bonus)`.
 
@@ -164,11 +164,11 @@ Maximum bonus applicable for a game `bonus = min(bonus, max_bonus)`.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-max_bonus.md "add-difficulty.json#/properties/notation/properties/max_bonus")
 
-### max_bonus Type
+### max\_bonus Type
 
 `number`
 
-### max_bonus Constraints
+### max\_bonus Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -176,7 +176,7 @@ Maximum bonus applicable for a game `bonus = min(bonus, max_bonus)`.
 
 **minimum**: the value of this number must greater than or equal to: `0.5`
 
-### max_bonus Default Value
+### max\_bonus Default Value
 
 The default value is:
 
@@ -184,9 +184,9 @@ The default value is:
 1.01
 ```
 
-## min_delay
+## min\_delay
 
-Interval in weeks before canceling the game_combo_ratio malus.
+Interval in weeks before canceling the game\_combo\_ratio malus.
 
 `min_delay`
 
@@ -198,11 +198,11 @@ Interval in weeks before canceling the game_combo_ratio malus.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-min_delay.md "add-difficulty.json#/properties/notation/properties/min_delay")
 
-### min_delay Type
+### min\_delay Type
 
 `integer`
 
-### min_delay Constraints
+### min\_delay Constraints
 
 **multiple of**: the value of this number must be a multiple of: `6`
 
@@ -210,7 +210,7 @@ Interval in weeks before canceling the game_combo_ratio malus.
 
 **minimum**: the value of this number must greater than or equal to: `12`
 
-### min_delay Default Value
+### min\_delay Default Value
 
 The default value is:
 
@@ -218,7 +218,7 @@ The default value is:
 36
 ```
 
-## capacity_delta_time
+## capacity\_delta\_time
 
 Number of capacities point (design/development/polish) to be produced `expected_points *= capacity_delta_time`.
 
@@ -232,11 +232,11 @@ Number of capacities point (design/development/polish) to be produced `expected_
 
 *   defined in: [Add a difficulty](add-difficulty-properties-notation-properties-capacity_delta_time.md "add-difficulty.json#/properties/notation/properties/capacity_delta_time")
 
-### capacity_delta_time Type
+### capacity\_delta\_time Type
 
 `number`
 
-### capacity_delta_time Constraints
+### capacity\_delta\_time Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.25`
 
@@ -244,7 +244,7 @@ Number of capacities point (design/development/polish) to be produced `expected_
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
-### capacity_delta_time Default Value
+### capacity\_delta\_time Default Value
 
 The default value is:
 

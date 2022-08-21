@@ -4,11 +4,11 @@
 
 # Add a new map size Properties
 
-| Property                                | Type      | Required | Nullable       | Defined by                                                                                                         |
-| :-------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------- |
-| [label](#label)                         | `string`  | Required | cannot be null | [Add a new map size](add-mapsize-properties-label.md "add-mapsize.json#/properties/label")                         |
-| [size](#size)                           | `integer` | Required | cannot be null | [Add a new map size](add-mapsize-properties-size.md "add-mapsize.json#/properties/size")                           |
-| [concurrent_amount](#concurrent_amount) | `integer` | Required | cannot be null | [Add a new map size](add-mapsize-properties-concurrent_amount.md "add-mapsize.json#/properties/concurrent_amount") |
+| Property                                 | Type      | Required | Nullable       | Defined by                                                                                                         |
+| :--------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------- |
+| [label](#label)                          | `string`  | Required | cannot be null | [Add a new map size](add-mapsize-properties-label.md "add-mapsize.json#/properties/label")                         |
+| [size](#size)                            | `integer` | Required | cannot be null | [Add a new map size](add-mapsize-properties-size.md "add-mapsize.json#/properties/size")                           |
+| [concurrent\_amount](#concurrent_amount) | `integer` | Required | cannot be null | [Add a new map size](add-mapsize-properties-concurrent_amount.md "add-mapsize.json#/properties/concurrent_amount") |
 
 ## label
 
@@ -68,7 +68,7 @@ The default value is:
 25
 ```
 
-## concurrent_amount
+## concurrent\_amount
 
 Number of competitor on the map.
 
@@ -82,15 +82,15 @@ Number of competitor on the map.
 
 *   defined in: [Add a new map size](add-mapsize-properties-concurrent_amount.md "add-mapsize.json#/properties/concurrent_amount")
 
-### concurrent_amount Type
+### concurrent\_amount Type
 
 `integer`
 
-### concurrent_amount Constraints
+### concurrent\_amount Constraints
 
 **minimum**: the value of this number must greater than or equal to: `0`
 
-### concurrent_amount Default Value
+### concurrent\_amount Default Value
 
 The default value is:
 

@@ -1,15 +1,15 @@
-## same_genre Type
+## same\_genre Type
 
 `object` ([Details](add-difficulty-properties-happiness-properties-same_genre.md))
 
-# same_genre Properties
+# same\_genre Properties
 
-| Property                              | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                 |
-| :------------------------------------ | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [duration_in_week](#duration_in_week) | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre-properties-duration_in_week.md "add-difficulty.json#/properties/happiness/properties/same_genre/properties/duration_in_week") |
-| [per_month](#per_month)               | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre-properties-per_month.md "add-difficulty.json#/properties/happiness/properties/same_genre/properties/per_month")               |
+| Property                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                 |
+| :-------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [duration\_in\_week](#duration_in_week) | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre-properties-duration_in_week.md "add-difficulty.json#/properties/happiness/properties/same_genre/properties/duration_in_week") |
+| [per\_month](#per_month)                | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre-properties-per_month.md "add-difficulty.json#/properties/happiness/properties/same_genre/properties/per_month")               |
 
-## duration_in_week
+## duration\_in\_week
 
 Number of week before an employee is bored about a genre.
 
@@ -23,17 +23,17 @@ Number of week before an employee is bored about a genre.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre-properties-duration_in_week.md "add-difficulty.json#/properties/happiness/properties/same_genre/properties/duration_in_week")
 
-### duration_in_week Type
+### duration\_in\_week Type
 
 `integer`
 
-### duration_in_week Constraints
+### duration\_in\_week Constraints
 
 **maximum**: the value of this number must smaller than or equal to: `1000`
 
 **minimum**: the value of this number must greater than or equal to: `50`
 
-### duration_in_week Default Value
+### duration\_in\_week Default Value
 
 The default value is:
 
@@ -41,7 +41,7 @@ The default value is:
 100
 ```
 
-## per_month
+## per\_month
 
 Once bored, this ratio will reduce its happiness by x (the higher the better).
 
@@ -55,11 +55,11 @@ Once bored, this ratio will reduce its happiness by x (the higher the better).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-happiness-properties-same_genre-properties-per_month.md "add-difficulty.json#/properties/happiness/properties/same_genre/properties/per_month")
 
-### per_month Type
+### per\_month Type
 
 `number`
 
-### per_month Constraints
+### per\_month Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -67,7 +67,7 @@ Once bored, this ratio will reduce its happiness by x (the higher the better).
 
 **minimum**: the value of this number must greater than or equal to: `0.01`
 
-### per_month Default Value
+### per\_month Default Value
 
 The default value is:
 

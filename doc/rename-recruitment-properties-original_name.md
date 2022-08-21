@@ -1,8 +1,8 @@
-## original_name Type
+## original\_name Type
 
 `string`
 
-## original_name Constraints
+## original\_name Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 
@@ -113,7 +113,7 @@
 | `"Sad Meier"`             |             |
 | `"Shegiru Miyamoto"`      |             |
 
-## original_name Default Value
+## original\_name Default Value
 
 The default value is:
 

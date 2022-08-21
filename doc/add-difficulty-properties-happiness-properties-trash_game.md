@@ -1,8 +1,8 @@
-## trash_game Type
+## trash\_game Type
 
 `number`
 
-## trash_game Constraints
+## trash\_game Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `0.01`
 
-## trash_game Default Value
+## trash\_game Default Value
 
 The default value is:
 

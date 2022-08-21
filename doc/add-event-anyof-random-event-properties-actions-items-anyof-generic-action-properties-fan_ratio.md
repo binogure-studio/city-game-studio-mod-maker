@@ -1,8 +1,8 @@
-## fan_ratio Type
+## fan\_ratio Type
 
 `number`
 
-## fan_ratio Constraints
+## fan\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.05`
 

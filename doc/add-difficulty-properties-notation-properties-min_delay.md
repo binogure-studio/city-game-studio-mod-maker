@@ -1,8 +1,8 @@
-## min_delay Type
+## min\_delay Type
 
 `integer`
 
-## min_delay Constraints
+## min\_delay Constraints
 
 **multiple of**: the value of this number must be a multiple of: `6`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `12`
 
-## min_delay Default Value
+## min\_delay Default Value
 
 The default value is:
 

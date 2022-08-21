@@ -1,8 +1,8 @@
-## quality_ratio Type
+## quality\_ratio Type
 
 `number`
 
-## quality_ratio Constraints
+## quality\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.1`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `1`
 
-## quality_ratio Default Value
+## quality\_ratio Default Value
 
 The default value is:
 

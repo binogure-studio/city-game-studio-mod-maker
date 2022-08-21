@@ -1,8 +1,8 @@
-## postmortem_ratio Type
+## postmortem\_ratio Type
 
 `number`
 
-## postmortem_ratio Constraints
+## postmortem\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `0.05`
 
-## postmortem_ratio Default Value
+## postmortem\_ratio Default Value
 
 The default value is:
 

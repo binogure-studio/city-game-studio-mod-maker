@@ -39,7 +39,7 @@ Match the platform with the targetted consumers
 | `"ok"`        |             |
 | `"poor"`      |             |
 
-**pattern**: the string must match the following regular expression: 
+**pattern**: the string must match the following regular expression:&#x20;
 
 ```regexp
 (excellent|good|ok|poor)
@@ -84,7 +84,7 @@ Match the platform with the targetted consumers
 | `"ok"`        |             |
 | `"poor"`      |             |
 
-**pattern**: the string must match the following regular expression: 
+**pattern**: the string must match the following regular expression:&#x20;
 
 ```regexp
 (excellent|good|ok|poor)
@@ -129,7 +129,7 @@ Match the platform with the targetted consumers
 | `"ok"`        |             |
 | `"poor"`      |             |
 
-**pattern**: the string must match the following regular expression: 
+**pattern**: the string must match the following regular expression:&#x20;
 
 ```regexp
 (excellent|good|ok|poor)

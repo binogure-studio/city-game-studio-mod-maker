@@ -80,7 +80,7 @@ The default value is:
 
 ## messages
 
-KEY: VALUE. Example: LABEL_THEME_SCHOOL: School
+KEY: VALUE. Example: LABEL\_THEME\_SCHOOL: School
 
 `messages`
 

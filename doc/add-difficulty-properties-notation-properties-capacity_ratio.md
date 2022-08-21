@@ -1,8 +1,8 @@
-## capacity_ratio Type
+## capacity\_ratio Type
 
 `number`
 
-## capacity_ratio Constraints
+## capacity\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.05`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `0.5`
 
-## capacity_ratio Default Value
+## capacity\_ratio Default Value
 
 The default value is:
 

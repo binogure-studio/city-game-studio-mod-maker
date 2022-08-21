@@ -1,14 +1,14 @@
-## admin_cost Type
+## admin\_cost Type
 
 `integer`
 
-## admin_cost Constraints
+## admin\_cost Constraints
 
 **multiple of**: the value of this number must be a multiple of: `100`
 
 **minimum**: the value of this number must greater than or equal to: `100`
 
-## admin_cost Default Value
+## admin\_cost Default Value
 
 The default value is:
 

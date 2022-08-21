@@ -1,8 +1,8 @@
-## min_capacities Type
+## min\_capacities Type
 
 `number`
 
-## min_capacities Constraints
+## min\_capacities Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `0.5`
 
-## min_capacities Default Value
+## min\_capacities Default Value
 
 The default value is:
 

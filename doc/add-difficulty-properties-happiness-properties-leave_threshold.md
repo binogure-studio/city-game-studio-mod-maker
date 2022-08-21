@@ -1,8 +1,8 @@
-## leave_threshold Type
+## leave\_threshold Type
 
 `number`
 
-## leave_threshold Constraints
+## leave\_threshold Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.1`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `0`
 
-## leave_threshold Default Value
+## leave\_threshold Default Value
 
 The default value is:
 

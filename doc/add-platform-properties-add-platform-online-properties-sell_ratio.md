@@ -1,8 +1,8 @@
-## sell_ratio Type
+## sell\_ratio Type
 
 `number`
 
-## sell_ratio Constraints
+## sell\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.001`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `0`
 
-## sell_ratio Default Value
+## sell\_ratio Default Value
 
 The default value is:
 

@@ -1,8 +1,8 @@
-## game_of_the_year Type
+## game\_of\_the\_year Type
 
 `object` ([Details](add-difficulty-properties-game_of_the_year.md))
 
-# game_of_the_year Properties
+# game\_of\_the\_year Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                               |
 | :---------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |

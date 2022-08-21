@@ -1,8 +1,8 @@
-## required_points Type
+## required\_points Type
 
 `integer`
 
-## required_points Constraints
+## required\_points Constraints
 
 **maximum**: the value of this number must smaller than or equal to: `999999`
 

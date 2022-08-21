@@ -4,33 +4,33 @@
 
 # Add a difficulty Properties
 
-| Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                       |
-| :------------------------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| [difficulty](#difficulty)                         | `string`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-difficulty.md "add-difficulty.json#/properties/difficulty")                         |
-| [postmortem_ratio](#postmortem_ratio)             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-postmortem_ratio.md "add-difficulty.json#/properties/postmortem_ratio")             |
-| [perfect_employee_ratio](#perfect_employee_ratio) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-perfect_employee_ratio.md "add-difficulty.json#/properties/perfect_employee_ratio") |
-| [admin_cost](#admin_cost)                         | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-admin_cost.md "add-difficulty.json#/properties/admin_cost")                         |
-| [remake](#remake)                                 | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-remake.md "add-difficulty.json#/properties/remake")                                 |
-| [engine](#engine)                                 | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-engine.md "add-difficulty.json#/properties/engine")                                 |
-| [iap](#iap)                                       | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-iap.md "add-difficulty.json#/properties/iap")                                       |
-| [perfect_employee_cost](#perfect_employee_cost)   | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-perfect_employee_cost.md "add-difficulty.json#/properties/perfect_employee_cost")   |
-| [show_percent](#show_percent)                     | `boolean` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-show_percent.md "add-difficulty.json#/properties/show_percent")                     |
-| [label](#label)                                   | `string`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-label.md "add-difficulty.json#/properties/label")                                   |
-| [wage](#wage)                                     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-wage.md "add-difficulty.json#/properties/wage")                                     |
-| [ccu_cost](#ccu_cost)                             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-ccu_cost.md "add-difficulty.json#/properties/ccu_cost")                             |
-| [digital_store](#digital_store)                   | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-digital_store.md "add-difficulty.json#/properties/digital_store")                   |
-| [game_sales](#game_sales)                         | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_sales.md "add-difficulty.json#/properties/game_sales")                         |
-| [postmortem](#postmortem)                         | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-postmortem.md "add-difficulty.json#/properties/postmortem")                         |
-| [game_of_the_year](#game_of_the_year)             | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_of_the_year.md "add-difficulty.json#/properties/game_of_the_year")             |
-| [platform](#platform)                             | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform.md "add-difficulty.json#/properties/platform")                             |
-| [contract](#contract)                             | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-contract.md "add-difficulty.json#/properties/contract")                             |
-| [happiness](#happiness)                           | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness.md "add-difficulty.json#/properties/happiness")                           |
-| [notation](#notation)                             | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation.md "add-difficulty.json#/properties/notation")                             |
-| [mortgage](#mortgage)                             | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-mortgage.md "add-difficulty.json#/properties/mortgage")                             |
-| [currency](#currency)                             | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-currency.md "add-difficulty.json#/properties/currency")                             |
-| [taxes](#taxes)                                   | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-taxes.md "add-difficulty.json#/properties/taxes")                                   |
-| [publishing](#publishing)                         | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-publishing.md "add-difficulty.json#/properties/publishing")                         |
-| [concurrent](#concurrent)                         | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent.md "add-difficulty.json#/properties/concurrent")                         |
+| Property                                            | Type      | Required | Nullable       | Defined by                                                                                                                       |
+| :-------------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| [difficulty](#difficulty)                           | `string`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-difficulty.md "add-difficulty.json#/properties/difficulty")                         |
+| [postmortem\_ratio](#postmortem_ratio)              | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-postmortem_ratio.md "add-difficulty.json#/properties/postmortem_ratio")             |
+| [perfect\_employee\_ratio](#perfect_employee_ratio) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-perfect_employee_ratio.md "add-difficulty.json#/properties/perfect_employee_ratio") |
+| [admin\_cost](#admin_cost)                          | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-admin_cost.md "add-difficulty.json#/properties/admin_cost")                         |
+| [remake](#remake)                                   | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-remake.md "add-difficulty.json#/properties/remake")                                 |
+| [engine](#engine)                                   | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-engine.md "add-difficulty.json#/properties/engine")                                 |
+| [iap](#iap)                                         | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-iap.md "add-difficulty.json#/properties/iap")                                       |
+| [perfect\_employee\_cost](#perfect_employee_cost)   | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-perfect_employee_cost.md "add-difficulty.json#/properties/perfect_employee_cost")   |
+| [show\_percent](#show_percent)                      | `boolean` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-show_percent.md "add-difficulty.json#/properties/show_percent")                     |
+| [label](#label)                                     | `string`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-label.md "add-difficulty.json#/properties/label")                                   |
+| [wage](#wage)                                       | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-wage.md "add-difficulty.json#/properties/wage")                                     |
+| [ccu\_cost](#ccu_cost)                              | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-ccu_cost.md "add-difficulty.json#/properties/ccu_cost")                             |
+| [digital\_store](#digital_store)                    | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-digital_store.md "add-difficulty.json#/properties/digital_store")                   |
+| [game\_sales](#game_sales)                          | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_sales.md "add-difficulty.json#/properties/game_sales")                         |
+| [postmortem](#postmortem)                           | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-postmortem.md "add-difficulty.json#/properties/postmortem")                         |
+| [game\_of\_the\_year](#game_of_the_year)            | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_of_the_year.md "add-difficulty.json#/properties/game_of_the_year")             |
+| [platform](#platform)                               | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform.md "add-difficulty.json#/properties/platform")                             |
+| [contract](#contract)                               | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-contract.md "add-difficulty.json#/properties/contract")                             |
+| [happiness](#happiness)                             | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-happiness.md "add-difficulty.json#/properties/happiness")                           |
+| [notation](#notation)                               | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-notation.md "add-difficulty.json#/properties/notation")                             |
+| [mortgage](#mortgage)                               | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-mortgage.md "add-difficulty.json#/properties/mortgage")                             |
+| [currency](#currency)                               | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-currency.md "add-difficulty.json#/properties/currency")                             |
+| [taxes](#taxes)                                     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-taxes.md "add-difficulty.json#/properties/taxes")                                   |
+| [publishing](#publishing)                           | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-publishing.md "add-difficulty.json#/properties/publishing")                         |
+| [concurrent](#concurrent)                           | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent.md "add-difficulty.json#/properties/concurrent")                         |
 
 ## difficulty
 
@@ -58,7 +58,7 @@ The default value is:
 "Insane"
 ```
 
-## postmortem_ratio
+## postmortem\_ratio
 
 Probability to get intel from a game report (higher the better).
 
@@ -72,11 +72,11 @@ Probability to get intel from a game report (higher the better).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-postmortem_ratio.md "add-difficulty.json#/properties/postmortem_ratio")
 
-### postmortem_ratio Type
+### postmortem\_ratio Type
 
 `number`
 
-### postmortem_ratio Constraints
+### postmortem\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -84,7 +84,7 @@ Probability to get intel from a game report (higher the better).
 
 **minimum**: the value of this number must greater than or equal to: `0.05`
 
-### postmortem_ratio Default Value
+### postmortem\_ratio Default Value
 
 The default value is:
 
@@ -92,7 +92,7 @@ The default value is:
 0.3
 ```
 
-## perfect_employee_ratio
+## perfect\_employee\_ratio
 
 Probability to get a spontaneous application (lower the better.
 
@@ -106,11 +106,11 @@ Probability to get a spontaneous application (lower the better.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-perfect_employee_ratio.md "add-difficulty.json#/properties/perfect_employee_ratio")
 
-### perfect_employee_ratio Type
+### perfect\_employee\_ratio Type
 
 `number`
 
-### perfect_employee_ratio Constraints
+### perfect\_employee\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.01`
 
@@ -118,7 +118,7 @@ Probability to get a spontaneous application (lower the better.
 
 **minimum**: the value of this number must greater than or equal to: `0.05`
 
-### perfect_employee_ratio Default Value
+### perfect\_employee\_ratio Default Value
 
 The default value is:
 
@@ -126,7 +126,7 @@ The default value is:
 0.95
 ```
 
-## admin_cost
+## admin\_cost
 
 Your starting salary.
 
@@ -140,17 +140,17 @@ Your starting salary.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-admin_cost.md "add-difficulty.json#/properties/admin_cost")
 
-### admin_cost Type
+### admin\_cost Type
 
 `integer`
 
-### admin_cost Constraints
+### admin\_cost Constraints
 
 **multiple of**: the value of this number must be a multiple of: `100`
 
 **minimum**: the value of this number must greater than or equal to: `100`
 
-### admin_cost Default Value
+### admin\_cost Default Value
 
 The default value is:
 
@@ -212,7 +212,7 @@ In-App purchase rate.
 
 `object` ([Details](add-difficulty-properties-iap.md))
 
-## perfect_employee_cost
+## perfect\_employee\_cost
 
 Salary range of a perfect employee (lower/higher).
 
@@ -230,7 +230,7 @@ Salary range of a perfect employee (lower/higher).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-perfect_employee_cost.md "add-difficulty.json#/properties/perfect_employee_cost")
 
-### perfect_employee_cost Type
+### perfect\_employee\_cost Type
 
 an array where each item follows the corresponding schema in the following list:
 
@@ -238,13 +238,13 @@ an array where each item follows the corresponding schema in the following list:
 
 2.  [Untitled integer in Add a difficulty](add-difficulty-properties-perfect_employee_cost-items-1.md "check type definition")
 
-### perfect_employee_cost Constraints
+### perfect\_employee\_cost Constraints
 
 **maximum number of items**: the maximum number of items for this array is: `2`
 
 **minimum number of items**: the minimum number of items for this array is: `2`
 
-## show_percent
+## show\_percent
 
 Show the percentage on gauges while making games
 
@@ -258,7 +258,7 @@ Show the percentage on gauges while making games
 
 *   defined in: [Add a difficulty](add-difficulty-properties-show_percent.md "add-difficulty.json#/properties/show_percent")
 
-### show_percent Type
+### show\_percent Type
 
 `boolean`
 
@@ -320,7 +320,7 @@ The default value is:
 0.196
 ```
 
-## ccu_cost
+## ccu\_cost
 
 Server rent costs per user (lower cheaper).
 
@@ -334,17 +334,17 @@ Server rent costs per user (lower cheaper).
 
 *   defined in: [Add a difficulty](add-difficulty-properties-ccu_cost.md "add-difficulty.json#/properties/ccu_cost")
 
-### ccu_cost Type
+### ccu\_cost Type
 
 `number`
 
-### ccu_cost Constraints
+### ccu\_cost Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.001`
 
 **minimum**: the value of this number must greater than or equal to: `0.01`
 
-### ccu_cost Default Value
+### ccu\_cost Default Value
 
 The default value is:
 
@@ -352,7 +352,7 @@ The default value is:
 0.186
 ```
 
-## digital_store
+## digital\_store
 
 Digital stores configuration.
 
@@ -366,11 +366,11 @@ Digital stores configuration.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-digital_store.md "add-difficulty.json#/properties/digital_store")
 
-### digital_store Type
+### digital\_store Type
 
 `object` ([Details](add-difficulty-properties-digital_store.md))
 
-## game_sales
+## game\_sales
 
 Game sales configuration.
 
@@ -384,7 +384,7 @@ Game sales configuration.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-game_sales.md "add-difficulty.json#/properties/game_sales")
 
-### game_sales Type
+### game\_sales Type
 
 `object` ([Details](add-difficulty-properties-game_sales.md))
 
@@ -406,7 +406,7 @@ Post-mortem configuration (game report).
 
 `object` ([Details](add-difficulty-properties-postmortem.md))
 
-## game_of_the_year
+## game\_of\_the\_year
 
 Game of the year configuration.
 
@@ -420,7 +420,7 @@ Game of the year configuration.
 
 *   defined in: [Add a difficulty](add-difficulty-properties-game_of_the_year.md "add-difficulty.json#/properties/game_of_the_year")
 
-### game_of_the_year Type
+### game\_of\_the\_year Type
 
 `object` ([Details](add-difficulty-properties-game_of_the_year.md))
 

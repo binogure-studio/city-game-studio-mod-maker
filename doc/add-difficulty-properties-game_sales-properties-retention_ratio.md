@@ -1,8 +1,8 @@
-## retention_ratio Type
+## retention\_ratio Type
 
 `number`
 
-## retention_ratio Constraints
+## retention\_ratio Constraints
 
 **multiple of**: the value of this number must be a multiple of: `0.001`
 
@@ -10,7 +10,7 @@
 
 **minimum**: the value of this number must greater than or equal to: `0.01`
 
-## retention_ratio Default Value
+## retention\_ratio Default Value
 
 The default value is:
 

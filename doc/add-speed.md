@@ -4,10 +4,10 @@
 
 # Add a new game speed Properties
 
-| Property                        | Type      | Required | Nullable       | Defined by                                                                                               |
-| :------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------- |
-| [label](#label)                 | `string`  | Required | cannot be null | [Add a new game speed](add-speed-properties-label.md "add-speed.json#/properties/label")                 |
-| [week_in_month](#week_in_month) | `integer` | Required | cannot be null | [Add a new game speed](add-speed-properties-week_in_month.md "add-speed.json#/properties/week_in_month") |
+| Property                          | Type      | Required | Nullable       | Defined by                                                                                               |
+| :-------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------- |
+| [label](#label)                   | `string`  | Required | cannot be null | [Add a new game speed](add-speed-properties-label.md "add-speed.json#/properties/label")                 |
+| [week\_in\_month](#week_in_month) | `integer` | Required | cannot be null | [Add a new game speed](add-speed-properties-week_in_month.md "add-speed.json#/properties/week_in_month") |
 
 ## label
 
@@ -35,7 +35,7 @@ The default value is:
 "LABEL_SPEED_CUSTOM"
 ```
 
-## week_in_month
+## week\_in\_month
 
 Number of week per months.
 
@@ -49,17 +49,17 @@ Number of week per months.
 
 *   defined in: [Add a new game speed](add-speed-properties-week_in_month.md "add-speed.json#/properties/week_in_month")
 
-### week_in_month Type
+### week\_in\_month Type
 
 `integer`
 
-### week_in_month Constraints
+### week\_in\_month Constraints
 
 **maximum**: the value of this number must smaller than or equal to: `32`
 
 **minimum**: the value of this number must greater than or equal to: `2`
 
-### week_in_month Default Value
+### week\_in\_month Default Value
 
 The default value is:
 

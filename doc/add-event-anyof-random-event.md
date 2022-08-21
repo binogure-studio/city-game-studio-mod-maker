@@ -4,21 +4,21 @@ unknown ([Random event](add-event-anyof-random-event.md))
 
 # 0 Properties
 
-| Property                    | Type      | Required | Nullable       | Defined by                                                                                                                 |
-| :-------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------- |
-| [description](#description) | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-description.md "add-event.json#/anyOf/0/properties/description") |
-| [id](#id)                   | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-id.md "add-event.json#/anyOf/0/properties/id")                   |
-| [probability](#probability) | `number`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-probability.md "add-event.json#/anyOf/0/properties/probability") |
-| [event_color](#event_color) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-event_color.md "add-event.json#/anyOf/0/properties/event_color") |
-| [type](#type)               | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-type.md "add-event.json#/anyOf/0/properties/type")               |
-| [name](#name)               | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-name.md "add-event.json#/anyOf/0/properties/name")               |
-| [show](#show)               | `boolean` | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-show.md "add-event.json#/anyOf/0/properties/show")               |
-| [conditions](#conditions)   | `array`   | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-conditions.md "add-event.json#/anyOf/0/properties/conditions")   |
-| [actions](#actions)         | `array`   | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions.md "add-event.json#/anyOf/0/properties/actions")         |
+| Property                     | Type      | Required | Nullable       | Defined by                                                                                                                 |
+| :--------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| [description](#description)  | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-description.md "add-event.json#/anyOf/0/properties/description") |
+| [id](#id)                    | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-id.md "add-event.json#/anyOf/0/properties/id")                   |
+| [probability](#probability)  | `number`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-probability.md "add-event.json#/anyOf/0/properties/probability") |
+| [event\_color](#event_color) | `string`  | Optional | cannot be null | [Add a new event](add-event-anyof-random-event-properties-event_color.md "add-event.json#/anyOf/0/properties/event_color") |
+| [type](#type)                | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-type.md "add-event.json#/anyOf/0/properties/type")               |
+| [name](#name)                | `string`  | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-name.md "add-event.json#/anyOf/0/properties/name")               |
+| [show](#show)                | `boolean` | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-show.md "add-event.json#/anyOf/0/properties/show")               |
+| [conditions](#conditions)    | `array`   | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-conditions.md "add-event.json#/anyOf/0/properties/conditions")   |
+| [actions](#actions)          | `array`   | Required | cannot be null | [Add a new event](add-event-anyof-random-event-properties-actions.md "add-event.json#/anyOf/0/properties/actions")         |
 
 ## description
 
-Event's description (used for i18n). Following tags are allowed \[player_name], \[company_name] and \[date]. Regarding conditions you can use either \[game_name] or \[studio_name]
+Event's description (used for i18n). Following tags are allowed \[player\_name], \[company\_name] and \[date]. Regarding conditions you can use either \[game\_name] or \[studio\_name]
 
 `description`
 
@@ -86,7 +86,7 @@ Event odds. (set 0 if you dont want the event to get triggered)
 
 **minimum**: the value of this number must greater than or equal to: `0`
 
-## event_color
+## event\_color
 
 Color of the notification
 
@@ -100,11 +100,11 @@ Color of the notification
 
 *   defined in: [Add a new event](add-event-anyof-random-event-properties-event_color.md "add-event.json#/anyOf/0/properties/event_color")
 
-### event_color Type
+### event\_color Type
 
 `string`
 
-### event_color Constraints
+### event\_color Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 
@@ -116,7 +116,7 @@ Color of the notification
 | `"RED_COLOR"`    |             |
 | `"YELLOW_COLOR"` |             |
 
-### event_color Default Value
+### event\_color Default Value
 
 The default value is:
 
