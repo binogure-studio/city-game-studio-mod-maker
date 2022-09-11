@@ -52,6 +52,8 @@
 
 *   [Rename a famous employee](./rename-recruitment.md "Rename a famous employee") – `rename-recruitment.json`
 
+*   [Rename a game genre](./rename-genre.md "Rename a game genre") – `rename-genre.json`
+
 *   [Rename an Indie company](./rename-indie.md "Rename an indie company") – `rename-indie.json`
 
 ## Other Schemas
@@ -143,6 +145,8 @@
 *   [Root: Add/rename competitors games](./generic-properties-root-addrename-competitors-games.md "To manipulate concurrents games") – `mod.json#/properties/concurrentgame`
 
 *   [Root: Add/rename manufacturers](./generic-properties-root-addrename-manufacturers.md "To manipulate manufacturers") – `mod.json#/properties/manufacturer`
+
+*   [Root: Rename genres](./generic-properties-root-rename-genres.md "To manipulate genres") – `mod.json#/properties/genre`
 
 *   [Studio happiness/productivity](./add-event-anyof-random-event-properties-actions-items-anyof-studio-happinessproductivity.md "This action can change the productivity/happiness of a studio") – `add-event.json#/anyOf/0/properties/actions/items/anyOf/0`
 
@@ -281,6 +285,8 @@
 *   [Rename competitor](./generic-properties-root-addrename-competitors-properties-rename-competitor.md "Rename a concurrent") – `mod.json#/properties/concurrent/properties/rename`
 
 *   [Rename competitor game](./generic-properties-root-addrename-competitors-games-properties-rename-competitor-game.md "Rename a concurrent game") – `mod.json#/properties/concurrentgame/properties/rename`
+
+*   [Rename genre](./generic-properties-root-rename-genres-properties-rename-genre.md "Rename a genre") – `mod.json#/properties/genre/properties/rename`
 
 *   [Rename manufacturer](./generic-properties-root-addrename-manufacturers-properties-rename-manufacturer.md "Rename a manufacturer") – `mod.json#/properties/manufacturer/properties/rename`
 

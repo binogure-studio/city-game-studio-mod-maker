@@ -12,6 +12,7 @@
 | [concurrent](#concurrent)         | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-competitors.md "mod.json#/properties/concurrent")                           |
 | [concurrentgame](#concurrentgame) | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-competitors-games.md "mod.json#/properties/concurrentgame")                 |
 | [manufacturer](#manufacturer)     | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-manufacturers.md "mod.json#/properties/manufacturer")                       |
+| [genre](#genre)                   | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-rename-genres.md "mod.json#/properties/genre")                                        |
 | [theme](#theme)                   | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-themes.md "mod.json#/properties/theme")                                           |
 | [translation](#translation)       | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-add-internationalization.md "mod.json#/properties/translation")                       |
 | [indie](#indie)                   | `object` | Optional | cannot be null | [Create a mod](generic-properties-root-addrename-indie-company.md "mod.json#/properties/indie")                              |
@@ -132,6 +133,24 @@ To manipulate manufacturers
 ### manufacturer Type
 
 `object` ([Root: Add/rename manufacturers](generic-properties-root-addrename-manufacturers.md))
+
+## genre
+
+To manipulate genres
+
+`genre`
+
+*   is optional
+
+*   Type: `object` ([Root: Rename genres](generic-properties-root-rename-genres.md))
+
+*   cannot be null
+
+*   defined in: [Create a mod](generic-properties-root-rename-genres.md "mod.json#/properties/genre")
+
+### genre Type
+
+`object` ([Root: Rename genres](generic-properties-root-rename-genres.md))
 
 ## theme
 
