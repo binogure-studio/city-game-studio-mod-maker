@@ -4,17 +4,18 @@
 
 # platform Properties
 
-| Property                                       | Type      | Required | Nullable       | Defined by                                                                                                                                                           |
-| :--------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [max\_return\_rate](#max_return_rate)          | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-max_return_rate.md "add-difficulty.json#/properties/platform/properties/max_return_rate")           |
-| [min\_capacities](#min_capacities)             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-min_capacities.md "add-difficulty.json#/properties/platform/properties/min_capacities")             |
-| [making\_cost\_ratio](#making_cost_ratio)      | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-making_cost_ratio.md "add-difficulty.json#/properties/platform/properties/making_cost_ratio")       |
-| [quality\_ratio](#quality_ratio)               | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-quality_ratio.md "add-difficulty.json#/properties/platform/properties/quality_ratio")               |
-| [negotiation](#negotiation)                    | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-negotiation.md "add-difficulty.json#/properties/platform/properties/negotiation")                   |
-| [manufacturer\_loyalty](#manufacturer_loyalty) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-manufacturer_loyalty.md "add-difficulty.json#/properties/platform/properties/manufacturer_loyalty") |
-| [game\_score](#game_score)                     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-game_score.md "add-difficulty.json#/properties/platform/properties/game_score")                     |
-| [loyalty](#loyalty)                            | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-loyalty.md "add-difficulty.json#/properties/platform/properties/loyalty")                           |
-| [crash\_1983](#crash_1983)                     | `boolean` | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-crash_1983.md "add-difficulty.json#/properties/platform/properties/crash_1983")                     |
+| Property                                                                   | Type      | Required | Nullable       | Defined by                                                                                                                                                                                     |
+| :------------------------------------------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [max\_return\_rate](#max_return_rate)                                      | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-max_return_rate.md "add-difficulty.json#/properties/platform/properties/max_return_rate")                                     |
+| [min\_capacities](#min_capacities)                                         | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-min_capacities.md "add-difficulty.json#/properties/platform/properties/min_capacities")                                       |
+| [making\_cost\_ratio](#making_cost_ratio)                                  | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-making_cost_ratio.md "add-difficulty.json#/properties/platform/properties/making_cost_ratio")                                 |
+| [quality\_ratio](#quality_ratio)                                           | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-quality_ratio.md "add-difficulty.json#/properties/platform/properties/quality_ratio")                                         |
+| [negotiation](#negotiation)                                                | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-negotiation.md "add-difficulty.json#/properties/platform/properties/negotiation")                                             |
+| [manufacturer\_loyalty](#manufacturer_loyalty)                             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-manufacturer_loyalty.md "add-difficulty.json#/properties/platform/properties/manufacturer_loyalty")                           |
+| [game\_score](#game_score)                                                 | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-game_score.md "add-difficulty.json#/properties/platform/properties/game_score")                                               |
+| [loyalty](#loyalty)                                                        | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-loyalty.md "add-difficulty.json#/properties/platform/properties/loyalty")                                                     |
+| [crash\_1983](#crash_1983)                                                 | `boolean` | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-crash_1983.md "add-difficulty.json#/properties/platform/properties/crash_1983")                                               |
+| [backward\_compatibility\_cost\_ratio](#backward_compatibility_cost_ratio) | `number`  | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-backward_compatibility_cost_ratio.md "add-difficulty.json#/properties/platform/properties/backward_compatibility_cost_ratio") |
 
 ## max\_return\_rate
 
@@ -289,3 +290,37 @@ To enable the 1983 crash for custom platforms.
 ### crash\_1983 Type
 
 `boolean`
+
+## backward\_compatibility\_cost\_ratio
+
+Cost of the backward compatibility for custom-platforms.
+
+`backward_compatibility_cost_ratio`
+
+*   is optional
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-backward_compatibility_cost_ratio.md "add-difficulty.json#/properties/platform/properties/backward_compatibility_cost_ratio")
+
+### backward\_compatibility\_cost\_ratio Type
+
+`number`
+
+### backward\_compatibility\_cost\_ratio Constraints
+
+**multiple of**: the value of this number must be a multiple of: `0.01`
+
+**maximum**: the value of this number must smaller than or equal to: `10`
+
+**minimum**: the value of this number must greater than or equal to: `1`
+
+### backward\_compatibility\_cost\_ratio Default Value
+
+The default value is:
+
+```json
+1
+```

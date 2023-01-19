@@ -19,6 +19,7 @@
 | [wage](#wage)                                       | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-wage.md "add-difficulty.json#/properties/wage")                                     |
 | [ccu\_cost](#ccu_cost)                              | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-ccu_cost.md "add-difficulty.json#/properties/ccu_cost")                             |
 | [digital\_store](#digital_store)                    | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-digital_store.md "add-difficulty.json#/properties/digital_store")                   |
+| [event\_game](#event_game)                          | `object`  | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-event_game.md "add-difficulty.json#/properties/event_game")                         |
 | [game\_sales](#game_sales)                          | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_sales.md "add-difficulty.json#/properties/game_sales")                         |
 | [postmortem](#postmortem)                           | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-postmortem.md "add-difficulty.json#/properties/postmortem")                         |
 | [game\_of\_the\_year](#game_of_the_year)            | `object`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-game_of_the_year.md "add-difficulty.json#/properties/game_of_the_year")             |
@@ -369,6 +370,24 @@ Digital stores configuration.
 ### digital\_store Type
 
 `object` ([Details](add-difficulty-properties-digital_store.md))
+
+## event\_game
+
+Configuration for in-game events about games.
+
+`event_game`
+
+*   is optional
+
+*   Type: `object` ([Details](add-difficulty-properties-event_game.md))
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-event_game.md "add-difficulty.json#/properties/event_game")
+
+### event\_game Type
+
+`object` ([Details](add-difficulty-properties-event_game.md))
 
 ## game\_sales
 

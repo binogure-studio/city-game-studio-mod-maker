@@ -162,6 +162,12 @@
 
 *   [Untitled object in Add a difficulty](./add-difficulty-properties-digital_store.md "Digital stores configuration") – `add-difficulty.json#/properties/digital_store`
 
+*   [Untitled object in Add a difficulty](./add-difficulty-properties-event_game.md "Configuration for in-game events about games") – `add-difficulty.json#/properties/event_game`
+
+*   [Untitled object in Add a difficulty](./add-difficulty-properties-event_game-properties-sequel.md "Condition for fans to ask for a sequel") – `add-difficulty.json#/properties/event_game/properties/sequel`
+
+*   [Untitled object in Add a difficulty](./add-difficulty-properties-event_game-properties-update.md "Fans are asking for a game update") – `add-difficulty.json#/properties/event_game/properties/update`
+
 *   [Untitled object in Add a difficulty](./add-difficulty-properties-game_sales.md "Game sales configuration") – `add-difficulty.json#/properties/game_sales`
 
 *   [Untitled object in Add a difficulty](./add-difficulty-properties-postmortem.md "Post-mortem configuration (game report)") – `add-difficulty.json#/properties/postmortem`
