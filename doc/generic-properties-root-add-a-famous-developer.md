@@ -1,13 +1,13 @@
-## recruitement Type
+## recruitment Type
 
 `object` ([Root: Add a famous developer](generic-properties-root-add-a-famous-developer.md))
 
-# recruitement Properties
+# recruitment Properties
 
-| Property          | Type    | Required | Nullable       | Defined by                                                                                                                                                  |
-| :---------------- | :------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [add](#add)       | `array` | Optional | cannot be null | [Create a mod](generic-properties-root-add-a-famous-developer-properties-add-a-famous-developer.md "mod.json#/properties/recruitement/properties/add")      |
-| [rename](#rename) | `array` | Optional | cannot be null | [Create a mod](generic-properties-root-add-a-famous-developer-properties-rename-a-famous-employee.md "mod.json#/properties/recruitement/properties/rename") |
+| Property          | Type    | Required | Nullable       | Defined by                                                                                                                                                 |
+| :---------------- | :------ | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [add](#add)       | `array` | Optional | cannot be null | [Create a mod](generic-properties-root-add-a-famous-developer-properties-add-a-famous-developer.md "mod.json#/properties/recruitment/properties/add")      |
+| [rename](#rename) | `array` | Optional | cannot be null | [Create a mod](generic-properties-root-add-a-famous-developer-properties-rename-a-famous-employee.md "mod.json#/properties/recruitment/properties/rename") |
 
 ## add
 
@@ -21,7 +21,7 @@ Add a famous developer
 
 *   cannot be null
 
-*   defined in: [Create a mod](generic-properties-root-add-a-famous-developer-properties-add-a-famous-developer.md "mod.json#/properties/recruitement/properties/add")
+*   defined in: [Create a mod](generic-properties-root-add-a-famous-developer-properties-add-a-famous-developer.md "mod.json#/properties/recruitment/properties/add")
 
 ### add Type
 
@@ -39,7 +39,7 @@ Rename a famous employee
 
 *   cannot be null
 
-*   defined in: [Create a mod](generic-properties-root-add-a-famous-developer-properties-rename-a-famous-employee.md "mod.json#/properties/recruitement/properties/rename")
+*   defined in: [Create a mod](generic-properties-root-add-a-famous-developer-properties-rename-a-famous-employee.md "mod.json#/properties/recruitment/properties/rename")
 
 ### rename Type
 

@@ -112,7 +112,7 @@
 
 *   [Generic action](./add-event-anyof-scheduled-event-properties-actions-items-anyof-generic-action.md "This action can manipulate fanbase and money") – `add-event.json#/anyOf/1/properties/actions/items/anyOf/1`
 
-*   [Root: Add a famous developer](./generic-properties-root-add-a-famous-developer.md "To add a famous developer") – `mod.json#/properties/recruitement`
+*   [Root: Add a famous developer](./generic-properties-root-add-a-famous-developer.md "To add a famous developer") – `mod.json#/properties/recruitment`
 
 *   [Root: Add an event](./generic-properties-root-add-an-event.md "To manipulate events") – `mod.json#/properties/event`
 
@@ -230,7 +230,7 @@
 
 *   [Add a convention](./generic-properties-root-add-conventions-properties-add-a-convention.md "Add a new conventions") – `mod.json#/properties/convention/properties/add`
 
-*   [Add a famous developer](./generic-properties-root-add-a-famous-developer-properties-add-a-famous-developer.md "Add a famous developer") – `mod.json#/properties/recruitement/properties/add`
+*   [Add a famous developer](./generic-properties-root-add-a-famous-developer-properties-add-a-famous-developer.md "Add a famous developer") – `mod.json#/properties/recruitment/properties/add`
 
 *   [Add an event](./generic-properties-root-add-an-event-properties-add-an-event.md "Add an event") – `mod.json#/properties/event/properties/add`
 
@@ -284,7 +284,7 @@
 
 *   [Rename a convention](./generic-properties-root-add-conventions-properties-rename-a-convention.md "Rename a conventions") – `mod.json#/properties/convention/properties/rename`
 
-*   [Rename a famous employee](./generic-properties-root-add-a-famous-developer-properties-rename-a-famous-employee.md "Rename a famous employee") – `mod.json#/properties/recruitement/properties/rename`
+*   [Rename a famous employee](./generic-properties-root-add-a-famous-developer-properties-rename-a-famous-employee.md "Rename a famous employee") – `mod.json#/properties/recruitment/properties/rename`
 
 *   [Rename an indie company](./generic-properties-root-addrename-indie-company-properties-rename-an-indie-company.md "Rename a indie company") – `mod.json#/properties/indie/properties/rename`
 
