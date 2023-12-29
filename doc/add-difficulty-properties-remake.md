@@ -37,5 +37,5 @@ Change the number of points to produce for a remake (default values: 0.4, 0.55, 
 The default value is:
 
 ```json
-2.5
+5
 ```

@@ -13,9 +13,13 @@
 | [negotiation](#negotiation)                                                | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-negotiation.md "add-difficulty.json#/properties/platform/properties/negotiation")                                             |
 | [manufacturer\_loyalty](#manufacturer_loyalty)                             | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-manufacturer_loyalty.md "add-difficulty.json#/properties/platform/properties/manufacturer_loyalty")                           |
 | [game\_score](#game_score)                                                 | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-game_score.md "add-difficulty.json#/properties/platform/properties/game_score")                                               |
+| [new\_game\_bonus](#new_game_bonus)                                        | `integer` | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-new_game_bonus.md "add-difficulty.json#/properties/platform/properties/new_game_bonus")                                       |
+| [game\_catalog\_bonus](#game_catalog_bonus)                                | `integer` | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-game_catalog_bonus.md "add-difficulty.json#/properties/platform/properties/game_catalog_bonus")                               |
+| [fanbase\_ratio](#fanbase_ratio)                                           | `number`  | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-fanbase_ratio.md "add-difficulty.json#/properties/platform/properties/fanbase_ratio")                                         |
 | [loyalty](#loyalty)                                                        | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-loyalty.md "add-difficulty.json#/properties/platform/properties/loyalty")                                                     |
 | [crash\_1983](#crash_1983)                                                 | `boolean` | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-crash_1983.md "add-difficulty.json#/properties/platform/properties/crash_1983")                                               |
 | [backward\_compatibility\_cost\_ratio](#backward_compatibility_cost_ratio) | `number`  | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-backward_compatibility_cost_ratio.md "add-difficulty.json#/properties/platform/properties/backward_compatibility_cost_ratio") |
+| [capacities\_pow](#capacities_pow)                                         | `number`  | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-capacities_pow.md "add-difficulty.json#/properties/platform/properties/capacities_pow")                                       |
 
 ## max\_return\_rate
 
@@ -249,6 +253,108 @@ The default value is:
 50
 ```
 
+## new\_game\_bonus
+
+When releasing a new game on your console, number of sales that your console get.
+
+`new_game_bonus`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-new_game_bonus.md "add-difficulty.json#/properties/platform/properties/new_game_bonus")
+
+### new\_game\_bonus Type
+
+`integer`
+
+### new\_game\_bonus Constraints
+
+**multiple of**: the value of this number must be a multiple of: `1000`
+
+**maximum**: the value of this number must smaller than or equal to: `100000`
+
+**minimum**: the value of this number must greater than or equal to: `1000`
+
+### new\_game\_bonus Default Value
+
+The default value is:
+
+```json
+50000
+```
+
+## game\_catalog\_bonus
+
+New sales driven by your existing catalog.
+
+`game_catalog_bonus`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-game_catalog_bonus.md "add-difficulty.json#/properties/platform/properties/game_catalog_bonus")
+
+### game\_catalog\_bonus Type
+
+`integer`
+
+### game\_catalog\_bonus Constraints
+
+**multiple of**: the value of this number must be a multiple of: `100`
+
+**maximum**: the value of this number must smaller than or equal to: `25000`
+
+**minimum**: the value of this number must greater than or equal to: `100`
+
+### game\_catalog\_bonus Default Value
+
+The default value is:
+
+```json
+1000
+```
+
+## fanbase\_ratio
+
+Ratio fanbase / console sales
+
+`fanbase_ratio`
+
+*   is optional
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-fanbase_ratio.md "add-difficulty.json#/properties/platform/properties/fanbase_ratio")
+
+### fanbase\_ratio Type
+
+`number`
+
+### fanbase\_ratio Constraints
+
+**multiple of**: the value of this number must be a multiple of: `0.01`
+
+**maximum**: the value of this number must smaller than or equal to: `1`
+
+**minimum**: the value of this number must greater than or equal to: `0`
+
+### fanbase\_ratio Default Value
+
+The default value is:
+
+```json
+0.5
+```
+
 ## loyalty
 
 Default loyalty of a manufacturer.
@@ -323,4 +429,38 @@ The default value is:
 
 ```json
 1
+```
+
+## capacities\_pow
+
+exponential ratio for number of sales of the console (higher means less sales).
+
+`capacities_pow`
+
+*   is optional
+
+*   Type: `number`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-capacities_pow.md "add-difficulty.json#/properties/platform/properties/capacities_pow")
+
+### capacities\_pow Type
+
+`number`
+
+### capacities\_pow Constraints
+
+**multiple of**: the value of this number must be a multiple of: `0.01`
+
+**maximum**: the value of this number must smaller than or equal to: `10`
+
+**minimum**: the value of this number must greater than or equal to: `2`
+
+### capacities\_pow Default Value
+
+The default value is:
+
+```json
+5
 ```

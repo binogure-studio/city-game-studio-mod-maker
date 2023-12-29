@@ -72,5 +72,5 @@ Balance the number of point to produce to complete a contract (higher is harder)
 The default value is:
 
 ```json
-0.5
+1
 ```
