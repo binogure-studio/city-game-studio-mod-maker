@@ -96,6 +96,7 @@
   "customplatform": {
     "add": {
       "items": {
+        "id": {},
         "name": {},
         "online": {},
         "online_attachment_rate": {},
@@ -308,6 +309,34 @@
       }
     }
   },
+  "concurrentgame": {
+    "add": {
+      "items": {
+        "id": {},
+        "name": {},
+        "concurrent_id": {},
+        "game_type": {},
+        "theme": {},
+        "year_of_release": {},
+        "score": {},
+        "unit_sold": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    },
+    "rename": {
+      "items": {
+        "id": {},
+        "name": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    }
+  },
   "manufacturer": {
     "add": {
       "items": {
@@ -334,6 +363,18 @@
         "id": {},
         "company": {},
         "name": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    }
+  },
+  "genre": {
+    "rename": {
+      "items": {
+        "name": {},
+        "original_name": {}
       },
       "ui:widget": "checkboxes",
       "ui:options": {
@@ -442,7 +483,8 @@
           "point_to_produce_ratio": {}
         },
         "engine": {
-          "feature_costs_ratio": {}
+          "feature_costs_ratio": {},
+          "rewrite_costs_ratio": {}
         },
         "iap": {
           "user_spend_dollar": {}
@@ -460,6 +502,15 @@
         "ccu_cost": {},
         "digital_store": {
           "server_load": {}
+        },
+        "event_game": {
+          "sequel": {
+            "minimum_score": {},
+            "delay_before_event_in_year": {}
+          },
+          "update": {
+            "delay_before_cancel_in_month": {}
+          }
         },
         "game_sales": {
           "sales_threshold": {},
@@ -483,11 +534,17 @@
           "negotiation": {},
           "manufacturer_loyalty": {},
           "game_score": {},
+          "new_game_bonus": {},
+          "game_catalog_bonus": {},
+          "fanbase_ratio": {},
           "loyalty": {},
-          "crash_1983": {}
+          "crash_1983": {},
+          "backward_compatibility_cost_ratio": {},
+          "capacities_pow": {}
         },
         "contract": {
-          "penality": {}
+          "penality": {},
+          "required_point_ratio": {}
         },
         "happiness": {
           "crunchtime": {},
@@ -717,6 +774,27 @@
       "items": {
         "id": {},
         "name": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    }
+  },
+  "recruitment": {
+    "add": {
+      "items": {
+        "name": {}
+      },
+      "ui:widget": "checkboxes",
+      "ui:options": {
+        "inline": true
+      }
+    },
+    "rename": {
+      "items": {
+        "name": {},
+        "original_name": {}
       },
       "ui:widget": "checkboxes",
       "ui:options": {
