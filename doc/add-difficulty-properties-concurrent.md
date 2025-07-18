@@ -4,20 +4,21 @@
 
 # concurrent Properties
 
-| Property                                      | Type      | Required | Nullable       | Defined by                                                                                                                                                             |
-| :-------------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [fanbase](#fanbase)                           | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase.md "add-difficulty.json#/properties/concurrent/properties/fanbase")                         |
-| [currency](#currency)                         | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-currency.md "add-difficulty.json#/properties/concurrent/properties/currency")                       |
-| [hack\_max](#hack_max)                        | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-hack_max.md "add-difficulty.json#/properties/concurrent/properties/hack_max")                       |
-| [note](#note)                                 | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-note.md "add-difficulty.json#/properties/concurrent/properties/note")                               |
-| [penalty](#penalty)                           | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty.md "add-difficulty.json#/properties/concurrent/properties/penalty")                         |
-| [income\_ratio](#income_ratio)                | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio.md "add-difficulty.json#/properties/concurrent/properties/income_ratio")               |
-| [penalty\_ratio](#penalty_ratio)              | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty_ratio.md "add-difficulty.json#/properties/concurrent/properties/penalty_ratio")             |
-| [ds\_min\_odds](#ds_min_odds)                 | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-ds_min_odds.md "add-difficulty.json#/properties/concurrent/properties/ds_min_odds")                 |
-| [fanbase\_price\_ratio](#fanbase_price_ratio) | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase_price_ratio.md "add-difficulty.json#/properties/concurrent/properties/fanbase_price_ratio") |
-| [studio\_spare](#studio_spare)                | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-studio_spare.md "add-difficulty.json#/properties/concurrent/properties/studio_spare")               |
-| [engine\_ratio](#engine_ratio)                | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_ratio.md "add-difficulty.json#/properties/concurrent/properties/engine_ratio")               |
-| [engine\_pow\_factor](#engine_pow_factor)     | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_pow_factor.md "add-difficulty.json#/properties/concurrent/properties/engine_pow_factor")     |
+| Property                                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                         |
+| :---------------------------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [fanbase](#fanbase)                                         | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase.md "add-difficulty.json#/properties/concurrent/properties/fanbase")                                     |
+| [currency](#currency)                                       | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-currency.md "add-difficulty.json#/properties/concurrent/properties/currency")                                   |
+| [hack\_max](#hack_max)                                      | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-hack_max.md "add-difficulty.json#/properties/concurrent/properties/hack_max")                                   |
+| [note](#note)                                               | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-note.md "add-difficulty.json#/properties/concurrent/properties/note")                                           |
+| [number\_of\_game\_per\_studio](#number_of_game_per_studio) | `array`   | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-number_of_game_per_studio.md "add-difficulty.json#/properties/concurrent/properties/number_of_game_per_studio") |
+| [penalty](#penalty)                                         | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty.md "add-difficulty.json#/properties/concurrent/properties/penalty")                                     |
+| [income\_ratio](#income_ratio)                              | `array`   | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-income_ratio.md "add-difficulty.json#/properties/concurrent/properties/income_ratio")                           |
+| [penalty\_ratio](#penalty_ratio)                            | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-penalty_ratio.md "add-difficulty.json#/properties/concurrent/properties/penalty_ratio")                         |
+| [ds\_min\_odds](#ds_min_odds)                               | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-ds_min_odds.md "add-difficulty.json#/properties/concurrent/properties/ds_min_odds")                             |
+| [fanbase\_price\_ratio](#fanbase_price_ratio)               | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-fanbase_price_ratio.md "add-difficulty.json#/properties/concurrent/properties/fanbase_price_ratio")             |
+| [studio\_spare](#studio_spare)                              | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-studio_spare.md "add-difficulty.json#/properties/concurrent/properties/studio_spare")                           |
+| [engine\_ratio](#engine_ratio)                              | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_ratio.md "add-difficulty.json#/properties/concurrent/properties/engine_ratio")                           |
+| [engine\_pow\_factor](#engine_pow_factor)                   | `number`  | Required | cannot be null | [Add a difficulty](add-difficulty-properties-concurrent-properties-engine_pow_factor.md "add-difficulty.json#/properties/concurrent/properties/engine_pow_factor")                 |
 
 ## fanbase
 
@@ -153,6 +154,38 @@ an array where each item follows the corresponding schema in the following list:
 2.  [Untitled number in Add a difficulty](add-difficulty-properties-concurrent-properties-note-items-1.md "check type definition")
 
 ### note Constraints
+
+**maximum number of items**: the maximum number of items for this array is: `2`
+
+**minimum number of items**: the minimum number of items for this array is: `2`
+
+## number\_of\_game\_per\_studio
+
+\[Range] Number of game to produce per studio owned
+
+`number_of_game_per_studio`
+
+*   is optional
+
+*   Type: an array where each item follows the corresponding schema in the following list:
+
+    1.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-number_of_game_per_studio-items-0.md "check type definition")
+
+    2.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-number_of_game_per_studio-items-1.md "check type definition")
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-concurrent-properties-number_of_game_per_studio.md "add-difficulty.json#/properties/concurrent/properties/number_of_game_per_studio")
+
+### number\_of\_game\_per\_studio Type
+
+an array where each item follows the corresponding schema in the following list:
+
+1.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-number_of_game_per_studio-items-0.md "check type definition")
+
+2.  [Untitled integer in Add a difficulty](add-difficulty-properties-concurrent-properties-number_of_game_per_studio-items-1.md "check type definition")
+
+### number\_of\_game\_per\_studio Constraints
 
 **maximum number of items**: the maximum number of items for this array is: `2`
 

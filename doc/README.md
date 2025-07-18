@@ -314,6 +314,8 @@
 
 *   [Untitled array in Add a difficulty](./add-difficulty-properties-concurrent-properties-note.md "\[Range] Games scores for trade-publishing games") – `add-difficulty.json#/properties/concurrent/properties/note`
 
+*   [Untitled array in Add a difficulty](./add-difficulty-properties-concurrent-properties-number_of_game_per_studio.md "\[Range] Number of game to produce per studio owned") – `add-difficulty.json#/properties/concurrent/properties/number_of_game_per_studio`
+
 *   [Untitled array in Add a difficulty](./add-difficulty-properties-concurrent-properties-penalty.md "\[Range] Penality of trade-publishing games (if you fail to meet the expectations)") – `add-difficulty.json#/properties/concurrent/properties/penalty`
 
 *   [Untitled array in Add a difficulty](./add-difficulty-properties-concurrent-properties-income_ratio.md "\[Range] Used to compute the prepayment of a trade-publishing deal prepayment = note * income_ratio") – `add-difficulty.json#/properties/concurrent/properties/income_ratio`
