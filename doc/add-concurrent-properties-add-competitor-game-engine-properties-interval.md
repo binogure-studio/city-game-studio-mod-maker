@@ -6,12 +6,12 @@
 
 **maximum**: the value of this number must smaller than or equal to: `512`
 
-**minimum**: the value of this number must greater than or equal to: `128`
+**minimum**: the value of this number must greater than or equal to: `64`
 
 ## interval Default Value
 
 The default value is:
 
 ```json
-256
+128
 ```
