@@ -8,12 +8,12 @@
 
 | Value  | Explanation |
 | :----- | :---------- |
-| `"中国"` |             |
+| `"中文"` |             |
 
 ## name Default Value
 
 The default value is:
 
 ```json
-"中国"
+"中文"
 ```

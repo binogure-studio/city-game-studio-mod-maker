@@ -1,12 +1,12 @@
 ## messages Type
 
-`object` ([Add translation: Translations list](add-translation-anyof-中国-properties-add-translation-translations-list.md))
+`object` ([Add translation: Translations list](add-translation-anyof-中文-properties-add-translation-translations-list.md))
 
 # messages Properties
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                  |
 | :-------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Additional Properties | `string` | Optional | cannot be null | [Add a translation](add-translation-anyof-中国-properties-add-translation-translations-list-additionalproperties.md "add-translation.json#/anyOf/9/properties/messages/additionalProperties") |
+| Additional Properties | `string` | Optional | cannot be null | [Add a translation](add-translation-anyof-中文-properties-add-translation-translations-list-additionalproperties.md "add-translation.json#/anyOf/9/properties/messages/additionalProperties") |
 
 ## Additional Properties
 
@@ -20,7 +20,7 @@ Additional properties are allowed, as long as they follow this schema:
 
 *   cannot be null
 
-*   defined in: [Add a translation](add-translation-anyof-中国-properties-add-translation-translations-list-additionalproperties.md "add-translation.json#/anyOf/9/properties/messages/additionalProperties")
+*   defined in: [Add a translation](add-translation-anyof-中文-properties-add-translation-translations-list-additionalproperties.md "add-translation.json#/anyOf/9/properties/messages/additionalProperties")
 
 ### additionalProperties Type
 

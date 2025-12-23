@@ -8,6 +8,7 @@
 | :---------------------------------------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
 | [generation](#generation)                                               | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-generation.md "add-platform.json#/properties/generation")                                           |
 | [power](#power)                                                         | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-power.md "add-platform.json#/properties/power")                                                     |
+| [copy\_protection](#copy_protection)                                    | `boolean` | Optional | cannot be null | [Add a new platform](add-platform-properties-copy_protection.md "add-platform.json#/properties/copy_protection")                                 |
 | [online](#online)                                                       | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-online.md "add-platform.json#/properties/online")                                      |
 | [type](#type)                                                           | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-type.md "add-platform.json#/properties/type")                                                       |
 | [fabriquant](#fabriquant)                                               | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-fabriquant.md "add-platform.json#/properties/fabriquant")                                           |
@@ -70,6 +71,32 @@ Add platform: Power
 ### power Type
 
 `object` ([Details](add-platform-properties-power.md))
+
+## copy\_protection
+
+If a platform is copy protected it avoids the 1983 market crash
+
+`copy_protection`
+
+*   is optional
+
+*   Type: `boolean`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-copy_protection.md "add-platform.json#/properties/copy_protection")
+
+### copy\_protection Type
+
+`boolean`
+
+### copy\_protection Default Value
+
+The default value is:
+
+```json
+true
+```
 
 ## online
 

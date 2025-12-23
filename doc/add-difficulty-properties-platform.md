@@ -17,6 +17,7 @@
 | [game\_catalog\_bonus](#game_catalog_bonus)                                | `integer` | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-game_catalog_bonus.md "add-difficulty.json#/properties/platform/properties/game_catalog_bonus")                               |
 | [fanbase\_ratio](#fanbase_ratio)                                           | `number`  | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-fanbase_ratio.md "add-difficulty.json#/properties/platform/properties/fanbase_ratio")                                         |
 | [loyalty](#loyalty)                                                        | `integer` | Required | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-loyalty.md "add-difficulty.json#/properties/platform/properties/loyalty")                                                     |
+| [copy\_protection\_cost](#copy_protection_cost)                            | `integer` | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-copy_protection_cost.md "add-difficulty.json#/properties/platform/properties/copy_protection_cost")                           |
 | [crash\_1983](#crash_1983)                                                 | `boolean` | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-crash_1983.md "add-difficulty.json#/properties/platform/properties/crash_1983")                                               |
 | [backward\_compatibility\_cost\_ratio](#backward_compatibility_cost_ratio) | `number`  | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-backward_compatibility_cost_ratio.md "add-difficulty.json#/properties/platform/properties/backward_compatibility_cost_ratio") |
 | [capacities\_pow](#capacities_pow)                                         | `number`  | Optional | cannot be null | [Add a difficulty](add-difficulty-properties-platform-properties-capacities_pow.md "add-difficulty.json#/properties/platform/properties/capacities_pow")                                       |
@@ -378,6 +379,38 @@ Default loyalty of a manufacturer.
 **maximum**: the value of this number must smaller than or equal to: `25`
 
 **minimum**: the value of this number must greater than or equal to: `-25`
+
+## copy\_protection\_cost
+
+number of point required to implement a copy protection and avoid the 1983 market crash.
+
+`copy_protection_cost`
+
+*   is optional
+
+*   Type: `integer`
+
+*   cannot be null
+
+*   defined in: [Add a difficulty](add-difficulty-properties-platform-properties-copy_protection_cost.md "add-difficulty.json#/properties/platform/properties/copy_protection_cost")
+
+### copy\_protection\_cost Type
+
+`integer`
+
+### copy\_protection\_cost Constraints
+
+**maximum**: the value of this number must smaller than or equal to: `99999`
+
+**minimum**: the value of this number must greater than or equal to: `30`
+
+### copy\_protection\_cost Default Value
+
+The default value is:
+
+```json
+30
+```
 
 ## crash\_1983
 

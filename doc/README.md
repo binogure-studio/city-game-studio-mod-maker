@@ -98,7 +98,7 @@
 
 *   [Add translation: Translations list](./add-translation-anyof-русский-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/8/properties/messages`
 
-*   [Add translation: Translations list](./add-translation-anyof-中国-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/9/properties/messages`
+*   [Add translation: Translations list](./add-translation-anyof-中文-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/9/properties/messages`
 
 *   [Add translation: Translations list](./add-translation-anyof-türkçe-properties-add-translation-translations-list.md "KEY: VALUE") – `add-translation.json#/anyOf/10/properties/messages`
 

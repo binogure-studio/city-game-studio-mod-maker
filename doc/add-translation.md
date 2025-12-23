@@ -22,7 +22,7 @@ any of
 
 *   [Русский](add-translation-anyof-русский.md "check type definition")
 
-*   [中国](add-translation-anyof-中国.md "check type definition")
+*   [中文](add-translation-anyof-中文.md "check type definition")
 
 *   [Türkçe](add-translation-anyof-türkçe.md "check type definition")
 
