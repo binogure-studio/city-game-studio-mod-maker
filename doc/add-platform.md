@@ -13,6 +13,7 @@
 | [type](#type)                                                           | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-type.md "add-platform.json#/properties/type")                                                       |
 | [fabriquant](#fabriquant)                                               | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-fabriquant.md "add-platform.json#/properties/fabriquant")                                           |
 | [total\_amount\_of\_published\_games](#total_amount_of_published_games) | `integer` | Required | cannot be null | [Add a new platform](add-platform-properties-total_amount_of_published_games.md "add-platform.json#/properties/total_amount_of_published_games") |
+| [backward\_compatibility](#backward_compatibility)                      | `string`  | Optional | cannot be null | [Add a new platform](add-platform-properties-backward_compatibility.md "add-platform.json#/properties/backward_compatibility")                   |
 | [id](#id)                                                               | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-id.md "add-platform.json#/properties/id")                                                           |
 | [name](#name)                                                           | `string`  | Required | cannot be null | [Add a new platform](add-platform-properties-name.md "add-platform.json#/properties/name")                                                       |
 | [duration](#duration)                                                   | `object`  | Required | cannot be null | [Add a new platform](add-platform-properties-add-platform-lifecycle.md "add-platform.json#/properties/duration")                                 |
@@ -287,6 +288,24 @@ The default value is:
 ```json
 50
 ```
+
+## backward\_compatibility
+
+UUID of the previously released console that this console is backward compatible with
+
+`backward_compatibility`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Add a new platform](add-platform-properties-backward_compatibility.md "add-platform.json#/properties/backward_compatibility")
+
+### backward\_compatibility Type
+
+`string`
 
 ## id
 

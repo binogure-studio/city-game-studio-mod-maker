@@ -9,6 +9,7 @@
 | [name](#name)                                                           | `string`  | Required | cannot be null | [Edit/rename a Platform](rename-platform-properties-name.md "rename-platform.json#/properties/name")                                                       |
 | [id](#id)                                                               | `integer` | Required | cannot be null | [Edit/rename a Platform](rename-platform-properties-id.md "rename-platform.json#/properties/id")                                                           |
 | [total\_amount\_of\_published\_games](#total_amount_of_published_games) | `integer` | Optional | cannot be null | [Edit/rename a Platform](rename-platform-properties-total_amount_of_published_games.md "rename-platform.json#/properties/total_amount_of_published_games") |
+| [backward\_compatibility](#backward_compatibility)                      | `string`  | Optional | cannot be null | [Edit/rename a Platform](rename-platform-properties-backward_compatibility.md "rename-platform.json#/properties/backward_compatibility")                   |
 | [total\_unit\_sold](#total_unit_sold)                                   | `integer` | Optional | cannot be null | [Edit/rename a Platform](rename-platform-properties-total_unit_sold.md "rename-platform.json#/properties/total_unit_sold")                                 |
 
 ## name
@@ -166,6 +167,24 @@ Total number of published game
 ### total\_amount\_of\_published\_games Constraints
 
 **minimum**: the value of this number must greater than or equal to: `25`
+
+## backward\_compatibility
+
+UUID of the previously released console that this console is backward compatible with
+
+`backward_compatibility`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [Edit/rename a Platform](rename-platform-properties-backward_compatibility.md "rename-platform.json#/properties/backward_compatibility")
+
+### backward\_compatibility Type
+
+`string`
 
 ## total\_unit\_sold
 
