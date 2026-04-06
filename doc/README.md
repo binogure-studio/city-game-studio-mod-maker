@@ -300,6 +300,8 @@
 
 *   [Untitled array in Add a difficulty](./add-difficulty-properties-perfect_employee_cost.md "Salary range of a perfect employee (lower/higher)") – `add-difficulty.json#/properties/perfect_employee_cost`
 
+*   [Untitled array in Add a difficulty](./add-difficulty-properties-contract-properties-number_of_contract.md "To compute the number of contracts available at the same time (lower/higher)") – `add-difficulty.json#/properties/contract/properties/number_of_contract`
+
 *   [Untitled array in Add a difficulty](./add-difficulty-properties-happiness-properties-bonus-properties-ratios.md "Amount of happiness restored by the bonus") – `add-difficulty.json#/properties/happiness/properties/bonus/properties/ratios`
 
 *   [Untitled array in Add a difficulty](./add-difficulty-properties-mortgage-properties-duration.md "Mortgage duration in years (minimum / maximum)") – `add-difficulty.json#/properties/mortgage/properties/duration`
