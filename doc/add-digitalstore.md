@@ -9,6 +9,7 @@
 | [id](#id)                            | `string`  | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-id.md "add-digitalstore.json#/properties/id")                           |
 | [name](#name)                        | `string`  | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-name.md "add-digitalstore.json#/properties/name")                       |
 | [description](#description)          | `string`  | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-description.md "add-digitalstore.json#/properties/description")         |
+| [disableable](#disableable)          | `boolean` | Optional | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-disableable.md "add-digitalstore.json#/properties/disableable")         |
 | [required\_points](#required_points) | `integer` | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-required_points.md "add-digitalstore.json#/properties/required_points") |
 | [effects](#effects)                  | `array`   | Required | cannot be null | [Add a new digital store's feature](add-digitalstore-properties-effects.md "add-digitalstore.json#/properties/effects")                 |
 
@@ -80,6 +81,32 @@ The default value is:
 
 ```json
 "LABEL_DS_FEATURE_DESCRIPTION_0"
+```
+
+## disableable
+
+If 'true' the feature can be disabled vis the digital store panel.
+
+`disableable`
+
+*   is optional
+
+*   Type: `boolean`
+
+*   cannot be null
+
+*   defined in: [Add a new digital store's feature](add-digitalstore-properties-disableable.md "add-digitalstore.json#/properties/disableable")
+
+### disableable Type
+
+`boolean`
+
+### disableable Default Value
+
+The default value is:
+
+```json
+true
 ```
 
 ## required\_points
