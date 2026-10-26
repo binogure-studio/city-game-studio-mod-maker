@@ -300,5 +300,5 @@
 The default value is:
 
 ```json
-"0"
+"High Theft Auto"
 ```

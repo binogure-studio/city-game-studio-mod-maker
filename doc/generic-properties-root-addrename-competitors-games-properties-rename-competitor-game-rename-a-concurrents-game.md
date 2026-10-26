@@ -325,7 +325,7 @@ Concurrent game's id to rename
 The default value is:
 
 ```json
-"0"
+"High Theft Auto"
 ```
 
 ## name

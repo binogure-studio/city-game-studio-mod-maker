@@ -161,5 +161,5 @@ Original famous employee name
 The default value is:
 
 ```json
-"ConcernedMonkey"
+"Ed Boom"
 ```

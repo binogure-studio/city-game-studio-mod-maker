@@ -34,6 +34,7 @@
 | `"film-interactif"`     |             |
 | `"fly"`                 |             |
 | `"fps"`                 |             |
+| `"friendslop"`          |             |
 | `"gestion"`             |             |
 | `"god-game"`            |             |
 | `"gouvernement"`        |             |

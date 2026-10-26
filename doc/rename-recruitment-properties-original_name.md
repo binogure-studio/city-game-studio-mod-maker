@@ -118,5 +118,5 @@
 The default value is:
 
 ```json
-"ConcernedMonkey"
+"Ed Boom"
 ```
