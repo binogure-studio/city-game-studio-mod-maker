@@ -3,83 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <meta name="theme-color" content="#12171e" />
+    <meta name="description" content="Create mods for City Game Studio: platforms, competitors, themes, events, translations and more." />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.5.0/jszip.min.js" integrity="sha512-y3o0Z5TJF1UsKjs/jS2CDkeHN538bWsftxO9nctODL5W40nyXIbs0Pgyu7//icrQY9m6475gLaVr39i/uh/nLA==" crossorigin="anonymous"></script>
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Mod Maker</title>
-
-    <style type="text/css">
-html {
-    color: #444444;
-    font-size: 45%;
-}
-
-body {
-    position: relative;
-    background-color: #f4f4f2;
-    min-height: 100vh;
-    margin: 0;
-}
-
-* {
-  margin: 0;
-}
-
-#container {
-  font-size: 0;
-  width: 820px;
-  margin: 0 auto;
-}
-
-#top, #root, #bottom {
-  display: block;
-  font-size: 12px;
-}
-
-#top, #bottom, #root {
-  padding: 12px;
-}
-
-#root {
-  border: 1px solid #cbccce;
-  border-radius: 6px;
-}
-
-#file-input {
-  display: none;
-}
-    </style>
+    <!-- Base styles expected by @rjsf/core, overridden by src/theme.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@600;700&display=swap" />
+    <title>City Game Studio Mod Maker</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="container">
-      <div id="top">
-        <h1>City Game Studio: A tycoon about game dev - Mod Maker v1.0</h1>
-        <p>Mod Maker helps you generate a zip file that contains all the required files to make a mod.
-          Once ready, click on the <b>Download</b> button, and save the file on your hard drive. Then
-          extract <b>mod.zip</b> into a new folder. Launch City Game Studio: A tycoon about game dev, create a new mod, and select the created 
-          folder. Click on <b>Create</b> and your mod is now ready to be used.</p>
-
-        <p><a href="https://github.com/binogure-studio/city-game-studio-mod-maker">See the raw documentation</a></p>
-      </div>
-      <div id="root"></div>
-      <div id="bottom">
-        <a href="https://github.com/binogure-studio/city-game-studio-mod-maker">See the github repository</a>
-      </div>
-    </div>
+    <div id="root"></div>
   </body>
 </html>

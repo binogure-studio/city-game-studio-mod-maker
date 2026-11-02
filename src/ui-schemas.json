@@ -151,6 +151,7 @@
           "cpu": {},
           "gpu": {}
         },
+        "copy_protection": {},
         "online": {
           "compatible": {},
           "sell_ratio": {}
@@ -158,6 +159,7 @@
         "type": {},
         "fabriquant": {},
         "total_amount_of_published_games": {},
+        "backward_compatibility": {},
         "id": {},
         "name": {},
         "duration": {
@@ -250,6 +252,7 @@
         "name": {},
         "id": {},
         "total_amount_of_published_games": {},
+        "backward_compatibility": {},
         "total_unit_sold": {}
       },
       "ui:widget": "checkboxes",
@@ -538,13 +541,21 @@
           "game_catalog_bonus": {},
           "fanbase_ratio": {},
           "loyalty": {},
+          "copy_protection_cost": {},
           "crash_1983": {},
           "backward_compatibility_cost_ratio": {},
           "capacities_pow": {}
         },
         "contract": {
           "penality": {},
-          "required_point_ratio": {}
+          "required_point_ratio": {},
+          "number_of_contract": {
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
+          }
         },
         "happiness": {
           "crunchtime": {},
@@ -635,6 +646,13 @@
               "inline": true
             }
           },
+          "number_of_game_per_studio": {
+            "items": {},
+            "ui:widget": "checkboxes",
+            "ui:options": {
+              "inline": true
+            }
+          },
           "penalty": {
             "items": {},
             "ui:widget": "checkboxes",
@@ -703,6 +721,7 @@
         "id": {},
         "name": {},
         "description": {},
+        "disableable": {},
         "required_points": {},
         "effects": {
           "items": {
