@@ -6,12 +6,12 @@ import Form from '@rjsf/core'
 import schema from './schemas.json'
 import ui_schema from './ui-schemas.json'
 import { FieldTemplate, ObjectFieldTemplate, ArrayFieldTemplate, ImageWidget, fileNameFromDataURL, errorFieldId } from './templates'
+import { readModFiles } from './open-mod'
 import { applyExclusiveFields, exclusiveErrors, ExclusiveListsField } from './exclusive'
 import './theme.css'
 
 const DRAFT_KEY = 'cgs-modmaker-draft'
 const FORM_ID = 'mod-form'
-const MIME_TYPES = { png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', webp: 'image/webp', svg: 'image/svg+xml' }
 
 // Multiple choice lists (genres...) the user never touched stay undefined and
 // fail "required" even with minItems: 0. Start them as empty lists instead.
@@ -128,6 +128,7 @@ function App() {
   const [errors, setErrors] = useState([])
   const [notice, setNotice] = useState(null)
   const fileInput = useRef(null)
+  const folderInput = useRef(null)
   const saveTimer = useRef(null)
 
   useEffect(() => {
@@ -253,58 +254,29 @@ function App() {
     setFormKey((key) => key + 1)
   }
 
-  const openFile = async (event) => {
-    let file = event.target.files && event.target.files[0]
+  const openFiles = async (event) => {
+    let files = Array.from((event.target.files) || [])
 
     event.target.value = ''
 
-    if (!file) {
+    if (files.length === 0) {
       return
     }
 
     try {
-      if (/\.zip$/i.test(file.name)) {
-        let zip = await JSZip.loadAsync(file)
-        let modFile = zip.file(/(^|\/)mod\.json$/)[0]
+      let { data, jsonFiles, images, missing } = await readModFiles(files, ui_schema, walkImages)
+      let opened = jsonFiles.length === 1 ? jsonFiles[0] : `${jsonFiles.length} JSON files merged`
+      let text = `${opened}, ${images} image(s) loaded.`
 
-        if (!modFile) {
-          throw new Error('mod.json is missing from this archive.')
-        }
-
-        let folder = modFile.name.replace(/mod\.json$/, '')
-        let data = JSON.parse(await modFile.async('string'))
-        let pending = []
-
-        walkImages(data, ui_schema, (parent, key) => {
-          let image = typeof parent[key] === 'string' ? zip.file(folder + parent[key]) : null
-
-          if (image == null) {
-            delete parent[key]
-
-            return
-          }
-
-          let name = parent[key]
-          let mime = MIME_TYPES[name.split('.').pop().toLowerCase()] || 'application/octet-stream'
-
-          pending.push(image.async('base64').then((base64) => {
-            parent[key] = `data:${mime};name=${encodeURIComponent(name)};base64,${base64}`
-          }))
-        })
-
-        await Promise.all(pending)
-        loadData(data)
-        setNotice({ type: 'success', text: `${file.name} opened with its images.` })
-      } else {
-        let data = JSON.parse(await file.text())
-
-        // Images are not stored in mod.json
-        walkImages(data, ui_schema, (parent, key) => delete parent[key])
-        loadData(data)
-        setNotice({ type: 'success', text: `${file.name} opened. Add the images again, or open the mod.zip to keep them.` })
+      if (missing.length > 0) {
+        text += ` Not found: ${Array.from(new Set(missing)).join(', ')}. Open the mod folder or its .zip, or add them again.`
       }
+
+      loadData(data)
+      go(null)
+      setNotice({ type: missing.length > 0 ? 'warning' : 'success', text })
     } catch (error) {
-      setNotice({ type: 'error', text: `Could not open ${file.name}: ${error.message}` })
+      setNotice({ type: 'error', text: `Nothing was opened: ${error.message}` })
     }
   }
 
@@ -327,8 +299,12 @@ function App() {
         </div>
         <div className="cgs-actions">
           <button type="button" className="cgs-btn cgs-btn-ghost" onClick={newMod}>New</button>
-          <button type="button" className="cgs-btn cgs-btn-ghost" onClick={() => fileInput.current.click()}>Open</button>
-          <input ref={fileInput} type="file" hidden accept=".json,.zip,application/json,application/zip" onChange={openFile} />
+          <button type="button" className="cgs-btn cgs-btn-ghost" onClick={() => fileInput.current.click()}
+            title="One or more .json files, .zip archives and their images">Open files</button>
+          <button type="button" className="cgs-btn cgs-btn-ghost" onClick={() => folderInput.current.click()}
+            title="A mod folder: every .json file inside is merged">Open folder</button>
+          <input ref={fileInput} type="file" hidden multiple accept=".json,.zip,image/*,application/json,application/zip" onChange={openFiles} />
+          <input ref={folderInput} type="file" hidden webkitdirectory="" directory="" onChange={openFiles} />
           <button type="submit" form={FORM_ID} className="cgs-btn cgs-btn-gold">Download mod.zip</button>
         </div>
       </header>

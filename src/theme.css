@@ -171,6 +171,7 @@ code { color: var(--blue-dark); background: var(--blue-ultralight); border-radiu
   font-weight: 500;
 }
 .cgs-notice.is-success { background: var(--green-light); color: var(--green-dark); border: 1px solid var(--green); }
+.cgs-notice.is-warning { background: var(--gold-light); color: var(--gold-dark); border: 1px solid var(--gold); }
 .cgs-notice.is-error { background: var(--red-light); color: var(--red-dark); border: 1px solid var(--red); }
 
 /* ---------- Layout ---------- */

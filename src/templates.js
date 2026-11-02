@@ -195,8 +195,9 @@ function Overview({ schema, data, filled, go }) {
         <li>In City Game Studio, create a new mod, select that folder, then click <b>Create</b>.</li>
       </ol>
       <p className="cgs-muted">
-        Your work is saved in this browser as you type. Use <b>Open</b> to continue an existing mod: a <code>mod.zip</code> brings back
-        your images too, a <code>mod.json</code> only the text.
+        Your work is saved in this browser as you type. To continue an existing mod, use <b>Open folder</b> on the mod folder,
+        or <b>Open files</b> with its <code>.zip</code> or its JSON files and images. A mod split into several JSON files is merged
+        into one, and downloaded as a single <code>mod.json</code>.
       </p>
 
       <h3>Your mod</h3>
