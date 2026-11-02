@@ -53,8 +53,8 @@ export const REPO_URL = 'https://github.com/binogure-studio/city-game-studio-mod
 // Data path from the root, array levels are stepped into automatically.
 // Ignored (default rendering, no check) if the schema no longer matches.
 export const EXCLUSIVE_LISTS = [
-  ['theme', 'add', 'match']
-  // ['platform', 'add', 'genre']
+  ['theme', 'add', 'match'],
+  ['platform', 'add', 'genre']
 ]
 
 // "Root: Add/rename platform" -> "Add/rename platform"

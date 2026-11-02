@@ -1,22 +1,17 @@
 import React from 'react'
 import { EXCLUSIVE_LISTS, cleanTitle, prettyKey } from './sections'
 
-// An object qualifies when all its properties are multiple choice lists sharing the same options
-// (theme "match": excellent / good / ok / poor). Anything else keeps the default rendering.
+// An object qualifies when all its properties are multiple choice lists
+// (theme "match", platform "genre": excellent / good / ok / poor). The lists may offer
+// different options (a genre missing from one of them). Anything else keeps the default rendering.
 function isExclusiveObject(node) {
   let keys = node && node.properties ? Object.keys(node.properties) : []
 
-  if (keys.length < 2) {
-    return false
-  }
-
-  let options = keys.map((key) => {
+  return keys.length >= 2 && keys.every((key) => {
     let prop = node.properties[key]
 
-    return prop.type === 'array' && prop.items && Array.isArray(prop.items.enum) ? JSON.stringify(prop.items.enum) : null
+    return prop.type === 'array' && prop.items != null && Array.isArray(prop.items.enum)
   })
-
-  return options[0] != null && options.every((value) => value === options[0])
 }
 
 // Follows a data path ("theme", "add", "match") through the schema, stepping into array items
