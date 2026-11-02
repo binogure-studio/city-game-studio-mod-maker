@@ -217,7 +217,6 @@ function Overview({ schema, data, filled, go }) {
 
       <p className="cgs-links">
         <a href={DOC_URL + 'README.md'} target="_blank" rel="noopener noreferrer">Field reference</a>
-        <a href={REPO_URL + '#short-video-on-how-to-make-a-mod'} target="_blank" rel="noopener noreferrer">Video tutorial</a>
         <a href={REPO_URL} target="_blank" rel="noopener noreferrer">GitHub repository</a>
       </p>
     </section>
