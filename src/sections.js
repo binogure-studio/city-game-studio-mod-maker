@@ -48,6 +48,8 @@ export const GROUPS = [
 
 export const DOC_URL = 'https://github.com/binogure-studio/city-game-studio-mod-maker/blob/master/doc/'
 export const REPO_URL = 'https://github.com/binogure-studio/city-game-studio-mod-maker'
+export const GAME_URL = 'https://www.city-game-studio.com/'
+export const STUDIO_URL = 'https://www.binogure-studio.com/'
 
 // Objects whose lists are mutually exclusive: an option can only be in one of them.
 // Data path from the root, array levels are stepped into automatically.

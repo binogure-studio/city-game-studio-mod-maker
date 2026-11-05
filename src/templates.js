@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { utils } from '@rjsf/core'
 import {
-  DOC_URL, REPO_URL, cleanTitle, prettyKey, sectionLabel, groupSections, countEntries, errorPath, errorFieldId
+  DOC_URL, REPO_URL, GAME_URL, STUDIO_URL, cleanTitle, prettyKey, sectionLabel, groupSections, countEntries, errorPath, errorFieldId
 } from './sections'
 
 const ITEM_LABEL_KEYS = ['name', 'label', 'magazine', 'difficulty', 'original_name', 'company', 'id']
@@ -158,6 +158,10 @@ function RootLayout({ properties, schema, formData, formContext }) {
             })}
           </div>
         ))}
+        <div className="cgs-sidebar-footer">
+          <a href={GAME_URL} target="_blank" rel="noopener noreferrer">City Game Studio website</a>
+          <a href={STUDIO_URL} target="_blank" rel="noopener noreferrer">Binogure Studio</a>
+        </div>
       </nav>
 
       <main className="cgs-main">
@@ -219,6 +223,8 @@ function Overview({ schema, data, filled, go }) {
       <p className="cgs-links">
         <a href={DOC_URL + 'README.md'} target="_blank" rel="noopener noreferrer">Field reference</a>
         <a href={REPO_URL} target="_blank" rel="noopener noreferrer">GitHub repository</a>
+        <a href={GAME_URL} target="_blank" rel="noopener noreferrer">City Game Studio website</a>
+        <a href={STUDIO_URL} target="_blank" rel="noopener noreferrer">Binogure Studio</a>
       </p>
     </section>
   )

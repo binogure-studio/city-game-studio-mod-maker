@@ -297,6 +297,17 @@ code { color: var(--blue-dark); background: var(--blue-ultralight); border-radiu
 
 .cgs-links { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 28px; font-weight: 600; }
 
+.cgs-sidebar-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 20px 10px 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-soft);
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .cgs-empty {
   padding: 14px 16px;
   border: 1px dashed var(--border);
@@ -565,6 +576,7 @@ textarea.form-control { height: auto; }
   }
   .cgs-nav-group { display: contents; }
   .cgs-nav-heading { display: none; }
+  .cgs-sidebar-footer { display: none; }
   .cgs-nav-item {
     width: auto;
     flex: none;
